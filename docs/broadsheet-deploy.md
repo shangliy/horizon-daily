@@ -59,4 +59,9 @@
 
 - **修改更新时间**：编辑 `.github/workflows/daily-broadsheet.yml` 中的 `cron: '0 23 * * *'`（GitHub Actions 使用 UTC 时间，`23:00 UTC` = 北京时间 `07:00`）。
 - **增减信息源 / 调整条数**：直接编辑 `data/config.broadsheet.json`（已内置 20 条上限与三版面均衡配额：科技新闻 9 / 科技博客 6 / 财经新闻 5）。
+- **开启 Twitter / X 抓取（Apify 自动感知模式）**：
+  1. 前往 [Apify Console](https://console.apify.com/account/integrations) 复制你的 Personal API token（每月含免费额度）；
+  2. 在 GitHub 仓库 **Settings → Secrets and variables → Actions → Secrets** 添加 `APIFY_TOKEN`；
+  3. 配置完成后每日工作流会自动抓取 Twitter 关注账号列表及高赞回复（未配置 `APIFY_TOKEN` 时自动跳过、不影响其他源）；
+  4. 如需自定义关注的 X 账号，可在 **Variables** 中添加 `TWITTER_USERS`（逗号分隔，如 `karpathy,sama,OpenAI,AnthropicAI`）或直接修改 `data/config.broadsheet.json` 中的 `sources.twitter.users`。
 - **本地零费用预览测试**：运行 `uv run python scripts/generate_broadsheet_preview.py --live` 即可在 `docs/broadsheet/` 下生成实时抓取的本地站点并用 `python3 -m http.server -d docs/broadsheet 8080` 预览往期切换与双语切换效果。

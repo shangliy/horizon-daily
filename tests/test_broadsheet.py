@@ -316,4 +316,8 @@ def test_production_broadsheet_config_validates():
     assert cfg.broadsheet.site_dir == "docs/broadsheet"
     assert cfg.broadsheet.default_language == "zh"
     assert cfg.ai.languages == ["zh", "en"]
+    assert cfg.sources.twitter is not None
+    assert cfg.sources.twitter.enabled is True
+    assert cfg.sources.twitter.mode == "apify"
+    assert len(cfg.sources.twitter.users) >= 5
 

@@ -180,6 +180,35 @@
           ]
         }
       ]
+    },
+    "twitter": {
+      "enabled": true,
+      "mode": "apify",
+      "users": [
+        "karpathy",
+        "ylecun",
+        "sama",
+        "OpenAI",
+        "AnthropicAI",
+        "GoogleDeepMind",
+        "simonw",
+        "vllm_project",
+        "ggerganov",
+        "steipete"
+      ],
+      "keywords": [],
+      "fetch_limit": 10,
+      "fetch_reply_text": true,
+      "max_replies_per_tweet": 3,
+      "max_tweets_to_expand": 5,
+      "reply_min_likes": 10,
+      "category": "x-signal",
+      "profile": [
+        "tech-news",
+        "finance-news"
+      ],
+      "apify_token_env": "APIFY_TOKEN",
+      "actor_id": "altimis~scweet"
     }
   },
   "collection": {
