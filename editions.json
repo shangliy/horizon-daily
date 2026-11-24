@@ -1,7 +1,7 @@
 {
   "latest_date": "2026-11-24",
   "default_language": "zh",
-  "updated_at": "2026-11-24T05:44:43Z",
+  "updated_at": "2026-11-24T18:20:11Z",
   "editions": [
     {
       "date": "2026-11-24",
@@ -18,8 +18,8 @@
         "en": 17
       },
       "top_headline": {
-        "zh": "\"Dario is hyping the dangers so OSS models are illegal and he stays in control\"",
-        "en": "\"Dario is hyping the dangers so OSS models are illegal and he stays in control\""
+        "zh": "LLM agents work for their parent companies, not for you",
+        "en": "LLM agents work for their parent companies, not for you"
       }
     }
   ]
