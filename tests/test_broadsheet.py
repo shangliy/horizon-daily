@@ -321,3 +321,49 @@ def test_production_broadsheet_config_validates():
     assert cfg.sources.twitter.mode == "apify"
     assert len(cfg.sources.twitter.users) >= 5
 
+
+def test_broadsheet_en_avoids_cjk_leakage_and_zh_localizes_categories():
+    import re
+
+    en_item = _make_item(
+        1,
+        title="Open Source Inference Engine",
+        tags=["开源", "美联储", "LLM", "software-engineering"],
+        language="en",
+    )
+    en_item.metadata["category"] = "software-engineering"
+    en_item.processing.artifacts["en"] = ContentArtifact(
+        language="en",
+        title="Open Source Inference Engine",
+        blocks=[
+            ContentBlock(
+                id="summary",
+                title="Summary",
+                content="A pure English summary for the English edition.",
+                primary=True,
+            )
+        ],
+    )
+
+    renderer = BroadsheetRenderer()
+    en_html = renderer.render_html(
+        [en_item],
+        date="2026-11-24",
+        total_fetched=10,
+        language="en",
+        available_languages=["zh", "en"],
+    )
+    # Remove the intentional "中文" label inside the language toggle button
+    without_toggle = en_html.replace(">中文<", "><")
+    assert not re.search(r"[\u4e00-\u9fff]", without_toggle)
+    assert "Open Source" in en_html
+    assert "Fed" in en_html
+
+    zh_item = _make_item(2, tags=["software-engineering", "finance"], language="zh")
+    zh_item.metadata["category"] = "software-engineering"
+    zh_html = renderer.render_html([zh_item], date="2026-11-24", total_fetched=10, language="zh")
+    assert "软件工程" in zh_html
+    assert "财经要闻" in zh_html
+    assert "当前标签: #" in zh_html
+
+

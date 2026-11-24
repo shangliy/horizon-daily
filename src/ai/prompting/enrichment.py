@@ -18,8 +18,19 @@ GROUNDING_RULES = f"""- Treat the source item as the primary account of what hap
 
 
 def target_language_instruction(language: str) -> str:
-    if language.lower() == "zh":
-        return "Simplified Chinese (language tag `zh`)"
+    lower = language.lower()
+    if lower == "zh" or lower.startswith("zh-"):
+        return (
+            "Simplified Chinese (language tag `zh`). Write all titles, block headings, "
+            "and prose strictly in natural Simplified Chinese; translate non-Chinese source "
+            "content completely while keeping standard technical acronyms and proper names "
+            "(such as AI, LLM, GPU, OpenAI, vLLM)."
+        )
+    if lower == "en" or lower.startswith("en-"):
+        return (
+            "English (language tag `en`). Write all titles, block headings, and prose strictly "
+            "in natural English; translate any non-English source content completely into English."
+        )
     return f"language `{language}`"
 
 

@@ -63,12 +63,12 @@ _KEYWORD_TAGS = [
     ("linux", "Linux"),
     ("sqlite", "SQLite"),
     ("mcp", "MCP"),
-    ("open source", "开源"),
-    ("fed", "美联储"),
-    ("stock", "美股"),
-    ("market", "市场"),
-    ("chip", "芯片"),
-    ("cloud", "云计算"),
+    ("open source", "open-source"),
+    ("fed", "Fed"),
+    ("stock", "equities"),
+    ("market", "tech-markets"),
+    ("chip", "semiconductors"),
+    ("cloud", "Cloud"),
 ]
 
 
@@ -118,22 +118,26 @@ def _heuristic_score(item: ContentItem) -> float:
     return 8.2
 
 
-def _hydrate_live_item(item: ContentItem) -> ContentItem:
-    profile_id = item.profile if isinstance(item.profile, str) and item.profile else "tech-news"
-    parts = split_content(item.content)
-    main_text = _plain_text(parts.main)
-    comments_text = _plain_text(parts.comments)
+def _build_artifact_for_lang(
+    item: ContentItem,
+    main_text: str,
+    comments_text: str,
+    language: str,
+) -> ContentArtifact:
+    is_zh = language.lower().startswith("zh")
+    source_hint = item.metadata.get("feed_name") or item.author or item.source_type.value
 
     if main_text:
         summary = main_text[:280].rstrip() + ("…" if len(main_text) > 280 else "")
-    else:
-        source_hint = item.metadata.get("feed_name") or item.author or item.source_type.value
+    elif is_zh:
         summary = f"来自 {source_hint} 的实时精选资讯，点击「阅读原文」查看完整报道与原始出处。"
+    else:
+        summary = f"Live curated dispatch from {source_hint}. Open the original link to read the full story."
 
     blocks = [
         ContentBlock(
             id="summary",
-            title="核心摘要",
+            title="核心摘要" if is_zh else "Summary",
             content=summary,
             primary=True,
         )
@@ -145,7 +149,7 @@ def _hydrate_live_item(item: ContentItem) -> ContentItem:
             blocks.append(
                 ContentBlock(
                     id="excerpt",
-                    title="正文摘录",
+                    title="正文摘录" if is_zh else "Article Excerpt",
                     content=detail + ("…" if len(main_text) > 900 else ""),
                 )
             )
@@ -154,7 +158,7 @@ def _hydrate_live_item(item: ContentItem) -> ContentItem:
         blocks.append(
             ContentBlock(
                 id="community_discussion",
-                title="社区讨论摘录",
+                title="社区讨论摘录" if is_zh else "Community Discussion",
                 content=comments_text[:650].rstrip() + ("…" if len(comments_text) > 650 else ""),
             )
         )
@@ -162,7 +166,30 @@ def _hydrate_live_item(item: ContentItem) -> ContentItem:
     refs = [ArtifactSource(id="orig", title=item.title, url=str(item.url))]
     disc_url = item.metadata.get("discussion_url")
     if disc_url and str(disc_url) != str(item.url):
-        refs.append(ArtifactSource(id="disc", title="原始社区讨论帖", url=str(disc_url)))
+        refs.append(
+            ArtifactSource(
+                id="disc",
+                title="原始社区讨论帖" if is_zh else "Community Discussion Thread",
+                url=str(disc_url),
+            )
+        )
+
+    return ContentArtifact(
+        language=language,
+        title=item.title,
+        blocks=blocks,
+        sources=refs,
+    )
+
+
+def _hydrate_live_item(item: ContentItem) -> ContentItem:
+    profile_id = item.profile if isinstance(item.profile, str) and item.profile else "tech-news"
+    parts = split_content(item.content)
+    main_text = _plain_text(parts.main)
+    comments_text = _plain_text(parts.comments)
+
+    zh_artifact = _build_artifact_for_lang(item, main_text, comments_text, "zh")
+    en_artifact = _build_artifact_for_lang(item, main_text, comments_text, "en")
 
     score = _heuristic_score(item)
     tags = _infer_tags(item)
@@ -172,22 +199,12 @@ def _hydrate_live_item(item: ContentItem) -> ContentItem:
         analysis=ContentAnalysis(
             score=score,
             reason="Live fetched item ranked by engagement and source weight.",
-            summary=summary,
+            summary=en_artifact.blocks[0].content,
             tags=tags,
         ),
         artifacts={
-            "zh": ContentArtifact(
-                language="zh",
-                title=item.title,
-                blocks=blocks,
-                sources=refs,
-            ),
-            "en": ContentArtifact(
-                language="en",
-                title=item.title,
-                blocks=blocks,
-                sources=refs,
-            ),
+            "zh": zh_artifact,
+            "en": en_artifact,
         },
     )
     return item

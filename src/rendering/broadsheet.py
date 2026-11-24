@@ -49,12 +49,102 @@ _SOURCE_LABELS: Dict[str, Dict[str, str]] = {
     },
 }
 
+_CATEGORY_LABELS: Dict[str, Dict[str, str]] = {
+    "zh": {
+        "ai-news": "AI 资讯",
+        "ai-tools": "AI 工具",
+        "ai-infra": "AI 基础设施",
+        "ai-engineering": "AI 工程",
+        "llm-inference": "大模型推理",
+        "llm-local": "本地大模型",
+        "ml-research": "机器学习研究",
+        "software-engineering": "软件工程",
+        "dev-tools": "开发者工具",
+        "open-source": "开源项目",
+        "finance": "财经要闻",
+        "tech-markets": "科技市场",
+        "equities": "美股动态",
+        "tech-flash": "科技快讯",
+        "x-signal": "X 精选",
+        "cuda": "CUDA / GPU",
+        "semiconductors": "半导体",
+        "linux-kernel": "Linux 内核",
+        "github-trending": "GitHub 趋势",
+    },
+    "en": {
+        "ai-news": "AI News",
+        "ai-tools": "AI Tools",
+        "ai-infra": "AI Infra",
+        "ai-engineering": "AI Engineering",
+        "llm-inference": "LLM Inference",
+        "llm-local": "Local LLM",
+        "ml-research": "ML Research",
+        "software-engineering": "Software Engineering",
+        "dev-tools": "Dev Tools",
+        "open-source": "Open Source",
+        "finance": "Finance",
+        "tech-markets": "Tech Markets",
+        "equities": "Equities",
+        "tech-flash": "Tech Flash",
+        "x-signal": "X Signal",
+        "cuda": "CUDA",
+        "semiconductors": "Semiconductors",
+        "linux-kernel": "Linux Kernel",
+        "github-trending": "GitHub Trending",
+    },
+}
+
+_ZH_TO_EN_TAGS: Dict[str, str] = {
+    "开源": "Open Source",
+    "开源项目": "Open Source",
+    "美联储": "Fed",
+    "美股": "US Equities",
+    "市场": "Markets",
+    "芯片": "Chips",
+    "云计算": "Cloud",
+    "大模型": "LLM",
+    "人工智能": "AI",
+    "软件工程": "Software Engineering",
+    "系统架构": "Architecture",
+    "财经": "Finance",
+    "科技股": "Tech Stocks",
+    "半导体": "Semiconductors",
+    "宏观经济": "Macro",
+}
+
+
+def _localize_category(category: str, lang_key: str) -> str:
+    raw = category.strip()
+    if not raw:
+        return ""
+    mapped = _CATEGORY_LABELS[lang_key].get(raw.lower())
+    if mapped:
+        return mapped
+    if lang_key == "en" and _is_cjk(raw):
+        return _ZH_TO_EN_TAGS.get(raw, "")
+    return raw
+
+
+def _localize_tag(tag: str, lang_key: str) -> str:
+    raw = tag.strip()
+    if not raw:
+        return ""
+    if lang_key == "zh":
+        return _CATEGORY_LABELS["zh"].get(raw.lower(), raw)
+    # In English mode, translate known Chinese tags and drop untranslated CJK tags
+    if raw.lower() in _CATEGORY_LABELS["en"]:
+        return _CATEGORY_LABELS["en"][raw.lower()]
+    if _is_cjk(raw):
+        return _ZH_TO_EN_TAGS.get(raw, "")
+    return raw
+
+
 _COPY: Dict[str, Dict[str, str]] = {
     "zh": {
         "default_title": "地平线每日快报",
-        "default_overline": "HORIZON DAILY BROADSHEET",
-        "default_subtitle": "你只需享受新闻，剩下交给 Horizon — 多源聚合、AI 研判与深度背景每日速递。",
-        "default_edition_label": "HORIZON · 全球科技与产业快报",
+        "default_overline": "地平线 · 每日数字大报",
+        "default_subtitle": "你只需享受新闻，剩下交给地平线 — 多源聚合、AI 研判与深度背景每日速递。",
+        "default_edition_label": "地平线 · 全球科技与产业快报",
         "ear_left_kicker": "今日精选",
         "ear_left_sub": "从 {total} 条信源中筛选",
         "ear_left_link": "查看全量目录 →",
@@ -62,7 +152,7 @@ _COPY: Dict[str, Dict[str, str]] = {
         "ear_right_sub": "最高 {top} · {sources} 类信源",
         "ear_right_link": "淘汰率 {drop_rate}%",
         "vol_label": "第 I 卷 · {date}",
-        "updated_label": "更新于 {time} · 由 Horizon AI 编排",
+        "updated_label": "更新于 {time} · 地平线 AI 编排",
         "nav_front": "头版",
         "nav_wire": "全球电讯",
         "nav_index": "全量检索",
@@ -80,21 +170,21 @@ _COPY: Dict[str, Dict[str, str]] = {
         "spotlight_left_title": "给工程师与研究者",
         "spotlight_right_kicker": "高热讨论",
         "spotlight_right_title": "社区正在争论什么",
-        "desk_kicker": "HORIZON 情报台",
+        "desk_kicker": "地平线情报台",
         "desk_title": "今日信源漏斗与分布",
-        "desk_desc": "AI 自动完成多源抓取、跨源 URL 去重、语义聚类与背景检索，仅保留高信号条目。",
+        "desk_desc": "系统自动完成多源抓取、跨源链接去重、语义聚类与背景检索，仅保留高信号条目。",
         "desk_cta": "打开全量检索台",
         "section_kicker_tpl": "{code} · 专题版面",
-        "wire_kicker": "THE WIRE · 多源实时电讯",
+        "wire_kicker": "全球电讯 · 多源实时速递",
         "wire_title": "全球信息源速览",
         "wire_desc": "按渠道高密度梳理今日入选资讯，涵盖技术社区、开源项目与行业媒体。",
         "wire_col_1": "社区热榜 · HN / Reddit",
         "wire_col_2": "开源与一线 · GitHub / X",
         "wire_col_3": "深度媒体 · RSS / 财经 / 全球",
         "wire_more": "全部 →",
-        "index_kicker": "ARCHIVE DESK · 交互检索",
+        "index_kicker": "全量档案 · 交互检索",
         "index_title": "本期全量资讯检索台",
-        "index_desc": "按关键词、版面、信源或 AI 标签即时过滤，点击任意条目在右侧报刊抽屉阅读全文。",
+        "index_desc": "按关键词、版面、信源或主题标签即时过滤，点击任意条目在右侧报刊抽屉阅读全文。",
         "search_placeholder": "搜索标题、摘要、标签或来源… (快捷键 /)",
         "search_btn": "检索",
         "clear_btn": "重置",
@@ -103,11 +193,12 @@ _COPY: Dict[str, Dict[str, str]] = {
         "sort_time": "按发布时间",
         "no_match": "未找到匹配的资讯条目，请尝试清除筛选条件。",
         "empty_title": "今日情报台较平静，暂无达到阈值的重点资讯",
-        "empty_desc": "本次共采集 {total} 条原始内容，但均未超过当前 Profile 设定的重要度门槛。可适当下调 threshold 或扩充订阅源后重新生成。",
+        "empty_desc": "本次共采集 {total} 条原始内容，但均未超过当前栏目设定的重要度门槛。可适当下调阈值或扩充订阅源后重新生成。",
         "btn_search": "检索",
         "btn_print": "打印版",
         "archive_label": "往期",
         "archive_latest": "最新",
+        "active_tag_prefix": "当前标签: #",
         "theme_light": "浅色新闻纸",
         "theme_dark": "深色炭墨",
         "theme_system": "跟随系统",
@@ -180,6 +271,7 @@ _COPY: Dict[str, Dict[str, str]] = {
         "btn_print": "Print",
         "archive_label": "Archive",
         "archive_latest": "Latest",
+        "active_tag_prefix": "Tag: #",
         "theme_light": "Light newsprint",
         "theme_dark": "Dark charcoal",
         "theme_system": "System theme",
@@ -371,11 +463,11 @@ class BroadsheetRenderer:
                     or source_labels.get(src_type, src_type)
                 )
 
-                tags = [
-                    _clean_text(tag, language)
-                    for tag in (analysis.tags if analysis else [])
-                    if str(tag).strip()
-                ]
+                tags = []
+                for raw_tag in (analysis.tags if analysis else []):
+                    localized_tag = _localize_tag(_clean_text(str(raw_tag), language), lang_key)
+                    if localized_tag and localized_tag not in tags:
+                        tags.append(localized_tag)
                 for tag in tags:
                     tag_counter[tag] += 1
 
@@ -422,7 +514,7 @@ class BroadsheetRenderer:
                     "source_label": source_labels.get(src_type, src_type),
                     "sub_source": str(sub_source),
                     "author": str(item.author or ""),
-                    "category": str(meta.get("category") or ""),
+                    "category": _localize_category(str(meta.get("category") or ""), lang_key),
                     "published_at": item.published_at.isoformat() if item.published_at else "",
                     "time_display": _format_item_time(item.published_at, lang_key),
                     "tags": tags,
@@ -3418,7 +3510,7 @@ _BROADSHEET_JS = r"""
       activeTagBar.innerHTML = "";
       if (filterState.tag) {
         activeTagBar.hidden = false;
-        activeTagBar.appendChild(makeEl("span", "", `Tag: #${filterState.tag}`));
+        activeTagBar.appendChild(makeEl("span", "", `${copy.active_tag_prefix || "Tag: #"}${filterState.tag}`));
         const clearTag = makeEl("button", "util-btn", "×");
         clearTag.type = "button";
         clearTag.addEventListener("click", () => {
