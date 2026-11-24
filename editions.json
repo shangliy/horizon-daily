@@ -1,0 +1,26 @@
+{
+  "latest_date": "2026-11-24",
+  "default_language": "zh",
+  "updated_at": "2026-11-24T05:44:43Z",
+  "editions": [
+    {
+      "date": "2026-11-24",
+      "languages": [
+        "zh",
+        "en"
+      ],
+      "titles": {
+        "zh": "地平线每日快报",
+        "en": "Horizon Daily"
+      },
+      "selected_count": {
+        "zh": 17,
+        "en": 17
+      },
+      "top_headline": {
+        "zh": "\"Dario is hyping the dangers so OSS models are illegal and he stays in control\"",
+        "en": "\"Dario is hyping the dangers so OSS models are illegal and he stays in control\""
+      }
+    }
+  ]
+}

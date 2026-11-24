@@ -1,0 +1,1336 @@
+{
+  "meta": {
+    "title": "Horizon Daily",
+    "overline": "AI-CURATED BROADSHEET EDITION",
+    "subtitle": "Just enjoy the news — Horizon gathers, ranks, deduplicates, and enriches your daily signal.",
+    "edition_label": "HORIZON · GLOBAL TECH & SIGNAL",
+    "date": "2026-11-24",
+    "date_display": "Tuesday, November 24, 2026",
+    "updated_at": "05:44 UTC",
+    "language": "en",
+    "lang_key": "en",
+    "total_fetched": 58,
+    "selected_count": 17,
+    "avg_score": 8.8,
+    "top_score": 9.5,
+    "drop_rate": 71,
+    "source_count": 2,
+    "profile_count": 3,
+    "wire_code": "A5",
+    "index_code": "A6"
+  },
+  "ticker": [
+    {
+      "kind": "tag",
+      "label": "#AI",
+      "tag": "AI",
+      "metric": "13 items",
+      "delta": "up"
+    },
+    {
+      "kind": "tag",
+      "label": "#NVIDIA",
+      "tag": "NVIDIA",
+      "metric": "7 items",
+      "delta": "up"
+    },
+    {
+      "kind": "tag",
+      "label": "#ai-news",
+      "tag": "ai-news",
+      "metric": "5 items",
+      "delta": "up"
+    },
+    {
+      "kind": "tag",
+      "label": "#tech-markets",
+      "tag": "tech-markets",
+      "metric": "5 items",
+      "delta": "up"
+    },
+    {
+      "kind": "tag",
+      "label": "#OpenAI",
+      "tag": "OpenAI",
+      "metric": "3 items",
+      "delta": "up"
+    },
+    {
+      "kind": "tag",
+      "label": "#GPU",
+      "tag": "GPU",
+      "metric": "3 items",
+      "delta": "up"
+    },
+    {
+      "kind": "tag",
+      "label": "#LLM",
+      "tag": "LLM",
+      "metric": "2 items",
+      "delta": "up"
+    },
+    {
+      "kind": "tag",
+      "label": "#美联储",
+      "tag": "美联储",
+      "metric": "2 items",
+      "delta": "up"
+    },
+    {
+      "kind": "tag",
+      "label": "#cuda",
+      "tag": "cuda",
+      "metric": "2 items",
+      "delta": "up"
+    },
+    {
+      "kind": "tag",
+      "label": "#Agent",
+      "tag": "Agent",
+      "metric": "2 items",
+      "delta": "up"
+    },
+    {
+      "kind": "story",
+      "story_id": "story-1",
+      "label": "\"Dario is hyping the dangers so OSS model…",
+      "metric": "▲ 9.5",
+      "delta": "hot"
+    },
+    {
+      "kind": "story",
+      "story_id": "story-2",
+      "label": "Ladybird is now in alpha",
+      "metric": "▲ 9.5",
+      "delta": "hot"
+    },
+    {
+      "kind": "story",
+      "story_id": "story-3",
+      "label": "Nvidia Reinstates Jensen Huang as CEO",
+      "metric": "▲ 9.5",
+      "delta": "hot"
+    },
+    {
+      "kind": "story",
+      "story_id": "story-4",
+      "label": "GLM-5.4: Toward generalized coding with o…",
+      "metric": "▲ 9.4",
+      "delta": "hot"
+    },
+    {
+      "kind": "story",
+      "story_id": "story-5",
+      "label": "Per Arm's request, this site will be disc…",
+      "metric": "▲ 9.3",
+      "delta": "hot"
+    },
+    {
+      "kind": "story",
+      "story_id": "story-6",
+      "label": "Free alternative TV network built from th…",
+      "metric": "▲ 9.3",
+      "delta": "hot"
+    }
+  ],
+  "front_page": {
+    "lead_id": "story-1",
+    "left_ids": [
+      "story-2",
+      "story-3",
+      "story-4"
+    ],
+    "right_ids": [
+      "story-8",
+      "story-9"
+    ],
+    "spotlight_left_ids": [
+      "story-8",
+      "story-9",
+      "story-10",
+      "story-11"
+    ],
+    "spotlight_right_ids": [
+      "story-3",
+      "story-2",
+      "story-4",
+      "story-5"
+    ]
+  },
+  "sections": [
+    {
+      "code": "A2",
+      "dom_id": "sec-tech-news",
+      "profile_id": "tech-news",
+      "name": "Technology News",
+      "item_ids": [
+        "story-1",
+        "story-2",
+        "story-3",
+        "story-4",
+        "story-5",
+        "story-6",
+        "story-7"
+      ]
+    },
+    {
+      "code": "A3",
+      "dom_id": "sec-tech-blog",
+      "profile_id": "tech-blog",
+      "name": "Technology Blog",
+      "item_ids": [
+        "story-8",
+        "story-9",
+        "story-10",
+        "story-11",
+        "story-12"
+      ]
+    },
+    {
+      "code": "A4",
+      "dom_id": "sec-finance-news",
+      "profile_id": "finance-news",
+      "name": "Financial News",
+      "item_ids": [
+        "story-13",
+        "story-14",
+        "story-15",
+        "story-16",
+        "story-17"
+      ]
+    }
+  ],
+  "wire": [
+    {
+      "id": "wire-community",
+      "title": "COMMUNITY · HN & REDDIT",
+      "style": "numbered",
+      "item_ids": [
+        "story-1",
+        "story-2",
+        "story-3",
+        "story-4",
+        "story-5",
+        "story-6",
+        "story-7"
+      ]
+    },
+    {
+      "id": "wire-builders",
+      "title": "OPEN SOURCE & X",
+      "style": "badged",
+      "item_ids": []
+    },
+    {
+      "id": "wire-editorial",
+      "title": "PUBLICATIONS & MARKETS",
+      "style": "kicker",
+      "item_ids": [
+        "story-8",
+        "story-9",
+        "story-10",
+        "story-11",
+        "story-12",
+        "story-13",
+        "story-14",
+        "story-15"
+      ]
+    }
+  ],
+  "source_breakdown": [
+    {
+      "source_type": "rss",
+      "label": "RSS Feed",
+      "count": 10,
+      "pct": 59
+    },
+    {
+      "source_type": "hackernews",
+      "label": "Hacker News",
+      "count": 7,
+      "pct": 41
+    }
+  ],
+  "top_tags": [
+    {
+      "tag": "AI",
+      "count": 13
+    },
+    {
+      "tag": "NVIDIA",
+      "count": 7
+    },
+    {
+      "tag": "ai-news",
+      "count": 5
+    },
+    {
+      "tag": "tech-markets",
+      "count": 5
+    },
+    {
+      "tag": "OpenAI",
+      "count": 3
+    },
+    {
+      "tag": "GPU",
+      "count": 3
+    },
+    {
+      "tag": "LLM",
+      "count": 2
+    },
+    {
+      "tag": "美联储",
+      "count": 2
+    },
+    {
+      "tag": "cuda",
+      "count": 2
+    },
+    {
+      "tag": "Agent",
+      "count": 2
+    },
+    {
+      "tag": "Rust",
+      "count": 2
+    },
+    {
+      "tag": "software-engineering",
+      "count": 2
+    },
+    {
+      "tag": "SQLite",
+      "count": 1
+    },
+    {
+      "tag": "芯片",
+      "count": 1
+    },
+    {
+      "tag": "市场",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "id": "story-1",
+      "item_id": "hackernews:story:50615308",
+      "rank": 1,
+      "group_index": 1,
+      "profile_id": "tech-news",
+      "profile_name": "Technology News",
+      "title": "\"Dario is hyping the dangers so OSS models are illegal and he stays in control\"",
+      "summary": "来自 MrBuddyCasino 的实时精选资讯，点击「阅读原文」查看完整报道与原始出处。",
+      "score": 9.5,
+      "score_display": "9.5",
+      "reason": "Live fetched item ranked by engagement and source weight.",
+      "url": "https://twitter.com/ylecun/status/2124550037912920090",
+      "domain": "twitter.com",
+      "discussion_url": "https://news.ycombinator.com/item?id=50615308",
+      "source_type": "hackernews",
+      "source_label": "Hacker News",
+      "sub_source": "MrBuddyCasino",
+      "author": "MrBuddyCasino",
+      "category": "ai-news",
+      "published_at": "2026-11-23T17:07:26+00:00",
+      "time_display": "Nov 23 · 17:07",
+      "tags": [
+        "AI",
+        "LLM",
+        "OpenAI",
+        "GPU"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "核心摘要",
+          "content": "来自 MrBuddyCasino 的实时精选资讯，点击「阅读原文」查看完整报道与原始出处。",
+          "primary": true
+        },
+        {
+          "id": "community_discussion",
+          "title": "社区讨论摘录",
+          "content": "[cs702]: The full comment is worth reposting here in its entirety:> Dario's spiel since GPT-2 has always been about hyping the dangers so that open models would be made illegal and *he* would stay in control.> He left OpenAI because he wasn't going to have control.> It's like the Ottoman Empire banning the printing press for Arabic so they would keep in control of the dogma.> It stops the population from freely accessing diverse knowledge.> It's a new form of medieval obscurantism. Agree or dis... [BearOso]: They're getting everybody on subsidized plans and making everybody dependent and hoping to pull the rug out and force everybody to API p…",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "community_discussion",
+          "title": "社区讨论摘录",
+          "content": "[cs702]: The full comment is worth reposting here in its entirety:> Dario's spiel since GPT-2 has always been about hyping the dangers so that open models would be made illegal and *he* would stay in control.> He left OpenAI because he wasn't going to have control.> It's like the Ottoman Empire banning the printing press for Arabic so they would keep in control of the dogma.> It stops the population from freely accessing diverse knowledge.> It's a new form of medieval obscurantism. Agree or dis... [BearOso]: They're getting everybody on subsidized plans and making everybody dependent and hoping to pull the rug out and force everybody to API p…",
+          "primary": false
+        }
+      ],
+      "references": [
+        {
+          "id": "orig",
+          "title": "\"Dario is hyping the dangers so OSS models are illegal and he stays in control\"",
+          "url": "https://twitter.com/ylecun/status/2124550037912920090",
+          "domain": "twitter.com"
+        },
+        {
+          "id": "disc",
+          "title": "原始社区讨论帖",
+          "url": "https://news.ycombinator.com/item?id=50615308",
+          "domain": "news.ycombinator.com"
+        }
+      ],
+      "engagement": [
+        "1431 pts",
+        "803 comments"
+      ],
+      "engagement_weight": 3087
+    },
+    {
+      "id": "story-2",
+      "item_id": "hackernews:story:50614249",
+      "rank": 2,
+      "group_index": 2,
+      "profile_id": "tech-news",
+      "profile_name": "Technology News",
+      "title": "Ladybird is now in alpha",
+      "summary": "来自 janvdberg 的实时精选资讯，点击「阅读原文」查看完整报道与原始出处。",
+      "score": 9.5,
+      "score_display": "9.5",
+      "reason": "Live fetched item ranked by engagement and source weight.",
+      "url": "https://ladybird.org/posts/alpha/",
+      "domain": "ladybird.org",
+      "discussion_url": "https://news.ycombinator.com/item?id=50614249",
+      "source_type": "hackernews",
+      "source_label": "Hacker News",
+      "sub_source": "janvdberg",
+      "author": "janvdberg",
+      "category": "ai-news",
+      "published_at": "2026-11-23T16:13:12+00:00",
+      "time_display": "Nov 23 · 16:13",
+      "tags": [
+        "AI",
+        "SQLite",
+        "美联储",
+        "ai-news"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "核心摘要",
+          "content": "来自 janvdberg 的实时精选资讯，点击「阅读原文」查看完整报道与原始出处。",
+          "primary": true
+        },
+        {
+          "id": "community_discussion",
+          "title": "社区讨论摘录",
+          "content": "[freakynit]: This actually worked amazingly well.I tested a lot of sites.. a few that were already opened in my firefox, and a few many others.. Every single one of them rendered correctly.This is truly amazing.. a new browser written from scratch that actually works!The only minor issue: page scrolling is a bit jerky.. not much.. just a little bit.. it's noticeable.A huge lots of congratulations to the Ladybird team. What a wonderful accomplishment truly this is. [alentred]: I am seriously impressed, BRAVO for this! I have tried a few websites that I considered tricky (from overloaded news websites to some more esoteric like ProxMox) and all…",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "community_discussion",
+          "title": "社区讨论摘录",
+          "content": "[freakynit]: This actually worked amazingly well.I tested a lot of sites.. a few that were already opened in my firefox, and a few many others.. Every single one of them rendered correctly.This is truly amazing.. a new browser written from scratch that actually works!The only minor issue: page scrolling is a bit jerky.. not much.. just a little bit.. it's noticeable.A huge lots of congratulations to the Ladybird team. What a wonderful accomplishment truly this is. [alentred]: I am seriously impressed, BRAVO for this! I have tried a few websites that I considered tricky (from overloaded news websites to some more esoteric like ProxMox) and all…",
+          "primary": false
+        }
+      ],
+      "references": [
+        {
+          "id": "orig",
+          "title": "Ladybird is now in alpha",
+          "url": "https://ladybird.org/posts/alpha/",
+          "domain": "ladybird.org"
+        },
+        {
+          "id": "disc",
+          "title": "原始社区讨论帖",
+          "url": "https://news.ycombinator.com/item?id=50614249",
+          "domain": "news.ycombinator.com"
+        }
+      ],
+      "engagement": [
+        "1639 pts",
+        "382 comments"
+      ],
+      "engagement_weight": 2453
+    },
+    {
+      "id": "story-3",
+      "item_id": "hackernews:story:50611576",
+      "rank": 3,
+      "group_index": 3,
+      "profile_id": "tech-news",
+      "profile_name": "Technology News",
+      "title": "Nvidia Reinstates Jensen Huang as CEO",
+      "summary": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-j...https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-congress...",
+      "score": 9.5,
+      "score_display": "9.5",
+      "reason": "Live fetched item ranked by engagement and source weight.",
+      "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+      "domain": "cnbc.com",
+      "discussion_url": "https://news.ycombinator.com/item?id=50611576",
+      "source_type": "hackernews",
+      "source_label": "Hacker News",
+      "sub_source": "jaz",
+      "author": "jaz",
+      "category": "ai-news",
+      "published_at": "2026-11-23T14:00:18+00:00",
+      "time_display": "Nov 23 · 14:00",
+      "tags": [
+        "AI",
+        "OpenAI",
+        "NVIDIA",
+        "美联储"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "核心摘要",
+          "content": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-j...https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-congress...",
+          "primary": true
+        },
+        {
+          "id": "community_discussion",
+          "title": "社区讨论摘录",
+          "content": "[chunky1994]: “ In the process of reaching its decision, the Board received input from senior levels of the United States government, and based on that input, the Board is confident that Mr. Huang’s reinstatement poses no national security risk.”Feels like the most operative part of the statement. [icyfox]: Some takes (and from talking to nvidia people):- Delaware precedent in Caremark has a very high bar for culpability of boards in matters like this. So I suspect the combination of DoJ saying they won't prosecute combined with this standard will successfully remove their individual liability.- I'm surprised this decision was completely unan…",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "community_discussion",
+          "title": "社区讨论摘录",
+          "content": "[chunky1994]: “ In the process of reaching its decision, the Board received input from senior levels of the United States government, and based on that input, the Board is confident that Mr. Huang’s reinstatement poses no national security risk.”Feels like the most operative part of the statement. [icyfox]: Some takes (and from talking to nvidia people):- Delaware precedent in Caremark has a very high bar for culpability of boards in matters like this. So I suspect the combination of DoJ saying they won't prosecute combined with this standard will successfully remove their individual liability.- I'm surprised this decision was completely unan…",
+          "primary": false
+        }
+      ],
+      "references": [
+        {
+          "id": "orig",
+          "title": "Nvidia Reinstates Jensen Huang as CEO",
+          "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+          "domain": "cnbc.com"
+        },
+        {
+          "id": "disc",
+          "title": "原始社区讨论帖",
+          "url": "https://news.ycombinator.com/item?id=50611576",
+          "domain": "news.ycombinator.com"
+        }
+      ],
+      "engagement": [
+        "2369 pts",
+        "3342 comments"
+      ],
+      "engagement_weight": 9103
+    },
+    {
+      "id": "story-4",
+      "item_id": "hackernews:story:50609685",
+      "rank": 4,
+      "group_index": 4,
+      "profile_id": "tech-news",
+      "profile_name": "Technology News",
+      "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
+      "summary": "来自 foohis 的实时精选资讯，点击「阅读原文」查看完整报道与原始出处。",
+      "score": 9.4,
+      "score_display": "9.4",
+      "reason": "Live fetched item ranked by engagement and source weight.",
+      "url": "https://z.ai/blog/glm-5.4",
+      "domain": "z.ai",
+      "discussion_url": "https://news.ycombinator.com/item?id=50609685",
+      "source_type": "hackernews",
+      "source_label": "Hacker News",
+      "sub_source": "foohis",
+      "author": "foohis",
+      "category": "ai-news",
+      "published_at": "2026-11-23T10:06:43+00:00",
+      "time_display": "Nov 23 · 10:06",
+      "tags": [
+        "AI",
+        "LLM",
+        "芯片",
+        "ai-news"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "核心摘要",
+          "content": "来自 foohis 的实时精选资讯，点击「阅读原文」查看完整报道与原始出处。",
+          "primary": true
+        },
+        {
+          "id": "community_discussion",
+          "title": "社区讨论摘录",
+          "content": "[HarHarVeryFunny]: I love the transparency, or at least given technical details, that Zhipu provide - a refreshing change from the locked-down approach of the western companies, and an interesting glimpse into the direction of SOTA LLMs.Looped Transformers are an obvious direction even if there are still problems to be worked out. The original Transformer is a bit like an unrolled for loop, and rather unnaturally pairs different sets of weights, both for attention and feed forward (knowledge) with different \"la... [simonw]: Three pelicans - low, high, max: https://tools.simonwillison.net/markdown-svg-renderer?url=ht...Took me a while to get t…",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "community_discussion",
+          "title": "社区讨论摘录",
+          "content": "[HarHarVeryFunny]: I love the transparency, or at least given technical details, that Zhipu provide - a refreshing change from the locked-down approach of the western companies, and an interesting glimpse into the direction of SOTA LLMs.Looped Transformers are an obvious direction even if there are still problems to be worked out. The original Transformer is a bit like an unrolled for loop, and rather unnaturally pairs different sets of weights, both for attention and feed forward (knowledge) with different \"la... [simonw]: Three pelicans - low, high, max: https://tools.simonwillison.net/markdown-svg-renderer?url=ht...Took me a while to get t…",
+          "primary": false
+        }
+      ],
+      "references": [
+        {
+          "id": "orig",
+          "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
+          "url": "https://z.ai/blog/glm-5.4",
+          "domain": "z.ai"
+        },
+        {
+          "id": "disc",
+          "title": "原始社区讨论帖",
+          "url": "https://news.ycombinator.com/item?id=50609685",
+          "domain": "news.ycombinator.com"
+        }
+      ],
+      "engagement": [
+        "1089 pts",
+        "356 comments"
+      ],
+      "engagement_weight": 1851
+    },
+    {
+      "id": "story-5",
+      "item_id": "hackernews:story:50617499",
+      "rank": 5,
+      "group_index": 5,
+      "profile_id": "tech-news",
+      "profile_name": "Technology News",
+      "title": "Per Arm's request, this site will be discontinued on 4 December 2026 :(",
+      "summary": "来自 tech234a 的实时精选资讯，点击「阅读原文」查看完整报道与原始出处。",
+      "score": 9.3,
+      "score_display": "9.3",
+      "reason": "Live fetched item ranked by engagement and source weight.",
+      "url": "https://arm.jonpalmisc.com/",
+      "domain": "arm.jonpalmisc.com",
+      "discussion_url": "https://news.ycombinator.com/item?id=50617499",
+      "source_type": "hackernews",
+      "source_label": "Hacker News",
+      "sub_source": "tech234a",
+      "author": "tech234a",
+      "category": "ai-news",
+      "published_at": "2026-11-23T19:17:55+00:00",
+      "time_display": "Nov 23 · 19:17",
+      "tags": [
+        "AI",
+        "ai-news"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "核心摘要",
+          "content": "来自 tech234a 的实时精选资讯，点击「阅读原文」查看完整报道与原始出处。",
+          "primary": true
+        },
+        {
+          "id": "community_discussion",
+          "title": "社区讨论摘录",
+          "content": "[jonpalmisc]: Hi, didn't expect to see this here, so adding a bit of info:They are requesting removal stating that I am using their trademarks and IP by hosting their documentation, which seems hard to work around while still keeping the site useful.People have contacted me offering to host mirrors, or suggesting I lawyer up or release the source code (sans Arm IP) to generate the same site for personal use. I'll be looking into all of these options.For those unfamiliar with this site until now: it's the I... [chmod775]: This is why in most companies lawyers should report to an engineer (or someone who understands the business) who signs off…",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "community_discussion",
+          "title": "社区讨论摘录",
+          "content": "[jonpalmisc]: Hi, didn't expect to see this here, so adding a bit of info:They are requesting removal stating that I am using their trademarks and IP by hosting their documentation, which seems hard to work around while still keeping the site useful.People have contacted me offering to host mirrors, or suggesting I lawyer up or release the source code (sans Arm IP) to generate the same site for personal use. I'll be looking into all of these options.For those unfamiliar with this site until now: it's the I... [chmod775]: This is why in most companies lawyers should report to an engineer (or someone who understands the business) who signs off…",
+          "primary": false
+        }
+      ],
+      "references": [
+        {
+          "id": "orig",
+          "title": "Per Arm's request, this site will be discontinued on 4 December 2026 :(",
+          "url": "https://arm.jonpalmisc.com/",
+          "domain": "arm.jonpalmisc.com"
+        },
+        {
+          "id": "disc",
+          "title": "原始社区讨论帖",
+          "url": "https://news.ycombinator.com/item?id=50617499",
+          "domain": "news.ycombinator.com"
+        }
+      ],
+      "engagement": [
+        "954 pts",
+        "220 comments"
+      ],
+      "engagement_weight": 1444
+    },
+    {
+      "id": "story-6",
+      "item_id": "hackernews:story:50606192",
+      "rank": 6,
+      "group_index": 6,
+      "profile_id": "tech-news",
+      "profile_name": "Technology News",
+      "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
+      "summary": "来自 SockThief 的实时精选资讯，点击「阅读原文」查看完整报道与原始出处。",
+      "score": 9.3,
+      "score_display": "9.3",
+      "reason": "Live fetched item ranked by engagement and source weight.",
+      "url": "https://spelunkr.tv/",
+      "domain": "spelunkr.tv",
+      "discussion_url": "https://news.ycombinator.com/item?id=50606192",
+      "source_type": "hackernews",
+      "source_label": "Hacker News",
+      "sub_source": "SockThief",
+      "author": "SockThief",
+      "category": "ai-news",
+      "published_at": "2026-11-23T01:13:51+00:00",
+      "time_display": "Nov 23 · 01:13",
+      "tags": [
+        "AI",
+        "ai-news"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "核心摘要",
+          "content": "来自 SockThief 的实时精选资讯，点击「阅读原文」查看完整报道与原始出处。",
+          "primary": true
+        },
+        {
+          "id": "community_discussion",
+          "title": "社区讨论摘录",
+          "content": "[pahool]: Oh man, I've got some channel pitches brewing. I've been collecting IA links of interesting/outsider stuff for a while, some of which would be great for this.Perfect example: The \"2am theater\" is a great collection of drive-in movie style double features where the movies are thematically and chronologically linked, and include related previews and drive-in movie interstitial material like snack bar ads:https://archive.org/search?query=creator%3A%22The+2am+Theate...The user (picfixer) who crea... [gabriel666smith]: Now that I increasingly watch film and television on demand, I’ve occasionally noticed that I feel a faint background hu…",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "community_discussion",
+          "title": "社区讨论摘录",
+          "content": "[pahool]: Oh man, I've got some channel pitches brewing. I've been collecting IA links of interesting/outsider stuff for a while, some of which would be great for this.Perfect example: The \"2am theater\" is a great collection of drive-in movie style double features where the movies are thematically and chronologically linked, and include related previews and drive-in movie interstitial material like snack bar ads:https://archive.org/search?query=creator%3A%22The+2am+Theate...The user (picfixer) who crea... [gabriel666smith]: Now that I increasingly watch film and television on demand, I’ve occasionally noticed that I feel a faint background hu…",
+          "primary": false
+        }
+      ],
+      "references": [
+        {
+          "id": "orig",
+          "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
+          "url": "https://spelunkr.tv/",
+          "domain": "spelunkr.tv"
+        },
+        {
+          "id": "disc",
+          "title": "原始社区讨论帖",
+          "url": "https://news.ycombinator.com/item?id=50606192",
+          "domain": "news.ycombinator.com"
+        }
+      ],
+      "engagement": [
+        "968 pts",
+        "170 comments"
+      ],
+      "engagement_weight": 1358
+    },
+    {
+      "id": "story-7",
+      "item_id": "hackernews:story:50620349",
+      "rank": 7,
+      "group_index": 7,
+      "profile_id": "tech-news",
+      "profile_name": "Technology News",
+      "title": "Stalwart is now a drop-in replacement for Microsoft Exchange",
+      "summary": "来自 shaunpud 的实时精选资讯，点击「阅读原文」查看完整报道与原始出处。",
+      "score": 9.1,
+      "score_display": "9.1",
+      "reason": "Live fetched item ranked by engagement and source weight.",
+      "url": "https://stalw.art/blog/microsoft-exchange-replacement/",
+      "domain": "stalw.art",
+      "discussion_url": "https://news.ycombinator.com/item?id=50620349",
+      "source_type": "hackernews",
+      "source_label": "Hacker News",
+      "sub_source": "shaunpud",
+      "author": "shaunpud",
+      "category": "ai-news",
+      "published_at": "2026-11-23T22:32:29+00:00",
+      "time_display": "Nov 23 · 22:32",
+      "tags": [
+        "AI",
+        "ai-news"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "核心摘要",
+          "content": "来自 shaunpud 的实时精选资讯，点击「阅读原文」查看完整报道与原始出处。",
+          "primary": true
+        },
+        {
+          "id": "community_discussion",
+          "title": "社区讨论摘录",
+          "content": "[rmoriz]: The only issue is regulatory: As a freelancer or company in Germany, you have to archive mail in a way that can’t be deleted or altered and store it for access by the tax authorities for up to 10 years (“GoBD”). Stalwart does not have this feature in their regular plans (or the OSS variants) [andreashaerter]: The lock-in effect is inherent to the protocol and the clients. Furthermore, supporting MAPI and similar standards merely buys time and saves on licensing costs when your target is OSS.While I recognize the practical benefit for an administrator, in my view, anything that expands the protocol stack surrounding Microsoft email u…",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "community_discussion",
+          "title": "社区讨论摘录",
+          "content": "[rmoriz]: The only issue is regulatory: As a freelancer or company in Germany, you have to archive mail in a way that can’t be deleted or altered and store it for access by the tax authorities for up to 10 years (“GoBD”). Stalwart does not have this feature in their regular plans (or the OSS variants) [andreashaerter]: The lock-in effect is inherent to the protocol and the clients. Furthermore, supporting MAPI and similar standards merely buys time and saves on licensing costs when your target is OSS.While I recognize the practical benefit for an administrator, in my view, anything that expands the protocol stack surrounding Microsoft email u…",
+          "primary": false
+        }
+      ],
+      "references": [
+        {
+          "id": "orig",
+          "title": "Stalwart is now a drop-in replacement for Microsoft Exchange",
+          "url": "https://stalw.art/blog/microsoft-exchange-replacement/",
+          "domain": "stalw.art"
+        },
+        {
+          "id": "disc",
+          "title": "原始社区讨论帖",
+          "url": "https://news.ycombinator.com/item?id=50620349",
+          "domain": "news.ycombinator.com"
+        }
+      ],
+      "engagement": [
+        "335 pts",
+        "164 comments"
+      ],
+      "engagement_weight": 713
+    },
+    {
+      "id": "story-8",
+      "item_id": "rss:developer.nvidia.com_blog_tag_cuda_feed_:64a737baec11fe22",
+      "rank": 8,
+      "group_index": 1,
+      "profile_id": "tech-blog",
+      "profile_name": "Technology Blog",
+      "title": "Accelerating Direct Sparse Solvers for Computational Engineering with NVIDIA cuDSS 1.0",
+      "summary": "Sparse linear systems are at the core of nearly every engineering and scientific simulation, from structural mechanics and computational fluid dynamics to... Sparse linear systems are at the core of nearly every engineering and scientific simulation, from structural mechanics and…",
+      "score": 8.6,
+      "score_display": "8.6",
+      "reason": "Live fetched item ranked by engagement and source weight.",
+      "url": "https://developer.nvidia.com/blog/accelerating-direct-sparse-solvers-for-computational-engineering-with-nvidia-cudss-1-0/",
+      "domain": "developer.nvidia.com",
+      "discussion_url": null,
+      "source_type": "rss",
+      "source_label": "RSS Feed",
+      "sub_source": "NVIDIA Developer Blog",
+      "author": "Azi Riahi",
+      "category": "cuda",
+      "published_at": "2026-11-23T19:59:40+00:00",
+      "time_display": "Nov 23 · 19:59",
+      "tags": [
+        "GPU",
+        "NVIDIA",
+        "cuda"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "核心摘要",
+          "content": "Sparse linear systems are at the core of nearly every engineering and scientific simulation, from structural mechanics and computational fluid dynamics to... Sparse linear systems are at the core of nearly every engineering and scientific simulation, from structural mechanics and…",
+          "primary": true
+        },
+        {
+          "id": "excerpt",
+          "title": "正文摘录",
+          "content": "computational fluid dynamics to circuit simulation and power grid analysis. As problem sizes and complexity grow, and accuracy needs tighten, developers need a direct solver that scales on GPUs without giving up the robustness that production simulations depend on. Source",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "excerpt",
+          "title": "正文摘录",
+          "content": "computational fluid dynamics to circuit simulation and power grid analysis. As problem sizes and complexity grow, and accuracy needs tighten, developers need a direct solver that scales on GPUs without giving up the robustness that production simulations depend on. Source",
+          "primary": false
+        }
+      ],
+      "references": [
+        {
+          "id": "orig",
+          "title": "Accelerating Direct Sparse Solvers for Computational Engineering with NVIDIA cuDSS 1.0",
+          "url": "https://developer.nvidia.com/blog/accelerating-direct-sparse-solvers-for-computational-engineering-with-nvidia-cudss-1-0/",
+          "domain": "developer.nvidia.com"
+        }
+      ],
+      "engagement": [],
+      "engagement_weight": 0
+    },
+    {
+      "id": "story-9",
+      "item_id": "rss:developer.nvidia.com_blog_tag_cuda_feed_:a9de2544394c57ad",
+      "rank": 9,
+      "group_index": 2,
+      "profile_id": "tech-blog",
+      "profile_name": "Technology Blog",
+      "title": "Get Started with GPU-Accelerated DuckDB Analytics Using the Sirius Core Extension",
+      "summary": "As datasets grow, analytical queries can take longer to run, slowing down data exploration, pipelines, and applications. For developers using DuckDB, reducing... As datasets grow, analytical queries can take longer to run, slowing down data exploration, pipelines, and application…",
+      "score": 8.6,
+      "score_display": "8.6",
+      "reason": "Live fetched item ranked by engagement and source weight.",
+      "url": "https://developer.nvidia.com/blog/get-started-with-gpu-accelerated-duckdb-analytics-using-the-sirius-core-extension/",
+      "domain": "developer.nvidia.com",
+      "discussion_url": null,
+      "source_type": "rss",
+      "source_label": "RSS Feed",
+      "sub_source": "NVIDIA Developer Blog",
+      "author": "Allison Ding",
+      "category": "cuda",
+      "published_at": "2026-11-23T17:09:28+00:00",
+      "time_display": "Nov 23 · 17:09",
+      "tags": [
+        "GPU",
+        "NVIDIA",
+        "cuda"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "核心摘要",
+          "content": "As datasets grow, analytical queries can take longer to run, slowing down data exploration, pipelines, and applications. For developers using DuckDB, reducing... As datasets grow, analytical queries can take longer to run, slowing down data exploration, pipelines, and application…",
+          "primary": true
+        },
+        {
+          "id": "excerpt",
+          "title": "正文摘录",
+          "content": "s. For developers using DuckDB, reducing query times helps keep analytics responsive and can lower compute costs. NVIDIA and DuckLabs collaborated to release Sirius as a DuckDB core extension, bringing GPU acceleration to DuckDB’s analytical query engine. With two SQL commands… Source",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "excerpt",
+          "title": "正文摘录",
+          "content": "s. For developers using DuckDB, reducing query times helps keep analytics responsive and can lower compute costs. NVIDIA and DuckLabs collaborated to release Sirius as a DuckDB core extension, bringing GPU acceleration to DuckDB’s analytical query engine. With two SQL commands… Source",
+          "primary": false
+        }
+      ],
+      "references": [
+        {
+          "id": "orig",
+          "title": "Get Started with GPU-Accelerated DuckDB Analytics Using the Sirius Core Extension",
+          "url": "https://developer.nvidia.com/blog/get-started-with-gpu-accelerated-duckdb-analytics-using-the-sirius-core-extension/",
+          "domain": "developer.nvidia.com"
+        }
+      ],
+      "engagement": [],
+      "engagement_weight": 0
+    },
+    {
+      "id": "story-10",
+      "item_id": "rss:www.seangoedecke.com_rss.xml:e2fdc00fb2f11d49",
+      "rank": 10,
+      "group_index": 3,
+      "profile_id": "tech-blog",
+      "profile_name": "Technology Blog",
+      "title": "When in doubt, flail about",
+      "summary": "When you’re working in an unclear situation — you have no clear guidance, or you don’t know what will help — the best course of action is often just to flail about. This sounds counter-intuitive. Wouldn’t it be better to be cautious and wait until you have a better understanding…",
+      "score": 8.6,
+      "score_display": "8.6",
+      "reason": "Live fetched item ranked by engagement and source weight.",
+      "url": "https://seangoedecke.com/when-in-doubt-flail-about/",
+      "domain": "seangoedecke.com",
+      "discussion_url": null,
+      "source_type": "rss",
+      "source_label": "RSS Feed",
+      "sub_source": "Sean Goedecke",
+      "author": "Sean Goedecke",
+      "category": "software-engineering",
+      "published_at": "2026-11-23T00:00:00+00:00",
+      "time_display": "Nov 23 · 00:00",
+      "tags": [
+        "AI",
+        "Agent",
+        "Rust",
+        "市场"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "核心摘要",
+          "content": "When you’re working in an unclear situation — you have no clear guidance, or you don’t know what will help — the best course of action is often just to flail about. This sounds counter-intuitive. Wouldn’t it be better to be cautious and wait until you have a better understanding…",
+          "primary": true
+        },
+        {
+          "id": "excerpt",
+          "title": "正文摘录",
+          "content": "of what’s going on? Typically not. This is definitely dangerous advice . Flailing badly is a great way to damage your reputation at a tech company. We’ve all worked with engineers who seem to have nothing but bad ideas, and who are constantly pushing one stupid plan or another 1 . But if you do it right, flailing about is the best and quickest way to get that understanding and become useful. How to flail How do you flail well ? Try a lot of different things Pay very careful attention to feedback Ruthlessly drop things that are not getting positive feedback Trying a lot of different things is the key to the other…",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "excerpt",
+          "title": "正文摘录",
+          "content": "of what’s going on? Typically not. This is definitely dangerous advice . Flailing badly is a great way to damage your reputation at a tech company. We’ve all worked with engineers who seem to have nothing but bad ideas, and who are constantly pushing one stupid plan or another 1 . But if you do it right, flailing about is the best and quickest way to get that understanding and become useful. How to flail How do you flail well ? Try a lot of different things Pay very careful attention to feedback Ruthlessly drop things that are not getting positive feedback Trying a lot of different things is the key to the other…",
+          "primary": false
+        }
+      ],
+      "references": [
+        {
+          "id": "orig",
+          "title": "When in doubt, flail about",
+          "url": "https://seangoedecke.com/when-in-doubt-flail-about/",
+          "domain": "seangoedecke.com"
+        }
+      ],
+      "engagement": [],
+      "engagement_weight": 0
+    },
+    {
+      "id": "story-11",
+      "item_id": "rss:www.seangoedecke.com_rss.xml:0f127b0cd48e22cc",
+      "rank": 11,
+      "group_index": 4,
+      "profile_id": "tech-blog",
+      "profile_name": "Technology Blog",
+      "title": "Notes on OpenAI's perplexity reveal",
+      "summary": "OpenAI have just released a fascinating graph showing the perplexity over time of all their released models: Here are a bunch of thoughts I have about this: Why OpenAI? This is the most visibility we’ve ever had into the internal training metrics at a frontier lab Releasing train…",
+      "score": 8.6,
+      "score_display": "8.6",
+      "reason": "Live fetched item ranked by engagement and source weight.",
+      "url": "https://seangoedecke.com/notes-on-openais-perplexity-reveal/",
+      "domain": "seangoedecke.com",
+      "discussion_url": null,
+      "source_type": "rss",
+      "source_label": "RSS Feed",
+      "sub_source": "Sean Goedecke",
+      "author": "Sean Goedecke",
+      "category": "software-engineering",
+      "published_at": "2026-11-23T00:00:00+00:00",
+      "time_display": "Nov 23 · 00:00",
+      "tags": [
+        "AI",
+        "OpenAI",
+        "software-engineering"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "核心摘要",
+          "content": "OpenAI have just released a fascinating graph showing the perplexity over time of all their released models: Here are a bunch of thoughts I have about this: Why OpenAI? This is the most visibility we’ve ever had into the internal training metrics at a frontier lab Releasing train…",
+          "primary": true
+        },
+        {
+          "id": "excerpt",
+          "title": "正文摘录",
+          "content": "ing metrics in the name of safety is a very Anthropic move, and it’s surprising OpenAI was the one to do it first Perplexity must be measured against some specific dataset (e.g. all models will score basically zero perplexity 1 on the string “AAAAAAA….”) We therefore shouldn’t expect to be able to compare any similar data Anthropic releases with this data, except in terms of the angle on the graph 2 Is perplexity a useful measure? Perplexity is an unsatisfying metric because it only predicts how well the model matches some held-out text: i.e. it only applies to pre-training For frontier models, the rumor is that…",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "excerpt",
+          "title": "正文摘录",
+          "content": "ing metrics in the name of safety is a very Anthropic move, and it’s surprising OpenAI was the one to do it first Perplexity must be measured against some specific dataset (e.g. all models will score basically zero perplexity 1 on the string “AAAAAAA….”) We therefore shouldn’t expect to be able to compare any similar data Anthropic releases with this data, except in terms of the angle on the graph 2 Is perplexity a useful measure? Perplexity is an unsatisfying metric because it only predicts how well the model matches some held-out text: i.e. it only applies to pre-training For frontier models, the rumor is that…",
+          "primary": false
+        }
+      ],
+      "references": [
+        {
+          "id": "orig",
+          "title": "Notes on OpenAI's perplexity reveal",
+          "url": "https://seangoedecke.com/notes-on-openais-perplexity-reveal/",
+          "domain": "seangoedecke.com"
+        }
+      ],
+      "engagement": [],
+      "engagement_weight": 0
+    },
+    {
+      "id": "story-12",
+      "item_id": "rss:www.seangoedecke.com_rss.xml:6004e4b94fe76cd9",
+      "rank": 12,
+      "group_index": 5,
+      "profile_id": "tech-blog",
+      "profile_name": "Technology Blog",
+      "title": "To code well, avoid blunders",
+      "summary": "The secret to writing good code 1 is to avoid catastrophic mistakes. Many engineers think about programming as if the goal is to have brilliant insights, but they’re wrong. If you don’t blunder, you will win. Many other domains are like this. If you can play chess without ever ha…",
+      "score": 8.6,
+      "score_display": "8.6",
+      "reason": "Live fetched item ranked by engagement and source weight.",
+      "url": "https://seangoedecke.com/to-code-well-avoid-blunders/",
+      "domain": "seangoedecke.com",
+      "discussion_url": null,
+      "source_type": "rss",
+      "source_label": "RSS Feed",
+      "sub_source": "Sean Goedecke",
+      "author": "Sean Goedecke",
+      "category": "software-engineering",
+      "published_at": "2026-11-22T00:00:00+00:00",
+      "time_display": "Nov 22 · 00:00",
+      "tags": [
+        "AI",
+        "Agent",
+        "Rust",
+        "software-engineering"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "核心摘要",
+          "content": "The secret to writing good code 1 is to avoid catastrophic mistakes. Many engineers think about programming as if the goal is to have brilliant insights, but they’re wrong. If you don’t blunder, you will win. Many other domains are like this. If you can play chess without ever ha…",
+          "primary": true
+        },
+        {
+          "id": "excerpt",
+          "title": "正文摘录",
+          "content": "nging pieces, you will win against almost any 2 opponent. If you are very good at returning tennis balls, you will beat most players even if you never hit a winner. People are really bad at internalizing this. They think that being good at chess means finding brilliant tactical combinations, or that being good at tennis means crushing balls into the corner of the court, or that being a good programmer means discovering beautiful new abstractions. Not so! All of those things are valuable, but they are not the main thing. The main thing is to avoid catastrophic mistakes. The reason programming is like this is that…",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "excerpt",
+          "title": "正文摘录",
+          "content": "nging pieces, you will win against almost any 2 opponent. If you are very good at returning tennis balls, you will beat most players even if you never hit a winner. People are really bad at internalizing this. They think that being good at chess means finding brilliant tactical combinations, or that being good at tennis means crushing balls into the corner of the court, or that being a good programmer means discovering beautiful new abstractions. Not so! All of those things are valuable, but they are not the main thing. The main thing is to avoid catastrophic mistakes. The reason programming is like this is that…",
+          "primary": false
+        }
+      ],
+      "references": [
+        {
+          "id": "orig",
+          "title": "To code well, avoid blunders",
+          "url": "https://seangoedecke.com/to-code-well-avoid-blunders/",
+          "domain": "seangoedecke.com"
+        }
+      ],
+      "engagement": [],
+      "engagement_weight": 0
+    },
+    {
+      "id": "story-13",
+      "item_id": "rss:search.cnbc.com_rs_search_combinedcms_view.xml?partnerId=wrss01&id=19854910:72c912f3ce211a47",
+      "rank": 13,
+      "group_index": 1,
+      "profile_id": "finance-news",
+      "profile_name": "Financial News",
+      "title": "Jensen Huang is ‘too big to fire,’ putting Nvidia’s governance in focus: analysts",
+      "summary": "Jensen Huang’s return has underscored Nvidia’s deep reliance on its founder, putting the company's board oversight and corporate governance under scrutiny.",
+      "score": 8.3,
+      "score_display": "8.3",
+      "reason": "Live fetched item ranked by engagement and source weight.",
+      "url": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-governance.html",
+      "domain": "cnbc.com",
+      "discussion_url": null,
+      "source_type": "rss",
+      "source_label": "RSS Feed",
+      "sub_source": "CNBC Tech",
+      "author": "CNBC Tech",
+      "category": "tech-markets",
+      "published_at": "2026-11-24T05:09:34+00:00",
+      "time_display": "Nov 24 · 05:09",
+      "tags": [
+        "NVIDIA",
+        "tech-markets"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "核心摘要",
+          "content": "Jensen Huang’s return has underscored Nvidia’s deep reliance on its founder, putting the company's board oversight and corporate governance under scrutiny.",
+          "primary": true
+        }
+      ],
+      "secondary_blocks": [],
+      "references": [
+        {
+          "id": "orig",
+          "title": "Jensen Huang is ‘too big to fire,’ putting Nvidia’s governance in focus: analysts",
+          "url": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-governance.html",
+          "domain": "cnbc.com"
+        }
+      ],
+      "engagement": [],
+      "engagement_weight": 0
+    },
+    {
+      "id": "story-14",
+      "item_id": "rss:search.cnbc.com_rs_search_combinedcms_view.xml?partnerId=wrss01&id=19854910:7f58a202aa7ffed5",
+      "rank": 14,
+      "group_index": 2,
+      "profile_id": "finance-news",
+      "profile_name": "Financial News",
+      "title": "AI adoption grows in Asia, but measuring the gains remains tricky",
+      "summary": "Businesses across Asia-Pacific are seeing returns from AI investments, even as confidence in measuring those gains varies, according to an AWS survey.",
+      "score": 8.3,
+      "score_display": "8.3",
+      "reason": "Live fetched item ranked by engagement and source weight.",
+      "url": "https://www.cnbc.com/2026/11/24/aws-asia-gains-roi.html",
+      "domain": "cnbc.com",
+      "discussion_url": null,
+      "source_type": "rss",
+      "source_label": "RSS Feed",
+      "sub_source": "CNBC Tech",
+      "author": "CNBC Tech",
+      "category": "tech-markets",
+      "published_at": "2026-11-24T05:07:16+00:00",
+      "time_display": "Nov 24 · 05:07",
+      "tags": [
+        "AI",
+        "tech-markets"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "核心摘要",
+          "content": "Businesses across Asia-Pacific are seeing returns from AI investments, even as confidence in measuring those gains varies, according to an AWS survey.",
+          "primary": true
+        }
+      ],
+      "secondary_blocks": [],
+      "references": [
+        {
+          "id": "orig",
+          "title": "AI adoption grows in Asia, but measuring the gains remains tricky",
+          "url": "https://www.cnbc.com/2026/11/24/aws-asia-gains-roi.html",
+          "domain": "cnbc.com"
+        }
+      ],
+      "engagement": [],
+      "engagement_weight": 0
+    },
+    {
+      "id": "story-15",
+      "item_id": "rss:search.cnbc.com_rs_search_combinedcms_view.xml?partnerId=wrss01&id=19854910:af4ab2dd004f0655",
+      "rank": 15,
+      "group_index": 3,
+      "profile_id": "finance-news",
+      "profile_name": "Financial News",
+      "title": "Six key questions raised by Jensen Huang's return to Nvidia",
+      "summary": "As Jensen Huang returns to Nvidia, questions remained around the board's reversal, Trump's involvement and the tech giant's future.",
+      "score": 8.3,
+      "score_display": "8.3",
+      "reason": "Live fetched item ranked by engagement and source weight.",
+      "url": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-politics-market.html",
+      "domain": "cnbc.com",
+      "discussion_url": null,
+      "source_type": "rss",
+      "source_label": "RSS Feed",
+      "sub_source": "CNBC Tech",
+      "author": "CNBC Tech",
+      "category": "tech-markets",
+      "published_at": "2026-11-24T03:05:49+00:00",
+      "time_display": "Nov 24 · 03:05",
+      "tags": [
+        "AI",
+        "NVIDIA",
+        "tech-markets"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "核心摘要",
+          "content": "As Jensen Huang returns to Nvidia, questions remained around the board's reversal, Trump's involvement and the tech giant's future.",
+          "primary": true
+        }
+      ],
+      "secondary_blocks": [],
+      "references": [
+        {
+          "id": "orig",
+          "title": "Six key questions raised by Jensen Huang's return to Nvidia",
+          "url": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-politics-market.html",
+          "domain": "cnbc.com"
+        }
+      ],
+      "engagement": [],
+      "engagement_weight": 0
+    },
+    {
+      "id": "story-16",
+      "item_id": "rss:search.cnbc.com_rs_search_combinedcms_view.xml?partnerId=wrss01&id=19854910:64fdcba54d5c1a1e",
+      "rank": 16,
+      "group_index": 4,
+      "profile_id": "finance-news",
+      "profile_name": "Financial News",
+      "title": "U.S. adds Megaspeed to trade blacklist over export control concerns amid Nvidia controversy",
+      "summary": "The U.S. has added Megaspeed and six other companies to its trade blacklist over concerns about the potential diversion of advanced computing products.",
+      "score": 8.3,
+      "score_display": "8.3",
+      "reason": "Live fetched item ranked by engagement and source weight.",
+      "url": "https://www.cnbc.com/2026/11/24/us-adds-megaspeed-to-trade-blacklist-over-export-control-concerns-.html",
+      "domain": "cnbc.com",
+      "discussion_url": null,
+      "source_type": "rss",
+      "source_label": "RSS Feed",
+      "sub_source": "CNBC Tech",
+      "author": "CNBC Tech",
+      "category": "tech-markets",
+      "published_at": "2026-11-24T02:37:39+00:00",
+      "time_display": "Nov 24 · 02:37",
+      "tags": [
+        "NVIDIA",
+        "tech-markets"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "核心摘要",
+          "content": "The U.S. has added Megaspeed and six other companies to its trade blacklist over concerns about the potential diversion of advanced computing products.",
+          "primary": true
+        }
+      ],
+      "secondary_blocks": [],
+      "references": [
+        {
+          "id": "orig",
+          "title": "U.S. adds Megaspeed to trade blacklist over export control concerns amid Nvidia controversy",
+          "url": "https://www.cnbc.com/2026/11/24/us-adds-megaspeed-to-trade-blacklist-over-export-control-concerns-.html",
+          "domain": "cnbc.com"
+        }
+      ],
+      "engagement": [],
+      "engagement_weight": 0
+    },
+    {
+      "id": "story-17",
+      "item_id": "rss:search.cnbc.com_rs_search_combinedcms_view.xml?partnerId=wrss01&id=19854910:3219b9d329552dac",
+      "rank": 17,
+      "group_index": 5,
+      "profile_id": "finance-news",
+      "profile_name": "Financial News",
+      "title": "What Jensen Huang’s return means for Nvidia’s Colette Kress",
+      "summary": "Kress steered the company through billions in AI financing deals and during Huang's sudden departure. Now she's back to full-time CFO.",
+      "score": 8.3,
+      "score_display": "8.3",
+      "reason": "Live fetched item ranked by engagement and source weight.",
+      "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-returns-colette-kress-cfo.html",
+      "domain": "cnbc.com",
+      "discussion_url": null,
+      "source_type": "rss",
+      "source_label": "RSS Feed",
+      "sub_source": "CNBC Tech",
+      "author": "CNBC Tech",
+      "category": "tech-markets",
+      "published_at": "2026-11-24T02:21:06+00:00",
+      "time_display": "Nov 24 · 02:21",
+      "tags": [
+        "AI",
+        "NVIDIA",
+        "tech-markets"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "核心摘要",
+          "content": "Kress steered the company through billions in AI financing deals and during Huang's sudden departure. Now she's back to full-time CFO.",
+          "primary": true
+        }
+      ],
+      "secondary_blocks": [],
+      "references": [
+        {
+          "id": "orig",
+          "title": "What Jensen Huang’s return means for Nvidia’s Colette Kress",
+          "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-returns-colette-kress-cfo.html",
+          "domain": "cnbc.com"
+        }
+      ],
+      "engagement": [],
+      "engagement_weight": 0
+    }
+  ]
+}
