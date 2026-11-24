@@ -38,6 +38,8 @@ from .ai.tokens import get_usage_snapshot
 from .processing import ProfileRegistry
 from .processing.content import COMMENTS_MARKER, split_content
 from .processing.tools import ToolRegistry
+from .rendering.broadsheet import BroadsheetRenderer
+from .rendering.site import BroadsheetSitePublisher
 
 
 _TRACKING_QUERY_PARAMETERS = {
@@ -337,10 +339,60 @@ class HorizonOrchestrator:
                     f"{self.icons['save']} Saved {lang.upper()} summary to: {summary_path}\n"
                 )
 
+                # Render and save interactive newspaper broadsheet + structured JSON
+                if self.config.broadsheet.enabled:
+                    broadsheet = BroadsheetRenderer(
+                        profile_names=self.profiles.names,
+                        profile_order=self.config.digest.profile_order,
+                        config=self.config.broadsheet,
+                    )
+                    edition_data = broadsheet.build_edition_data(
+                        language_items,
+                        today,
+                        len(all_items),
+                        language=lang,
+                    )
+                    broadsheet_html = broadsheet.render_html(
+                        language_items,
+                        today,
+                        len(all_items),
+                        language=lang,
+                        edition_data=edition_data,
+                        available_languages=self.config.ai.languages,
+                    )
+                    html_path = self.storage.save_daily_broadsheet(today, broadsheet_html, language=lang)
+                    self.storage.save_daily_json(today, edition_data, language=lang)
+                    self.console.print(
+                        f"{self.icons['document']} Saved {lang.upper()} broadsheet to: {html_path}\n"
+                    )
+
+                    if self.config.broadsheet.copy_to_docs:
+                        try:
+                            default_lang = (
+                                self.config.broadsheet.default_language
+                                or ("zh" if "zh" in self.config.ai.languages else self.config.ai.languages[0])
+                            )
+                            publisher = BroadsheetSitePublisher(self.config.broadsheet.site_dir)
+                            published = publisher.publish_edition(
+                                date=today,
+                                language=lang,
+                                html_content=broadsheet_html,
+                                edition_data=edition_data,
+                                is_default_language=(lang == default_lang),
+                                default_language=default_lang,
+                            )
+                            self.console.print(
+                                f"{self.icons['document']} Published {lang.upper()} broadsheet "
+                                f"to site: {published['dated_html']}\n"
+                            )
+                        except Exception as e:
+                            self.console.print(
+                                f"[yellow]{self.icons['warning']} Failed to publish "
+                                f"{lang.upper()} broadsheet to {self.config.broadsheet.site_dir}: {e}[/yellow]\n"
+                            )
+
                 # Copy to docs/ for GitHub Pages
                 try:
-                    from pathlib import Path
-
                     post_filename = f"{today}-summary-{lang}.md"
                     posts_dir = Path("docs/_posts")
                     posts_dir.mkdir(parents=True, exist_ok=True)

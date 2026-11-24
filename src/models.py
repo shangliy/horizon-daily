@@ -597,6 +597,21 @@ class DisplayConfig(BaseModel):
     icon_style: Literal["emoji", "nerd", "ascii"] = "emoji"
 
 
+class BroadsheetConfig(BaseModel):
+    """Controls single-page interactive newspaper broadsheet rendering."""
+
+    model_config = ConfigDict(extra="forbid")
+
+    enabled: bool = True
+    title: Optional[str] = None
+    titles: Dict[str, str] = Field(default_factory=dict)
+    subtitle: Optional[str] = None
+    edition_label: Optional[str] = None
+    copy_to_docs: bool = True
+    site_dir: str = "docs/broadsheet"
+    default_language: Optional[str] = None
+
+
 class CollectionConfig(BaseModel):
     """Controls which source items are fetched."""
 
@@ -649,6 +664,7 @@ class Config(BaseModel):
     digest: DigestConfig = Field(default_factory=DigestConfig)
     processing: ProcessingConfig = Field(default_factory=ProcessingConfig)
     display: DisplayConfig = Field(default_factory=DisplayConfig)
+    broadsheet: BroadsheetConfig = Field(default_factory=BroadsheetConfig)
     extractors: Dict[str, ExtractorConfig] = Field(default_factory=dict)
     email: Optional[EmailConfig] = None
     webhook: Optional[WebhookConfig] = None

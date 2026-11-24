@@ -40,6 +40,8 @@ ENV/
 data/config.json
 data/seen.json
 data/summaries/*.md
+data/summaries/*.html
+data/summaries/*.json
 data/subscribers.json
 data/mcp.secrets.json
 data/mcp-secrets.json
@@ -48,6 +50,7 @@ data/x_cookies_*.json
 data/wechat_session.json
 
 docs/_posts/*.md
+docs/broadsheet/
 
 # Logs
 logs/*.log

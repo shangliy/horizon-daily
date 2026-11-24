@@ -1,0 +1,93 @@
+name: Daily Broadsheet (地平线每日快报)
+
+on:
+  schedule:
+    # 23:00 UTC = 07:00 Asia/Shanghai (every morning)
+    - cron: '0 23 * * *'
+  workflow_dispatch:
+    inputs:
+      hours:
+        description: 'Lookback window in hours (default 24)'
+        required: false
+        default: '24'
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout main repository
+        uses: actions/checkout@v6
+
+      - name: Restore existing edition archive from gh-pages (if present)
+        continue-on-error: true
+        run: |
+          git fetch origin gh-pages:refs/remotes/origin/gh-pages --depth=1 || exit 0
+          mkdir -p docs/broadsheet
+          git archive origin/gh-pages editions.json 2>/dev/null | tar -x -C docs/broadsheet || true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          version: "0.11.26"
+
+      - name: Install dependencies
+        run: uv sync --frozen
+
+      - name: Prepare broadsheet config
+        env:
+          AI_PROVIDER: ${{ vars.AI_PROVIDER }}
+          AI_MODEL: ${{ vars.AI_MODEL }}
+          AI_BASE_URL: ${{ vars.AI_BASE_URL }}
+          AI_API_KEY_ENV: ${{ vars.AI_API_KEY_ENV }}
+        run: |
+          cp data/config.broadsheet.json data/config.json
+          uv run python -c '
+          import json, os
+          path = "data/config.json"
+          cfg = json.load(open(path, encoding="utf-8"))
+          ai = cfg["ai"]
+          if os.getenv("AI_PROVIDER"):
+              ai["provider"] = os.environ["AI_PROVIDER"]
+          if os.getenv("AI_MODEL"):
+              ai["model"] = os.environ["AI_MODEL"]
+          if os.getenv("AI_BASE_URL"):
+              ai["base_url"] = os.environ["AI_BASE_URL"]
+          if os.getenv("AI_API_KEY_ENV"):
+              ai["api_key_env"] = os.environ["AI_API_KEY_ENV"]
+          json.dump(cfg, open(path, "w", encoding="utf-8"), indent=2, ensure_ascii=False)
+          '
+
+      - name: Run Horizon daily pipeline
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
+          DOUBAO_API_KEY: ${{ secrets.DOUBAO_API_KEY }}
+          MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: uv run horizon --hours "${{ inputs.hours || '24' }}"
+
+      - name: Set edition date
+        run: echo "DATE=$(date -u +'%Y-%m-%d')" >> "$GITHUB_ENV"
+
+      - name: Deploy broadsheet site to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs/broadsheet
+          publish_branch: gh-pages
+          keep_files: true
+          enable_jekyll: false
+          commit_message: "📰 地平线每日快报: ${{ env.DATE }}"

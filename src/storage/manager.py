@@ -129,6 +129,23 @@ class StorageManager:
 
         return filepath
 
+    def save_daily_broadsheet(self, date: str, html_content: str, language: str = "zh") -> Path:
+        filename = f"horizon-{date}-{language}.html"
+        filepath = safe_output_path(self.summaries_dir, filename)
+
+        _atomic_write_text(filepath, html_content)
+
+        return filepath
+
+    def save_daily_json(self, date: str, payload: dict[str, Any], language: str = "zh") -> Path:
+        filename = f"horizon-{date}-{language}.json"
+        filepath = safe_output_path(self.summaries_dir, filename)
+
+        content = json.dumps(payload, indent=2, ensure_ascii=False)
+        _atomic_write_text(filepath, f"{content}\n")
+
+        return filepath
+
     def load_subscribers(self) -> list:
         """Loads the list of email subscribers."""
         subscribers_path = self.data_dir / "subscribers.json"

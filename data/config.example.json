@@ -30,6 +30,11 @@
   "display": {
     "icon_style": "emoji"
   },
+  "broadsheet": {
+    "enabled": true,
+    "title": "地平线每日快报",
+    "copy_to_docs": true
+  },
   "email": {
     "enabled": false,
     "smtp_server": "smtp.qq.com",
