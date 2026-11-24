@@ -6,131 +6,131 @@
     "edition_label": "HORIZON · GLOBAL TECH & SIGNAL",
     "date": "2026-11-24",
     "date_display": "Tuesday, November 24, 2026",
-    "updated_at": "18:20 UTC",
+    "updated_at": "19:07 UTC",
     "language": "en",
     "lang_key": "en",
-    "total_fetched": 62,
-    "selected_count": 17,
-    "avg_score": 8.7,
-    "top_score": 9.3,
-    "drop_rate": 73,
-    "source_count": 2,
-    "profile_count": 3,
-    "wire_code": "A5",
-    "index_code": "A6"
+    "total_fetched": 63,
+    "selected_count": 14,
+    "avg_score": 7.9,
+    "top_score": 9.0,
+    "drop_rate": 78,
+    "source_count": 3,
+    "profile_count": 2,
+    "wire_code": "A4",
+    "index_code": "A5"
   },
   "ticker": [
     {
       "kind": "tag",
       "label": "#AI",
       "tag": "AI",
-      "metric": "12 items",
-      "delta": "up"
-    },
-    {
-      "kind": "tag",
-      "label": "#NVIDIA",
-      "tag": "NVIDIA",
-      "metric": "6 items",
-      "delta": "up"
-    },
-    {
-      "kind": "tag",
-      "label": "#Tech Markets",
-      "tag": "Tech Markets",
-      "metric": "6 items",
-      "delta": "up"
-    },
-    {
-      "kind": "tag",
-      "label": "#AI News",
-      "tag": "AI News",
-      "metric": "5 items",
-      "delta": "up"
-    },
-    {
-      "kind": "tag",
-      "label": "#Agent",
-      "tag": "Agent",
       "metric": "4 items",
       "delta": "up"
     },
     {
       "kind": "tag",
-      "label": "#LLM",
-      "tag": "LLM",
+      "label": "#software engineering",
+      "tag": "software engineering",
       "metric": "3 items",
       "delta": "up"
     },
     {
       "kind": "tag",
-      "label": "#Claude",
-      "tag": "Claude",
+      "label": "#open source",
+      "tag": "open source",
+      "metric": "3 items",
+      "delta": "up"
+    },
+    {
+      "kind": "tag",
+      "label": "#cybersecurity",
+      "tag": "cybersecurity",
       "metric": "2 items",
       "delta": "up"
     },
     {
       "kind": "tag",
-      "label": "#Linux",
-      "tag": "Linux",
+      "label": "#machine learning",
+      "tag": "machine learning",
       "metric": "2 items",
       "delta": "up"
     },
     {
       "kind": "tag",
-      "label": "#GPU",
-      "tag": "GPU",
-      "metric": "2 items",
+      "label": "#computational complexity",
+      "tag": "computational complexity",
+      "metric": "1 items",
       "delta": "up"
     },
     {
       "kind": "tag",
-      "label": "#CUDA",
-      "tag": "CUDA",
-      "metric": "2 items",
+      "label": "#formal methods",
+      "tag": "formal methods",
+      "metric": "1 items",
+      "delta": "up"
+    },
+    {
+      "kind": "tag",
+      "label": "#Lean 4",
+      "tag": "Lean 4",
+      "metric": "1 items",
+      "delta": "up"
+    },
+    {
+      "kind": "tag",
+      "label": "#research",
+      "tag": "research",
+      "metric": "1 items",
+      "delta": "up"
+    },
+    {
+      "kind": "tag",
+      "label": "#Check Point",
+      "tag": "Check Point",
+      "metric": "1 items",
       "delta": "up"
     },
     {
       "kind": "story",
       "story_id": "story-1",
-      "label": "LLM agents work for their parent companie…",
-      "metric": "▲ 9.3",
-      "delta": "hot"
-    },
-    {
-      "kind": "story",
-      "story_id": "story-2",
-      "label": "2035 came early",
-      "metric": "▲ 9.3",
-      "delta": "hot"
-    },
-    {
-      "kind": "story",
-      "story_id": "story-3",
-      "label": "Stalwart is now a drop-in replacement for…",
-      "metric": "▲ 9.3",
-      "delta": "hot"
-    },
-    {
-      "kind": "story",
-      "story_id": "story-4",
-      "label": "GTA 6 Recomp (Leonida) banned from GitHub…",
-      "metric": "▲ 9.2",
-      "delta": "hot"
-    },
-    {
-      "kind": "story",
-      "story_id": "story-5",
-      "label": "Quad9 pulled their DNS service from France",
+      "label": "Anthropic Releases Formal Proof of VP ≠ V…",
       "metric": "▲ 9.0",
       "delta": "hot"
     },
     {
       "kind": "story",
+      "story_id": "story-2",
+      "label": "Cyberattack Compromises Check Point Serve…",
+      "metric": "▲ 8.0",
+      "delta": "up"
+    },
+    {
+      "kind": "story",
+      "story_id": "story-3",
+      "label": "AMD EPYC Zen 6 Achieves 12.1x Performance…",
+      "metric": "▲ 8.0",
+      "delta": "up"
+    },
+    {
+      "kind": "story",
+      "story_id": "story-4",
+      "label": "GLM-5.4 Introduces Loop Transformer Archi…",
+      "metric": "▲ 8.0",
+      "delta": "up"
+    },
+    {
+      "kind": "story",
+      "story_id": "story-5",
+      "label": "Ladybird Browser Launches First Alpha Rel…",
+      "metric": "▲ 8.0",
+      "delta": "up"
+    },
+    {
+      "kind": "story",
       "story_id": "story-6",
-      "label": "Cyberattack campaign compromising Check P…",
-      "metric": "▲ 8.8",
-      "delta": "hot"
+      "label": "Baidu Open Sources Wenxin 5.5 Flash Previ…",
+      "metric": "▲ 8.0",
+      "delta": "up"
     }
   ],
   "front_page": {
@@ -141,20 +141,20 @@
       "story-4"
     ],
     "right_ids": [
-      "story-8",
-      "story-9"
-    ],
-    "spotlight_left_ids": [
-      "story-8",
-      "story-9",
       "story-10",
       "story-11"
     ],
-    "spotlight_right_ids": [
+    "spotlight_left_ids": [
       "story-2",
       "story-3",
-      "story-4",
-      "story-5"
+      "story-9",
+      "story-4"
+    ],
+    "spotlight_right_ids": [
+      "story-9",
+      "story-3",
+      "story-2",
+      "story-4"
     ]
   },
   "sections": [
@@ -170,33 +170,22 @@
         "story-4",
         "story-5",
         "story-6",
-        "story-7"
+        "story-7",
+        "story-8",
+        "story-9"
       ]
     },
     {
       "code": "A3",
-      "dom_id": "sec-tech-blog",
-      "profile_id": "tech-blog",
-      "name": "Technology Blog",
-      "item_ids": [
-        "story-8",
-        "story-9",
-        "story-10",
-        "story-11",
-        "story-12"
-      ]
-    },
-    {
-      "code": "A4",
       "dom_id": "sec-finance-news",
       "profile_id": "finance-news",
       "name": "Financial News",
       "item_ids": [
+        "story-10",
+        "story-11",
+        "story-12",
         "story-13",
-        "story-14",
-        "story-15",
-        "story-16",
-        "story-17"
+        "story-14"
       ]
     }
   ],
@@ -206,13 +195,9 @@
       "title": "COMMUNITY · HN & REDDIT",
       "style": "numbered",
       "item_ids": [
-        "story-1",
         "story-2",
         "story-3",
-        "story-4",
-        "story-5",
-        "story-6",
-        "story-7"
+        "story-9"
       ]
     },
     {
@@ -226,14 +211,14 @@
       "title": "PUBLICATIONS & MARKETS",
       "style": "kicker",
       "item_ids": [
+        "story-1",
+        "story-4",
+        "story-5",
+        "story-6",
+        "story-7",
         "story-8",
-        "story-9",
         "story-10",
-        "story-11",
-        "story-12",
-        "story-13",
-        "story-14",
-        "story-15"
+        "story-11"
       ]
     }
   ],
@@ -241,440 +226,169 @@
     {
       "source_type": "rss",
       "label": "RSS Feed",
-      "count": 10,
-      "pct": 59
+      "count": 7,
+      "pct": 50
+    },
+    {
+      "source_type": "telegram",
+      "label": "Telegram",
+      "count": 4,
+      "pct": 29
     },
     {
       "source_type": "hackernews",
       "label": "Hacker News",
-      "count": 7,
-      "pct": 41
+      "count": 3,
+      "pct": 21
     }
   ],
   "top_tags": [
     {
       "tag": "AI",
-      "count": 12
-    },
-    {
-      "tag": "NVIDIA",
-      "count": 6
-    },
-    {
-      "tag": "Tech Markets",
-      "count": 6
-    },
-    {
-      "tag": "AI News",
-      "count": 5
-    },
-    {
-      "tag": "Agent",
       "count": 4
     },
     {
-      "tag": "LLM",
+      "tag": "software engineering",
       "count": 3
     },
     {
-      "tag": "Claude",
+      "tag": "open source",
+      "count": 3
+    },
+    {
+      "tag": "cybersecurity",
       "count": 2
     },
     {
-      "tag": "Linux",
+      "tag": "machine learning",
       "count": 2
     },
     {
-      "tag": "GPU",
-      "count": 2
-    },
-    {
-      "tag": "CUDA",
-      "count": 2
-    },
-    {
-      "tag": "Rust",
-      "count": 2
-    },
-    {
-      "tag": "Software Engineering",
-      "count": 2
-    },
-    {
-      "tag": "Cloud",
+      "tag": "computational complexity",
       "count": 1
     },
     {
-      "tag": "OpenAI",
+      "tag": "formal methods",
       "count": 1
     },
     {
-      "tag": "Semiconductors",
+      "tag": "Lean 4",
       "count": 1
     },
     {
-      "tag": "Equities",
+      "tag": "research",
+      "count": 1
+    },
+    {
+      "tag": "Check Point",
+      "count": 1
+    },
+    {
+      "tag": "cyberattack",
+      "count": 1
+    },
+    {
+      "tag": "community analysis",
+      "count": 1
+    },
+    {
+      "tag": "AMD",
+      "count": 1
+    },
+    {
+      "tag": "EPYC",
+      "count": 1
+    },
+    {
+      "tag": "performance",
+      "count": 1
+    },
+    {
+      "tag": "hardware",
       "count": 1
     }
   ],
   "items": [
     {
       "id": "story-1",
-      "item_id": "hackernews:story:50627340",
+      "item_id": "telegram:zaihuapd:45333",
       "rank": 1,
       "group_index": 1,
       "profile_id": "tech-news",
       "profile_name": "Technology News",
-      "title": "LLM agents work for their parent companies, not for you",
-      "summary": "Live curated dispatch from surprisetalk. Open the original link to read the full story.",
-      "score": 9.3,
-      "score_display": "9.3",
-      "reason": "Live fetched item ranked by engagement and source weight.",
-      "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
-      "domain": "michaelharley.net",
-      "discussion_url": "https://news.ycombinator.com/item?id=50627340",
-      "source_type": "hackernews",
-      "source_label": "Hacker News",
-      "sub_source": "surprisetalk",
-      "author": "surprisetalk",
-      "category": "AI News",
-      "published_at": "2026-11-24T12:40:15+00:00",
-      "time_display": "Nov 24 · 12:40",
+      "title": "Anthropic Releases Formal Proof of VP ≠ VNP Using Claude AI Model",
+      "summary": "On November 24, 2026, Anthropic published a formal proof claiming that VP ≠ VNP, a significant finding in computational complexity theory. This proof, generated by their AI model Claude, includes a formalization in Lean 4 and suggests that VP is a proper subset of VNP, potentially resolving Valiant's 1979 conjecture on algebraic complexity. The results have been audited against three standard axioms and independently verified, although they have not yet been thoroughly reviewed by human mathematicians.",
+      "score": 9.0,
+      "score_display": "9.0",
+      "reason": "The announcement of a formal proof regarding the VP ≠ VNP conjecture represents a significant development in computational complexity theory, potentially impacting the understanding of algebraic complexity and involving advanced AI methodologies.",
+      "url": "https://github.com/anthropics/formal-math/blob/main/vp-vnp/README.md",
+      "domain": "github.com",
+      "discussion_url": null,
+      "source_type": "telegram",
+      "source_label": "Telegram",
+      "sub_source": "zaihuapd",
+      "author": "zaihuapd",
+      "category": "Tech Flash",
+      "published_at": "2026-11-24T06:02:02+00:00",
+      "time_display": "Nov 24 · 06:02",
       "tags": [
         "AI",
-        "LLM",
-        "Agent",
-        "Claude"
+        "computational complexity",
+        "formal methods",
+        "Lean 4",
+        "research"
       ],
       "blocks": [
         {
           "id": "summary",
-          "title": "Summary",
-          "content": "Live curated dispatch from surprisetalk. Open the original link to read the full story.",
+          "title": "Summary of the Announcement",
+          "content": "On November 24, 2026, Anthropic published a formal proof claiming that VP ≠ VNP, a significant finding in computational complexity theory. This proof, generated by their AI model Claude, includes a formalization in Lean 4 and suggests that VP is a proper subset of VNP, potentially resolving Valiant's 1979 conjecture on algebraic complexity. The results have been audited against three standard axioms and independently verified, although they have not yet been thoroughly reviewed by human mathematicians.",
           "primary": true
         },
         {
-          "id": "community_discussion",
-          "title": "Community Discussion",
-          "content": "[Lerc]: A LLM should be considered an advisor to the same extent as legal, financial, and medical. They should be legally required to act to the best of their capability in the interests of their client, subject to the same requirements that they don't break the law to do so as applies to legal, financial, or medical advisors.An important part of that is that they must never represent themselves as acting for someone who is not their client.This still allows them to work for you while being the cli... [jpatten]: I find the argument here pretty flimsy. The author is upset that Claude respects Bandcamp's wish to not make its site accessible to…",
+          "id": "background",
+          "title": "Background on VP ≠ VNP Conjecture",
+          "content": "The VP ≠ VNP conjecture, proposed by Leslie Valiant in 1979, is a fundamental question in computational complexity theory that distinguishes between two classes of problems: VP, which consists of problems solvable by polynomial-size arithmetic circuits, and VNP, which includes problems whose solutions can be verified by such circuits. The conjecture's resolution has implications for understanding the limits of computation in algebraic contexts.",
           "primary": false
         }
       ],
       "secondary_blocks": [
         {
-          "id": "community_discussion",
-          "title": "Community Discussion",
-          "content": "[Lerc]: A LLM should be considered an advisor to the same extent as legal, financial, and medical. They should be legally required to act to the best of their capability in the interests of their client, subject to the same requirements that they don't break the law to do so as applies to legal, financial, or medical advisors.An important part of that is that they must never represent themselves as acting for someone who is not their client.This still allows them to work for you while being the cli... [jpatten]: I find the argument here pretty flimsy. The author is upset that Claude respects Bandcamp's wish to not make its site accessible to…",
+          "id": "background",
+          "title": "Background on VP ≠ VNP Conjecture",
+          "content": "The VP ≠ VNP conjecture, proposed by Leslie Valiant in 1979, is a fundamental question in computational complexity theory that distinguishes between two classes of problems: VP, which consists of problems solvable by polynomial-size arithmetic circuits, and VNP, which includes problems whose solutions can be verified by such circuits. The conjecture's resolution has implications for understanding the limits of computation in algebraic contexts.",
           "primary": false
         }
       ],
       "references": [
         {
-          "id": "orig",
-          "title": "LLM agents work for their parent companies, not for you",
-          "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
-          "domain": "michaelharley.net"
+          "id": "tool-1-1",
+          "title": "Claude Claims Proof That VP ≠ VNP, the Algebraic Cousin of P ...",
+          "url": "https://officechai.com/ai/claude-vp-vnp-proof-valiant-conjecture-p-vs-np/",
+          "domain": "officechai.com"
         },
         {
-          "id": "disc",
-          "title": "Community Discussion Thread",
-          "url": "https://news.ycombinator.com/item?id=50627340",
-          "domain": "news.ycombinator.com"
+          "id": "tool-1-2",
+          "title": "Claude claims to prove VP ≠ VNP in Valiant's 47-year-old ...",
+          "url": "https://interestingengineering.com/ai-robotics/claude-proves-vp-not-vnp-valiant-conjecture",
+          "domain": "interestingengineering.com"
         }
       ],
-      "engagement": [
-        "671 pts",
-        "283 comments"
-      ],
-      "engagement_weight": 1287
+      "engagement": [],
+      "engagement_weight": 0
     },
     {
       "id": "story-2",
-      "item_id": "hackernews:story:50624497",
+      "item_id": "hackernews:story:50630594",
       "rank": 2,
       "group_index": 2,
       "profile_id": "tech-news",
       "profile_name": "Technology News",
-      "title": "2035 came early",
-      "summary": "Live curated dispatch from setheron. Open the original link to read the full story.",
-      "score": 9.3,
-      "score_display": "9.3",
-      "reason": "Live fetched item ranked by engagement and source weight.",
-      "url": "https://fzakaria.com/2026/11/23/2035-came-early",
-      "domain": "fzakaria.com",
-      "discussion_url": "https://news.ycombinator.com/item?id=50624497",
-      "source_type": "hackernews",
-      "source_label": "Hacker News",
-      "sub_source": "setheron",
-      "author": "setheron",
-      "category": "AI News",
-      "published_at": "2026-11-24T06:30:33+00:00",
-      "time_display": "Nov 24 · 06:30",
-      "tags": [
-        "AI",
-        "LLM",
-        "Agent",
-        "Claude"
-      ],
-      "blocks": [
-        {
-          "id": "summary",
-          "title": "Summary",
-          "content": "Live curated dispatch from setheron. Open the original link to read the full story.",
-          "primary": true
-        },
-        {
-          "id": "community_discussion",
-          "title": "Community Discussion",
-          "content": "[gbl08ma]: I had been working (read: prompting Claude) on https://waarm64.com for two months and it was slightly heartbreaking to see unkernel get all the attention when I was like two weeks away from a public announcement. It would obviously have been worse if I had actually built more of mine \"by hand,\" but still, even if just doing by orchestration/\"asking good questions to the LLM\" kind of work, I spent probably over a hundred hours on it. I rushed its release, but now I don't even really feel like ... [semiquaver]: Gary Bernhardt has to be one of the least-well-known “software heros”. I would honestly rank him among Fabrice Bellard and J…",
-          "primary": false
-        }
-      ],
-      "secondary_blocks": [
-        {
-          "id": "community_discussion",
-          "title": "Community Discussion",
-          "content": "[gbl08ma]: I had been working (read: prompting Claude) on https://waarm64.com for two months and it was slightly heartbreaking to see unkernel get all the attention when I was like two weeks away from a public announcement. It would obviously have been worse if I had actually built more of mine \"by hand,\" but still, even if just doing by orchestration/\"asking good questions to the LLM\" kind of work, I spent probably over a hundred hours on it. I rushed its release, but now I don't even really feel like ... [semiquaver]: Gary Bernhardt has to be one of the least-well-known “software heros”. I would honestly rank him among Fabrice Bellard and J…",
-          "primary": false
-        }
-      ],
-      "references": [
-        {
-          "id": "orig",
-          "title": "2035 came early",
-          "url": "https://fzakaria.com/2026/11/23/2035-came-early",
-          "domain": "fzakaria.com"
-        },
-        {
-          "id": "disc",
-          "title": "Community Discussion Thread",
-          "url": "https://news.ycombinator.com/item?id=50624497",
-          "domain": "news.ycombinator.com"
-        }
-      ],
-      "engagement": [
-        "805 pts",
-        "299 comments"
-      ],
-      "engagement_weight": 1453
-    },
-    {
-      "id": "story-3",
-      "item_id": "hackernews:story:50620349",
-      "rank": 3,
-      "group_index": 3,
-      "profile_id": "tech-news",
-      "profile_name": "Technology News",
-      "title": "Stalwart is now a drop-in replacement for Microsoft Exchange",
-      "summary": "Live curated dispatch from shaunpud. Open the original link to read the full story.",
-      "score": 9.3,
-      "score_display": "9.3",
-      "reason": "Live fetched item ranked by engagement and source weight.",
-      "url": "https://stalw.art/blog/microsoft-exchange-replacement/",
-      "domain": "stalw.art",
-      "discussion_url": "https://news.ycombinator.com/item?id=50620349",
-      "source_type": "hackernews",
-      "source_label": "Hacker News",
-      "sub_source": "shaunpud",
-      "author": "shaunpud",
-      "category": "AI News",
-      "published_at": "2026-11-23T22:32:29+00:00",
-      "time_display": "Nov 23 · 22:32",
-      "tags": [
-        "AI",
-        "Cloud",
-        "AI News"
-      ],
-      "blocks": [
-        {
-          "id": "summary",
-          "title": "Summary",
-          "content": "Live curated dispatch from shaunpud. Open the original link to read the full story.",
-          "primary": true
-        },
-        {
-          "id": "community_discussion",
-          "title": "Community Discussion",
-          "content": "[egorfine]: > the new Outlook sends the IMAP server name, the user name and the password to MicrosoftThis is... incredible. To say the least. [andreashaerter]: The lock-in effect is inherent to the protocol and the clients. Furthermore, supporting MAPI and similar standards merely buys time and saves on licensing costs when your target is OSS.While I recognize the practical benefit for an administrator, in my view, anything that expands the protocol stack surrounding Microsoft email ultimately does a disservice to the remainder of the still-existing, open email ecosystem. [rmoriz]: The only issue is regulatory: As a freelancer or company in G…",
-          "primary": false
-        }
-      ],
-      "secondary_blocks": [
-        {
-          "id": "community_discussion",
-          "title": "Community Discussion",
-          "content": "[egorfine]: > the new Outlook sends the IMAP server name, the user name and the password to MicrosoftThis is... incredible. To say the least. [andreashaerter]: The lock-in effect is inherent to the protocol and the clients. Furthermore, supporting MAPI and similar standards merely buys time and saves on licensing costs when your target is OSS.While I recognize the practical benefit for an administrator, in my view, anything that expands the protocol stack surrounding Microsoft email ultimately does a disservice to the remainder of the still-existing, open email ecosystem. [rmoriz]: The only issue is regulatory: As a freelancer or company in G…",
-          "primary": false
-        }
-      ],
-      "references": [
-        {
-          "id": "orig",
-          "title": "Stalwart is now a drop-in replacement for Microsoft Exchange",
-          "url": "https://stalw.art/blog/microsoft-exchange-replacement/",
-          "domain": "stalw.art"
-        },
-        {
-          "id": "disc",
-          "title": "Community Discussion Thread",
-          "url": "https://news.ycombinator.com/item?id=50620349",
-          "domain": "news.ycombinator.com"
-        }
-      ],
-      "engagement": [
-        "653 pts",
-        "327 comments"
-      ],
-      "engagement_weight": 1357
-    },
-    {
-      "id": "story-4",
-      "item_id": "hackernews:story:50622638",
-      "rank": 4,
-      "group_index": 4,
-      "profile_id": "tech-news",
-      "profile_name": "Technology News",
-      "title": "GTA 6 Recomp (Leonida) banned from GitHub while lead dev was in school",
-      "summary": "Previous thread: Leonida – PC Recompilation of the Xbox Version of GTA 6 - https://news.ycombinator.com/item?id=50595168",
-      "score": 9.2,
-      "score_display": "9.2",
-      "reason": "Live fetched item ranked by engagement and source weight.",
-      "url": "https://github.com/ItsNotRexed/Leonida/issues",
-      "domain": "github.com",
-      "discussion_url": "https://news.ycombinator.com/item?id=50622638",
-      "source_type": "hackernews",
-      "source_label": "Hacker News",
-      "sub_source": "smuhakg",
-      "author": "smuhakg",
-      "category": "AI News",
-      "published_at": "2026-11-24T02:08:09+00:00",
-      "time_display": "Nov 24 · 02:08",
-      "tags": [
-        "AI",
-        "AI News"
-      ],
-      "blocks": [
-        {
-          "id": "summary",
-          "title": "Summary",
-          "content": "Previous thread: Leonida – PC Recompilation of the Xbox Version of GTA 6 - https://news.ycombinator.com/item?id=50595168",
-          "primary": true
-        },
-        {
-          "id": "community_discussion",
-          "title": "Community Discussion",
-          "content": "[Rnonymous]: A lot of discussion here about whether its ethically okay to RE a game; that while it is technically legal, its ethically questionable.Isn't this what we accept and praise on a daily basis from these same corporations. They all obey the law to the exact minimum of requirements, and have full legal teams to determine where that minimum is and whether they can lower it using a scheme. The most clear example is the minimal taxes in tax havens using legal constructs.All of these are schemes to ma... [max_streese]: I am a bit flabbergasted by the discussion here. Think of Rockstar what you will. 1000s of people have worked on this gam…",
-          "primary": false
-        }
-      ],
-      "secondary_blocks": [
-        {
-          "id": "community_discussion",
-          "title": "Community Discussion",
-          "content": "[Rnonymous]: A lot of discussion here about whether its ethically okay to RE a game; that while it is technically legal, its ethically questionable.Isn't this what we accept and praise on a daily basis from these same corporations. They all obey the law to the exact minimum of requirements, and have full legal teams to determine where that minimum is and whether they can lower it using a scheme. The most clear example is the minimal taxes in tax havens using legal constructs.All of these are schemes to ma... [max_streese]: I am a bit flabbergasted by the discussion here. Think of Rockstar what you will. 1000s of people have worked on this gam…",
-          "primary": false
-        }
-      ],
-      "references": [
-        {
-          "id": "orig",
-          "title": "GTA 6 Recomp (Leonida) banned from GitHub while lead dev was in school",
-          "url": "https://github.com/ItsNotRexed/Leonida/issues",
-          "domain": "github.com"
-        },
-        {
-          "id": "disc",
-          "title": "Community Discussion Thread",
-          "url": "https://news.ycombinator.com/item?id=50622638",
-          "domain": "news.ycombinator.com"
-        }
-      ],
-      "engagement": [
-        "277 pts",
-        "457 comments"
-      ],
-      "engagement_weight": 1241
-    },
-    {
-      "id": "story-5",
-      "item_id": "hackernews:story:50625384",
-      "rank": 5,
-      "group_index": 5,
-      "profile_id": "tech-news",
-      "profile_name": "Technology News",
-      "title": "Quad9 pulled their DNS service from France",
-      "summary": "Live curated dispatch from farrokhi. Open the original link to read the full story.",
-      "score": 9.0,
-      "score_display": "9.0",
-      "reason": "Live fetched item ranked by engagement and source weight.",
-      "url": "https://quad9.net/news/blog/quad9-service-deactivation-in-france/",
-      "domain": "quad9.net",
-      "discussion_url": "https://news.ycombinator.com/item?id=50625384",
-      "source_type": "hackernews",
-      "source_label": "Hacker News",
-      "sub_source": "farrokhi",
-      "author": "farrokhi",
-      "category": "AI News",
-      "published_at": "2026-11-24T08:33:14+00:00",
-      "time_display": "Nov 24 · 08:33",
-      "tags": [
-        "AI",
-        "AI News"
-      ],
-      "blocks": [
-        {
-          "id": "summary",
-          "title": "Summary",
-          "content": "Live curated dispatch from farrokhi. Open the original link to read the full story.",
-          "primary": true
-        },
-        {
-          "id": "community_discussion",
-          "title": "Community Discussion",
-          "content": "[gnabgib]: Discussion (1382 points, 1 month ago, 481 comments) https://news.ycombinator.com/item?id=50195959Or Quad9's withdrawal from France: A canary in the coal mine (911 points, 1 week ago, 457 comments) https://news.ycombinator.com/item?id=50538994 [farrokhi]: Torrentfreak has posted an update on the situation: https://torrentfreak.com/quad9-exits-france-as-expired-pirac... [lokar]: If the French state really wants to do this, it would have been better to require all residential ISPs to enforce the ban (block dns, run resolvers for their users). [pi-r-p]: confirmed, effective since today, 24 of november 2026.; <<>> DiG 9.20.27 <<>> @9.9.…",
-          "primary": false
-        }
-      ],
-      "secondary_blocks": [
-        {
-          "id": "community_discussion",
-          "title": "Community Discussion",
-          "content": "[gnabgib]: Discussion (1382 points, 1 month ago, 481 comments) https://news.ycombinator.com/item?id=50195959Or Quad9's withdrawal from France: A canary in the coal mine (911 points, 1 week ago, 457 comments) https://news.ycombinator.com/item?id=50538994 [farrokhi]: Torrentfreak has posted an update on the situation: https://torrentfreak.com/quad9-exits-france-as-expired-pirac... [lokar]: If the French state really wants to do this, it would have been better to require all residential ISPs to enforce the ban (block dns, run resolvers for their users). [pi-r-p]: confirmed, effective since today, 24 of november 2026.; <<>> DiG 9.20.27 <<>> @9.9.…",
-          "primary": false
-        }
-      ],
-      "references": [
-        {
-          "id": "orig",
-          "title": "Quad9 pulled their DNS service from France",
-          "url": "https://quad9.net/news/blog/quad9-service-deactivation-in-france/",
-          "domain": "quad9.net"
-        },
-        {
-          "id": "disc",
-          "title": "Community Discussion Thread",
-          "url": "https://news.ycombinator.com/item?id=50625384",
-          "domain": "news.ycombinator.com"
-        }
-      ],
-      "engagement": [
-        "217 pts",
-        "121 comments"
-      ],
-      "engagement_weight": 509
-    },
-    {
-      "id": "story-6",
-      "item_id": "hackernews:story:50630594",
-      "rank": 6,
-      "group_index": 6,
-      "profile_id": "tech-news",
-      "profile_name": "Technology News",
-      "title": "Cyberattack campaign compromising Check Point servers across 22 organizations",
-      "summary": "Live curated dispatch from louiereederson. Open the original link to read the full story.",
-      "score": 8.8,
-      "score_display": "8.8",
-      "reason": "Live fetched item ranked by engagement and source weight.",
+      "title": "Cyberattack Compromises Check Point Servers Affecting 22 Organizations",
+      "summary": "A cyberattack campaign has compromised Check Point servers, affecting 22 organizations. This incident has raised significant concerns within the cybersecurity community regarding the exploitation techniques used by the attackers.",
+      "score": 8.0,
+      "score_display": "8.0",
+      "reason": "The article discusses a significant cyberattack campaign affecting Check Point servers, which is relevant to cybersecurity and software engineering. The community comments provide deep technical insights into the exploitation methods used, indicating a high level of engagement and concern within the tech community.",
       "url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
       "domain": "greynoise.io",
       "discussion_url": "https://news.ycombinator.com/item?id=50630594",
@@ -686,177 +400,505 @@
       "published_at": "2026-11-24T16:32:17+00:00",
       "time_display": "Nov 24 · 16:32",
       "tags": [
-        "AI",
-        "LLM",
-        "Linux",
-        "AI News"
+        "cybersecurity",
+        "Check Point",
+        "cyberattack",
+        "software engineering",
+        "community analysis"
       ],
       "blocks": [
         {
           "id": "summary",
           "title": "Summary",
-          "content": "Live curated dispatch from louiereederson. Open the original link to read the full story.",
+          "content": "A cyberattack campaign has compromised Check Point servers, affecting 22 organizations. This incident has raised significant concerns within the cybersecurity community regarding the exploitation techniques used by the attackers.",
           "primary": true
+        },
+        {
+          "id": "background",
+          "title": "Background on Check Point vulnerabilities",
+          "content": "Check Point has previously addressed critical vulnerabilities, including a zero-day exploit (CVE-2026-93616) that allowed attackers to execute scripts on management servers without requiring authentication. This context highlights the ongoing security challenges faced by Check Point and the potential for exploitation by cybercriminals.",
+          "primary": false
+        },
+        {
+          "id": "impact",
+          "title": "Impact",
+          "content": "Organizations using Check Point servers may need to enhance their security measures and monitor for potential vulnerabilities, as the attack highlights the risks associated with server exploitation.",
+          "primary": false
         },
         {
           "id": "community_discussion",
           "title": "Community Discussion",
-          "content": "[PyWoody]: 2026-10-02 13:17:45 UTC - The actor scanned and began exploitation against the HFS server. Each POST to the HFS loginSrp1 endpoint returns a new signed session cookie containing a “sid” value drawn from JavaScript’s Math.random() function. Through conducting several logins in succession, the actor collected enough output to reconstruct the internal state of the V8 PRNG algorithm, and thus recover an HFS session-cookie signing key, then forge a signed admin session cookie. This allows the at... [mentalgear]: Buckle up, this is just the beginning of the end. ATM only more sophisticated cyber criminals or state actors use LLMs to pene…",
+          "content": "Community members have expressed concerns about the evolving sophistication of cybercriminals, with discussions on how advanced techniques, including the use of machine learning, could further complicate the cybersecurity landscape.",
           "primary": false
         }
       ],
       "secondary_blocks": [
         {
+          "id": "background",
+          "title": "Background on Check Point vulnerabilities",
+          "content": "Check Point has previously addressed critical vulnerabilities, including a zero-day exploit (CVE-2026-93616) that allowed attackers to execute scripts on management servers without requiring authentication. This context highlights the ongoing security challenges faced by Check Point and the potential for exploitation by cybercriminals.",
+          "primary": false
+        },
+        {
+          "id": "impact",
+          "title": "Impact",
+          "content": "Organizations using Check Point servers may need to enhance their security measures and monitor for potential vulnerabilities, as the attack highlights the risks associated with server exploitation.",
+          "primary": false
+        },
+        {
           "id": "community_discussion",
           "title": "Community Discussion",
-          "content": "[PyWoody]: 2026-10-02 13:17:45 UTC - The actor scanned and began exploitation against the HFS server. Each POST to the HFS loginSrp1 endpoint returns a new signed session cookie containing a “sid” value drawn from JavaScript’s Math.random() function. Through conducting several logins in succession, the actor collected enough output to reconstruct the internal state of the V8 PRNG algorithm, and thus recover an HFS session-cookie signing key, then forge a signed admin session cookie. This allows the at... [mentalgear]: Buckle up, this is just the beginning of the end. ATM only more sophisticated cyber criminals or state actors use LLMs to pene…",
+          "content": "Community members have expressed concerns about the evolving sophistication of cybercriminals, with discussions on how advanced techniques, including the use of machine learning, could further complicate the cybersecurity landscape.",
           "primary": false
         }
       ],
       "references": [
         {
-          "id": "orig",
-          "title": "Cyberattack campaign compromising Check Point servers across 22 organizations",
-          "url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
-          "domain": "greynoise.io"
-        },
-        {
-          "id": "disc",
-          "title": "Community Discussion Thread",
-          "url": "https://news.ycombinator.com/item?id=50630594",
-          "domain": "news.ycombinator.com"
+          "id": "tool-1-2",
+          "title": "Check Point закрыла zero-day. Для взлома не нужен даже пароль",
+          "url": "https://www.securitylab.ru/news/577784.php",
+          "domain": "securitylab.ru"
         }
       ],
       "engagement": [
-        "139 pts",
-        "48 comments"
+        "171 pts",
+        "57 comments"
       ],
-      "engagement_weight": 285
+      "engagement_weight": 335
+    },
+    {
+      "id": "story-3",
+      "item_id": "hackernews:story:50624061",
+      "rank": 3,
+      "group_index": 3,
+      "profile_id": "tech-news",
+      "profile_name": "Technology News",
+      "title": "AMD EPYC Zen 6 Achieves 12.1x Performance Improvement Over Zen 1",
+      "summary": "The AMD EPYC Zen 6 processors have achieved a remarkable 12.1x performance improvement over the Zen 1 architecture in less than ten years. This advancement is highlighted by the EPYC 9996 model, which features 256 cores and 512 threads, with a base clock of 2.55GHz and a maximum boost frequency of 4.1GHz. The processors have begun shipping and support advanced memory and PCI Express technologies.",
+      "score": 8.0,
+      "score_display": "8.0",
+      "reason": "The comparison of AMD EPYC Zen 6 and Zen 1 highlights significant performance improvements and architectural advancements, which are crucial for readers in software engineering and hardware development. The community engagement indicates a strong interest in the technical details and implications of these changes.",
+      "url": "https://www.phoronix.com/review/amd-epyc-9006-7601",
+      "domain": "phoronix.com",
+      "discussion_url": "https://news.ycombinator.com/item?id=50624061",
+      "source_type": "hackernews",
+      "source_label": "Hacker News",
+      "sub_source": "zdw",
+      "author": "zdw",
+      "category": "AI News",
+      "published_at": "2026-11-24T05:15:22+00:00",
+      "time_display": "Nov 24 · 05:15",
+      "tags": [
+        "AMD",
+        "EPYC",
+        "performance",
+        "hardware",
+        "architecture"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "Performance Improvement",
+          "content": "The AMD EPYC Zen 6 processors have achieved a remarkable 12.1x performance improvement over the Zen 1 architecture in less than ten years. This advancement is highlighted by the EPYC 9996 model, which features 256 cores and 512 threads, with a base clock of 2.55GHz and a maximum boost frequency of 4.1GHz. The processors have begun shipping and support advanced memory and PCI Express technologies.",
+          "primary": true
+        },
+        {
+          "id": "background",
+          "title": "Background on AMD EPYC Processors",
+          "content": "The AMD EPYC processors have undergone significant architectural advancements since the introduction of the Zen 1 architecture, which debuted in 2017. The latest Zen 6 architecture, introduced with the EPYC 9006 series, features improvements such as a 27% increase in instructions per cycle (IPC) and support for up to 256 cores and 512 threads per socket, showcasing the rapid evolution of AMD's server CPU technology.",
+          "primary": false
+        },
+        {
+          "id": "impact",
+          "title": "User Impact",
+          "content": "This significant performance leap allows users to compile large software projects, such as the Linux kernel, much faster, enhancing productivity for developers and organizations relying on AMD EPYC processors.",
+          "primary": false
+        },
+        {
+          "id": "community_discussion",
+          "title": "Community Insights",
+          "content": "Community members have noted that the performance gains are attributed to both an increase in core count and improvements in per-core performance. Discussions also highlight concerns about software compatibility and the cost-effectiveness of the new architecture compared to previous generations.",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "background",
+          "title": "Background on AMD EPYC Processors",
+          "content": "The AMD EPYC processors have undergone significant architectural advancements since the introduction of the Zen 1 architecture, which debuted in 2017. The latest Zen 6 architecture, introduced with the EPYC 9006 series, features improvements such as a 27% increase in instructions per cycle (IPC) and support for up to 256 cores and 512 threads per socket, showcasing the rapid evolution of AMD's server CPU technology.",
+          "primary": false
+        },
+        {
+          "id": "impact",
+          "title": "User Impact",
+          "content": "This significant performance leap allows users to compile large software projects, such as the Linux kernel, much faster, enhancing productivity for developers and organizations relying on AMD EPYC processors.",
+          "primary": false
+        },
+        {
+          "id": "community_discussion",
+          "title": "Community Insights",
+          "content": "Community members have noted that the performance gains are attributed to both an increase in core count and improvements in per-core performance. Discussions also highlight concerns about software compatibility and the cost-effectiveness of the new architecture compared to previous generations.",
+          "primary": false
+        }
+      ],
+      "references": [
+        {
+          "id": "tool-1-1",
+          "title": "AMD EPYC Zen 6 vs. Zen 1 Performance : 12.1x Geo... - Phoronix",
+          "url": "https://www.phoronix.com/review/amd-epyc-9006-7601",
+          "domain": "phoronix.com"
+        },
+        {
+          "id": "tool-1-2",
+          "title": "AMD Zen 6 Architecture Brings A Phenomenal 27% IPC Increase Over...",
+          "url": "https://wccftech.com/amd-zen-6-architecture-ipc-cores-memory-performance-epyc-venice/",
+          "domain": "wccftech.com"
+        }
+      ],
+      "engagement": [
+        "207 pts",
+        "110 comments"
+      ],
+      "engagement_weight": 477
+    },
+    {
+      "id": "story-4",
+      "item_id": "rss:simonwillison.net_atom_everything_:2f3ef0ead000ffc6",
+      "rank": 4,
+      "group_index": 4,
+      "profile_id": "tech-news",
+      "profile_name": "Technology News",
+      "title": "GLM-5.4 Introduces Loop Transformer Architecture",
+      "summary": "GLM-5.4, released by Chinese AI lab Z.ai, features a novel looped transformer architecture that allows for multiple iterations of weight-shared layers during each forward pass. This design enhances model depth without increasing the parameter count, potentially improving performance in AI applications. The model is currently accessible via a subscription-based API, but its weights are not yet open-sourced as Z.ai plans to complete safety hardening first.",
+      "score": 8.0,
+      "score_display": "8.0",
+      "reason": "The introduction of GLM-5.4 with a looped transformer architecture represents a significant development in AI model design, offering a novel approach to enhance model depth without increasing parameters, which could have important implications for future AI systems.",
+      "url": "https://simonwillison.net/2026/Nov/23/glm-54/",
+      "domain": "simonwillison.net",
+      "discussion_url": null,
+      "source_type": "rss",
+      "source_label": "RSS Feed",
+      "sub_source": "Simon Willison",
+      "author": "Simon Willison",
+      "category": "AI Tools",
+      "published_at": "2026-11-23T23:40:49+00:00",
+      "time_display": "Nov 23 · 23:40",
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Transformers",
+        "Model Architecture"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "Summary",
+          "content": "GLM-5.4, released by Chinese AI lab Z.ai, features a novel looped transformer architecture that allows for multiple iterations of weight-shared layers during each forward pass. This design enhances model depth without increasing the parameter count, potentially improving performance in AI applications. The model is currently accessible via a subscription-based API, but its weights are not yet open-sourced as Z.ai plans to complete safety hardening first.",
+          "primary": true
+        },
+        {
+          "id": "background",
+          "title": "Background",
+          "content": "The looped transformer architecture represents a shift from traditional transformer models, where each layer processes data only once per forward pass. This new approach allows for deeper networks that can refine hidden states more effectively, which could lead to better reasoning capabilities in AI models.",
+          "primary": false
+        },
+        {
+          "id": "impact",
+          "title": "Impact",
+          "content": "Users interested in advanced AI capabilities may need to subscribe to Z.ai's Coding Plan to access GLM-5.4, as it is not available through the standard API. This could limit accessibility for some developers and researchers who wish to experiment with the new model.",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "background",
+          "title": "Background",
+          "content": "The looped transformer architecture represents a shift from traditional transformer models, where each layer processes data only once per forward pass. This new approach allows for deeper networks that can refine hidden states more effectively, which could lead to better reasoning capabilities in AI models.",
+          "primary": false
+        },
+        {
+          "id": "impact",
+          "title": "Impact",
+          "content": "Users interested in advanced AI capabilities may need to subscribe to Z.ai's Coding Plan to access GLM-5.4, as it is not available through the standard API. This could limit accessibility for some developers and researchers who wish to experiment with the new model.",
+          "primary": false
+        }
+      ],
+      "references": [],
+      "engagement": [],
+      "engagement_weight": 0
+    },
+    {
+      "id": "story-5",
+      "item_id": "rss:simonwillison.net_atom_everything_:e59fe8be067f4ab6",
+      "rank": 5,
+      "group_index": 5,
+      "profile_id": "tech-news",
+      "profile_name": "Technology News",
+      "title": "Ladybird Browser Launches First Alpha Release",
+      "summary": "Ladybird has released its first alpha version, allowing users to install the browser on macOS or Linux without compiling it themselves. This new browser features its own implementations of key web technologies, including HTML parsing, CSS engine, layout, JavaScript, and WebAssembly, while still utilizing some external components like HarfBuzz and Skia. The alpha release showcases a fast and intuitive user interface, although some advanced web applications may not function correctly yet.",
+      "score": 8.0,
+      "score_display": "8.0",
+      "reason": "The release of Ladybird, a new browser with a comprehensive implementation of key web technologies, represents a significant development in the browser landscape, warranting prompt attention from the tech community.",
+      "url": "https://simonwillison.net/2026/Nov/23/ladybird/",
+      "domain": "simonwillison.net",
+      "discussion_url": null,
+      "source_type": "rss",
+      "source_label": "RSS Feed",
+      "sub_source": "Simon Willison",
+      "author": "Simon Willison",
+      "category": "AI Tools",
+      "published_at": "2026-11-23T21:46:35+00:00",
+      "time_display": "Nov 23 · 21:46",
+      "tags": [
+        "browser",
+        "software engineering",
+        "open source",
+        "web technology",
+        "alpha release"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "Summary",
+          "content": "Ladybird has released its first alpha version, allowing users to install the browser on macOS or Linux without compiling it themselves. This new browser features its own implementations of key web technologies, including HTML parsing, CSS engine, layout, JavaScript, and WebAssembly, while still utilizing some external components like HarfBuzz and Skia. The alpha release showcases a fast and intuitive user interface, although some advanced web applications may not function correctly yet.",
+          "primary": true
+        },
+        {
+          "id": "background",
+          "title": "Background",
+          "content": "Ladybird is a new browser project that builds upon the ambitious goals of its predecessor, SerenityOS. The project has made significant strides in recent months, including improvements in JavaScript performance and web standards compliance, which have contributed to its alpha release.",
+          "primary": false
+        },
+        {
+          "id": "impact",
+          "title": "Impact",
+          "content": "Users interested in testing new browser technologies can now explore Ladybird, but they should be aware that it is still in alpha, meaning some websites may not work and crashes can occur. Feedback from users will be crucial for further development.",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "background",
+          "title": "Background",
+          "content": "Ladybird is a new browser project that builds upon the ambitious goals of its predecessor, SerenityOS. The project has made significant strides in recent months, including improvements in JavaScript performance and web standards compliance, which have contributed to its alpha release.",
+          "primary": false
+        },
+        {
+          "id": "impact",
+          "title": "Impact",
+          "content": "Users interested in testing new browser technologies can now explore Ladybird, but they should be aware that it is still in alpha, meaning some websites may not work and crashes can occur. Feedback from users will be crucial for further development.",
+          "primary": false
+        }
+      ],
+      "references": [],
+      "engagement": [],
+      "engagement_weight": 0
+    },
+    {
+      "id": "story-6",
+      "item_id": "telegram:zaihuapd:45334",
+      "rank": 6,
+      "group_index": 6,
+      "profile_id": "tech-news",
+      "profile_name": "Technology News",
+      "title": "Baidu Open Sources Wenxin 5.5 Flash Preview with 280B Parameters",
+      "summary": "Baidu has announced the open-source release of Wenxin 5.5 Flash Preview, which features a model with 280 billion parameters under the Apache 2.0 license. The model can be deployed and fine-tuned using vLLM or SGLang and is based on the MoE architecture, with each token activating 14 billion parameters and a context length of 1 million tokens.",
+      "score": 8.0,
+      "score_display": "8.0",
+      "reason": "The announcement of Baidu's open-source Wenxin 5.5 Flash Preview with significant parameters and deployment options represents an important development in AI and machine learning, particularly in the context of open-source contributions and model architecture.",
+      "url": "https://x.com/Baidu_Inc/status/2125077484442190137",
+      "domain": "x.com",
+      "discussion_url": null,
+      "source_type": "telegram",
+      "source_label": "Telegram",
+      "sub_source": "zaihuapd",
+      "author": "zaihuapd",
+      "category": "Tech Flash",
+      "published_at": "2026-11-24T07:32:31+00:00",
+      "time_display": "Nov 24 · 07:32",
+      "tags": [
+        "open source",
+        "AI",
+        "machine learning",
+        "Baidu",
+        "model architecture"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "Summary",
+          "content": "Baidu has announced the open-source release of Wenxin 5.5 Flash Preview, which features a model with 280 billion parameters under the Apache 2.0 license. The model can be deployed and fine-tuned using vLLM or SGLang and is based on the MoE architecture, with each token activating 14 billion parameters and a context length of 1 million tokens.",
+          "primary": true
+        },
+        {
+          "id": "background",
+          "title": "Background on Wenxin Model Releases",
+          "content": "On November 5, 2026, Baidu open-sourced the ERNIE 5.5 Flash Base foundation model, which serves as the basis for the newly announced Wenxin 5.5 Flash Preview. This earlier model also utilized a mixture of experts (MoE) architecture and was designed to optimize various aspects of AI performance, setting the stage for the latest release with its significant parameter count and capabilities.",
+          "primary": false
+        },
+        {
+          "id": "impact",
+          "title": "Impact",
+          "content": "This release allows developers and researchers to access and utilize a highly capable AI model, potentially accelerating advancements in AI and machine learning applications, while also fostering a collaborative open-source environment.",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "background",
+          "title": "Background on Wenxin Model Releases",
+          "content": "On November 5, 2026, Baidu open-sourced the ERNIE 5.5 Flash Base foundation model, which serves as the basis for the newly announced Wenxin 5.5 Flash Preview. This earlier model also utilized a mixture of experts (MoE) architecture and was designed to optimize various aspects of AI performance, setting the stage for the latest release with its significant parameter count and capabilities.",
+          "primary": false
+        },
+        {
+          "id": "impact",
+          "title": "Impact",
+          "content": "This release allows developers and researchers to access and utilize a highly capable AI model, potentially accelerating advancements in AI and machine learning applications, while also fostering a collaborative open-source environment.",
+          "primary": false
+        }
+      ],
+      "references": [
+        {
+          "id": "tool-1-1",
+          "title": "Baidu open - sources ERNIE 5 . 5 Flash Base, with blog and... - HaiAi123",
+          "url": "https://www.haiai123.com/en/hot/6317",
+          "domain": "haiai123.com"
+        },
+        {
+          "id": "tool-1-2",
+          "title": "Baidu opensources Wenxin 5 . 5 Flash Base… | AiSeek",
+          "url": "https://aiseek.dev/en/signals/60926f53-da94-4eaf-af9c-d58a575de47f",
+          "domain": "aiseek.dev"
+        }
+      ],
+      "engagement": [],
+      "engagement_weight": 0
     },
     {
       "id": "story-7",
-      "item_id": "hackernews:story:50626413",
+      "item_id": "telegram:zaihuapd:45345",
       "rank": 7,
       "group_index": 7,
       "profile_id": "tech-news",
       "profile_name": "Technology News",
-      "title": "Worshipping at the altar of Brendan Gregg",
-      "summary": "Live curated dispatch from kqr. Open the original link to read the full story.",
-      "score": 8.8,
-      "score_display": "8.8",
-      "reason": "Live fetched item ranked by engagement and source weight.",
-      "url": "https://fzakaria.com/2026/11/12/worshipping-at-the-altar-of-brendan-gregg",
-      "domain": "fzakaria.com",
-      "discussion_url": "https://news.ycombinator.com/item?id=50626413",
-      "source_type": "hackernews",
-      "source_label": "Hacker News",
-      "sub_source": "kqr",
-      "author": "kqr",
-      "category": "AI News",
-      "published_at": "2026-11-24T10:50:14+00:00",
-      "time_display": "Nov 24 · 10:50",
+      "title": "Anthropic and OpenAI Debate Halting Release of Powerful AI Models",
+      "summary": "Anthropic and OpenAI are reportedly considering whether to stop the release of their powerful unreleased AI models due to significant safety concerns. Insiders indicate that some of these models exhibit capabilities that make them difficult to ensure safety for public deployment, leading to discussions about limiting releases to internal use only.",
+      "score": 8.0,
+      "score_display": "8.0",
+      "reason": "The content discusses significant safety concerns regarding unreleased AI models from major players in the field, which could impact future AI development and deployment strategies. The internal debates about halting releases highlight critical issues in AI safety and ethics.",
+      "url": "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks",
+      "domain": "axios.com",
+      "discussion_url": null,
+      "source_type": "telegram",
+      "source_label": "Telegram",
+      "sub_source": "zaihuapd",
+      "author": "zaihuapd",
+      "category": "Tech Flash",
+      "published_at": "2026-11-24T12:18:22+00:00",
+      "time_display": "Nov 24 · 12:18",
       "tags": [
-        "AI",
-        "Linux",
-        "AI News"
+        "AI safety",
+        "OpenAI",
+        "Anthropic",
+        "machine learning",
+        "technology industry"
       ],
       "blocks": [
         {
           "id": "summary",
           "title": "Summary",
-          "content": "Live curated dispatch from kqr. Open the original link to read the full story.",
+          "content": "Anthropic and OpenAI are reportedly considering whether to stop the release of their powerful unreleased AI models due to significant safety concerns. Insiders indicate that some of these models exhibit capabilities that make them difficult to ensure safety for public deployment, leading to discussions about limiting releases to internal use only.",
           "primary": true
         },
         {
-          "id": "community_discussion",
-          "title": "Community Discussion",
-          "content": "[aidanhs]: I really like the idea of a deterministic VM (I like Antithesis for a similar reason!), though I saw on another post that your VM is single threaded which I feel like must compromise a lot of performance analyses? E.g. when you have very high throughput multithreaded pipelines.Personally I've really cooled on flamegraphs for the purpose of doing multithreaded performance analysis - it's so hard to infer cross-thread dependencies. I'd encourage people interested in performance analysis to read... [disperso]: Seems very interesting. Is there some parallel to make with RR (record and replay) in terms of features, limitations, etc.?htt…",
+          "id": "background",
+          "title": "Background on AI Safety Concerns",
+          "content": "Recent discussions in the AI community have highlighted significant safety risks associated with unreleased models from companies like Anthropic and OpenAI. Previous incidents, such as the Hugging Face hack, have raised alarms about the potential dangers of powerful AI systems, prompting calls for more stringent safety measures and internal reviews before any public release.",
           "primary": false
         }
       ],
       "secondary_blocks": [
         {
-          "id": "community_discussion",
-          "title": "Community Discussion",
-          "content": "[aidanhs]: I really like the idea of a deterministic VM (I like Antithesis for a similar reason!), though I saw on another post that your VM is single threaded which I feel like must compromise a lot of performance analyses? E.g. when you have very high throughput multithreaded pipelines.Personally I've really cooled on flamegraphs for the purpose of doing multithreaded performance analysis - it's so hard to infer cross-thread dependencies. I'd encourage people interested in performance analysis to read... [disperso]: Seems very interesting. Is there some parallel to make with RR (record and replay) in terms of features, limitations, etc.?htt…",
+          "id": "background",
+          "title": "Background on AI Safety Concerns",
+          "content": "Recent discussions in the AI community have highlighted significant safety risks associated with unreleased models from companies like Anthropic and OpenAI. Previous incidents, such as the Hugging Face hack, have raised alarms about the potential dangers of powerful AI systems, prompting calls for more stringent safety measures and internal reviews before any public release.",
           "primary": false
         }
       ],
       "references": [
         {
-          "id": "orig",
-          "title": "Worshipping at the altar of Brendan Gregg",
-          "url": "https://fzakaria.com/2026/11/12/worshipping-at-the-altar-of-brendan-gregg",
-          "domain": "fzakaria.com"
-        },
-        {
-          "id": "disc",
-          "title": "Community Discussion Thread",
-          "url": "https://news.ycombinator.com/item?id=50626413",
-          "domain": "news.ycombinator.com"
+          "id": "tool-1-1",
+          "title": "Anthropic , OpenAI employees fear models are too unsafe to release",
+          "url": "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks",
+          "domain": "axios.com"
         }
       ],
-      "engagement": [
-        "182 pts",
-        "29 comments"
-      ],
-      "engagement_weight": 290
+      "engagement": [],
+      "engagement_weight": 0
     },
     {
       "id": "story-8",
-      "item_id": "rss:developer.nvidia.com_blog_tag_cuda_feed_:64a737baec11fe22",
+      "item_id": "telegram:zaihuapd:45348",
       "rank": 8,
-      "group_index": 1,
-      "profile_id": "tech-blog",
-      "profile_name": "Technology Blog",
-      "title": "Accelerating Direct Sparse Solvers for Computational Engineering with NVIDIA cuDSS 1.0",
-      "summary": "Sparse linear systems are at the core of nearly every engineering and scientific simulation, from structural mechanics and computational fluid dynamics to... Sparse linear systems are at the core of nearly every engineering and scientific simulation, from structural mechanics and…",
-      "score": 8.6,
-      "score_display": "8.6",
-      "reason": "Live fetched item ranked by engagement and source weight.",
-      "url": "https://developer.nvidia.com/blog/accelerating-direct-sparse-solvers-for-computational-engineering-with-nvidia-cudss-1-0/",
-      "domain": "developer.nvidia.com",
+      "group_index": 8,
+      "profile_id": "tech-news",
+      "profile_name": "Technology News",
+      "title": "Critical Authentication Bypass Vulnerability Disclosed in VMware vCenter",
+      "summary": "A critical authentication bypass vulnerability (CVE-2026-123903) has been disclosed in VMware's vCenter, with a CVSS score of 9.8. This vulnerability allows anyone with access to vCenter to bypass authentication and gain direct access to the system. The issue was recently exploited in a zero-day attack, highlighting its urgency for cybersecurity professionals.",
+      "score": 8.0,
+      "score_display": "8.0",
+      "reason": "The content discusses a critical authentication bypass vulnerability in VMware's vCenter, which has a high CVSS score of 9.8, indicating significant risk. This is a timely and important development for software engineering and cybersecurity professionals.",
+      "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+      "domain": "thehackernews.com",
       "discussion_url": null,
-      "source_type": "rss",
-      "source_label": "RSS Feed",
-      "sub_source": "NVIDIA Developer Blog",
-      "author": "Azi Riahi",
-      "category": "CUDA",
-      "published_at": "2026-11-23T19:59:40+00:00",
-      "time_display": "Nov 23 · 19:59",
+      "source_type": "telegram",
+      "source_label": "Telegram",
+      "sub_source": "zaihuapd",
+      "author": "zaihuapd",
+      "category": "Tech Flash",
+      "published_at": "2026-11-24T14:50:04+00:00",
+      "time_display": "Nov 24 · 14:50",
       "tags": [
-        "GPU",
-        "NVIDIA",
-        "CUDA"
+        "vulnerability",
+        "cybersecurity",
+        "VMware",
+        "software engineering",
+        "authentication"
       ],
       "blocks": [
         {
           "id": "summary",
           "title": "Summary",
-          "content": "Sparse linear systems are at the core of nearly every engineering and scientific simulation, from structural mechanics and computational fluid dynamics to... Sparse linear systems are at the core of nearly every engineering and scientific simulation, from structural mechanics and…",
+          "content": "A critical authentication bypass vulnerability (CVE-2026-123903) has been disclosed in VMware's vCenter, with a CVSS score of 9.8. This vulnerability allows anyone with access to vCenter to bypass authentication and gain direct access to the system. The issue was recently exploited in a zero-day attack, highlighting its urgency for cybersecurity professionals.",
           "primary": true
         },
         {
-          "id": "excerpt",
-          "title": "Article Excerpt",
-          "content": "computational fluid dynamics to circuit simulation and power grid analysis. As problem sizes and complexity grow, and accuracy needs tighten, developers need a direct solver that scales on GPUs without giving up the robustness that production simulations depend on. Source",
+          "id": "background",
+          "title": "Background on vCenter Vulnerability",
+          "content": "The recent vulnerability in VMware's vCenter, identified as CVE-2026-123903, is part of a broader security advisory (VMSA-2026-0009) issued by Broadcom on November 19, 2026. This advisory addresses multiple vulnerabilities, with CVE-2026-123903 being particularly critical due to its high CVSS score of 9.8, indicating a severe risk of authentication bypass for users with network access to the system.",
           "primary": false
         }
       ],
       "secondary_blocks": [
         {
-          "id": "excerpt",
-          "title": "Article Excerpt",
-          "content": "computational fluid dynamics to circuit simulation and power grid analysis. As problem sizes and complexity grow, and accuracy needs tighten, developers need a direct solver that scales on GPUs without giving up the robustness that production simulations depend on. Source",
+          "id": "background",
+          "title": "Background on vCenter Vulnerability",
+          "content": "The recent vulnerability in VMware's vCenter, identified as CVE-2026-123903, is part of a broader security advisory (VMSA-2026-0009) issued by Broadcom on November 19, 2026. This advisory addresses multiple vulnerabilities, with CVE-2026-123903 being particularly critical due to its high CVSS score of 9.8, indicating a severe risk of authentication bypass for users with network access to the system.",
           "primary": false
         }
       ],
       "references": [
         {
-          "id": "orig",
-          "title": "Accelerating Direct Sparse Solvers for Computational Engineering with NVIDIA cuDSS 1.0",
-          "url": "https://developer.nvidia.com/blog/accelerating-direct-sparse-solvers-for-computational-engineering-with-nvidia-cudss-1-0/",
-          "domain": "developer.nvidia.com"
+          "id": "tool-1-1",
+          "title": "CVE-2026-123890: Critical Authentication Bypass in VMware vCenter",
+          "url": "https://www.rapid7.com/blog/post/etr-cve-2026-123890-critical-authentication-bypass-vmware-vcenter/",
+          "domain": "rapid7.com"
+        },
+        {
+          "id": "tool-1-2",
+          "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass ...",
+          "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+          "domain": "thehackernews.com"
         }
       ],
       "engagement": [],
@@ -864,259 +906,295 @@
     },
     {
       "id": "story-9",
-      "item_id": "rss:developer.nvidia.com_blog_tag_cuda_feed_:a9de2544394c57ad",
+      "item_id": "hackernews:story:50620349",
       "rank": 9,
-      "group_index": 2,
-      "profile_id": "tech-blog",
-      "profile_name": "Technology Blog",
-      "title": "Get Started with GPU-Accelerated DuckDB Analytics Using the Sirius Core Extension",
-      "summary": "As datasets grow, analytical queries can take longer to run, slowing down data exploration, pipelines, and applications. For developers using DuckDB, reducing... As datasets grow, analytical queries can take longer to run, slowing down data exploration, pipelines, and application…",
-      "score": 8.6,
-      "score_display": "8.6",
-      "reason": "Live fetched item ranked by engagement and source weight.",
-      "url": "https://developer.nvidia.com/blog/get-started-with-gpu-accelerated-duckdb-analytics-using-the-sirius-core-extension/",
-      "domain": "developer.nvidia.com",
-      "discussion_url": null,
-      "source_type": "rss",
-      "source_label": "RSS Feed",
-      "sub_source": "NVIDIA Developer Blog",
-      "author": "Allison Ding",
-      "category": "CUDA",
-      "published_at": "2026-11-23T17:09:28+00:00",
-      "time_display": "Nov 23 · 17:09",
+      "group_index": 9,
+      "profile_id": "tech-news",
+      "profile_name": "Technology News",
+      "title": "Stalwart Becomes Drop-in Replacement for Microsoft Exchange",
+      "summary": "Stalwart has been introduced as a drop-in replacement for Microsoft Exchange, providing users with an alternative to proprietary email systems. This development has generated significant community discussion regarding its implications, particularly around regulatory compliance and protocol compatibility.",
+      "score": 7.0,
+      "score_display": "7.0",
+      "reason": "The article discusses Stalwart as a drop-in replacement for Microsoft Exchange, which is a significant development for users looking for alternatives to proprietary email systems. The community comments reflect a mix of technical insights and concerns about regulatory compliance and protocol implications, indicating a substantive discussion around the topic.",
+      "url": "https://stalw.art/blog/microsoft-exchange-replacement/",
+      "domain": "stalw.art",
+      "discussion_url": "https://news.ycombinator.com/item?id=50620349",
+      "source_type": "hackernews",
+      "source_label": "Hacker News",
+      "sub_source": "shaunpud",
+      "author": "shaunpud",
+      "category": "AI News",
+      "published_at": "2026-11-23T22:32:29+00:00",
+      "time_display": "Nov 23 · 22:32",
       "tags": [
-        "GPU",
-        "NVIDIA",
-        "CUDA"
+        "email",
+        "open source",
+        "Microsoft Exchange",
+        "community discussion",
+        "software alternatives"
       ],
       "blocks": [
         {
           "id": "summary",
           "title": "Summary",
-          "content": "As datasets grow, analytical queries can take longer to run, slowing down data exploration, pipelines, and applications. For developers using DuckDB, reducing... As datasets grow, analytical queries can take longer to run, slowing down data exploration, pipelines, and application…",
+          "content": "Stalwart has been introduced as a drop-in replacement for Microsoft Exchange, providing users with an alternative to proprietary email systems. This development has generated significant community discussion regarding its implications, particularly around regulatory compliance and protocol compatibility.",
           "primary": true
         },
         {
-          "id": "excerpt",
-          "title": "Article Excerpt",
-          "content": "s. For developers using DuckDB, reducing query times helps keep analytics responsive and can lower compute costs. NVIDIA and DuckLabs collaborated to release Sirius as a DuckDB core extension, bringing GPU acceleration to DuckDB’s analytical query engine. With two SQL commands… Source",
+          "id": "background",
+          "title": "Background on Stalwart's Release",
+          "content": "Stalwart has released version 1.2.0, which allows it to function as a drop-in replacement for Microsoft Exchange, a dominant email server for over two decades. This version enables compatibility with Microsoft Exchange protocols, allowing users to continue using familiar email clients like Outlook and Apple Mail without requiring changes.",
+          "primary": false
+        },
+        {
+          "id": "impact",
+          "title": "Impact",
+          "content": "Users in regions with strict email archiving regulations, such as Germany, may face challenges with Stalwart, as it currently lacks features for compliant long-term email storage, which could limit its adoption in those markets.",
+          "primary": false
+        },
+        {
+          "id": "community_discussion",
+          "title": "Community Discussion",
+          "content": "Community members have raised concerns about Stalwart's ability to meet regulatory requirements, particularly in Germany, where email archiving must comply with specific laws. Others have debated the implications of expanding the protocol stack surrounding Microsoft email, suggesting it may hinder the open email ecosystem.",
           "primary": false
         }
       ],
       "secondary_blocks": [
         {
-          "id": "excerpt",
-          "title": "Article Excerpt",
-          "content": "s. For developers using DuckDB, reducing query times helps keep analytics responsive and can lower compute costs. NVIDIA and DuckLabs collaborated to release Sirius as a DuckDB core extension, bringing GPU acceleration to DuckDB’s analytical query engine. With two SQL commands… Source",
+          "id": "background",
+          "title": "Background on Stalwart's Release",
+          "content": "Stalwart has released version 1.2.0, which allows it to function as a drop-in replacement for Microsoft Exchange, a dominant email server for over two decades. This version enables compatibility with Microsoft Exchange protocols, allowing users to continue using familiar email clients like Outlook and Apple Mail without requiring changes.",
+          "primary": false
+        },
+        {
+          "id": "impact",
+          "title": "Impact",
+          "content": "Users in regions with strict email archiving regulations, such as Germany, may face challenges with Stalwart, as it currently lacks features for compliant long-term email storage, which could limit its adoption in those markets.",
+          "primary": false
+        },
+        {
+          "id": "community_discussion",
+          "title": "Community Discussion",
+          "content": "Community members have raised concerns about Stalwart's ability to meet regulatory requirements, particularly in Germany, where email archiving must comply with specific laws. Others have debated the implications of expanding the protocol stack surrounding Microsoft email, suggesting it may hinder the open email ecosystem.",
           "primary": false
         }
       ],
       "references": [
         {
-          "id": "orig",
-          "title": "Get Started with GPU-Accelerated DuckDB Analytics Using the Sirius Core Extension",
-          "url": "https://developer.nvidia.com/blog/get-started-with-gpu-accelerated-duckdb-analytics-using-the-sirius-core-extension/",
-          "domain": "developer.nvidia.com"
+          "id": "tool-1-1",
+          "title": "Stalwart is now a drop-in replacement for Microsoft Exchange",
+          "url": "https://stalw.art/blog/microsoft-exchange-replacement/",
+          "domain": "stalw.art"
+        },
+        {
+          "id": "tool-1-2",
+          "title": "Stalwart: Open-source Microsoft Exchange replacement",
+          "url": "https://www.helpnetsecurity.com/2026/11/24/stalwart-microsoft-exchange-replacement/",
+          "domain": "helpnetsecurity.com"
+        },
+        {
+          "id": "tool-1-3",
+          "title": "Stalwart 1.2 Offers Open-Source Microsoft Exchange Replacement",
+          "url": "https://linuxiac.com/stalwart-1-2-offers-open-source-microsoft-exchange-replacement/",
+          "domain": "linuxiac.com"
         }
       ],
-      "engagement": [],
-      "engagement_weight": 0
+      "engagement": [
+        "667 pts",
+        "329 comments"
+      ],
+      "engagement_weight": 1375
     },
     {
       "id": "story-10",
-      "item_id": "rss:www.seangoedecke.com_rss.xml:e2fdc00fb2f11d49",
+      "item_id": "rss:search.cnbc.com_rs_search_combinedcms_view.xml?partnerId=wrss01&id=10000664:41ed325dcb3d36b0",
       "rank": 10,
-      "group_index": 3,
-      "profile_id": "tech-blog",
-      "profile_name": "Technology Blog",
-      "title": "When in doubt, flail about",
-      "summary": "When you’re working in an unclear situation — you have no clear guidance, or you don’t know what will help — the best course of action is often just to flail about. This sounds counter-intuitive. Wouldn’t it be better to be cautious and wait until you have a better understanding…",
-      "score": 8.6,
-      "score_display": "8.6",
-      "reason": "Live fetched item ranked by engagement and source weight.",
-      "url": "https://seangoedecke.com/when-in-doubt-flail-about/",
-      "domain": "seangoedecke.com",
+      "group_index": 1,
+      "profile_id": "finance-news",
+      "profile_name": "Financial News",
+      "title": "Fed's John Williams Indicates Higher Interest Rates Likely Over Time to Address Inflation",
+      "summary": "John Williams, President of the New York Federal Reserve, stated that higher interest rates may be necessary over time to control inflation, aiming to return to the Fed's 2% target by 2028.",
+      "score": 8.0,
+      "score_display": "8.0",
+      "reason": "The comments from Fed President John Williams indicate a likely shift in monetary policy with implications for interest rates and inflation, which are crucial for understanding the economy's trajectory. His remarks address both current inflation pressures and future expectations, making the information materially useful for readers.",
+      "url": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html",
+      "domain": "cnbc.com",
       "discussion_url": null,
       "source_type": "rss",
       "source_label": "RSS Feed",
-      "sub_source": "Sean Goedecke",
-      "author": "Sean Goedecke",
-      "category": "Software Engineering",
-      "published_at": "2026-11-23T00:00:00+00:00",
-      "time_display": "Nov 23 · 00:00",
+      "sub_source": "CNBC Finance",
+      "author": "CNBC Finance",
+      "category": "Finance",
+      "published_at": "2026-11-24T13:33:26+00:00",
+      "time_display": "Nov 24 · 13:33",
       "tags": [
-        "AI",
-        "Agent",
-        "Rust",
-        "Tech Markets"
+        "Federal Reserve",
+        "interest rates",
+        "inflation",
+        "monetary policy",
+        "economic growth"
       ],
       "blocks": [
         {
           "id": "summary",
           "title": "Summary",
-          "content": "When you’re working in an unclear situation — you have no clear guidance, or you don’t know what will help — the best course of action is often just to flail about. This sounds counter-intuitive. Wouldn’t it be better to be cautious and wait until you have a better understanding…",
+          "content": "John Williams, President of the New York Federal Reserve, stated that higher interest rates may be necessary over time to control inflation, aiming to return to the Fed's 2% target by 2028.",
           "primary": true
         },
         {
-          "id": "excerpt",
-          "title": "Article Excerpt",
-          "content": "of what’s going on? Typically not. This is definitely dangerous advice . Flailing badly is a great way to damage your reputation at a tech company. We’ve all worked with engineers who seem to have nothing but bad ideas, and who are constantly pushing one stupid plan or another 1 . But if you do it right, flailing about is the best and quickest way to get that understanding and become useful. How to flail How do you flail well ? Try a lot of different things Pay very careful attention to feedback Ruthlessly drop things that are not getting positive feedback Trying a lot of different things is the key to the other…",
+          "id": "background",
+          "title": "Background",
+          "content": "Williams emphasized the need for continued action to manage inflation, which currently exceeds the Fed's target, while the economy remains strong.",
           "primary": false
         }
       ],
       "secondary_blocks": [
         {
-          "id": "excerpt",
-          "title": "Article Excerpt",
-          "content": "of what’s going on? Typically not. This is definitely dangerous advice . Flailing badly is a great way to damage your reputation at a tech company. We’ve all worked with engineers who seem to have nothing but bad ideas, and who are constantly pushing one stupid plan or another 1 . But if you do it right, flailing about is the best and quickest way to get that understanding and become useful. How to flail How do you flail well ? Try a lot of different things Pay very careful attention to feedback Ruthlessly drop things that are not getting positive feedback Trying a lot of different things is the key to the other…",
+          "id": "background",
+          "title": "Background",
+          "content": "Williams emphasized the need for continued action to manage inflation, which currently exceeds the Fed's target, while the economy remains strong.",
           "primary": false
         }
       ],
-      "references": [
-        {
-          "id": "orig",
-          "title": "When in doubt, flail about",
-          "url": "https://seangoedecke.com/when-in-doubt-flail-about/",
-          "domain": "seangoedecke.com"
-        }
-      ],
+      "references": [],
       "engagement": [],
       "engagement_weight": 0
     },
     {
       "id": "story-11",
-      "item_id": "rss:www.seangoedecke.com_rss.xml:0f127b0cd48e22cc",
+      "item_id": "rss:search.cnbc.com_rs_search_combinedcms_view.xml?partnerId=wrss01&id=19854910:af4ab2dd004f0655",
       "rank": 11,
-      "group_index": 4,
-      "profile_id": "tech-blog",
-      "profile_name": "Technology Blog",
-      "title": "Notes on OpenAI's perplexity reveal",
-      "summary": "OpenAI have just released a fascinating graph showing the perplexity over time of all their released models: Here are a bunch of thoughts I have about this: Why OpenAI? This is the most visibility we’ve ever had into the internal training metrics at a frontier lab Releasing train…",
-      "score": 8.6,
-      "score_display": "8.6",
-      "reason": "Live fetched item ranked by engagement and source weight.",
-      "url": "https://seangoedecke.com/notes-on-openais-perplexity-reveal/",
-      "domain": "seangoedecke.com",
+      "group_index": 2,
+      "profile_id": "finance-news",
+      "profile_name": "Financial News",
+      "title": "Jensen Huang Reinstated as Nvidia CEO",
+      "summary": "Jensen Huang has been reinstated as CEO of Nvidia, with the company's shares closing 31% higher following the announcement. This decision came after a unanimous vote by the board, which had previously accepted his resignation less than a week earlier.",
+      "score": 8.0,
+      "score_display": "8.0",
+      "reason": "The article discusses a significant corporate event involving Nvidia's CEO reinstatement, which has broad implications for the company, its stock, and potential regulatory scrutiny, making it materially useful for investors and stakeholders.",
+      "url": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-politics-market.html",
+      "domain": "cnbc.com",
       "discussion_url": null,
       "source_type": "rss",
       "source_label": "RSS Feed",
-      "sub_source": "Sean Goedecke",
-      "author": "Sean Goedecke",
-      "category": "Software Engineering",
-      "published_at": "2026-11-23T00:00:00+00:00",
-      "time_display": "Nov 23 · 00:00",
+      "sub_source": "CNBC Tech",
+      "author": "CNBC Tech",
+      "category": "Tech Markets",
+      "published_at": "2026-11-24T13:31:29+00:00",
+      "time_display": "Nov 24 · 13:31",
       "tags": [
-        "AI",
-        "OpenAI",
-        "Software Engineering"
+        "Nvidia",
+        "CEO Reinstatement",
+        "Market Impact",
+        "Regulatory Scrutiny",
+        "Corporate Governance"
       ],
       "blocks": [
         {
           "id": "summary",
           "title": "Summary",
-          "content": "OpenAI have just released a fascinating graph showing the perplexity over time of all their released models: Here are a bunch of thoughts I have about this: Why OpenAI? This is the most visibility we’ve ever had into the internal training metrics at a frontier lab Releasing train…",
+          "content": "Jensen Huang has been reinstated as CEO of Nvidia, with the company's shares closing 31% higher following the announcement. This decision came after a unanimous vote by the board, which had previously accepted his resignation less than a week earlier.",
           "primary": true
         },
         {
-          "id": "excerpt",
-          "title": "Article Excerpt",
-          "content": "ing metrics in the name of safety is a very Anthropic move, and it’s surprising OpenAI was the one to do it first Perplexity must be measured against some specific dataset (e.g. all models will score basically zero perplexity 1 on the string “AAAAAAA….”) We therefore shouldn’t expect to be able to compare any similar data Anthropic releases with this data, except in terms of the angle on the graph 2 Is perplexity a useful measure? Perplexity is an unsatisfying metric because it only predicts how well the model matches some held-out text: i.e. it only applies to pre-training For frontier models, the rumor is that…",
+          "id": "background",
+          "title": "Background",
+          "content": "Huang's reinstatement follows a significant drop in Nvidia's stock price, which closed at $125.53 before the announcement, despite strong third-quarter results. The board's decision was influenced by discussions with senior U.S. government officials and President Trump's intervention.",
+          "primary": false
+        },
+        {
+          "id": "impact",
+          "title": "Impact",
+          "content": "The reinstatement may alleviate some investor concerns about Nvidia's future growth and governance, as Huang is seen as crucial for securing multi-year orders from major customers.",
           "primary": false
         }
       ],
       "secondary_blocks": [
         {
-          "id": "excerpt",
-          "title": "Article Excerpt",
-          "content": "ing metrics in the name of safety is a very Anthropic move, and it’s surprising OpenAI was the one to do it first Perplexity must be measured against some specific dataset (e.g. all models will score basically zero perplexity 1 on the string “AAAAAAA….”) We therefore shouldn’t expect to be able to compare any similar data Anthropic releases with this data, except in terms of the angle on the graph 2 Is perplexity a useful measure? Perplexity is an unsatisfying metric because it only predicts how well the model matches some held-out text: i.e. it only applies to pre-training For frontier models, the rumor is that…",
+          "id": "background",
+          "title": "Background",
+          "content": "Huang's reinstatement follows a significant drop in Nvidia's stock price, which closed at $125.53 before the announcement, despite strong third-quarter results. The board's decision was influenced by discussions with senior U.S. government officials and President Trump's intervention.",
+          "primary": false
+        },
+        {
+          "id": "impact",
+          "title": "Impact",
+          "content": "The reinstatement may alleviate some investor concerns about Nvidia's future growth and governance, as Huang is seen as crucial for securing multi-year orders from major customers.",
           "primary": false
         }
       ],
-      "references": [
-        {
-          "id": "orig",
-          "title": "Notes on OpenAI's perplexity reveal",
-          "url": "https://seangoedecke.com/notes-on-openais-perplexity-reveal/",
-          "domain": "seangoedecke.com"
-        }
-      ],
+      "references": [],
       "engagement": [],
       "engagement_weight": 0
     },
     {
       "id": "story-12",
-      "item_id": "rss:www.seangoedecke.com_rss.xml:6004e4b94fe76cd9",
+      "item_id": "rss:search.cnbc.com_rs_search_combinedcms_view.xml?partnerId=wrss01&id=19854910:64fdcba54d5c1a1e",
       "rank": 12,
-      "group_index": 5,
-      "profile_id": "tech-blog",
-      "profile_name": "Technology Blog",
-      "title": "To code well, avoid blunders",
-      "summary": "The secret to writing good code 1 is to avoid catastrophic mistakes. Many engineers think about programming as if the goal is to have brilliant insights, but they’re wrong. If you don’t blunder, you will win. Many other domains are like this. If you can play chess without ever ha…",
-      "score": 8.6,
-      "score_display": "8.6",
-      "reason": "Live fetched item ranked by engagement and source weight.",
-      "url": "https://seangoedecke.com/to-code-well-avoid-blunders/",
-      "domain": "seangoedecke.com",
+      "group_index": 3,
+      "profile_id": "finance-news",
+      "profile_name": "Financial News",
+      "title": "U.S. Blacklists Megaspeed Over Export Control Concerns",
+      "summary": "The U.S. has added Singapore-based Megaspeed and six other Southeast Asian companies to its trade blacklist due to national security concerns, with restrictions applying to all items subject to U.S. Export Administration Regulations.",
+      "score": 8.0,
+      "score_display": "8.0",
+      "reason": "The U.S. trade blacklist of Megaspeed and other companies has significant implications for national security and export controls, impacting the technology sector and international trade relations.",
+      "url": "https://www.cnbc.com/2026/11/24/us-adds-megaspeed-to-trade-blacklist-over-export-control-concerns-.html",
+      "domain": "cnbc.com",
       "discussion_url": null,
       "source_type": "rss",
       "source_label": "RSS Feed",
-      "sub_source": "Sean Goedecke",
-      "author": "Sean Goedecke",
-      "category": "Software Engineering",
-      "published_at": "2026-11-22T00:00:00+00:00",
-      "time_display": "Nov 22 · 00:00",
+      "sub_source": "CNBC Tech",
+      "author": "CNBC Tech",
+      "category": "Tech Markets",
+      "published_at": "2026-11-24T02:37:39+00:00",
+      "time_display": "Nov 24 · 02:37",
       "tags": [
-        "AI",
-        "Agent",
-        "Rust",
-        "Software Engineering"
+        "trade policy",
+        "export controls",
+        "national security",
+        "technology sector",
+        "international relations"
       ],
       "blocks": [
         {
           "id": "summary",
           "title": "Summary",
-          "content": "The secret to writing good code 1 is to avoid catastrophic mistakes. Many engineers think about programming as if the goal is to have brilliant insights, but they’re wrong. If you don’t blunder, you will win. Many other domains are like this. If you can play chess without ever ha…",
+          "content": "The U.S. has added Singapore-based Megaspeed and six other Southeast Asian companies to its trade blacklist due to national security concerns, with restrictions applying to all items subject to U.S. Export Administration Regulations.",
           "primary": true
         },
         {
-          "id": "excerpt",
-          "title": "Article Excerpt",
-          "content": "nging pieces, you will win against almost any 2 opponent. If you are very good at returning tennis balls, you will beat most players even if you never hit a winner. People are really bad at internalizing this. They think that being good at chess means finding brilliant tactical combinations, or that being good at tennis means crushing balls into the corner of the court, or that being a good programmer means discovering beautiful new abstractions. Not so! All of those things are valuable, but they are not the main thing. The main thing is to avoid catastrophic mistakes. The reason programming is like this is that…",
+          "id": "background",
+          "title": "Background",
+          "content": "This action follows an investigation initiated by the Commerce Department in 2024 into Megaspeed for potential export control violations related to advanced computing products.",
           "primary": false
         }
       ],
       "secondary_blocks": [
         {
-          "id": "excerpt",
-          "title": "Article Excerpt",
-          "content": "nging pieces, you will win against almost any 2 opponent. If you are very good at returning tennis balls, you will beat most players even if you never hit a winner. People are really bad at internalizing this. They think that being good at chess means finding brilliant tactical combinations, or that being good at tennis means crushing balls into the corner of the court, or that being a good programmer means discovering beautiful new abstractions. Not so! All of those things are valuable, but they are not the main thing. The main thing is to avoid catastrophic mistakes. The reason programming is like this is that…",
+          "id": "background",
+          "title": "Background",
+          "content": "This action follows an investigation initiated by the Commerce Department in 2024 into Megaspeed for potential export control violations related to advanced computing products.",
           "primary": false
         }
       ],
-      "references": [
-        {
-          "id": "orig",
-          "title": "To code well, avoid blunders",
-          "url": "https://seangoedecke.com/to-code-well-avoid-blunders/",
-          "domain": "seangoedecke.com"
-        }
-      ],
+      "references": [],
       "engagement": [],
       "engagement_weight": 0
     },
     {
       "id": "story-13",
-      "item_id": "rss:search.cnbc.com_rs_search_combinedcms_view.xml?partnerId=wrss01&id=19854910:a71b5dd6bb7c2d1a",
+      "item_id": "rss:search.cnbc.com_rs_search_combinedcms_view.xml?partnerId=wrss01&id=19854910:aab04959cc210498",
       "rank": 13,
-      "group_index": 1,
+      "group_index": 4,
       "profile_id": "finance-news",
       "profile_name": "Financial News",
-      "title": "Jensen Huang to face DC grilling the same day Nvidia releases new products at GTC",
-      "summary": "Jensen Huang is back as CEO of Nvidia and immediately faces the challenge of leading the chip giant and defending himself in Washington.",
-      "score": 8.3,
-      "score_display": "8.3",
-      "reason": "Live fetched item ranked by engagement and source weight.",
-      "url": "https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-congress-gtc.html",
+      "title": "CrowdStrike to Acquire Zscaler for $43.9 Billion",
+      "summary": "CrowdStrike plans to acquire Zscaler for $43.9 billion in an all-stock deal, expected to close in the second half of CrowdStrike's fiscal year 2028.",
+      "score": 8.0,
+      "score_display": "8.0",
+      "reason": "The acquisition of Zscaler by CrowdStrike for $43.9 billion is a significant event in the cybersecurity sector, reflecting major consolidation and strategic positioning in response to rising AI-related threats. The deal's size and the context of increasing demand for AI security make it materially useful for understanding market dynamics.",
+      "url": "https://www.cnbc.com/2026/11/23/crowdstrike-zscaler-aquisition-ai-cyberattacks.html",
       "domain": "cnbc.com",
       "discussion_url": null,
       "source_type": "rss",
@@ -1124,217 +1202,117 @@
       "sub_source": "CNBC Tech",
       "author": "CNBC Tech",
       "category": "Tech Markets",
-      "published_at": "2026-11-24T17:51:45+00:00",
-      "time_display": "Nov 24 · 17:51",
+      "published_at": "2026-11-23T21:04:03+00:00",
+      "time_display": "Nov 23 · 21:04",
       "tags": [
-        "NVIDIA",
-        "Semiconductors",
-        "Tech Markets"
+        "Cybersecurity",
+        "Acquisition",
+        "AI",
+        "Market Dynamics",
+        "Financial Results"
       ],
       "blocks": [
         {
           "id": "summary",
           "title": "Summary",
-          "content": "Jensen Huang is back as CEO of Nvidia and immediately faces the challenge of leading the chip giant and defending himself in Washington.",
+          "content": "CrowdStrike plans to acquire Zscaler for $43.9 billion in an all-stock deal, expected to close in the second half of CrowdStrike's fiscal year 2028.",
           "primary": true
-        }
-      ],
-      "secondary_blocks": [],
-      "references": [
+        },
         {
-          "id": "orig",
-          "title": "Jensen Huang to face DC grilling the same day Nvidia releases new products at GTC",
-          "url": "https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-congress-gtc.html",
-          "domain": "cnbc.com"
+          "id": "background",
+          "title": "Background",
+          "content": "This acquisition marks CrowdStrike's largest deal to date and comes amid a wave of consolidation in the cybersecurity industry, driven by increasing threats from artificial intelligence.",
+          "primary": false
+        },
+        {
+          "id": "impact",
+          "title": "Impact",
+          "content": "The acquisition is expected to enhance CrowdStrike's security capabilities and expand its market reach, potentially increasing its share of customer security spending.",
+          "primary": false
         }
       ],
+      "secondary_blocks": [
+        {
+          "id": "background",
+          "title": "Background",
+          "content": "This acquisition marks CrowdStrike's largest deal to date and comes amid a wave of consolidation in the cybersecurity industry, driven by increasing threats from artificial intelligence.",
+          "primary": false
+        },
+        {
+          "id": "impact",
+          "title": "Impact",
+          "content": "The acquisition is expected to enhance CrowdStrike's security capabilities and expand its market reach, potentially increasing its share of customer security spending.",
+          "primary": false
+        }
+      ],
+      "references": [],
       "engagement": [],
       "engagement_weight": 0
     },
     {
       "id": "story-14",
-      "item_id": "rss:search.cnbc.com_rs_search_combinedcms_view.xml?partnerId=wrss01&id=19854910:b0c65c11d550499d",
+      "item_id": "rss:search.cnbc.com_rs_search_combinedcms_view.xml?partnerId=wrss01&id=10000664:f94733bc5b54a588",
       "rank": 14,
-      "group_index": 2,
-      "profile_id": "finance-news",
-      "profile_name": "Financial News",
-      "title": "Anthropic sinks 8%, falling below $83 IPO price, but analysts are still largely positive",
-      "summary": "Anthropic has been sinking steadily since the stock opened at $111.50 on the Nasdaq on Nov. 19.",
-      "score": 8.3,
-      "score_display": "8.3",
-      "reason": "Live fetched item ranked by engagement and source weight.",
-      "url": "https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html",
-      "domain": "cnbc.com",
-      "discussion_url": null,
-      "source_type": "rss",
-      "source_label": "RSS Feed",
-      "sub_source": "CNBC Tech",
-      "author": "CNBC Tech",
-      "category": "Tech Markets",
-      "published_at": "2026-11-24T17:30:26+00:00",
-      "time_display": "Nov 24 · 17:30",
-      "tags": [
-        "Equities",
-        "Tech Markets"
-      ],
-      "blocks": [
-        {
-          "id": "summary",
-          "title": "Summary",
-          "content": "Anthropic has been sinking steadily since the stock opened at $111.50 on the Nasdaq on Nov. 19.",
-          "primary": true
-        }
-      ],
-      "secondary_blocks": [],
-      "references": [
-        {
-          "id": "orig",
-          "title": "Anthropic sinks 8%, falling below $83 IPO price, but analysts are still largely positive",
-          "url": "https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html",
-          "domain": "cnbc.com"
-        }
-      ],
-      "engagement": [],
-      "engagement_weight": 0
-    },
-    {
-      "id": "story-15",
-      "item_id": "rss:search.cnbc.com_rs_search_combinedcms_view.xml?partnerId=wrss01&id=19854910:fa51a8559c7da104",
-      "rank": 15,
-      "group_index": 3,
-      "profile_id": "finance-news",
-      "profile_name": "Financial News",
-      "title": "Nvidia shares fall 7% as Huang comeback rally cools",
-      "summary": "Jensen Huang was reinstated as CEO of Nvidia after he resigned following an acknowledgement of an extramarital affair.",
-      "score": 8.3,
-      "score_display": "8.3",
-      "reason": "Live fetched item ranked by engagement and source weight.",
-      "url": "https://www.cnbc.com/2026/11/24/nvidia-stock-jensen-huang-return.html",
-      "domain": "cnbc.com",
-      "discussion_url": null,
-      "source_type": "rss",
-      "source_label": "RSS Feed",
-      "sub_source": "CNBC Tech",
-      "author": "CNBC Tech",
-      "category": "Tech Markets",
-      "published_at": "2026-11-24T17:22:30+00:00",
-      "time_display": "Nov 24 · 17:22",
-      "tags": [
-        "AI",
-        "NVIDIA",
-        "Tech Markets"
-      ],
-      "blocks": [
-        {
-          "id": "summary",
-          "title": "Summary",
-          "content": "Jensen Huang was reinstated as CEO of Nvidia after he resigned following an acknowledgement of an extramarital affair.",
-          "primary": true
-        }
-      ],
-      "secondary_blocks": [],
-      "references": [
-        {
-          "id": "orig",
-          "title": "Nvidia shares fall 7% as Huang comeback rally cools",
-          "url": "https://www.cnbc.com/2026/11/24/nvidia-stock-jensen-huang-return.html",
-          "domain": "cnbc.com"
-        }
-      ],
-      "engagement": [],
-      "engagement_weight": 0
-    },
-    {
-      "id": "story-16",
-      "item_id": "rss:search.cnbc.com_rs_search_combinedcms_view.xml?partnerId=wrss01&id=19854910:3219b9d329552dac",
-      "rank": 16,
-      "group_index": 4,
-      "profile_id": "finance-news",
-      "profile_name": "Financial News",
-      "title": "What Jensen Huang’s return means for Nvidia’s Colette Kress",
-      "summary": "Kress led the company for 11 days during Huang’s sudden departure and steered Nvidia through billions in AI financing deals before that. Now she's back to CFO.",
-      "score": 8.3,
-      "score_display": "8.3",
-      "reason": "Live fetched item ranked by engagement and source weight.",
-      "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-returns-colette-kress-cfo.html",
-      "domain": "cnbc.com",
-      "discussion_url": null,
-      "source_type": "rss",
-      "source_label": "RSS Feed",
-      "sub_source": "CNBC Tech",
-      "author": "CNBC Tech",
-      "category": "Tech Markets",
-      "published_at": "2026-11-24T15:19:46+00:00",
-      "time_display": "Nov 24 · 15:19",
-      "tags": [
-        "AI",
-        "NVIDIA",
-        "Tech Markets"
-      ],
-      "blocks": [
-        {
-          "id": "summary",
-          "title": "Summary",
-          "content": "Kress led the company for 11 days during Huang’s sudden departure and steered Nvidia through billions in AI financing deals before that. Now she's back to CFO.",
-          "primary": true
-        }
-      ],
-      "secondary_blocks": [],
-      "references": [
-        {
-          "id": "orig",
-          "title": "What Jensen Huang’s return means for Nvidia’s Colette Kress",
-          "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-returns-colette-kress-cfo.html",
-          "domain": "cnbc.com"
-        }
-      ],
-      "engagement": [],
-      "engagement_weight": 0
-    },
-    {
-      "id": "story-17",
-      "item_id": "rss:search.cnbc.com_rs_search_combinedcms_view.xml?partnerId=wrss01&id=19854910:081ea5afa1fd08c9",
-      "rank": 17,
       "group_index": 5,
       "profile_id": "finance-news",
       "profile_name": "Financial News",
-      "title": "Nvidia brought Jensen Huang back. But the investigations aren’t over",
-      "summary": "Jensen Huang is back as Nvidia CEO, but the company still faces an internal investigation and California and federal scrutiny.",
-      "score": 8.3,
-      "score_display": "8.3",
-      "reason": "Live fetched item ranked by engagement and source weight.",
-      "url": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-ceo-return.html",
+      "title": "Kalshi's Perpetual Futures Trading Volume Surpasses Prediction Markets",
+      "summary": "Kalshi's perpetual futures trading volume reached $3.4 billion, exceeding its prediction markets' volume of about $3 billion for consecutive days, marking a significant shift in its financial offerings.",
+      "score": 7.0,
+      "score_display": "7.0",
+      "reason": "The article discusses significant trading volume shifts in Kalshi's perpetual futures, which indicates a notable development in financial markets. The introduction of new products and the growth of trading volume are relevant to investors and market participants, but the implications may not be broadly impactful across the economy or major industries.",
+      "url": "https://www.cnbc.com/2026/11/24/kalshi-perps-volume-prediction-markets.html",
       "domain": "cnbc.com",
       "discussion_url": null,
       "source_type": "rss",
       "source_label": "RSS Feed",
-      "sub_source": "CNBC Tech",
-      "author": "CNBC Tech",
-      "category": "Tech Markets",
-      "published_at": "2026-11-24T15:03:36+00:00",
-      "time_display": "Nov 24 · 15:03",
+      "sub_source": "CNBC Finance",
+      "author": "CNBC Finance",
+      "category": "Finance",
+      "published_at": "2026-11-24T18:34:55+00:00",
+      "time_display": "Nov 24 · 18:34",
       "tags": [
-        "NVIDIA",
-        "Fed",
-        "Tech Markets"
+        "Kalshi",
+        "perpetual futures",
+        "trading volume",
+        "financial markets",
+        "regulatory approval"
       ],
       "blocks": [
         {
           "id": "summary",
           "title": "Summary",
-          "content": "Jensen Huang is back as Nvidia CEO, but the company still faces an internal investigation and California and federal scrutiny.",
+          "content": "Kalshi's perpetual futures trading volume reached $3.4 billion, exceeding its prediction markets' volume of about $3 billion for consecutive days, marking a significant shift in its financial offerings.",
           "primary": true
-        }
-      ],
-      "secondary_blocks": [],
-      "references": [
+        },
         {
-          "id": "orig",
-          "title": "Nvidia brought Jensen Huang back. But the investigations aren’t over",
-          "url": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-ceo-return.html",
-          "domain": "cnbc.com"
+          "id": "background",
+          "title": "Background",
+          "content": "Kalshi, known for its prediction markets, recently launched perpetual futures, which are contracts that do not expire and continuously track asset prices, following federal regulatory approval in May 2026.",
+          "primary": false
+        },
+        {
+          "id": "impact",
+          "title": "Impact",
+          "content": "This shift may attract more traders to Kalshi's platform, potentially changing how investors engage with traditional asset classes in the U.S. market.",
+          "primary": false
         }
       ],
+      "secondary_blocks": [
+        {
+          "id": "background",
+          "title": "Background",
+          "content": "Kalshi, known for its prediction markets, recently launched perpetual futures, which are contracts that do not expire and continuously track asset prices, following federal regulatory approval in May 2026.",
+          "primary": false
+        },
+        {
+          "id": "impact",
+          "title": "Impact",
+          "content": "This shift may attract more traders to Kalshi's platform, potentially changing how investors engage with traditional asset classes in the U.S. market.",
+          "primary": false
+        }
+      ],
+      "references": [],
       "engagement": [],
       "engagement_weight": 0
     }

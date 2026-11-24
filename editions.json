@@ -1,7 +1,7 @@
 {
   "latest_date": "2026-11-24",
   "default_language": "zh",
-  "updated_at": "2026-11-24T18:20:11Z",
+  "updated_at": "2026-11-24T19:07:05Z",
   "editions": [
     {
       "date": "2026-11-24",
@@ -14,12 +14,12 @@
         "en": "Horizon Daily"
       },
       "selected_count": {
-        "zh": 17,
-        "en": 17
+        "zh": 14,
+        "en": 14
       },
       "top_headline": {
-        "zh": "LLM agents work for their parent companies, not for you",
-        "en": "LLM agents work for their parent companies, not for you"
+        "zh": "Anthropic 发布 VP≠VNP 的形式化证明",
+        "en": "Anthropic Releases Formal Proof of VP ≠ VNP Using Claude AI Model"
       }
     }
   ]
