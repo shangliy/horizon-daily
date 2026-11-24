@@ -50,6 +50,10 @@ jobs:
           AI_BASE_URL: ${{ vars.AI_BASE_URL }}
           AI_API_KEY_ENV: ${{ vars.AI_API_KEY_ENV }}
           TWITTER_USERS: ${{ vars.TWITTER_USERS }}
+          HAS_OPENAI_KEY: ${{ secrets.OPENAI_API_KEY != '' }}
+          HAS_DEEPSEEK_KEY: ${{ secrets.DEEPSEEK_API_KEY != '' }}
+          HAS_ANTHROPIC_KEY: ${{ secrets.ANTHROPIC_API_KEY != '' }}
+          HAS_GOOGLE_KEY: ${{ secrets.GOOGLE_API_KEY != '' }}
           HAS_APIFY_TOKEN: ${{ secrets.APIFY_TOKEN != '' }}
         run: |
           cp data/config.broadsheet.json data/config.json
@@ -58,8 +62,19 @@ jobs:
           path = "data/config.json"
           cfg = json.load(open(path, encoding="utf-8"))
           ai = cfg["ai"]
-          if os.getenv("AI_PROVIDER"):
+          # Auto-select provider from whichever API key secret is configured when AI_PROVIDER is unset
+          if not os.getenv("AI_PROVIDER"):
+              if os.getenv("HAS_OPENAI_KEY", "").lower() == "true":
+                  ai.update({"provider": "openai", "model": "gpt-4o-mini", "api_key_env": "OPENAI_API_KEY", "base_url": None})
+              elif os.getenv("HAS_DEEPSEEK_KEY", "").lower() == "true":
+                  ai.update({"provider": "deepseek", "model": "deepseek-chat", "api_key_env": "DEEPSEEK_API_KEY", "base_url": "https://api.deepseek.com"})
+              elif os.getenv("HAS_ANTHROPIC_KEY", "").lower() == "true":
+                  ai.update({"provider": "anthropic", "model": "claude-sonnet-4-5", "api_key_env": "ANTHROPIC_API_KEY", "base_url": None})
+              elif os.getenv("HAS_GOOGLE_KEY", "").lower() == "true":
+                  ai.update({"provider": "gemini", "model": "gemini-2.5-flash", "api_key_env": "GOOGLE_API_KEY", "base_url": None})
+          else:
               ai["provider"] = os.environ["AI_PROVIDER"]
+              ai["base_url"] = None
           if os.getenv("AI_MODEL"):
               ai["model"] = os.environ["AI_MODEL"]
           if os.getenv("AI_BASE_URL"):

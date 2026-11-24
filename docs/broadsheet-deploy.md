@@ -27,13 +27,11 @@
 
 进入 GitHub 仓库 → **Settings → Secrets and variables → Actions → Secrets**，点击 **New repository secret**：
 
-- **默认配置（DeepSeek，成本极低）**：
-  - Name: `DEEPSEEK_API_KEY`
-  - Value: 你的 DeepSeek API Key
+- **默认配置（OpenAI，支持自动识别主流 Key）**：
+  - Name: `OPENAI_API_KEY`
+  - Value: 你的 OpenAI API Key（默认使用 `gpt-4o-mini`，可在 Variables 中设 `AI_MODEL` 改用 `gpt-4o` 等其他模型）
 
-如果你想换用其他模型（如 OpenAI / Claude / Gemini / 阿里云百炼 / 豆包 / MiniMax），无需修改代码，只需：
-1. 在 **Secrets** 中添加对应的 Key（例如 `OPENAI_API_KEY`、`ANTHROPIC_API_KEY`、`GOOGLE_API_KEY`）；
-2. 在 **Variables** 标签页按需添加覆盖变量：
+如改用 DeepSeek / Claude / Gemini，直接添加对应 Secret（`DEEPSEEK_API_KEY` / `ANTHROPIC_API_KEY` / `GOOGLE_API_KEY`），工作流会自动识别并切换默认模型；也可在 **Variables** 标签页精细覆盖：
    - `AI_PROVIDER`（如 `openai` / `anthropic` / `gemini` / `ali`）
    - `AI_MODEL`（如 `gpt-4o-mini` / `claude-sonnet-4-5` / `gemini-2.5-flash`）
    - `AI_API_KEY_ENV`（如 `OPENAI_API_KEY` / `ANTHROPIC_API_KEY` / `GOOGLE_API_KEY`）
