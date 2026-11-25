@@ -34,6 +34,9 @@ _SOURCE_LABELS: Dict[str, Dict[str, str]] = {
         "ossinsight": "OSS Insight",
         "gdelt": "GDELT 全球",
         "google_news": "Google News",
+        "polymarket": "Polymarket 预测",
+        "arxiv": "arXiv 论文",
+        "bluesky": "Bluesky",
     },
     "en": {
         "hackernews": "Hacker News",
@@ -46,6 +49,9 @@ _SOURCE_LABELS: Dict[str, Dict[str, str]] = {
         "ossinsight": "OSS Insight",
         "gdelt": "GDELT Global",
         "google_news": "Google News",
+        "polymarket": "Polymarket",
+        "arxiv": "arXiv",
+        "bluesky": "Bluesky",
     },
 }
 
@@ -70,6 +76,9 @@ _CATEGORY_LABELS: Dict[str, Dict[str, str]] = {
         "semiconductors": "半导体",
         "linux-kernel": "Linux 内核",
         "github-trending": "GitHub 趋势",
+        "prediction-markets": "预测市场",
+        "ai-research": "前沿论文",
+        "bluesky": "Bluesky 讨论",
     },
     "en": {
         "ai-news": "AI News",
@@ -91,6 +100,9 @@ _CATEGORY_LABELS: Dict[str, Dict[str, str]] = {
         "semiconductors": "Semiconductors",
         "linux-kernel": "Linux Kernel",
         "github-trending": "GitHub Trending",
+        "prediction-markets": "Prediction Markets",
+        "ai-research": "AI Research",
+        "bluesky": "Bluesky",
     },
 }
 
@@ -179,8 +191,8 @@ _COPY: Dict[str, Dict[str, str]] = {
         "wire_title": "全球信息源速览",
         "wire_desc": "按渠道高密度梳理今日入选资讯，涵盖技术社区、开源项目与行业媒体。",
         "wire_col_1": "社区热榜 · HN / Reddit",
-        "wire_col_2": "开源与一线 · GitHub / X",
-        "wire_col_3": "深度媒体 · RSS / 财经 / 全球",
+        "wire_col_2": "开源与社交 · GitHub / Bluesky / X",
+        "wire_col_3": "论文、媒体与预测 · RSS / arXiv / Polymarket",
         "wire_more": "全部 →",
         "index_kicker": "全量档案 · 交互检索",
         "index_title": "本期全量资讯检索台",
@@ -252,8 +264,8 @@ _COPY: Dict[str, Dict[str, str]] = {
         "wire_title": "What Builders Are Reading",
         "wire_desc": "A high-density three-column wire organized across communities, open source, and publications.",
         "wire_col_1": "COMMUNITY · HN & REDDIT",
-        "wire_col_2": "OPEN SOURCE & X",
-        "wire_col_3": "PUBLICATIONS & MARKETS",
+        "wire_col_2": "OPEN SOURCE, BLUESKY & X",
+        "wire_col_3": "PAPERS, MEDIA & POLYMARKET",
         "wire_more": "All →",
         "index_kicker": "ARCHIVE DESK · LIVE FILTER",
         "index_title": "Complete Edition Index",
@@ -523,6 +535,9 @@ class BroadsheetRenderer:
                     "references": references,
                     "engagement": engagement,
                     "engagement_weight": engagement_weight,
+                    "probability_pct": meta.get("probability_pct"),
+                    "leading_outcome": meta.get("leading_outcome"),
+                    "volume_24h_display": meta.get("volume_24h_display"),
                 }
                 records.append(record)
                 group_entry["item_ids"].append(record_id)
@@ -620,6 +635,12 @@ class BroadsheetRenderer:
     @staticmethod
     def _extract_engagement(meta: Dict[str, Any], lang_key: str) -> List[str]:
         parts: List[str] = []
+        if meta.get("probability_pct") is not None:
+            outcome = meta.get("leading_outcome") or "Yes"
+            parts.append(f"{outcome} {float(meta['probability_pct']):.0f}%")
+        if meta.get("volume_24h_display"):
+            vol = meta["volume_24h_display"]
+            parts.append(f"24h 成交 {vol}" if lang_key == "zh" else f"{vol} 24h vol")
         if meta.get("score"):
             parts.append(f"{meta['score']} 热度" if lang_key == "zh" else f"{meta['score']} pts")
         if meta.get("descendants"):
@@ -711,7 +732,7 @@ class BroadsheetRenderer:
     def _compose_wire(records: List[Dict[str, Any]], lang_key: str) -> List[Dict[str, Any]]:
         copy = _COPY[lang_key]
         col1_sources = {"hackernews", "reddit"}
-        col2_sources = {"github", "ossinsight", "twitter"}
+        col2_sources = {"github", "ossinsight", "twitter", "bluesky"}
 
         col1: List[str] = []
         col2: List[str] = []
@@ -747,6 +768,22 @@ class BroadsheetRenderer:
         lang_key: str,
     ) -> List[Dict[str, Any]]:
         ticker: List[Dict[str, Any]] = []
+        # Lead ticker with live Polymarket prediction odds when present
+        pm_records = [
+            rec for rec in ranked_records
+            if rec["source_type"] == "polymarket" and rec.get("probability_pct") is not None
+        ]
+        for rec in pm_records[:5]:
+            prob = float(rec["probability_pct"])
+            ticker.append(
+                {
+                    "kind": "story",
+                    "story_id": rec["id"],
+                    "label": f"POLYMARKET · {_truncate(rec['title'], 26 if lang_key == 'zh' else 38)}",
+                    "metric": f"{prob:.0f}%",
+                    "delta": "hot" if prob >= 70 or prob <= 30 else "up",
+                }
+            )
         for tag, count in tag_counter.most_common(10):
             ticker.append(
                 {
@@ -758,6 +795,8 @@ class BroadsheetRenderer:
                 }
             )
         for rec in ranked_records[:6]:
+            if rec in pm_records[:5]:
+                continue
             ticker.append(
                 {
                     "kind": "story",

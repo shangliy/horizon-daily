@@ -29,6 +29,9 @@ from .scrapers.openbb import OpenBBScraper
 from .scrapers.ossinsight import OSSInsightScraper
 from .scrapers.gdelt import GDELTScraper
 from .scrapers.google_news import GoogleNewsScraper
+from .scrapers.polymarket import PolymarketScraper
+from .scrapers.arxiv import ArXivScraper
+from .scrapers.bluesky import BlueskyScraper
 from .ai.client import AIClient, create_ai_client
 from .ai.errors import AIProviderUnavailableError
 from .ai.analyzer import ContentAnalyzer
@@ -567,6 +570,21 @@ class HorizonOrchestrator:
             if self.config.sources.google_news and self.config.sources.google_news.enabled:
                 gn_scraper = GoogleNewsScraper(self.config.sources.google_news, client)
                 tasks.append(self._fetch_with_progress("Google News", gn_scraper, since))
+
+            # Polymarket prediction markets (key-less Gamma API)
+            if self.config.sources.polymarket and self.config.sources.polymarket.enabled:
+                pm_scraper = PolymarketScraper(self.config.sources.polymarket, client)
+                tasks.append(self._fetch_with_progress("Polymarket", pm_scraper, since))
+
+            # arXiv research papers (key-less Atom API)
+            if self.config.sources.arxiv and self.config.sources.arxiv.enabled:
+                arxiv_scraper = ArXivScraper(self.config.sources.arxiv, client)
+                tasks.append(self._fetch_with_progress("arXiv", arxiv_scraper, since))
+
+            # Bluesky public posts (key-less AT Protocol AppView)
+            if self.config.sources.bluesky and self.config.sources.bluesky.enabled:
+                bsky_scraper = BlueskyScraper(self.config.sources.bluesky, client)
+                tasks.append(self._fetch_with_progress("Bluesky", bsky_scraper, since))
 
             # Fetch all concurrently
             outcomes = await asyncio.gather(*tasks)

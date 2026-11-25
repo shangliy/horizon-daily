@@ -20,6 +20,9 @@ class SourceType(str, Enum):
     OSSINSIGHT = "ossinsight"
     GDELT = "gdelt"
     GOOGLE_NEWS = "google_news"
+    POLYMARKET = "polymarket"
+    ARXIV = "arxiv"
+    BLUESKY = "bluesky"
 
 
 class SourceDefinition(NamedTuple):
@@ -41,6 +44,9 @@ SOURCE_REGISTRY = {
     SourceType.OSSINSIGHT.value: SourceDefinition("ossinsight"),
     SourceType.GDELT.value: SourceDefinition("gdelt"),
     SourceType.GOOGLE_NEWS.value: SourceDefinition("google_news"),
+    SourceType.POLYMARKET.value: SourceDefinition("polymarket"),
+    SourceType.ARXIV.value: SourceDefinition("arxiv"),
+    SourceType.BLUESKY.value: SourceDefinition("bluesky"),
 }
 
 ProfileRoute = Optional[Union[str, List[str]]]
@@ -499,6 +505,42 @@ class GoogleNewsConfig(BaseModel):
     profile: ProfileRoute = None
 
 
+class PolymarketConfig(BaseModel):
+    """Polymarket public Gamma API prediction markets source configuration."""
+
+    enabled: bool = False
+    tags: List[str] = Field(default_factory=lambda: ["tech", "ai", "finance", "business"])
+    keywords: List[str] = Field(default_factory=list)
+    min_volume_24h: float = 10000.0
+    max_items: int = 10
+    category: Optional[str] = "prediction-markets"
+    profile: ProfileRoute = None
+
+
+class ArXivConfig(BaseModel):
+    """arXiv key-less Atom API research papers source configuration."""
+
+    enabled: bool = False
+    categories: List[str] = Field(default_factory=lambda: ["cs.AI", "cs.LG", "cs.CL"])
+    keywords: List[str] = Field(default_factory=list)
+    max_results: int = 20
+    min_lookback_hours: int = 72
+    category: Optional[str] = "ai-research"
+    profile: ProfileRoute = None
+
+
+class BlueskyConfig(BaseModel):
+    """Bluesky public AT Protocol AppView source configuration (key-less)."""
+
+    enabled: bool = False
+    handles: List[str] = Field(default_factory=list)
+    queries: List[str] = Field(default_factory=list)
+    fetch_limit: int = 15
+    min_likes: int = 15
+    category: Optional[str] = "bluesky"
+    profile: ProfileRoute = None
+
+
 class SourcesConfig(BaseModel):
     """All sources configuration."""
 
@@ -512,6 +554,9 @@ class SourcesConfig(BaseModel):
     ossinsight: OSSInsightConfig = Field(default_factory=OSSInsightConfig)
     gdelt: Optional[GDELTConfig] = None
     google_news: Optional[GoogleNewsConfig] = None
+    polymarket: Optional[PolymarketConfig] = None
+    arxiv: Optional[ArXivConfig] = None
+    bluesky: Optional[BlueskyConfig] = None
 
 
 class WebhookConfig(BaseModel):
