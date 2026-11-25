@@ -1,8 +1,27 @@
 {
-  "latest_date": "2026-11-24",
+  "latest_date": "2026-11-25",
   "default_language": "zh",
-  "updated_at": "2026-11-24T19:07:05Z",
+  "updated_at": "2026-11-25T00:53:51Z",
   "editions": [
+    {
+      "date": "2026-11-25",
+      "languages": [
+        "zh",
+        "en"
+      ],
+      "titles": {
+        "zh": "地平线每日快报",
+        "en": "Horizon Daily"
+      },
+      "selected_count": {
+        "zh": 17,
+        "en": 17
+      },
+      "top_headline": {
+        "zh": "OpenAI GPT-6 模型可通过推理和代码设计新蛋白质结构",
+        "en": "OpenAI's GPT-6 Models Can Design Proteins Using Reasoning and Code"
+      }
+    },
     {
       "date": "2026-11-24",
       "languages": [
