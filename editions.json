@@ -1,7 +1,7 @@
 {
   "latest_date": "2026-11-25",
   "default_language": "zh",
-  "updated_at": "2026-11-25T00:53:51Z",
+  "updated_at": "2026-11-25T05:12:26Z",
   "editions": [
     {
       "date": "2026-11-25",
@@ -14,12 +14,12 @@
         "en": "Horizon Daily"
       },
       "selected_count": {
-        "zh": 17,
-        "en": 17
+        "zh": 16,
+        "en": 16
       },
       "top_headline": {
-        "zh": "OpenAI GPT-6 模型可通过推理和代码设计新蛋白质结构",
-        "en": "OpenAI's GPT-6 Models Can Design Proteins Using Reasoning and Code"
+        "zh": "矩阵乘法的指数为Θ(n^2.25)",
+        "en": "Matrix Multiplication Exponent Established as Θ(n^2.25)"
       }
     },
     {
