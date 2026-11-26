@@ -1,8 +1,9 @@
 """Preset source library loader and keyword matching.
 
-Supports loading from the horizon-site API (preferred) or local file (fallback).
-API data is served in horizon-site's own format (Category/SourceType enums)
-and transformed internally to the preset format that match_domains() expects.
+Presets come from the bundled local file by default. Setting HORIZON_API_URL
+opts in to a horizon-site compatible API, which is then tried first; its data
+(Category/SourceType enums) is transformed to the preset format that
+match_domains() expects.
 """
 
 import json
@@ -16,10 +17,8 @@ import httpx
 from .tag_aliases import get_tag_aliases
 
 
-API_BASE_URL = os.environ.get(
-    "HORIZON_API_URL", "https://horizon1123.top"
-)
-PRESETS_ENDPOINT = f"{API_BASE_URL}/api/presets"
+API_BASE_URL = os.environ.get("HORIZON_API_URL", "").strip().rstrip("/")
+PRESETS_ENDPOINT = f"{API_BASE_URL}/api/presets" if API_BASE_URL else ""
 REQUEST_TIMEOUT = 10  # seconds
 
 
@@ -41,8 +40,10 @@ def fetch_presets() -> Optional[Dict]:
 
     Returns:
         Dict in the internal preset format (with "domains" key),
-        or None if the fetch fails.
+        or None if no API is configured or the fetch fails.
     """
+    if not PRESETS_ENDPOINT:
+        return None
     try:
         response = httpx.get(
             PRESETS_ENDPOINT,
@@ -116,7 +117,7 @@ def load_presets(
     presets_path: str = "data/presets.json",
     prefer_api: bool = True,
 ) -> Dict:
-    """Load presets from API (preferred) or local file (fallback).
+    """Load presets from the API when HORIZON_API_URL is set, else the local file.
 
     Args:
         presets_path: Path to the local presets JSON file for fallback.
@@ -140,8 +141,8 @@ def load_presets(
     if not path.exists():
         raise FileNotFoundError(
             f"Presets file not found: {path}\n"
-            f"API fetch also failed. Please check your connection "
-            f"or ensure {presets_path} exists."
+            f"Ensure {presets_path} exists, or set HORIZON_API_URL "
+            f"to a reachable presets API."
         )
 
     with open(path, "r", encoding="utf-8") as f:

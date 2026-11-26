@@ -78,14 +78,13 @@ def test_partial_enrichment_excludes_failures_from_digest_and_delivery(pipeline,
 
     summary_path, = orchestrator.storage.summaries_dir.glob("*.md")
     summary = summary_path.read_text(encoding="utf-8")
-    post_path, = (tmp_path / "docs" / "_posts").glob("*.md")
-    for text in (summary, post_path.read_text(encoding="utf-8")):
-        assert "从 2 条内容中筛选出 1 条重要资讯" in text
-        assert "中文标题" in text
-        assert "中文摘要。" in text
-        assert "Original English title" not in text
-        assert "English analysis fallback" not in text
-        assert str(failed.url) not in text
+    assert "从 2 条内容中筛选出 1 条重要资讯" in summary
+    assert "中文标题" in summary
+    assert "中文摘要。" in summary
+    assert "Original English title" not in summary
+    assert "English analysis fallback" not in summary
+    assert str(failed.url) not in summary
+    assert not (tmp_path / "docs" / "_posts").exists()
     delivery = orchestrator.webhook_notifier.send_daily_summary.await_args.kwargs
     assert delivery["summary"] == summary
     assert delivery["important_items"] == [successful]

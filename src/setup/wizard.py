@@ -439,11 +439,7 @@ def main():
         if not presets_path.exists():
             presets_path = Path("data/presets.json")
         presets = load_presets(presets_path=str(presets_path), prefer_api=True)
-        offline = os.environ.get("HORIZON_OFFLINE", "").lower() in ("1", "true", "yes")
-        if offline:
-            console.print("[dim]Using local presets (offline mode)[/dim]")
-        else:
-            console.print("[dim]Loaded preset sources from API[/dim]")
+        console.print("[dim]Loaded preset sources[/dim]")
     except FileNotFoundError:
         console.print("[yellow]Could not fetch presets (offline and no local file).[/yellow]")
         console.print("[yellow]Skipping preset matching.[/yellow]")
