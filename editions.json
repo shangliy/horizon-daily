@@ -1,8 +1,27 @@
 {
-  "latest_date": "2026-11-25",
+  "latest_date": "2026-11-26",
   "default_language": "zh",
-  "updated_at": "2026-11-25T05:12:26Z",
+  "updated_at": "2026-11-26T04:38:33Z",
   "editions": [
+    {
+      "date": "2026-11-26",
+      "languages": [
+        "zh",
+        "en"
+      ],
+      "titles": {
+        "zh": "地平线每日快报",
+        "en": "Horizon Daily"
+      },
+      "selected_count": {
+        "zh": 15,
+        "en": 15
+      },
+      "top_headline": {
+        "zh": "1Password 确认安全事件，部分客户账户信息被窃",
+        "en": "1Password Confirms Security Incident Affecting Customer Accounts"
+      }
+    },
     {
       "date": "2026-11-25",
       "languages": [

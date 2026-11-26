@@ -1,0 +1,1456 @@
+{
+  "meta": {
+    "title": "Horizon Daily",
+    "overline": "AI-CURATED BROADSHEET EDITION",
+    "subtitle": "Just enjoy the news — Horizon gathers, ranks, deduplicates, and enriches your daily signal.",
+    "edition_label": "HORIZON · GLOBAL TECH & SIGNAL",
+    "date": "2026-11-26",
+    "date_display": "Thursday, November 26, 2026",
+    "updated_at": "04:38 UTC",
+    "language": "en",
+    "lang_key": "en",
+    "total_fetched": 89,
+    "selected_count": 15,
+    "avg_score": 7.4,
+    "top_score": 8.0,
+    "drop_rate": 83,
+    "source_count": 4,
+    "profile_count": 3,
+    "wire_code": "A5",
+    "index_code": "A6"
+  },
+  "ticker": [
+    {
+      "kind": "tag",
+      "label": "#AI",
+      "tag": "AI",
+      "metric": "5 items",
+      "delta": "up"
+    },
+    {
+      "kind": "tag",
+      "label": "#security",
+      "tag": "security",
+      "metric": "3 items",
+      "delta": "up"
+    },
+    {
+      "kind": "tag",
+      "label": "#mathematics",
+      "tag": "mathematics",
+      "metric": "3 items",
+      "delta": "up"
+    },
+    {
+      "kind": "tag",
+      "label": "#software engineering",
+      "tag": "software engineering",
+      "metric": "2 items",
+      "delta": "up"
+    },
+    {
+      "kind": "tag",
+      "label": "#Nvidia",
+      "tag": "Nvidia",
+      "metric": "2 items",
+      "delta": "up"
+    },
+    {
+      "kind": "tag",
+      "label": "#Machine Learning",
+      "tag": "Machine Learning",
+      "metric": "2 items",
+      "delta": "up"
+    },
+    {
+      "kind": "tag",
+      "label": "#Interest Rates",
+      "tag": "Interest Rates",
+      "metric": "2 items",
+      "delta": "up"
+    },
+    {
+      "kind": "tag",
+      "label": "#SaaS",
+      "tag": "SaaS",
+      "metric": "1 items",
+      "delta": "up"
+    },
+    {
+      "kind": "tag",
+      "label": "#data protection",
+      "tag": "data protection",
+      "metric": "1 items",
+      "delta": "up"
+    },
+    {
+      "kind": "tag",
+      "label": "#community discussion",
+      "tag": "community discussion",
+      "metric": "1 items",
+      "delta": "up"
+    },
+    {
+      "kind": "story",
+      "story_id": "story-1",
+      "label": "1Password Confirms Security Incident Affe…",
+      "metric": "▲ 8.0",
+      "delta": "up"
+    },
+    {
+      "kind": "story",
+      "story_id": "story-2",
+      "label": "Google Releases Cogentic Papers on Intege…",
+      "metric": "▲ 8.0",
+      "delta": "up"
+    },
+    {
+      "kind": "story",
+      "story_id": "story-3",
+      "label": "Neuralink Receives FDA Approval for LINK…",
+      "metric": "▲ 8.0",
+      "delta": "up"
+    },
+    {
+      "kind": "story",
+      "story_id": "story-4",
+      "label": "Minecraft Java Versions 1.20.5 and Above…",
+      "metric": "▲ 8.0",
+      "delta": "up"
+    },
+    {
+      "kind": "story",
+      "story_id": "story-10",
+      "label": "Spectrum Adaptation of AI-Native Autoenco…",
+      "metric": "▲ 8.0",
+      "delta": "up"
+    },
+    {
+      "kind": "story",
+      "story_id": "story-11",
+      "label": "Mixture-of-Loops Transformer",
+      "metric": "▲ 8.0",
+      "delta": "up"
+    }
+  ],
+  "front_page": {
+    "lead_id": "story-1",
+    "left_ids": [
+      "story-2",
+      "story-3",
+      "story-4"
+    ],
+    "right_ids": [
+      "story-10",
+      "story-11"
+    ],
+    "spotlight_left_ids": [
+      "story-10",
+      "story-11",
+      "story-5",
+      "story-6"
+    ],
+    "spotlight_right_ids": [
+      "story-2",
+      "story-6",
+      "story-5",
+      "story-8"
+    ]
+  },
+  "sections": [
+    {
+      "code": "A2",
+      "dom_id": "sec-tech-news",
+      "profile_id": "tech-news",
+      "name": "Technology News",
+      "item_ids": [
+        "story-1",
+        "story-2",
+        "story-3",
+        "story-4",
+        "story-5",
+        "story-6",
+        "story-7",
+        "story-8",
+        "story-9"
+      ]
+    },
+    {
+      "code": "A3",
+      "dom_id": "sec-tech-blog",
+      "profile_id": "tech-blog",
+      "name": "Technology Blog",
+      "item_ids": [
+        "story-10",
+        "story-11"
+      ]
+    },
+    {
+      "code": "A4",
+      "dom_id": "sec-finance-news",
+      "profile_id": "finance-news",
+      "name": "Financial News",
+      "item_ids": [
+        "story-12",
+        "story-13",
+        "story-14",
+        "story-15"
+      ]
+    }
+  ],
+  "wire": [
+    {
+      "id": "wire-community",
+      "title": "COMMUNITY · HN & REDDIT",
+      "style": "numbered",
+      "item_ids": [
+        "story-1",
+        "story-2",
+        "story-5",
+        "story-6",
+        "story-7",
+        "story-8"
+      ]
+    },
+    {
+      "id": "wire-builders",
+      "title": "OPEN SOURCE, BLUESKY & X",
+      "style": "badged",
+      "item_ids": []
+    },
+    {
+      "id": "wire-editorial",
+      "title": "PAPERS, MEDIA & POLYMARKET",
+      "style": "kicker",
+      "item_ids": [
+        "story-3",
+        "story-4",
+        "story-9",
+        "story-10",
+        "story-11",
+        "story-12",
+        "story-13",
+        "story-14"
+      ]
+    }
+  ],
+  "source_breakdown": [
+    {
+      "source_type": "hackernews",
+      "label": "Hacker News",
+      "count": 6,
+      "pct": 40
+    },
+    {
+      "source_type": "rss",
+      "label": "RSS Feed",
+      "count": 6,
+      "pct": 40
+    },
+    {
+      "source_type": "arxiv",
+      "label": "arXiv",
+      "count": 2,
+      "pct": 13
+    },
+    {
+      "source_type": "telegram",
+      "label": "Telegram",
+      "count": 1,
+      "pct": 7
+    }
+  ],
+  "top_tags": [
+    {
+      "tag": "AI",
+      "count": 5
+    },
+    {
+      "tag": "security",
+      "count": 3
+    },
+    {
+      "tag": "mathematics",
+      "count": 3
+    },
+    {
+      "tag": "software engineering",
+      "count": 2
+    },
+    {
+      "tag": "Nvidia",
+      "count": 2
+    },
+    {
+      "tag": "Machine Learning",
+      "count": 2
+    },
+    {
+      "tag": "Interest Rates",
+      "count": 2
+    },
+    {
+      "tag": "SaaS",
+      "count": 1
+    },
+    {
+      "tag": "data protection",
+      "count": 1
+    },
+    {
+      "tag": "community discussion",
+      "count": 1
+    },
+    {
+      "tag": "cryptography",
+      "count": 1
+    },
+    {
+      "tag": "research",
+      "count": 1
+    },
+    {
+      "tag": "Neuralink",
+      "count": 1
+    },
+    {
+      "tag": "FDA approval",
+      "count": 1
+    },
+    {
+      "tag": "brain-computer interface",
+      "count": 1
+    },
+    {
+      "tag": "ALS",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "id": "story-1",
+      "item_id": "hackernews:story:50644817",
+      "rank": 1,
+      "group_index": 1,
+      "profile_id": "tech-news",
+      "profile_name": "Technology News",
+      "title": "1Password Confirms Security Incident Affecting Customer Accounts",
+      "summary": "1Password has confirmed a security incident where attackers accessed internal systems and stole some customer account information, including names, email addresses, account identifiers, and login timestamps. The company began investigating on November 19, 2026, after signs of a breach involving an employee's GitHub account were detected. Although customer vaults and their contents remain unaffected, users are advised to be vigilant against phishing attempts.",
+      "score": 8.0,
+      "score_display": "8.0",
+      "reason": "The security incident involving 1Password highlights critical vulnerabilities in SaaS security, prompting significant community discussion and concern regarding best practices for safeguarding user data, making it a timely and important topic for those in software engineering and security.",
+      "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+      "domain": "1password.com",
+      "discussion_url": "https://news.ycombinator.com/item?id=50644817",
+      "source_type": "hackernews",
+      "source_label": "Hacker News",
+      "sub_source": "lxhrstn",
+      "author": "lxhrstn",
+      "category": "AI News",
+      "published_at": "2026-11-25T17:18:26+00:00",
+      "time_display": "Nov 25 · 17:18",
+      "tags": [
+        "security",
+        "SaaS",
+        "data protection",
+        "community discussion"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "Security Incident Overview",
+          "content": "1Password has confirmed a security incident where attackers accessed internal systems and stole some customer account information, including names, email addresses, account identifiers, and login timestamps. The company began investigating on November 19, 2026, after signs of a breach involving an employee's GitHub account were detected. Although customer vaults and their contents remain unaffected, users are advised to be vigilant against phishing attempts.",
+          "primary": true
+        },
+        {
+          "id": "background",
+          "title": "Background on 1Password Security Incident",
+          "content": "On November 19, 2026, 1Password began investigating a security incident involving unauthorized access to their internal systems. The attackers exploited a compromised employee GitHub account to push malicious code, leading to the theft of certain customer account information, although the contents of user vaults remained unaffected.",
+          "primary": false
+        },
+        {
+          "id": "impact",
+          "title": "User Vigilance Required",
+          "content": "Affected users should remain alert for phishing attempts that may exploit the stolen data, as evidenced by reports of high-quality phishing emails targeting individuals with details obtained from the breach.",
+          "primary": false
+        },
+        {
+          "id": "community_discussion",
+          "title": "Community Concerns",
+          "content": "Community members have expressed significant concern regarding the security implications of the incident, particularly the risks associated with malicious code being pushed to production services. Some users are reconsidering their reliance on online vaults due to these vulnerabilities.",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "background",
+          "title": "Background on 1Password Security Incident",
+          "content": "On November 19, 2026, 1Password began investigating a security incident involving unauthorized access to their internal systems. The attackers exploited a compromised employee GitHub account to push malicious code, leading to the theft of certain customer account information, although the contents of user vaults remained unaffected.",
+          "primary": false
+        },
+        {
+          "id": "impact",
+          "title": "User Vigilance Required",
+          "content": "Affected users should remain alert for phishing attempts that may exploit the stolen data, as evidenced by reports of high-quality phishing emails targeting individuals with details obtained from the breach.",
+          "primary": false
+        },
+        {
+          "id": "community_discussion",
+          "title": "Community Concerns",
+          "content": "Community members have expressed significant concern regarding the security implications of the incident, particularly the risks associated with malicious code being pushed to production services. Some users are reconsidering their reliance on online vaults due to these vulnerabilities.",
+          "primary": false
+        }
+      ],
+      "references": [],
+      "engagement": [
+        "1267 pts",
+        "532 comments"
+      ],
+      "engagement_weight": 2381,
+      "probability_pct": null,
+      "leading_outcome": null,
+      "volume_24h_display": null
+    },
+    {
+      "id": "story-2",
+      "item_id": "hackernews:story:50642086",
+      "rank": 2,
+      "group_index": 2,
+      "profile_id": "tech-news",
+      "profile_name": "Technology News",
+      "title": "Google Releases Cogentic Papers on Integer Factorization and Discrete Logs",
+      "summary": "Google has released a series of Cogentic research papers focusing on integer factorization, discrete logarithms, and other key mathematical topics. This release is significant for advancements in mathematical research, particularly in areas that could impact cryptography and computer science. The papers are available on GitHub for the community to explore.",
+      "score": 8.0,
+      "score_display": "8.0",
+      "reason": "The release of Cogentic papers by Google on integer factorization and discrete logarithms represents a significant development in mathematical research that could have implications for cryptography and computer science, warranting prompt attention from the community.",
+      "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+      "domain": "github.com",
+      "discussion_url": "https://news.ycombinator.com/item?id=50642086",
+      "source_type": "hackernews",
+      "source_label": "Hacker News",
+      "sub_source": "rgwohlbold",
+      "author": "rgwohlbold",
+      "category": "AI News",
+      "published_at": "2026-11-25T13:33:07+00:00",
+      "time_display": "Nov 25 · 13:33",
+      "tags": [
+        "mathematics",
+        "cryptography",
+        "AI",
+        "research",
+        "software engineering"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "Summary",
+          "content": "Google has released a series of Cogentic research papers focusing on integer factorization, discrete logarithms, and other key mathematical topics. This release is significant for advancements in mathematical research, particularly in areas that could impact cryptography and computer science. The papers are available on GitHub for the community to explore.",
+          "primary": true
+        },
+        {
+          "id": "background",
+          "title": "Context on Cogentic Research Papers",
+          "content": "Google has released a series of Cogentic research papers focusing on key mathematical problems such as integer factorization and discrete logarithms. These topics are foundational to modern cryptography, particularly in relation to RSA encryption, which relies on the difficulty of factoring large integers. The release includes significant advancements that could influence future developments in both mathematics and computer science.",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "background",
+          "title": "Context on Cogentic Research Papers",
+          "content": "Google has released a series of Cogentic research papers focusing on key mathematical problems such as integer factorization and discrete logarithms. These topics are foundational to modern cryptography, particularly in relation to RSA encryption, which relies on the difficulty of factoring large integers. The release includes significant advancements that could influence future developments in both mathematics and computer science.",
+          "primary": false
+        }
+      ],
+      "references": [
+        {
+          "id": "tool-1-1",
+          "title": "Google Releases Cogentic Papers on Integer Factorization ...",
+          "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+          "domain": "github.com"
+        },
+        {
+          "id": "tool-1-2",
+          "title": "Google’s Gemini 4 agent claims six math proofs in a day ...",
+          "url": "https://www.rdworldonline.com/google-cogentic-ai-integer-factoring-bounds-lean-proofs/",
+          "domain": "rdworldonline.com"
+        },
+        {
+          "id": "tool-1-3",
+          "title": "Google Releases Cogentic Papers on Integer Factorization ...",
+          "url": "https://daily.dev/posts/google-releases-cogentic-papers-on-integer-factorization-discrete-logs-and-more-0lfmvr55g",
+          "domain": "daily.dev"
+        }
+      ],
+      "engagement": [
+        "464 pts",
+        "342 comments"
+      ],
+      "engagement_weight": 1198,
+      "probability_pct": null,
+      "leading_outcome": null,
+      "volume_24h_display": null
+    },
+    {
+      "id": "story-3",
+      "item_id": "rss:www.techmeme.com_feed.xml:42d40203a684db5a",
+      "rank": 3,
+      "group_index": 3,
+      "profile_id": "tech-news",
+      "profile_name": "Technology News",
+      "title": "Neuralink Receives FDA Approval for LINK Pivotal Study in ALS Patients",
+      "summary": "Neuralink has received FDA approval for the LINK Pivotal Study, a clinical trial aimed at evaluating the safety and effectiveness of its brain-computer interface (BCI) system in patients with amyotrophic lateral sclerosis (ALS). This approval marks a significant step in the application of BCI technology for medical purposes, particularly for individuals suffering from ALS.",
+      "score": 8.0,
+      "score_display": "8.0",
+      "reason": "Neuralink's FDA approval for a clinical trial represents a significant development in brain-computer interface technology, particularly in its application for ALS patients, which could have far-reaching implications for medical technology and neuroengineering.",
+      "url": "https://www.techmeme.com/261125/p43#a261125p43",
+      "domain": "techmeme.com",
+      "discussion_url": null,
+      "source_type": "rss",
+      "source_label": "RSS Feed",
+      "sub_source": "Techmeme",
+      "author": "Techmeme",
+      "category": "AI News",
+      "published_at": "2026-11-26T01:00:13+00:00",
+      "time_display": "Nov 26 · 01:00",
+      "tags": [
+        "Neuralink",
+        "FDA approval",
+        "brain-computer interface",
+        "ALS",
+        "medical technology"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "Summary",
+          "content": "Neuralink has received FDA approval for the LINK Pivotal Study, a clinical trial aimed at evaluating the safety and effectiveness of its brain-computer interface (BCI) system in patients with amyotrophic lateral sclerosis (ALS). This approval marks a significant step in the application of BCI technology for medical purposes, particularly for individuals suffering from ALS.",
+          "primary": true
+        },
+        {
+          "id": "background",
+          "title": "Background on Neuralink's Development",
+          "content": "Neuralink, founded in 2016 by Elon Musk and a team of scientists, is focused on developing implantable brain-computer interfaces (BCIs). The company aims to create technology that can help individuals with severe neurological conditions, such as ALS, by enabling direct communication between the brain and external devices.",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "background",
+          "title": "Background on Neuralink's Development",
+          "content": "Neuralink, founded in 2016 by Elon Musk and a team of scientists, is focused on developing implantable brain-computer interfaces (BCIs). The company aims to create technology that can help individuals with severe neurological conditions, such as ALS, by enabling direct communication between the brain and external devices.",
+          "primary": false
+        }
+      ],
+      "references": [
+        {
+          "id": "tool-1-1",
+          "title": "Neuralink - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Neuralink",
+          "domain": "en.wikipedia.org"
+        }
+      ],
+      "engagement": [],
+      "engagement_weight": 0,
+      "probability_pct": null,
+      "leading_outcome": null,
+      "volume_24h_display": null
+    },
+    {
+      "id": "story-4",
+      "item_id": "telegram:zaihuapd:45362",
+      "rank": 4,
+      "group_index": 4,
+      "profile_id": "tech-news",
+      "profile_name": "Technology News",
+      "title": "Minecraft Java Versions 1.20.5 and Above Affected by Critical RCE Vulnerability",
+      "summary": "A critical remote code execution (RCE) vulnerability has been disclosed affecting all versions of Minecraft Java starting from 1.20.5. This vulnerability, triggered by a specially crafted TrueType font in server resource packs, allows arbitrary code execution on the Java version 26.3 Windows client. Mojang has not yet released a patch, but a community fix (m2sfix 1.0.0) is available to mitigate the issue temporarily.",
+      "score": 8.0,
+      "score_display": "8.0",
+      "reason": "The content discusses a critical remote code execution vulnerability affecting multiple versions of Minecraft, which poses significant security risks for users and servers. The mention of a community fix and the urgency of the situation add to its importance.",
+      "url": "https://github.com/bikini/minecraft2shell",
+      "domain": "github.com",
+      "discussion_url": null,
+      "source_type": "telegram",
+      "source_label": "Telegram",
+      "sub_source": "zaihuapd",
+      "author": "zaihuapd",
+      "category": "Tech Flash",
+      "published_at": "2026-11-25T12:46:29+00:00",
+      "time_display": "Nov 25 · 12:46",
+      "tags": [
+        "security",
+        "Minecraft",
+        "vulnerability",
+        "RCE",
+        "community fix"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "Summary",
+          "content": "A critical remote code execution (RCE) vulnerability has been disclosed affecting all versions of Minecraft Java starting from 1.20.5. This vulnerability, triggered by a specially crafted TrueType font in server resource packs, allows arbitrary code execution on the Java version 26.3 Windows client. Mojang has not yet released a patch, but a community fix (m2sfix 1.0.0) is available to mitigate the issue temporarily.",
+          "primary": true
+        },
+        {
+          "id": "background",
+          "title": "Background on Minecraft Vulnerability",
+          "content": "The vulnerability disclosed affects all versions of Minecraft Java starting from 1.20.5, specifically exploiting a flaw in the FreeType library that allows for remote code execution. Previous versions, including 1.20.4 and earlier, as well as the Bedrock edition, are not impacted by this issue.",
+          "primary": false
+        },
+        {
+          "id": "impact",
+          "title": "Impact",
+          "content": "Users and server administrators are advised to disable resource pack permissions on multiplayer servers or install the community fix to prevent potential exploitation of this vulnerability until an official patch is released.",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "background",
+          "title": "Background on Minecraft Vulnerability",
+          "content": "The vulnerability disclosed affects all versions of Minecraft Java starting from 1.20.5, specifically exploiting a flaw in the FreeType library that allows for remote code execution. Previous versions, including 1.20.4 and earlier, as well as the Bedrock edition, are not impacted by this issue.",
+          "primary": false
+        },
+        {
+          "id": "impact",
+          "title": "Impact",
+          "content": "Users and server administrators are advised to disable resource pack permissions on multiplayer servers or install the community fix to prevent potential exploitation of this vulnerability until an official patch is released.",
+          "primary": false
+        }
+      ],
+      "references": [],
+      "engagement": [],
+      "engagement_weight": 0,
+      "probability_pct": null,
+      "leading_outcome": null,
+      "volume_24h_display": null
+    },
+    {
+      "id": "story-5",
+      "item_id": "hackernews:story:50648050",
+      "rank": 5,
+      "group_index": 5,
+      "profile_id": "tech-news",
+      "profile_name": "Technology News",
+      "title": "Significant Reduction in GRH Lean Verification Proof Size",
+      "summary": "The formal proof for the Grand Riemann Hypothesis (GRH) in Lean has been drastically reduced from 17 million lines to just 76,000 lines. This major reduction enhances the proof's readability and accessibility, making it more approachable for the software engineering and AI communities.",
+      "score": 7.0,
+      "score_display": "7.0",
+      "reason": "The reduction of a large proof from 17 million lines to 76,000 lines represents a significant development in the field of formal verification, making complex mathematical proofs more accessible and understandable, which is valuable for the software engineering and AI communities.",
+      "url": "https://github.com/lsernau/grh-lean",
+      "domain": "github.com",
+      "discussion_url": "https://news.ycombinator.com/item?id=50648050",
+      "source_type": "hackernews",
+      "source_label": "Hacker News",
+      "sub_source": "nb-t",
+      "author": "nb-t",
+      "category": "AI News",
+      "published_at": "2026-11-25T21:48:10+00:00",
+      "time_display": "Nov 25 · 21:48",
+      "tags": [
+        "formal verification",
+        "Lean",
+        "mathematics",
+        "AI",
+        "software engineering"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "Summary of Changes",
+          "content": "The formal proof for the Grand Riemann Hypothesis (GRH) in Lean has been drastically reduced from 17 million lines to just 76,000 lines. This major reduction enhances the proof's readability and accessibility, making it more approachable for the software engineering and AI communities.",
+          "primary": true
+        },
+        {
+          "id": "background",
+          "title": "Context of Formal Verification",
+          "content": "The recent reduction of a formal proof from 17 million lines to 76,000 lines is a significant advancement in the field of formal verification, particularly for the proof of the Riemann Hypothesis, which was formalized using the Lean proof assistant. This development enhances the accessibility and readability of complex mathematical proofs, making them more approachable for software engineers and AI researchers.",
+          "primary": false
+        },
+        {
+          "id": "impact",
+          "title": "Impact on Formal Verification",
+          "content": "This significant reduction in proof size could facilitate broader understanding and application of formal verification techniques, potentially leading to more robust software development practices.",
+          "primary": false
+        },
+        {
+          "id": "community_discussion",
+          "title": "Community Reactions",
+          "content": "Community members have noted the improved readability of the proof, with one commenter highlighting the clear separation between established and new mathematical concepts, which should aid in comprehension.",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "background",
+          "title": "Context of Formal Verification",
+          "content": "The recent reduction of a formal proof from 17 million lines to 76,000 lines is a significant advancement in the field of formal verification, particularly for the proof of the Riemann Hypothesis, which was formalized using the Lean proof assistant. This development enhances the accessibility and readability of complex mathematical proofs, making them more approachable for software engineers and AI researchers.",
+          "primary": false
+        },
+        {
+          "id": "impact",
+          "title": "Impact on Formal Verification",
+          "content": "This significant reduction in proof size could facilitate broader understanding and application of formal verification techniques, potentially leading to more robust software development practices.",
+          "primary": false
+        },
+        {
+          "id": "community_discussion",
+          "title": "Community Reactions",
+          "content": "Community members have noted the improved readability of the proof, with one commenter highlighting the clear separation between established and new mathematical concepts, which should aid in comprehension.",
+          "primary": false
+        }
+      ],
+      "references": [
+        {
+          "id": "tool-1-1",
+          "title": "Alpöge's proof of the Riemann hypothesis - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Alp%C3%B6ge&#x27;s_proof_of_the_Riemann_hypothesis",
+          "domain": "en.wikipedia.org"
+        }
+      ],
+      "engagement": [
+        "345 pts",
+        "174 comments"
+      ],
+      "engagement_weight": 743,
+      "probability_pct": null,
+      "leading_outcome": null,
+      "volume_24h_display": null
+    },
+    {
+      "id": "story-6",
+      "item_id": "hackernews:story:50647673",
+      "rank": 6,
+      "group_index": 6,
+      "profile_id": "tech-news",
+      "profile_name": "Technology News",
+      "title": "The New York Times Warns Photographers Against Updating Photoshop Due to AI Features",
+      "summary": "The New York Times has issued a warning to photographers advising them not to update Photoshop because of potential issues arising from new AI features. This caution has ignited discussions within the creative community regarding the implications of AI integration in essential tools for photographers.",
+      "score": 7.0,
+      "score_display": "7.0",
+      "reason": "The article discusses a significant concern regarding the integration of AI features in widely used software like Photoshop, highlighting the implications for photographers and the creative industry. This topic is relevant and timely, as it addresses the intersection of AI technology and professional practices, prompting important discussions within the community.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+      "domain": "theverge.com",
+      "discussion_url": "https://news.ycombinator.com/item?id=50647673",
+      "source_type": "hackernews",
+      "source_label": "Hacker News",
+      "sub_source": "rmason",
+      "author": "rmason",
+      "category": "AI News",
+      "published_at": "2026-11-25T21:18:02+00:00",
+      "time_display": "Nov 25 · 21:18",
+      "tags": [
+        "AI",
+        "Photoshop",
+        "photography",
+        "technology ethics",
+        "creative tools"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "Summary",
+          "content": "The New York Times has issued a warning to photographers advising them not to update Photoshop because of potential issues arising from new AI features. This caution has ignited discussions within the creative community regarding the implications of AI integration in essential tools for photographers.",
+          "primary": true
+        },
+        {
+          "id": "background",
+          "title": "Context on Photoshop AI Features",
+          "content": "The New York Times recently informed its freelance photographers to avoid using the latest version of Adobe Photoshop (2027) due to concerns that certain AI features may not be transparent to users. This warning highlights the potential for metadata to label photographs as AI-generated, which could impact the credibility of the photographers' work.",
+          "primary": false
+        },
+        {
+          "id": "impact",
+          "title": "Impact",
+          "content": "Photographers who rely on Photoshop may face challenges in maintaining their credibility and artistic integrity if they inadvertently use AI-generated content, as this could lead to negative perceptions and potential backlash from audiences.",
+          "primary": false
+        },
+        {
+          "id": "community_discussion",
+          "title": "Community Discussion",
+          "content": "Commenters express concerns about the difficulty of distinguishing between AI-generated and human-edited images, with some noting the social stigma attached to AI usage in creative work. Others suggest that this situation presents an opportunity for alternative software solutions to gain traction.",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "background",
+          "title": "Context on Photoshop AI Features",
+          "content": "The New York Times recently informed its freelance photographers to avoid using the latest version of Adobe Photoshop (2027) due to concerns that certain AI features may not be transparent to users. This warning highlights the potential for metadata to label photographs as AI-generated, which could impact the credibility of the photographers' work.",
+          "primary": false
+        },
+        {
+          "id": "impact",
+          "title": "Impact",
+          "content": "Photographers who rely on Photoshop may face challenges in maintaining their credibility and artistic integrity if they inadvertently use AI-generated content, as this could lead to negative perceptions and potential backlash from audiences.",
+          "primary": false
+        },
+        {
+          "id": "community_discussion",
+          "title": "Community Discussion",
+          "content": "Commenters express concerns about the difficulty of distinguishing between AI-generated and human-edited images, with some noting the social stigma attached to AI usage in creative work. Others suggest that this situation presents an opportunity for alternative software solutions to gain traction.",
+          "primary": false
+        }
+      ],
+      "references": [
+        {
+          "id": "tool-1-1",
+          "title": "The New York Times tells photographers not to use the latest ...",
+          "url": "https://www.dpreview.com/news/new-york-times-adobe-photoshop-2027-restriction-ai/",
+          "domain": "dpreview.com"
+        },
+        {
+          "id": "tool-1-2",
+          "title": "The New York Times warns photographers not to update ...",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+          "domain": "theverge.com"
+        }
+      ],
+      "engagement": [
+        "261 pts",
+        "220 comments"
+      ],
+      "engagement_weight": 751,
+      "probability_pct": null,
+      "leading_outcome": null,
+      "volume_24h_display": null
+    },
+    {
+      "id": "story-7",
+      "item_id": "hackernews:story:50644980",
+      "rank": 7,
+      "group_index": 7,
+      "profile_id": "tech-news",
+      "profile_name": "Technology News",
+      "title": "Disproof of the Polynomial Hirsch Conjecture",
+      "summary": "The polynomial Hirsch conjecture has been disproven, which significantly impacts the understanding of linear programming algorithms. This finding alters the theoretical foundation of how linear optimization problems are approached, particularly in relation to the efficiency of the simplex method.",
+      "score": 7.0,
+      "score_display": "7.0",
+      "reason": "The content discusses the polynomial Hirsch conjecture and its implications for linear programming, which is a significant topic in mathematics and optimization. The community engagement indicates a level of interest and discussion among readers, although the conjecture's disproof is not a recent breakthrough.",
+      "url": "https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf",
+      "domain": "github.com",
+      "discussion_url": "https://news.ycombinator.com/item?id=50644980",
+      "source_type": "hackernews",
+      "source_label": "Hacker News",
+      "sub_source": "acossta",
+      "author": "acossta",
+      "category": "AI News",
+      "published_at": "2026-11-25T17:34:34+00:00",
+      "time_display": "Nov 25 · 17:34",
+      "tags": [
+        "mathematics",
+        "optimization",
+        "linear programming",
+        "Hirsch conjecture"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "Summary of Findings",
+          "content": "The polynomial Hirsch conjecture has been disproven, which significantly impacts the understanding of linear programming algorithms. This finding alters the theoretical foundation of how linear optimization problems are approached, particularly in relation to the efficiency of the simplex method.",
+          "primary": true
+        },
+        {
+          "id": "background",
+          "title": "Background on the Hirsch Conjecture",
+          "content": "The polynomial Hirsch conjecture, which proposed that the diameter of a polytope could be bounded by a polynomial function of its number of faces, has been a significant topic in the field of linear programming and combinatorial optimization. Its disproof impacts the understanding of the efficiency of algorithms used in these areas, particularly the simplex method, which has been widely used for solving linear programming problems.",
+          "primary": false
+        },
+        {
+          "id": "impact",
+          "title": "Consequences for Linear Programming",
+          "content": "The disproof of the polynomial Hirsch conjecture suggests that there is no polynomial-time simplex algorithm for linear programming, which may lead to a reevaluation of existing optimization strategies and their practical applications.",
+          "primary": false
+        },
+        {
+          "id": "community_discussion",
+          "title": "Community Insights",
+          "content": "Community members have noted that the original conjecture was an attempt to explain the efficiency of the simplex method, and its disproof is seen as a finalization of a long-standing debate in mathematics. Some commenters expressed optimism about future algorithm improvements despite the challenges posed by complexity.",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "background",
+          "title": "Background on the Hirsch Conjecture",
+          "content": "The polynomial Hirsch conjecture, which proposed that the diameter of a polytope could be bounded by a polynomial function of its number of faces, has been a significant topic in the field of linear programming and combinatorial optimization. Its disproof impacts the understanding of the efficiency of algorithms used in these areas, particularly the simplex method, which has been widely used for solving linear programming problems.",
+          "primary": false
+        },
+        {
+          "id": "impact",
+          "title": "Consequences for Linear Programming",
+          "content": "The disproof of the polynomial Hirsch conjecture suggests that there is no polynomial-time simplex algorithm for linear programming, which may lead to a reevaluation of existing optimization strategies and their practical applications.",
+          "primary": false
+        },
+        {
+          "id": "community_discussion",
+          "title": "Community Insights",
+          "content": "Community members have noted that the original conjecture was an attempt to explain the efficiency of the simplex method, and its disproof is seen as a finalization of a long-standing debate in mathematics. Some commenters expressed optimism about future algorithm improvements despite the challenges posed by complexity.",
+          "primary": false
+        }
+      ],
+      "references": [],
+      "engagement": [
+        "136 pts",
+        "37 comments"
+      ],
+      "engagement_weight": 260,
+      "probability_pct": null,
+      "leading_outcome": null,
+      "volume_24h_display": null
+    },
+    {
+      "id": "story-8",
+      "item_id": "hackernews:story:50647181",
+      "rank": 8,
+      "group_index": 8,
+      "profile_id": "tech-news",
+      "profile_name": "Technology News",
+      "title": "Concerns Over Slow Ubuntu Security Response Times",
+      "summary": "The community has raised serious concerns regarding Ubuntu's slow security response times, leading users to reconsider their choice of Linux distributions. This issue is particularly critical for those relying on Ubuntu for stable and secure systems, as the delays in addressing vulnerabilities could compromise security.",
+      "score": 7.0,
+      "score_display": "7.0",
+      "reason": "The discussion highlights significant concerns regarding Ubuntu's security response times, which is critical for users relying on the distribution for stable and secure systems. The community's engagement reflects a notable shift in user trust and decision-making based on these security issues.",
+      "url": "https://www.openwall.com/lists/oss-security/2026/11/25/9",
+      "domain": "openwall.com",
+      "discussion_url": "https://news.ycombinator.com/item?id=50647181",
+      "source_type": "hackernews",
+      "source_label": "Hacker News",
+      "sub_source": "gslin",
+      "author": "gslin",
+      "category": "AI News",
+      "published_at": "2026-11-25T20:38:00+00:00",
+      "time_display": "Nov 25 · 20:38",
+      "tags": [
+        "Ubuntu",
+        "security",
+        "Linux",
+        "community feedback",
+        "open source"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "Summary",
+          "content": "The community has raised serious concerns regarding Ubuntu's slow security response times, leading users to reconsider their choice of Linux distributions. This issue is particularly critical for those relying on Ubuntu for stable and secure systems, as the delays in addressing vulnerabilities could compromise security.",
+          "primary": true
+        },
+        {
+          "id": "background",
+          "title": "Concerns Over Ubuntu's Security Response",
+          "content": "The discussion around Ubuntu's security response times highlights a growing concern among users regarding the distribution's ability to address vulnerabilities promptly. This issue has led some users to reconsider their reliance on Ubuntu for secure systems, particularly in light of the critical nature of timely security updates.",
+          "primary": false
+        },
+        {
+          "id": "impact",
+          "title": "Impact",
+          "content": "As a result of these concerns, some organizations, such as the commenter from a workplace, have transitioned their server images from Ubuntu to Debian, indicating a loss of trust in Ubuntu's security management.",
+          "primary": false
+        },
+        {
+          "id": "community_discussion",
+          "title": "Community Discussion",
+          "content": "Users have expressed frustration over the slow patching process, with one commenter noting that they hesitated to use Ubuntu for a generic Linux VM for the first time due to these delays. This reflects a significant shift in user perception and trust in Ubuntu's reliability.",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "background",
+          "title": "Concerns Over Ubuntu's Security Response",
+          "content": "The discussion around Ubuntu's security response times highlights a growing concern among users regarding the distribution's ability to address vulnerabilities promptly. This issue has led some users to reconsider their reliance on Ubuntu for secure systems, particularly in light of the critical nature of timely security updates.",
+          "primary": false
+        },
+        {
+          "id": "impact",
+          "title": "Impact",
+          "content": "As a result of these concerns, some organizations, such as the commenter from a workplace, have transitioned their server images from Ubuntu to Debian, indicating a loss of trust in Ubuntu's security management.",
+          "primary": false
+        },
+        {
+          "id": "community_discussion",
+          "title": "Community Discussion",
+          "content": "Users have expressed frustration over the slow patching process, with one commenter noting that they hesitated to use Ubuntu for a generic Linux VM for the first time due to these delays. This reflects a significant shift in user perception and trust in Ubuntu's reliability.",
+          "primary": false
+        }
+      ],
+      "references": [],
+      "engagement": [
+        "190 pts",
+        "95 comments"
+      ],
+      "engagement_weight": 430,
+      "probability_pct": null,
+      "leading_outcome": null,
+      "volume_24h_display": null
+    },
+    {
+      "id": "story-9",
+      "item_id": "rss:www.techmeme.com_feed.xml:36699058d3d4c190",
+      "rank": 9,
+      "group_index": 9,
+      "profile_id": "tech-news",
+      "profile_name": "Technology News",
+      "title": "Nvidia's Advanced Chips Sold to Chinese-Owned Firms in California",
+      "summary": "Nvidia is reportedly selling its most advanced chips to at least two California companies that are controlled by Chinese entities. This practice raises concerns about technology transfer and its implications for the technology supply chain and geopolitical dynamics in AI and computing.",
+      "score": 7.0,
+      "score_display": "7.0",
+      "reason": "The investigation reveals significant information about Nvidia's sales practices regarding advanced chips, which could impact the technology supply chain and geopolitical dynamics in AI and computing.",
+      "url": "https://www.techmeme.com/261125/p45#a261125p45",
+      "domain": "techmeme.com",
+      "discussion_url": null,
+      "source_type": "rss",
+      "source_label": "RSS Feed",
+      "sub_source": "Techmeme",
+      "author": "Techmeme",
+      "category": "AI News",
+      "published_at": "2026-11-26T01:55:00+00:00",
+      "time_display": "Nov 26 · 01:55",
+      "tags": [
+        "Nvidia",
+        "AI",
+        "technology supply chain",
+        "geopolitics",
+        "Semiconductors"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "Summary of Findings",
+          "content": "Nvidia is reportedly selling its most advanced chips to at least two California companies that are controlled by Chinese entities. This practice raises concerns about technology transfer and its implications for the technology supply chain and geopolitical dynamics in AI and computing.",
+          "primary": true
+        },
+        {
+          "id": "background",
+          "title": "Background on Nvidia's Sales Practices",
+          "content": "Nvidia has been under scrutiny for its sales practices, particularly regarding the distribution of its advanced chips. Recent investigations reveal that Nvidia is selling these chips to U.S.-based companies that are controlled by Chinese entities, raising concerns about technology transfer and compliance with U.S. export regulations.",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "background",
+          "title": "Background on Nvidia's Sales Practices",
+          "content": "Nvidia has been under scrutiny for its sales practices, particularly regarding the distribution of its advanced chips. Recent investigations reveal that Nvidia is selling these chips to U.S.-based companies that are controlled by Chinese entities, raising concerns about technology transfer and compliance with U.S. export regulations.",
+          "primary": false
+        }
+      ],
+      "references": [
+        {
+          "id": "tool-1-1",
+          "title": "2 California companies are buying Nvidia's most advanced ...",
+          "url": "https://www.cbsnews.com/news/nvidia-china-ai-chips-computing-sales/",
+          "domain": "cbsnews.com"
+        },
+        {
+          "id": "tool-1-2",
+          "title": "Nvidia sells advanced AI chips to US firms owned by Chinese ...",
+          "url": "https://www.hindustantimes.com/world-news/nvidia-selling-advanced-ai-chips-to-us-based-firms-controlled-by-chinese-owned-companies-report-101795661036235.html",
+          "domain": "hindustantimes.com"
+        }
+      ],
+      "engagement": [],
+      "engagement_weight": 0,
+      "probability_pct": null,
+      "leading_outcome": null,
+      "volume_24h_display": null
+    },
+    {
+      "id": "story-10",
+      "item_id": "arxiv:paper:2611.34942v1",
+      "rank": 10,
+      "group_index": 1,
+      "profile_id": "tech-blog",
+      "profile_name": "Technology Blog",
+      "title": "Spectrum Adaptation of AI-Native Autoencoder Communications with Transfer Learning",
+      "summary": "This paper explores the adaptation of AI-native autoencoder communications through transfer learning, highlighting performance improvements and resource efficiency.",
+      "score": 8.0,
+      "score_display": "8.0",
+      "reason": "The article provides substantial technical depth on the adaptation of autoencoder communications using transfer learning, supported by a clear methodology and quantitative analysis of performance trade-offs, making it valuable for practitioners in the field.",
+      "url": "https://arxiv.org/abs/2611.34942v1",
+      "domain": "arxiv.org",
+      "discussion_url": null,
+      "source_type": "arxiv",
+      "source_label": "arXiv",
+      "sub_source": "arXiv (cs.NI)",
+      "author": "Yalin E. Sagduyu, Tugba Erpek",
+      "category": "AI Research",
+      "published_at": "2026-11-25T18:59:57+00:00",
+      "time_display": "Nov 25 · 18:59",
+      "tags": [
+        "Autoencoders",
+        "Transfer Learning",
+        "Communications",
+        "Machine Learning",
+        "Signal Processing"
+      ],
+      "blocks": [
+        {
+          "id": "background",
+          "title": "Background",
+          "content": "The paper addresses the limitations of traditional communication systems that rely on separate modulation, coding, and detection processes. It focuses on AI-native communications using autoencoders (AEs), which integrate these functions into a single model. However, models trained solely on additive white Gaussian noise (AWGN) channels struggle with performance when faced with more complex environments like Rayleigh fading, particularly due to mismatches in training and testing conditions.",
+          "primary": false
+        },
+        {
+          "id": "solution",
+          "title": "Solution",
+          "content": "To tackle the challenges of adapting to new channel conditions efficiently, the authors propose a low-latency transfer learning approach. This method begins with a system pretrained on AWGN channels and fine-tunes only a small subset of layers in the transmitter and receiver, while keeping the rest frozen. They frame the selection of these layers as a budget-constrained optimization problem, allowing for the identification of the most critical parameters to update. This strategy not only maintains the integrity of the learned signal geometry but also enhances the system's ability to adapt to fading and impairments. The results demonstrate that these partial updates significantly reduce the bit error rate (BER) and approach the performance of fully retrained models, all while minimizing training time, energy consumption, and the number of parameters that need updating.",
+          "primary": false
+        },
+        {
+          "id": "takeaway",
+          "title": "Takeaway",
+          "content": "The study highlights that effective adaptation of AI-native autoencoder communications through transfer learning can lead to substantial improvements in performance and resource efficiency, making it a promising approach for real-world applications in varying channel conditions.",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "background",
+          "title": "Background",
+          "content": "The paper addresses the limitations of traditional communication systems that rely on separate modulation, coding, and detection processes. It focuses on AI-native communications using autoencoders (AEs), which integrate these functions into a single model. However, models trained solely on additive white Gaussian noise (AWGN) channels struggle with performance when faced with more complex environments like Rayleigh fading, particularly due to mismatches in training and testing conditions.",
+          "primary": false
+        },
+        {
+          "id": "solution",
+          "title": "Solution",
+          "content": "To tackle the challenges of adapting to new channel conditions efficiently, the authors propose a low-latency transfer learning approach. This method begins with a system pretrained on AWGN channels and fine-tunes only a small subset of layers in the transmitter and receiver, while keeping the rest frozen. They frame the selection of these layers as a budget-constrained optimization problem, allowing for the identification of the most critical parameters to update. This strategy not only maintains the integrity of the learned signal geometry but also enhances the system's ability to adapt to fading and impairments. The results demonstrate that these partial updates significantly reduce the bit error rate (BER) and approach the performance of fully retrained models, all while minimizing training time, energy consumption, and the number of parameters that need updating.",
+          "primary": false
+        },
+        {
+          "id": "takeaway",
+          "title": "Takeaway",
+          "content": "The study highlights that effective adaptation of AI-native autoencoder communications through transfer learning can lead to substantial improvements in performance and resource efficiency, making it a promising approach for real-world applications in varying channel conditions.",
+          "primary": false
+        }
+      ],
+      "references": [],
+      "engagement": [],
+      "engagement_weight": 0,
+      "probability_pct": null,
+      "leading_outcome": null,
+      "volume_24h_display": null
+    },
+    {
+      "id": "story-11",
+      "item_id": "arxiv:paper:2611.34923v1",
+      "rank": 11,
+      "group_index": 2,
+      "profile_id": "tech-blog",
+      "profile_name": "Technology Blog",
+      "title": "Mixture-of-Loops Transformer",
+      "summary": "The Mixture-of-Loops Transformer introduces a novel mechanism for improving Transformer efficiency and expressivity, supported by empirical results.",
+      "score": 8.0,
+      "score_display": "8.0",
+      "reason": "The article provides substantial technical depth and presents an original approach to enhancing the efficiency of Transformers through the Mixture-of-Loops mechanism. It includes concrete implementation details and empirical results that demonstrate improvements in token efficiency and accuracy, making it valuable for practitioners looking to apply these concepts.",
+      "url": "https://arxiv.org/abs/2611.34923v1",
+      "domain": "arxiv.org",
+      "discussion_url": null,
+      "source_type": "arxiv",
+      "source_label": "arXiv",
+      "sub_source": "arXiv (cs.LG)",
+      "author": "Lianghui Zhu, Shijie Wang, Xinggang Wang et al.",
+      "category": "AI Research",
+      "published_at": "2026-11-25T18:58:53+00:00",
+      "time_display": "Nov 25 · 18:58",
+      "tags": [
+        "Transformer",
+        "Machine Learning",
+        "Attention Mechanisms",
+        "Efficiency",
+        "Natural Language Processing"
+      ],
+      "blocks": [
+        {
+          "id": "background",
+          "title": "Background",
+          "content": "Looped Transformers enhance expressivity by reusing shared layers across loops, but this often compromises efficiency. To address this challenge, the Mixture-of-Loops Transformer (MoLT) rethinks the mechanism for connecting adjacent loops, focusing on what information should be passed between them.",
+          "primary": false
+        },
+        {
+          "id": "solution",
+          "title": "Solution",
+          "content": "The MoLT introduces a novel Mixture-of-Loops Attention (MoLA) that utilizes keys and values (KV) as memory for selective reuse across depths and loops. It features two configurations: MoLT-R, which retains the residual stream and accesses local KV across loops for enhanced expressivity, and MoLT-KV, which starts from embeddings and combines current-loop local KV with preceding-loop memory KV for improved efficiency. MoLT-KV eliminates same-position cross-loop dependencies and, when paired with loop forcing for parallel training, enables single-traversal decoding beyond the training loop horizon. The U-shaped MoLT (U-MoLT) further optimizes this by separating memory construction from prediction readout, allowing it to skip unused decoder traversals without altering predictions. Empirical results show that U-MoLT outperforms existing models in terms of token efficiency and accuracy, achieving significant improvements in validation cross-entropy and perplexity across various tasks and domains.",
+          "primary": false
+        },
+        {
+          "id": "takeaway",
+          "title": "Takeaway",
+          "content": "The Mixture-of-Loops Transformer represents a significant advancement in Transformer architecture, balancing expressivity and efficiency through innovative memory reuse strategies. Its empirical success highlights the potential for enhancing model performance in natural language processing tasks.",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "background",
+          "title": "Background",
+          "content": "Looped Transformers enhance expressivity by reusing shared layers across loops, but this often compromises efficiency. To address this challenge, the Mixture-of-Loops Transformer (MoLT) rethinks the mechanism for connecting adjacent loops, focusing on what information should be passed between them.",
+          "primary": false
+        },
+        {
+          "id": "solution",
+          "title": "Solution",
+          "content": "The MoLT introduces a novel Mixture-of-Loops Attention (MoLA) that utilizes keys and values (KV) as memory for selective reuse across depths and loops. It features two configurations: MoLT-R, which retains the residual stream and accesses local KV across loops for enhanced expressivity, and MoLT-KV, which starts from embeddings and combines current-loop local KV with preceding-loop memory KV for improved efficiency. MoLT-KV eliminates same-position cross-loop dependencies and, when paired with loop forcing for parallel training, enables single-traversal decoding beyond the training loop horizon. The U-shaped MoLT (U-MoLT) further optimizes this by separating memory construction from prediction readout, allowing it to skip unused decoder traversals without altering predictions. Empirical results show that U-MoLT outperforms existing models in terms of token efficiency and accuracy, achieving significant improvements in validation cross-entropy and perplexity across various tasks and domains.",
+          "primary": false
+        },
+        {
+          "id": "takeaway",
+          "title": "Takeaway",
+          "content": "The Mixture-of-Loops Transformer represents a significant advancement in Transformer architecture, balancing expressivity and efficiency through innovative memory reuse strategies. Its empirical success highlights the potential for enhancing model performance in natural language processing tasks.",
+          "primary": false
+        }
+      ],
+      "references": [],
+      "engagement": [],
+      "engagement_weight": 0,
+      "probability_pct": null,
+      "leading_outcome": null,
+      "volume_24h_display": null
+    },
+    {
+      "id": "story-12",
+      "item_id": "rss:search.cnbc.com_rs_search_combinedcms_view.xml?partnerId=wrss01&id=10000664:b79136c9dcfeda6c",
+      "rank": 12,
+      "group_index": 1,
+      "profile_id": "finance-news",
+      "profile_name": "Financial News",
+      "title": "Risks and Opportunities in the AI Boom",
+      "summary": "A hedge fund manager warned that the AI boom could lead to a recession due to potential job losses or a collapse in AI investment, while highlighting investment opportunities in data centers and high-yield bonds with yields around 8.5%.",
+      "score": 7.0,
+      "score_display": "7.0",
+      "reason": "The article discusses significant concerns regarding the potential economic impact of the AI boom, including risks of recession and job losses, which could affect various sectors. It provides insights from credible sources and highlights investment opportunities, making it relevant for readers interested in market trends and economic implications.",
+      "url": "https://www.cnbc.com/2026/11/26/mispricing-risk-fund-managers-ai-volatility.html",
+      "domain": "cnbc.com",
+      "discussion_url": null,
+      "source_type": "rss",
+      "source_label": "RSS Feed",
+      "sub_source": "CNBC Finance",
+      "author": "CNBC Finance",
+      "category": "Finance",
+      "published_at": "2026-11-26T01:34:58+00:00",
+      "time_display": "Nov 26 · 01:34",
+      "tags": [
+        "AI",
+        "recession",
+        "investment opportunities",
+        "high-yield bonds",
+        "market volatility"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "Summary",
+          "content": "A hedge fund manager warned that the AI boom could lead to a recession due to potential job losses or a collapse in AI investment, while highlighting investment opportunities in data centers and high-yield bonds with yields around 8.5%.",
+          "primary": true
+        },
+        {
+          "id": "background",
+          "title": "Background",
+          "content": "The warning comes amid concerns that rapid advancements in AI technology could disrupt job markets and consumer spending, reminiscent of past economic bubbles.",
+          "primary": false
+        },
+        {
+          "id": "impact",
+          "title": "Impact",
+          "content": "Investors may need to reassess their strategies in sectors like housing and discretionary spending due to the potential economic implications of AI advancements.",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "background",
+          "title": "Background",
+          "content": "The warning comes amid concerns that rapid advancements in AI technology could disrupt job markets and consumer spending, reminiscent of past economic bubbles.",
+          "primary": false
+        },
+        {
+          "id": "impact",
+          "title": "Impact",
+          "content": "Investors may need to reassess their strategies in sectors like housing and discretionary spending due to the potential economic implications of AI advancements.",
+          "primary": false
+        }
+      ],
+      "references": [],
+      "engagement": [],
+      "engagement_weight": 0,
+      "probability_pct": null,
+      "leading_outcome": null,
+      "volume_24h_display": null
+    },
+    {
+      "id": "story-13",
+      "item_id": "rss:search.cnbc.com_rs_search_combinedcms_view.xml?partnerId=wrss01&id=10000664:b1311ca509bae133",
+      "rank": 13,
+      "group_index": 2,
+      "profile_id": "finance-news",
+      "profile_name": "Financial News",
+      "title": "Kevin Warsh's Evolving Approach to Monetary Policy Amid Market Volatility",
+      "summary": "Federal Reserve Chairman Kevin Warsh is shifting his focus towards using market signals to guide monetary policy, as recent market fluctuations have influenced expectations for interest rate hikes. Following a volatile week, market probabilities for rate increases have fluctuated, with December and January hikes now back on the table.",
+      "score": 7.0,
+      "score_display": "7.0",
+      "reason": "The article discusses significant shifts in monetary policy perspectives, particularly regarding Federal Reserve Chairman Kevin Warsh's approach to market signals and interest rates, which could have broad implications for economic policy and market behavior.",
+      "url": "https://www.cnbc.com/2026/11/25/nvidia-kevin-warsh-fed-market-signals.html",
+      "domain": "cnbc.com",
+      "discussion_url": null,
+      "source_type": "rss",
+      "source_label": "RSS Feed",
+      "sub_source": "CNBC Finance",
+      "author": "CNBC Finance",
+      "category": "Finance",
+      "published_at": "2026-11-25T12:26:41+00:00",
+      "time_display": "Nov 25 · 12:26",
+      "tags": [
+        "Monetary Policy",
+        "Federal Reserve",
+        "Market Analysis",
+        "Interest Rates",
+        "Economic Trends"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "Summary",
+          "content": "Federal Reserve Chairman Kevin Warsh is shifting his focus towards using market signals to guide monetary policy, as recent market fluctuations have influenced expectations for interest rate hikes. Following a volatile week, market probabilities for rate increases have fluctuated, with December and January hikes now back on the table.",
+          "primary": true
+        },
+        {
+          "id": "background",
+          "title": "Background",
+          "content": "Warsh aims to prioritize long-term economic indicators over short-term market movements, reflecting a significant change in the Fed's approach to monetary policy. His recent discussions on artificial intelligence and its economic implications highlight his desire for a more forward-looking policy framework.",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "background",
+          "title": "Background",
+          "content": "Warsh aims to prioritize long-term economic indicators over short-term market movements, reflecting a significant change in the Fed's approach to monetary policy. His recent discussions on artificial intelligence and its economic implications highlight his desire for a more forward-looking policy framework.",
+          "primary": false
+        }
+      ],
+      "references": [],
+      "engagement": [],
+      "engagement_weight": 0,
+      "probability_pct": null,
+      "leading_outcome": null,
+      "volume_24h_display": null
+    },
+    {
+      "id": "story-14",
+      "item_id": "rss:search.cnbc.com_rs_search_combinedcms_view.xml?partnerId=wrss01&id=10000664:517ba79592f8a299",
+      "rank": 14,
+      "group_index": 3,
+      "profile_id": "finance-news",
+      "profile_name": "Financial News",
+      "title": "Jensen Huang's Return to Nvidia Highlights U.S.-China AI Talent Competition",
+      "summary": "Jensen Huang's return as CEO of Nvidia emphasizes the importance of tech talent in the U.S.-China AI competition, with concerns raised about talent retention and competition in the industry.",
+      "score": 7.0,
+      "score_display": "7.0",
+      "reason": "The article discusses the implications of Jensen Huang's return to Nvidia in the context of the U.S.-China AI talent race, highlighting significant economic and policy concerns regarding tech talent migration and competition between the two countries.",
+      "url": "https://www.cnbc.com/2026/11/25/jensen-huang-nvidia-ai-talent-race.html",
+      "domain": "cnbc.com",
+      "discussion_url": null,
+      "source_type": "rss",
+      "source_label": "RSS Feed",
+      "sub_source": "CNBC Finance",
+      "author": "CNBC Finance",
+      "category": "Finance",
+      "published_at": "2026-11-25T14:29:00+00:00",
+      "time_display": "Nov 25 · 14:29",
+      "tags": [
+        "AI competition",
+        "Nvidia",
+        "U.S.-China relations",
+        "tech talent",
+        "economic policy"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "Summary",
+          "content": "Jensen Huang's return as CEO of Nvidia emphasizes the importance of tech talent in the U.S.-China AI competition, with concerns raised about talent retention and competition in the industry.",
+          "primary": true
+        },
+        {
+          "id": "background",
+          "title": "Background",
+          "content": "Huang's brief resignation on November 12, 2026, followed reports of personal controversies, but he returned on November 23, 2026, leading to a surge in Nvidia's stock price. Research indicates that China has surpassed the U.S. in global AI talent share within three years.",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "background",
+          "title": "Background",
+          "content": "Huang's brief resignation on November 12, 2026, followed reports of personal controversies, but he returned on November 23, 2026, leading to a surge in Nvidia's stock price. Research indicates that China has surpassed the U.S. in global AI talent share within three years.",
+          "primary": false
+        }
+      ],
+      "references": [],
+      "engagement": [],
+      "engagement_weight": 0,
+      "probability_pct": null,
+      "leading_outcome": null,
+      "volume_24h_display": null
+    },
+    {
+      "id": "story-15",
+      "item_id": "rss:search.cnbc.com_rs_search_combinedcms_view.xml?partnerId=wrss01&id=19854910:ba69445eea454421",
+      "rank": 15,
+      "group_index": 4,
+      "profile_id": "finance-news",
+      "profile_name": "Financial News",
+      "title": "South Korea's Kospi Leads Gains as Tech Rebounds",
+      "summary": "Asian markets rose, with South Korea's Kospi gaining 1.73% after the central bank raised benchmark lending rates by 25 basis points to 3.25%, the highest in two years.",
+      "score": 7.0,
+      "score_display": "7.0",
+      "reason": "The article discusses significant movements in Asian markets, particularly in response to a central bank interest rate hike in South Korea, which has broader implications for economic policy and investor sentiment in the region. It also highlights the rebound of tech stocks, which is relevant for understanding market trends.",
+      "url": "https://www.cnbc.com/2026/11/26/stock-markets-today-.html",
+      "domain": "cnbc.com",
+      "discussion_url": null,
+      "source_type": "rss",
+      "source_label": "RSS Feed",
+      "sub_source": "CNBC Tech",
+      "author": "CNBC Tech",
+      "category": "Tech Markets",
+      "published_at": "2026-11-26T01:45:52+00:00",
+      "time_display": "Nov 26 · 01:45",
+      "tags": [
+        "Asia Markets",
+        "Interest Rates",
+        "Tech Stocks",
+        "Economic Policy",
+        "Inflation"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "Summary",
+          "content": "Asian markets rose, with South Korea's Kospi gaining 1.73% after the central bank raised benchmark lending rates by 25 basis points to 3.25%, the highest in two years.",
+          "primary": true
+        },
+        {
+          "id": "background",
+          "title": "Background",
+          "content": "The rate hike comes as inflation remains above target and the economy shows strength, allowing for tighter monetary policy.",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "background",
+          "title": "Background",
+          "content": "The rate hike comes as inflation remains above target and the economy shows strength, allowing for tighter monetary policy.",
+          "primary": false
+        }
+      ],
+      "references": [],
+      "engagement": [],
+      "engagement_weight": 0,
+      "probability_pct": null,
+      "leading_outcome": null,
+      "volume_24h_display": null
+    }
+  ]
+}
