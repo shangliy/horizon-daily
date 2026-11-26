@@ -178,6 +178,9 @@ def test_mcp_filter_and_reporting_support_every_registered_source() -> None:
                 "ossinsight": {"enabled": True},
                 "gdelt": {"enabled": True},
                 "google_news": {"enabled": True},
+                "polymarket": {"enabled": True},
+                "arxiv": {"enabled": True},
+                "bluesky": {"enabled": True, "handles": ["example.bsky.social"]},
             },
         }
     )

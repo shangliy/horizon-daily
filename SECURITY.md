@@ -2,9 +2,9 @@
 
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability in Horizon, please do **not** open a public issue.
-Instead, please report it privately by email:
-**thysrael@gmail.com**
+If you discover a security vulnerability in Horizon Daily, please do **not** open a public issue.
+Instead, please report it privately through GitHub's
+[private vulnerability reporting](https://github.com/shangliy/horizon-daily/security/advisories/new).
 
 Please include:
 - A clear description of the issue

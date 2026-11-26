@@ -1,8 +1,3 @@
----
-layout: default
-title: Processing Profiles
----
-
 # Processing Profiles
 
 News needs context. An engineering deep dive needs an explanation of the solution.

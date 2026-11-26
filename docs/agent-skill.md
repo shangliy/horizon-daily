@@ -1,11 +1,6 @@
----
-layout: default
-title: Agent Skill
----
-
 # Horizon Agent Skill
 
-The [Horizon skill](https://github.com/Thysrael/Horizon/tree/main/skills/horizon)
+The [Horizon skill](https://github.com/shangliy/horizon-daily/tree/main/skills/horizon)
 helps an AI assistant configure a news radar, generate and tune digests, create
 Profiles, schedule delivery, and contribute code. Horizon continues to run the
 AI pipeline with the model and credentials in its own configuration.
@@ -15,7 +10,7 @@ AI pipeline with the model and credentials in its own configuration.
 Choose one of the installation methods below. You can install the skill first,
 then ask your assistant to install and configure Horizon. With shell and network
 access, the assistant can prepare a checkout and its Python environment using
-the [README](https://github.com/Thysrael/Horizon#quick-start). Running tasks needs
+the [README](https://github.com/shangliy/horizon-daily#quick-start). Running tasks needs
 Python 3.11+ and Horizon's dependencies. The skill and checkout may live at
 different paths.
 
@@ -24,7 +19,7 @@ different paths.
 With Node.js 22.20 or later, run:
 
 ```bash
-npx skills add Thysrael/Horizon --skill horizon -g
+npx skills add shangliy/horizon-daily --skill horizon -g
 ```
 
 The [Skills CLI](https://github.com/vercel-labs/skills) discovers the skill in this
@@ -33,13 +28,6 @@ OpenCode, and OpenClaw. Follow the agent-selection prompts when shown; `-g`
 installs at user level. To target a specific assistant, add its agent flag, for
 example `-a opencode`.
 
-### Download a skill package
-
-[Download horizon-skill.zip](https://thysrael.github.io/Horizon/downloads/horizon-skill.zip).
-The archive contains the complete `horizon/` skill directory, including scripts,
-references, and the project license. Import it using your assistant's local-package
-installer, or extract it and place the `horizon/` directory in the destination
-listed below.
 
 ### Copy from a checkout
 
@@ -122,12 +110,6 @@ existing subject docs, and pipeline behavior belongs in Horizon. The helper
 forwards native method parameters and results rather than maintaining another
 CLI schema or reimplementing the pipeline. Only its operation allowlist needs
 updating when intentionally exposing a new service method.
-
-The `Deploy Docs` workflow packages the tracked `skills/horizon` directory and
-project license with `git archive`, publishing `downloads/horizon-skill.zip`
-alongside the Pages site. Changes to the skill trigger a deployment; the workflow
-can also be run manually. The download link becomes available once that
-deployment completes.
 
 Run the adapter's offline regression tests after changing it:
 

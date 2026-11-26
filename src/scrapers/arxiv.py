@@ -71,7 +71,7 @@ class ArXivScraper(BaseScraper):
         resp = await self.client.get(
             self.BASE_URL,
             params=params,
-            headers={"User-Agent": "Horizon/0.1.0 (+https://github.com/Thysrael/Horizon)"},
+            headers={"User-Agent": "Horizon/0.1.0 (+https://github.com/shangliy/horizon-daily)"},
         )
         resp.raise_for_status()
 

@@ -1,8 +1,3 @@
----
-layout: default
-title: Sign in with ChatGPT
----
-
 # Use your ChatGPT plan
 
 Horizon supports OpenAI's official **Sign in with ChatGPT / ChatGPT plan usage**

@@ -20,7 +20,7 @@ from ..models import ContentItem, SourceType, RSSSourceConfig
 logger = logging.getLogger(__name__)
 
 # Identify feed requests: some publishers reject httpx's default User-Agent.
-RSS_USER_AGENT = "Horizon/0.1.0 (+https://github.com/Thysrael/Horizon)"
+RSS_USER_AGENT = "Horizon/0.1.0 (+https://github.com/shangliy/horizon-daily)"
 MAX_CONCURRENT_FEEDS = 3
 
 # Rate-limited feeds (e.g. Reddit RSS answers bursts with 429) are retried with

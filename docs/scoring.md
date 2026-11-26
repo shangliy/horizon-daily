@@ -1,8 +1,3 @@
----
-layout: default
-title: Scoring System
----
-
 # Scoring System
 
 A release announcement and an engineering deep dive earn their place for

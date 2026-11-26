@@ -1,8 +1,3 @@
----
-layout: default
-title: Configuration Guide
----
-
 # Configuration Guide
 
 Horizon is configured through a `.env` file for secrets, a JSON file for runtime settings, and processing profiles for analysis and enrichment prompts. The JSON file defaults to `data/config.json`; profiles default to `profiles/`.
@@ -1077,9 +1072,7 @@ docker compose run --rm --entrypoint uv horizon run horizon-wechat test --lang z
 
 ## Static Site
 
-Horizon writes generated summaries to `data/summaries/` (or `<data-dir>/summaries/` when `--data-dir` is set) and copies publishable Markdown into `docs/` for the GitHub Pages site. The repository includes a disabled daily workflow template at [`.github/workflows/daily-summary.yml.disabled`](../.github/workflows/daily-summary.yml.disabled). Configure it for your deployment and rename it to `daily-summary.yml` to enable scheduled generation.
-
-To use GitHub Pages, enable Pages for the repository and run the scheduled workflow or trigger it manually. The generated site is built from the `docs/` directory.
+Horizon Daily writes generated summaries to `data/summaries/` (or `<data-dir>/summaries/` when `--data-dir` is set). When `broadsheet.enabled` is true it also writes the newspaper site to `broadsheet.site_dir` (default `docs/broadsheet/`). The scheduled workflow [`.github/workflows/daily-broadsheet.yml`](../.github/workflows/daily-broadsheet.yml) publishes that directory to the `gh-pages` branch; see [broadsheet-deploy.md](broadsheet-deploy.md).
 
 ## MCP Server
 

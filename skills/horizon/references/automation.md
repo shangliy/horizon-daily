@@ -36,11 +36,10 @@ of the user-facing transcript.
 
 ## GitHub Actions
 
-Read `.github/workflows/daily-summary.yml.disabled` and
-`.github/workflows/deploy-docs.yml`. The former is a disabled generation template;
-the latter deploys docs on pushes and does not itself generate news.
+Read `.github/workflows/daily-broadsheet.yml`. It runs the pipeline on a schedule
+and publishes the broadsheet site in `docs/broadsheet/` to the `gh-pages` branch.
 
-- Adapt the disabled template into an active `.yml` workflow for the user's
+- Adapt that workflow for the user's
   repository. Configure its actual config file, secret names, extras, permissions,
   and Pages destination. Preserve existing unrelated jobs.
 - Use the default branch for scheduled events and keep `workflow_dispatch` for a

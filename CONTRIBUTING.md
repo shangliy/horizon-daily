@@ -1,6 +1,6 @@
-# Contributing to Horizon
+# Contributing to Horizon Daily
 
-Thanks for your interest in contributing to Horizon.
+Thanks for your interest in contributing to Horizon Daily.
 
 ## Ways to Contribute
 
@@ -9,7 +9,7 @@ You can contribute in more than one way:
 - Report bugs or suggest features by opening an issue
 - Improve code, documentation, or examples through pull requests
 - Contribute reusable processing profiles for new content domains
-- Share valuable news sources with the community through the website
+- Suggest valuable news sources by opening an issue
 
 ## Code Contributions
 
@@ -49,7 +49,7 @@ format and submission checklist.
 
 Horizon also welcomes **source contributions**, not just code.
 
-If you discover high-quality sources worth sharing with other users, please submit them via **[horizon1123.top](https://horizon1123.top)**.
+If you discover high-quality sources worth sharing with other users, please open an [issue](https://github.com/shangliy/horizon-daily/issues) or a pull request against `data/config.broadsheet.json`.
 
 Good examples include:
 

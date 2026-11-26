@@ -1,7 +1,7 @@
 [project]
-name = "horizon"
+name = "horizon-daily"
 version = "0.1.0"
-description = "AI-driven information aggregation system for tracking academic and social trends"
+description = "Horizon Daily — an AI-edited bilingual broadsheet built from many news sources, published to GitHub Pages"
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.11"

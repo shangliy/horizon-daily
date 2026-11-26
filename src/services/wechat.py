@@ -34,7 +34,7 @@ LONG_POLL_TIMEOUT = 35.0
 CONTEXT_REFRESH_TIMEOUT = 8.0
 
 try:
-    ILINK_BOT_AGENT = f"Horizon/{version('horizon')}"
+    ILINK_BOT_AGENT = f"Horizon/{version('horizon-daily')}"
 except PackageNotFoundError:  # pragma: no cover
     ILINK_BOT_AGENT = "Horizon/0.1.0"
 
