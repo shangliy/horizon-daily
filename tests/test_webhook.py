@@ -1595,7 +1595,12 @@ class TestHTTPStatusHandling:
 
         mock_console = MagicMock()
 
-        with patch("httpx.AsyncClient") as mock_client_cls:
+        # Resolve the redirect target to a fixed public address so the test
+        # does not depend on real DNS for a domain we do not control.
+        with patch(
+            "src.url_security._resolve_hostname",
+            AsyncMock(return_value={"93.184.216.34"}),
+        ), patch("httpx.AsyncClient") as mock_client_cls:
             mock_client = AsyncMock()
             mock_client.get = AsyncMock(return_value=mock_response)
             mock_client.__aenter__ = AsyncMock(return_value=mock_client)
