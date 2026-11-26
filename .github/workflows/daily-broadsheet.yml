@@ -14,6 +14,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 jobs:
   build-and-deploy:
@@ -103,6 +104,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: uv run horizon --hours "${{ inputs.hours || '24' }}"
 
+      - name: Verify the new edition before deploying
+        env:
+          MIN_EDITION_ITEMS: ${{ vars.MIN_EDITION_ITEMS || '5' }}
+        run: uv run python -m src.rendering.verify --site-dir docs/broadsheet --min-items "$MIN_EDITION_ITEMS"
+
       - name: Set edition date
         run: echo "DATE=$(date -u +'%Y-%m-%d')" >> "$GITHUB_ENV"
 
@@ -115,3 +121,34 @@ jobs:
           keep_files: true
           enable_jekyll: false
           commit_message: "📰 地平线每日快报: ${{ env.DATE }}"
+
+      - name: Close the failure issue after a successful edition
+        if: success()
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          gh issue list --label daily-edition-failure --state open --json number --jq '.[].number' |
+            while read -r number; do
+              gh issue close "$number" --comment "Edition ${DATE} was published: ${RUN_URL}"
+            done
+
+      - name: Open or update an issue when the edition fails
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          today="$(date -u +'%Y-%m-%d')"
+          body="The daily broadsheet run on ${today} failed, so no new edition was deployed and the site still shows the previous one. Logs: ${RUN_URL}"
+          gh label create daily-edition-failure --color B60205 \
+            --description "The scheduled broadsheet run failed" --force
+          number="$(gh issue list --label daily-edition-failure --state open --json number --jq '.[0].number')"
+          if [ -n "$number" ]; then
+            gh issue comment "$number" --body "$body"
+          else
+            gh issue create --title "Daily edition failed" --label daily-edition-failure --body "$body"
+          fi

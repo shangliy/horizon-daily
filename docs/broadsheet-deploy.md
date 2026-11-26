@@ -63,3 +63,9 @@
   3. 配置完成后每日工作流会自动抓取 Twitter 关注账号列表及高赞回复（未配置 `APIFY_TOKEN` 时自动跳过、不影响其他源）；
   4. 如需自定义关注的 X 账号，可在 **Variables** 中添加 `TWITTER_USERS`（逗号分隔，如 `karpathy,sama,OpenAI,AnthropicAI`）或直接修改 `data/config.broadsheet.json` 中的 `sources.twitter.users`。
 - **本地零费用预览测试**：运行 `uv run python scripts/generate_broadsheet_preview.py --live` 即可在 `docs/broadsheet/` 下生成实时抓取的本地站点并用 `python3 -m http.server -d docs/broadsheet 8080` 预览往期切换与双语切换效果。
+
+## 失败保护与告警
+
+- **部署前校验**：工作流在推送 `gh-pages` 之前运行 `python -m src.rendering.verify`。当本次运行没有生成新一期、某种语言的条目数低于下限，或版面文件缺失时，工作流直接失败并跳过部署，线上保持上一期内容。
+- **条目数下限**：默认 5 条，可在 **Variables** 中添加 `MIN_EDITION_ITEMS` 调整。
+- **失败告警**：工作流失败时会在仓库里创建（或追加评论到）带 `daily-edition-failure` 标签的 issue，并附上运行日志链接；下一次成功发布后该 issue 自动关闭。
