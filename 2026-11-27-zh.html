@@ -1,0 +1,2549 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="system" data-font="normal">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>地平线每日快报 — 2026年11月27日 星期五</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@600;700;900&family=Pirata+One&family=Playfair+Display:ital,wght@0,600;0,700;0,800;0,900;1,600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <style>
+
+:root {
+  --paper: #efe6d2;
+  --ink: #1a1712;
+  --ink-2: #3b352b;
+  --mute: #6e6556;
+  --rule: #1a1712;
+  --hair: #cfc3a8;
+  --accent: #2c5d82;
+  --accent-ink: #ffffff;
+  --hot: #a8231b;
+  --ad: #e6dbc2;
+  --chip: #e2d6bb;
+  --up: #2e7d32;
+  --down: #b3261e;
+  --badge-hot-bg: #f3dad6;
+  --badge-accent-bg: #d9e6ef;
+  --badge-yc-bg: #d95b26;
+  --grain: 0.44;
+  --shadow: rgba(26, 23, 18, 0.22);
+
+  --mast-latin: "Pirata One", "Old English Text MT", Georgia, serif;
+  --mast-cjk: "Noto Serif SC", "Songti SC", "STSong", "Playfair Display", Georgia, serif;
+  --head: "Playfair Display", "Noto Serif SC", Georgia, serif;
+  --body: "Source Serif 4", "Noto Serif SC", Georgia, serif;
+  --sans: "Libre Franklin", "Noto Sans SC", "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+  --base-size: 16.5px;
+}
+
+:root[data-font="large"] {
+  --base-size: 18.5px;
+}
+
+:root[data-theme="dark"] {
+  --paper: #1e1c19;
+  --ink: #d8d2c4;
+  --ink-2: #b2ab9c;
+  --mute: #8b8578;
+  --rule: #a9a293;
+  --hair: #3a3731;
+  --accent: #8fb8d8;
+  --accent-ink: #141210;
+  --hot: #ff7a6e;
+  --ad: #26231f;
+  --chip: #2d2a25;
+  --up: #7cc882;
+  --down: #f08a80;
+  --badge-hot-bg: rgba(255, 122, 110, 0.16);
+  --badge-accent-bg: rgba(143, 184, 216, 0.16);
+  --badge-yc-bg: #df6c36;
+  --grain: 0;
+  --shadow: rgba(0, 0, 0, 0.55);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root[data-theme="system"] {
+    --paper: #1e1c19;
+    --ink: #d8d2c4;
+    --ink-2: #b2ab9c;
+    --mute: #8b8578;
+    --rule: #a9a293;
+    --hair: #3a3731;
+    --accent: #8fb8d8;
+    --accent-ink: #141210;
+    --hot: #ff7a6e;
+    --ad: #26231f;
+    --chip: #2d2a25;
+    --up: #7cc882;
+    --down: #f08a80;
+    --badge-hot-bg: rgba(255, 122, 110, 0.16);
+    --badge-accent-bg: rgba(143, 184, 216, 0.16);
+    --badge-yc-bg: #df6c36;
+    --grain: 0;
+    --shadow: rgba(0, 0, 0, 0.55);
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--paper);
+  color: var(--ink);
+  font-size: var(--base-size);
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--body);
+  line-height: 1.58;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+.paper-grain {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 900;
+  opacity: var(--grain);
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)' opacity='0.22'/%3E%3C/svg%3E");
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.sheet {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 24px 88px;
+}
+
+/* Top Utility Bar */
+.util-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 0 10px;
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.util-left {
+  color: var(--ink-2);
+}
+
+.util-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.util-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 11px;
+  border: 1px solid var(--ink);
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  transition: background 0.15s, color 0.15s;
+}
+
+.util-btn:hover {
+  background: var(--chip);
+}
+
+.util-btn kbd {
+  font-family: var(--sans);
+  font-size: 10px;
+  padding: 0 4px;
+  border: 1px solid var(--hair);
+  color: var(--mute);
+}
+
+.util-btn-accent {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-ink);
+}
+
+.util-btn-accent:hover {
+  filter: brightness(1.08);
+  background: var(--accent);
+}
+
+.seg-group {
+  display: inline-flex;
+  border: 1px solid var(--ink);
+}
+
+.seg-btn {
+  padding: 5px 9px;
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 700;
+  border-right: 1px solid var(--hair);
+  color: var(--ink-2);
+  transition: background 0.15s, color 0.15s;
+}
+
+.seg-btn:last-child {
+  border-right: 0;
+}
+
+.seg-btn.is-active {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.seg-link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.archive-wrap {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--ink);
+  background: var(--paper);
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.archive-prefix {
+  padding: 5px 8px;
+  border-right: 1px solid var(--hair);
+  color: var(--mute);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.archive-select {
+  border: 0;
+  background: transparent;
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 700;
+  padding: 5px 8px;
+  cursor: pointer;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Masthead */
+.masthead {
+  display: grid;
+  grid-template-columns: 172px 1fr 172px;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 0 18px;
+}
+
+.ear {
+  border: 1px solid var(--hair);
+  padding: 10px 12px;
+  font-family: var(--sans);
+  line-height: 1.35;
+}
+
+.ear-right {
+  text-align: right;
+}
+
+.ear-kicker {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--mute);
+}
+
+.ear-num {
+  font-family: var(--head);
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 1.1;
+  margin: 3px 0;
+  font-variant-numeric: tabular-nums;
+}
+
+.ear-unit {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--mute);
+  margin-left: 2px;
+}
+
+.ear-sub {
+  font-size: 11px;
+  color: var(--ink-2);
+}
+
+.ear-link {
+  display: inline-block;
+  margin-top: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.ear-link:hover {
+  text-decoration: underline;
+}
+
+.ear-link-muted {
+  margin-top: 4px;
+  font-size: 11px;
+  color: var(--mute);
+}
+
+.mast-center {
+  text-align: center;
+}
+
+.mast-overline {
+  font-family: var(--sans);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--mute);
+  margin-bottom: 4px;
+}
+
+.mast-nameplate {
+  margin: 0;
+  line-height: 1.05;
+  color: var(--ink);
+}
+
+.mast-nameplate-latin {
+  font-family: var(--mast-latin);
+  font-weight: 400;
+  font-size: clamp(44px, 6.2vw, 88px);
+  letter-spacing: 0.01em;
+}
+
+.mast-nameplate-cjk {
+  font-family: var(--mast-cjk);
+  font-weight: 900;
+  font-size: clamp(36px, 5vw, 68px);
+  letter-spacing: 0.12em;
+}
+
+.mast-motto {
+  margin: 8px auto 0;
+  max-width: 660px;
+  font-family: var(--body);
+  font-style: italic;
+  font-size: 14px;
+  color: var(--ink-2);
+}
+
+/* Dateline & Section Nav */
+.dateline {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 12px;
+  padding: 7px 0;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--ink-2);
+}
+
+.dateline-center {
+  text-align: center;
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.dateline-right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.section-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px 20px;
+  padding: 10px 0;
+  border-bottom: 3px double var(--rule);
+  font-family: var(--sans);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.section-nav a {
+  padding: 2px 0;
+  color: var(--ink-2);
+  border-bottom: 2px solid transparent;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.section-nav a:hover,
+.section-nav a.is-current {
+  color: var(--ink);
+  border-bottom-color: var(--hot);
+}
+
+.nav-code {
+  font-size: 10px;
+  font-weight: 800;
+  color: var(--mute);
+  margin-right: 3px;
+}
+
+/* Continuous Signal Ticker Tape */
+.ticker {
+  overflow: hidden;
+  border-bottom: 1px solid var(--hair);
+  padding: 8px 0;
+  position: relative;
+}
+
+.ticker-track {
+  display: flex;
+  width: max-content;
+  animation: ticker-scroll 65s linear infinite;
+}
+
+.ticker:hover .ticker-track {
+  animation-play-state: paused;
+}
+
+@keyframes ticker-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ticker {
+    overflow-x: auto;
+  }
+  .ticker-track {
+    animation: none;
+  }
+}
+
+.ticker-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 0 18px;
+  border-right: 1px solid var(--hair);
+  font-family: var(--sans);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.ticker-item:hover .t-name {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+.t-name {
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.t-up {
+  font-weight: 700;
+  color: var(--up);
+}
+
+.t-hot {
+  font-weight: 700;
+  color: var(--hot);
+}
+
+/* Shared Editorial Typography */
+.band {
+  padding: 26px 0 34px;
+  border-bottom: 2px solid var(--rule);
+}
+
+.band:last-child {
+  border-bottom: 0;
+}
+
+.band-head {
+  margin-bottom: 20px;
+}
+
+.band-title-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  border-bottom: 1px solid var(--hair);
+  padding-bottom: 10px;
+}
+
+.band-title {
+  margin: 4px 0 0;
+  font-family: var(--head);
+  font-size: clamp(26px, 3vw, 38px);
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+.band-count {
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--mute);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.band-desc {
+  margin: 8px 0 0;
+  color: var(--ink-2);
+  font-size: 15px;
+}
+
+.kicker {
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--mute);
+}
+
+.hot-kicker {
+  color: var(--hot);
+}
+
+.accent-kicker {
+  color: var(--accent);
+}
+
+.col-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 8px;
+  margin-bottom: 14px;
+  border-bottom: 2px solid var(--rule);
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.col-header a {
+  color: var(--accent);
+  font-weight: 700;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.col-header a:hover {
+  text-decoration: underline;
+}
+
+.score-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 7px;
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+}
+
+.score-hot {
+  background: var(--badge-hot-bg);
+  color: var(--hot);
+}
+
+.score-accent {
+  background: var(--badge-accent-bg);
+  color: var(--accent);
+}
+
+.headline-trigger {
+  text-align: left;
+  font: inherit;
+  color: inherit;
+  line-height: inherit;
+  transition: color 0.15s;
+}
+
+.headline-trigger:hover {
+  color: var(--accent);
+}
+
+.tag-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.tag-chip {
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 7px;
+  background: var(--chip);
+  color: var(--ink-2);
+  border: 1px solid transparent;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.tag-chip:hover {
+  border-color: var(--ink);
+  color: var(--ink);
+}
+
+/* A1 Front Page 3-Column Broadsheet Grid */
+.fp-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2.05fr) minmax(0, 1fr);
+  gap: 0;
+  align-items: start;
+}
+
+.fp-col {
+  min-width: 0;
+}
+
+.fp-left {
+  padding-right: 22px;
+  border-right: 1px solid var(--hair);
+}
+
+.fp-center {
+  padding: 0 26px;
+}
+
+.fp-right {
+  padding-left: 22px;
+  border-left: 1px solid var(--hair);
+}
+
+.lead-kicker-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.breaking-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--hot);
+  display: inline-block;
+}
+
+.lead-headline {
+  margin: 0 0 14px;
+  font-family: var(--head);
+  font-size: clamp(28px, 3.3vw, 44px);
+  font-weight: 900;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+}
+
+.lead-summary {
+  margin: 0 0 14px;
+  font-size: 17.5px;
+  line-height: 1.65;
+  color: var(--ink);
+}
+
+.story-meta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 6px 14px;
+  font-family: var(--sans);
+  font-size: 12px;
+  color: var(--mute);
+}
+
+.lead-meta {
+  padding: 8px 0;
+  border-top: 1px solid var(--hair);
+  border-bottom: 1px solid var(--hair);
+  margin-bottom: 16px;
+}
+
+.lead-deck-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  background: var(--ad);
+  border-top: 2px solid var(--rule);
+  border-bottom: 1px solid var(--hair);
+  padding: 14px 16px;
+  margin-bottom: 16px;
+}
+
+.lead-deck-cell p {
+  margin: 6px 0 0;
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--ink-2);
+}
+
+.lead-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 6px;
+}
+
+.lead-ext {
+  display: flex;
+  gap: 14px;
+}
+
+.editorial-link {
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.editorial-link:hover {
+  text-decoration: underline;
+}
+
+.solid-cta {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 9px 14px;
+  background: var(--accent);
+  color: var(--accent-ink);
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition: filter 0.15s;
+}
+
+.solid-cta:hover {
+  filter: brightness(1.08);
+}
+
+.solid-cta-inline {
+  width: auto;
+  padding: 9px 16px;
+}
+
+/* Curated Spotlight Sub-Grid below Lead */
+.spotlight-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 22px;
+  padding-top: 18px;
+  border-top: 2px solid var(--rule);
+}
+
+.spotlight-col:first-child {
+  padding-right: 16px;
+  border-right: 1px solid var(--hair);
+}
+
+.spotlight-heading {
+  margin: 4px 0 10px;
+  font-family: var(--head);
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.spotlight-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+  width: 100%;
+  padding: 8px 0;
+  border-top: 1px solid var(--hair);
+  transition: background 0.12s;
+}
+
+.spotlight-row:hover {
+  background: var(--chip);
+}
+
+.spot-btn {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  flex: 1;
+  min-width: 0;
+  text-align: left;
+}
+
+.spot-ext {
+  flex-shrink: 0;
+  padding: 2px 6px;
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 800;
+  color: var(--accent);
+}
+
+.spot-ext:hover {
+  background: var(--accent);
+  color: var(--accent-ink);
+}
+
+.inline-links {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.inline-ext-link {
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--accent);
+  white-space: nowrap;
+}
+
+.inline-ext-link:hover {
+  text-decoration: underline;
+}
+
+.story-byline-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.card-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.wire-meta-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 3px;
+}
+
+.wire-meta-row .wire-meta {
+  margin-top: 0;
+}
+
+.drawer-head-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  margin-bottom: 18px;
+}
+
+.spot-score {
+  font-family: var(--head);
+  font-size: 15px;
+  font-weight: 800;
+  color: var(--hot);
+  min-width: 28px;
+  font-variant-numeric: tabular-nums;
+}
+
+.spot-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.spot-title {
+  font-family: var(--body);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.spot-meta {
+  font-family: var(--sans);
+  font-size: 11px;
+  color: var(--mute);
+}
+
+/* Left & Right Side Stories */
+.side-story {
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid var(--hair);
+}
+
+.side-story:last-of-type {
+  border-bottom: 0;
+  margin-bottom: 12px;
+}
+
+.story-kicker-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 5px;
+}
+
+.story-kicker {
+  font-family: var(--sans);
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--mute);
+}
+
+.side-headline {
+  margin: 0 0 6px;
+  font-family: var(--head);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.28;
+}
+
+.side-summary {
+  margin: 0 0 6px;
+  font-size: 14px;
+  line-height: 1.52;
+  color: var(--ink-2);
+}
+
+.story-byline {
+  font-family: var(--sans);
+  font-size: 11px;
+  color: var(--mute);
+}
+
+/* Editorial Signal Funnel Box (Print Ad Style) */
+.desk-box {
+  margin-top: 14px;
+  padding: 16px;
+  background: var(--ad);
+  border: 1px solid var(--hair);
+}
+
+.desk-kicker {
+  font-family: var(--sans);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--mute);
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.desk-title {
+  margin: 0 0 6px;
+  font-family: var(--head);
+  font-size: 19px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.desk-desc {
+  margin: 0 0 12px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--ink-2);
+}
+
+.funnel-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.funnel-label {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--ink-2);
+  margin-bottom: 3px;
+}
+
+.mono {
+  font-variant-numeric: tabular-nums;
+}
+
+.funnel-track {
+  height: 5px;
+  background: var(--hair);
+}
+
+.funnel-fill {
+  height: 100%;
+  background: var(--ink);
+}
+
+/* Profile Sections (A2 - An) */
+.section-grid {
+  display: grid;
+  gap: 0;
+}
+
+.section-grid-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.section-grid-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.section-card {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 20px 20px;
+  border-bottom: 1px solid var(--hair);
+  border-right: 1px solid var(--hair);
+}
+
+.section-grid-3 .section-card:nth-child(3n),
+.section-grid-2 .section-card:nth-child(2n) {
+  border-right: 0;
+}
+
+.section-grid-3 .section-card:nth-child(3n + 1),
+.section-grid-2 .section-card:nth-child(2n + 1) {
+  padding-left: 0;
+}
+
+.card-top {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.card-num {
+  font-family: var(--head);
+  font-size: 15px;
+  font-weight: 800;
+  color: var(--mute);
+  font-variant-numeric: tabular-nums;
+}
+
+.card-top .score-pill {
+  margin-left: auto;
+}
+
+.card-headline {
+  margin: 0 0 8px;
+  font-family: var(--head);
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 1.28;
+}
+
+.card-summary {
+  margin: 0 0 10px;
+  font-size: 14.5px;
+  line-height: 1.58;
+  color: var(--ink-2);
+}
+
+.card-teaser {
+  padding: 8px 10px;
+  background: var(--ad);
+  border-left: 2px solid var(--accent);
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--ink-2);
+  margin-bottom: 10px;
+}
+
+.card-foot {
+  margin-top: auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.text-action {
+  font-family: var(--sans);
+  font-size: 11.5px;
+  font-weight: 800;
+  color: var(--accent);
+  white-space: nowrap;
+}
+
+.text-action:hover {
+  text-decoration: underline;
+}
+
+/* The Wire (3-Column Broadsheet News Wire) */
+.wire-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0;
+}
+
+.wire-col {
+  padding: 0 22px;
+  border-right: 1px solid var(--hair);
+}
+
+.wire-col:first-child {
+  padding-left: 0;
+}
+
+.wire-col:last-child {
+  padding-right: 0;
+  border-right: 0;
+}
+
+.wire-entry {
+  padding: 11px 0;
+  border-bottom: 1px solid var(--hair);
+}
+
+.wire-entry:last-child {
+  border-bottom: 0;
+}
+
+.wire-numbered {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.wire-rank {
+  font-family: var(--head);
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--mute);
+  min-width: 18px;
+  line-height: 1.3;
+  font-variant-numeric: tabular-nums;
+}
+
+.wire-content {
+  min-width: 0;
+}
+
+.wire-kicker {
+  font-family: var(--sans);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--mute);
+  margin-bottom: 3px;
+}
+
+.wire-head-inline {
+  display: flex;
+  align-items: baseline;
+  gap: 7px;
+  flex-wrap: wrap;
+}
+
+.wire-title {
+  text-align: left;
+  font-family: var(--head);
+  font-size: 15.5px;
+  font-weight: 700;
+  line-height: 1.32;
+  color: var(--ink);
+}
+
+.wire-title:hover {
+  color: var(--accent);
+}
+
+.wire-badge {
+  font-family: var(--sans);
+  font-size: 10px;
+  font-weight: 800;
+  padding: 1px 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+.wire-badge-yc {
+  background: var(--badge-yc-bg);
+}
+
+.wire-badge-accent {
+  background: var(--accent);
+  color: var(--accent-ink);
+}
+
+.wire-blurb {
+  margin: 4px 0 0;
+  font-size: 13px;
+  line-height: 1.48;
+  color: var(--ink-2);
+}
+
+.wire-meta {
+  margin-top: 3px;
+  font-family: var(--sans);
+  font-size: 11px;
+  color: var(--mute);
+}
+
+.wire-empty {
+  color: var(--mute);
+  padding: 12px 0;
+}
+
+/* Archive Desk / Filterable Ledger */
+.filter-controls {
+  margin-bottom: 18px;
+}
+
+.search-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.search-input {
+  flex: 1 1 280px;
+  padding: 9px 12px;
+  background: var(--paper);
+  color: var(--ink);
+  border: 1px solid var(--ink);
+  font-family: var(--sans);
+  font-size: 13.5px;
+}
+
+.sort-select {
+  padding: 8px 12px;
+  background: var(--paper);
+  color: var(--ink);
+  border: 1px solid var(--ink);
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.pill-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.filter-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 12px;
+  background: var(--chip);
+  color: var(--ink);
+  border: 1px solid transparent;
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 700;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.filter-pill:hover {
+  border-color: var(--ink);
+}
+
+.filter-pill.is-active {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.filter-pill-sm {
+  font-size: 11px;
+  padding: 4px 10px;
+}
+
+.pill-count {
+  opacity: 0.72;
+  font-variant-numeric: tabular-nums;
+}
+
+.active-tag-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--hot);
+  margin-top: 6px;
+}
+
+.ledger-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 28px;
+  border-top: 2px solid var(--rule);
+}
+
+.ledger-item {
+  padding: 14px 0;
+  border-bottom: 1px solid var(--hair);
+}
+
+.ledger-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+
+.ledger-meta {
+  font-family: var(--sans);
+  font-size: 11px;
+  color: var(--mute);
+}
+
+.ledger-title {
+  margin: 0 0 6px;
+  font-family: var(--head);
+  font-size: 17.5px;
+  font-weight: 800;
+  line-height: 1.3;
+}
+
+.ledger-summary {
+  margin: 0 0 8px;
+  font-size: 13.5px;
+  line-height: 1.52;
+  color: var(--ink-2);
+}
+
+.ledger-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  font-family: var(--sans);
+  font-size: 11px;
+}
+
+.profile-tag {
+  padding: 2px 7px;
+  border: 1px solid var(--hair);
+  font-weight: 700;
+  color: var(--ink-2);
+}
+
+.ledger-tags {
+  color: var(--mute);
+}
+
+.ledger-empty {
+  grid-column: 1 / -1;
+  padding: 32px 0;
+  text-align: center;
+  color: var(--mute);
+  font-family: var(--sans);
+}
+
+/* Empty Edition */
+.empty-edition {
+  max-width: 680px;
+  margin: 40px auto;
+  padding: 32px;
+  background: var(--ad);
+  border: 1px solid var(--rule);
+  text-align: center;
+}
+
+.empty-edition h2 {
+  font-family: var(--head);
+  margin: 10px 0;
+}
+
+/* Colophon Footer */
+.colophon {
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 3px double var(--rule);
+  text-align: center;
+}
+
+.colophon-wordmark {
+  font-family: var(--mast-cjk);
+  font-size: 26px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+}
+
+.colophon-meta {
+  margin: 8px 0 4px;
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--ink-2);
+}
+
+.colophon-note {
+  margin: 0;
+  font-family: var(--sans);
+  font-size: 11.5px;
+  color: var(--mute);
+}
+
+/* Floating Return Pill & Section Pager (Exact buildweek.ai Hard-Shadow Print Chrome) */
+.home-pill {
+  position: fixed;
+  top: 14px;
+  right: 18px;
+  z-index: 600;
+  padding: 7px 13px;
+  background: var(--paper);
+  color: var(--ink);
+  border: 1px solid var(--ink);
+  box-shadow: 3px 3px 0 var(--ink);
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-6px);
+  transition: opacity 0.18s, transform 0.18s;
+}
+
+.home-pill.is-visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.pager-wrap {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 600;
+}
+
+.pager-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 14px;
+  background: var(--paper);
+  color: var(--ink);
+  border: 1px solid var(--ink);
+  box-shadow: 3px 3px 0 var(--ink);
+  font-family: var(--sans);
+  font-size: 11.5px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.pager-btn-code {
+  font-family: var(--head);
+  font-size: 14px;
+  font-weight: 900;
+  color: var(--hot);
+}
+
+.pager-menu {
+  position: absolute;
+  right: 0;
+  bottom: calc(100% + 8px);
+  min-width: 210px;
+  background: var(--paper);
+  border: 1px solid var(--ink);
+  box-shadow: 4px 4px 0 var(--ink);
+  padding: 6px 0;
+}
+
+.pager-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 7px 14px;
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.pager-item:hover,
+.pager-item.is-active {
+  background: var(--chip);
+}
+
+.pager-code {
+  font-family: var(--head);
+  font-weight: 800;
+  color: var(--hot);
+  min-width: 24px;
+}
+
+/* Newspaper Reading Drawer */
+.drawer-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 800;
+  background: rgba(20, 17, 13, 0.54);
+  backdrop-filter: blur(2px);
+}
+
+.drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 810;
+  width: min(680px, 100vw);
+  background: var(--paper);
+  border-left: 2px solid var(--ink);
+  box-shadow: -8px 0 32px var(--shadow);
+  display: flex;
+  flex-direction: column;
+}
+
+.drawer-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 24px;
+  border-bottom: 1px solid var(--rule);
+  font-family: var(--sans);
+}
+
+.drawer-kicker {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--hot);
+}
+
+.drawer-close {
+  padding: 5px 10px;
+  border: 1px solid var(--ink);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+}
+
+.drawer-close:hover {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.drawer-scroll {
+  flex: 1;
+  overflow-y: auto;
+  padding: 22px 26px 32px;
+}
+
+.drawer-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.drawer-title {
+  margin: 0 0 12px;
+  font-family: var(--head);
+  font-size: clamp(24px, 2.8vw, 32px);
+  font-weight: 900;
+  line-height: 1.2;
+}
+
+.drawer-meta {
+  padding: 10px 0;
+  border-top: 1px solid var(--hair);
+  border-bottom: 1px solid var(--hair);
+  font-family: var(--sans);
+  font-size: 12px;
+  color: var(--mute);
+  margin-bottom: 18px;
+}
+
+.drawer-block {
+  margin-bottom: 18px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--hair);
+}
+
+.drawer-block:last-child {
+  border-bottom: 0;
+}
+
+.drawer-block-title {
+  font-family: var(--sans);
+  font-size: 11.5px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 6px;
+}
+
+.drawer-block-text {
+  margin: 0;
+  font-size: 15.5px;
+  line-height: 1.72;
+  color: var(--ink);
+  white-space: pre-line;
+}
+
+.drawer-refs {
+  margin-top: 16px;
+  padding: 14px 16px;
+  background: var(--ad);
+  border: 1px solid var(--hair);
+}
+
+.drawer-refs ul {
+  margin: 8px 0 0;
+  padding-left: 18px;
+  font-family: var(--sans);
+  font-size: 13px;
+}
+
+.drawer-refs li {
+  margin-bottom: 5px;
+}
+
+.drawer-refs a {
+  color: var(--accent);
+}
+
+.drawer-refs a:hover {
+  text-decoration: underline;
+}
+
+.drawer-tags {
+  margin-top: 16px;
+}
+
+.drawer-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 12px 24px;
+  border-top: 2px solid var(--rule);
+  background: var(--ad);
+  font-family: var(--sans);
+}
+
+.drawer-nav-btn {
+  padding: 6px 12px;
+  border: 1px solid var(--ink);
+  font-size: 11.5px;
+  font-weight: 800;
+}
+
+.drawer-nav-btn:hover:not(:disabled) {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.drawer-nav-btn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.drawer-ext-links {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Responsive Breakpoints */
+/* A1 Editorial strip */
+.editorial {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2.4fr);
+  gap: 28px;
+  margin-top: 26px;
+  padding-top: 18px;
+  border-top: 3px double var(--rule);
+}
+
+.editorial-headline {
+  margin: 6px 0 10px;
+  font-family: var(--head);
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.editorial-byline {
+  font-family: var(--sans);
+  font-size: 11px;
+  color: var(--mute);
+}
+
+.editorial-body p {
+  margin: 0 0 12px;
+  font-size: 16px;
+  line-height: 1.75;
+  color: var(--ink);
+}
+
+.editorial-refs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px 12px;
+  margin-top: 4px;
+  padding-top: 10px;
+  border-top: 1px solid var(--hair);
+}
+
+.editorial-ref {
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 600;
+  text-align: left;
+  color: var(--ink-2);
+  border-bottom: 1px solid var(--hair);
+}
+
+.editorial-ref:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+@media (max-width: 1020px) {
+  .masthead {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .ear {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+    text-align: left;
+  }
+  .fp-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .editorial {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .fp-left, .fp-center, .fp-right {
+    padding: 0;
+    border: 0;
+  }
+  .fp-center {
+    order: -1;
+    padding-bottom: 22px;
+    border-bottom: 2px solid var(--rule);
+  }
+  .section-grid-3, .section-grid-2, .wire-grid, .ledger-grid, .spotlight-grid {
+    grid-template-columns: 1fr;
+  }
+  .section-card, .wire-col, .spotlight-col:first-child {
+    padding-left: 0;
+    padding-right: 0;
+    border-right: 0;
+  }
+  .wire-col {
+    padding-top: 16px;
+  }
+  .dateline {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 4px;
+  }
+  .dateline-right {
+    text-align: center;
+  }
+}
+
+@media print {
+  .paper-grain, .util-bar, .pager-wrap, .home-pill, .drawer, .drawer-backdrop, .filter-controls, .ticker {
+    display: none !important;
+  }
+  .sheet {
+    max-width: 100%;
+    padding: 0;
+  }
+  body, html {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+}
+
+  </style>
+</head>
+<body>
+  <div class="paper-grain" aria-hidden="true"></div>
+
+  <a class="home-pill" id="homePill" href="#top" aria-label="↑ 地平线每日快报 · 头版">
+    ↑ 地平线每日快报 · 头版
+  </a>
+
+  <div class="sheet" id="top">
+    <!-- Top Utility Bar -->
+    <header class="util-bar">
+      <div class="util-left">地平线 · 全球科技与产业快报</div>
+      <div class="util-right">
+        <label class="archive-wrap" id="editionArchiveWrap" hidden>
+          <span class="archive-prefix">往期</span>
+          <select id="editionArchiveSelect" class="archive-select" aria-label="往期"></select>
+        </label>
+        <div class="seg-group" role="group" aria-label="Language"><a class="seg-btn seg-link is-active" href="./2026-11-27-zh.html" data-lang-switch="zh">中文</a><a class="seg-btn seg-link" href="./2026-11-27-en.html" data-lang-switch="en">EN</a></div>
+        <button type="button" class="util-btn" id="jumpSearchBtn" title="Search (/)">
+          <span>⌕</span> 检索 <kbd>/</kbd>
+        </button>
+        <div class="seg-group" role="group" aria-label="Font size">
+          <button type="button" class="seg-btn" data-font-set="normal" title="Standard font">A</button>
+          <button type="button" class="seg-btn" data-font-set="large" title="Large font">A+</button>
+        </div>
+        <div class="seg-group" role="group" aria-label="Color theme">
+          <button type="button" class="seg-btn" data-theme-set="light" title="浅色新闻纸">☀︎</button>
+          <button type="button" class="seg-btn" data-theme-set="dark" title="深色炭墨">☾</button>
+          <button type="button" class="seg-btn" data-theme-set="system" title="跟随系统">◐</button>
+        </div>
+        <button type="button" class="util-btn util-btn-accent" id="printBtn">打印版</button>
+      </div>
+    </header>
+
+    <!-- Newspaper Masthead -->
+    <div class="masthead">
+      <aside class="ear ear-left">
+        <div class="ear-kicker">今日精选</div>
+        <div class="ear-num">18</div>
+        <div class="ear-sub">从 84 条信源中筛选</div>
+        <a class="ear-link" href="#archive-desk">查看全量目录 →</a>
+      </aside>
+
+      <div class="mast-center">
+        <div class="mast-overline">地平线 · 每日数字大报</div>
+        <h1 class="mast-nameplate mast-nameplate-cjk">地平线每日快报</h1>
+        <p class="mast-motto">你只需享受新闻，剩下交给地平线 — 多源聚合、AI 研判与深度背景每日速递。</p>
+      </div>
+
+      <aside class="ear ear-right">
+        <div class="ear-kicker">信号指数</div>
+        <div class="ear-num">7.6<span class="ear-unit">/10</span></div>
+        <div class="ear-sub">最高 8.0 · 4 类信源</div>
+        <div class="ear-link-muted">淘汰率 79%</div>
+      </aside>
+    </div>
+
+    <!-- Dateline Bar -->
+    <div class="dateline">
+      <div class="dateline-left">第 I 卷 · 2026-11-27</div>
+      <div class="dateline-center">2026年11月27日 星期五</div>
+      <div class="dateline-right">更新于 04:42 UTC · 地平线 AI 编排</div>
+    </div>
+
+    <!-- Double-Rule Section Nav -->
+    <nav class="section-nav" aria-label="Edition sections">
+      <a href="#front-page" data-section-link="A1"><span class="nav-code">A1</span> 头版</a><a href="#sec-tech-news" data-section-link="A2"><span class="nav-code">A2</span> 科技新闻</a><a href="#sec-tech-blog" data-section-link="A3"><span class="nav-code">A3</span> 科技博客</a><a href="#sec-finance-news" data-section-link="A4"><span class="nav-code">A4</span> 财经新闻</a><a href="#the-wire" data-section-link="A5"><span class="nav-code">A5</span> 全球电讯</a><a href="#archive-desk" data-section-link="A6"><span class="nav-code">A6</span> 全量检索</a>
+    </nav>
+
+    <!-- Continuous Signal Ticker Tape -->
+    <div class="ticker" aria-label="Trending signals"><div class="ticker-track"><button type="button" class="ticker-item" data-filter-tag="AI"><span class="t-name">#AI</span><span class="t-up">6 条</span></button><button type="button" class="ticker-item" data-filter-tag="半导体"><span class="t-name">#半导体</span><span class="t-up">4 条</span></button><button type="button" class="ticker-item" data-filter-tag="security"><span class="t-name">#security</span><span class="t-up">2 条</span></button><button type="button" class="ticker-item" data-filter-tag="AI Monitoring"><span class="t-name">#AI Monitoring</span><span class="t-up">2 条</span></button><button type="button" class="ticker-item" data-filter-tag="Nvidia"><span class="t-name">#Nvidia</span><span class="t-up">2 条</span></button><button type="button" class="ticker-item" data-filter-tag="microLED"><span class="t-name">#microLED</span><span class="t-up">1 条</span></button><button type="button" class="ticker-item" data-filter-tag="funding"><span class="t-name">#funding</span><span class="t-up">1 条</span></button><button type="button" class="ticker-item" data-filter-tag="technology"><span class="t-name">#technology</span><span class="t-up">1 条</span></button><button type="button" class="ticker-item" data-filter-tag="privacy"><span class="t-name">#privacy</span><span class="t-up">1 条</span></button><button type="button" class="ticker-item" data-filter-tag="confidential computing"><span class="t-name">#confidential computing</span><span class="t-up">1 条</span></button><button type="button" class="ticker-item" data-open-story="story-1"><span class="t-name">Avicena 完成超过 1 亿美元的 C 轮融资，推…</span><span class="t-up">▲ 8.0</span></button><button type="button" class="ticker-item" data-open-story="story-2"><span class="t-name">TrustedRouter 融资 600 万美元，日处…</span><span class="t-up">▲ 8.0</span></button><button type="button" class="ticker-item" data-open-story="story-10"><span class="t-name">AI 原生自编码通信的频谱适应与迁移学习</span><span class="t-up">▲ 8.0</span></button><button type="button" class="ticker-item" data-open-story="story-11"><span class="t-name">攻击策略选择可能误导监控评估者</span><span class="t-up">▲ 8.0</span></button><button type="button" class="ticker-item" data-open-story="story-12"><span class="t-name">多样化替代推理轨迹用于解决困难数学问题</span><span class="t-up">▲ 8.0</span></button><button type="button" class="ticker-item" data-open-story="story-13"><span class="t-name">$μ$-Bench：共享交互语音助手中的多用户任务完成…</span><span class="t-up">▲ 8.0</span></button><button type="button" class="ticker-item" data-filter-tag="AI"><span class="t-name">#AI</span><span class="t-up">6 条</span></button><button type="button" class="ticker-item" data-filter-tag="半导体"><span class="t-name">#半导体</span><span class="t-up">4 条</span></button><button type="button" class="ticker-item" data-filter-tag="security"><span class="t-name">#security</span><span class="t-up">2 条</span></button><button type="button" class="ticker-item" data-filter-tag="AI Monitoring"><span class="t-name">#AI Monitoring</span><span class="t-up">2 条</span></button><button type="button" class="ticker-item" data-filter-tag="Nvidia"><span class="t-name">#Nvidia</span><span class="t-up">2 条</span></button><button type="button" class="ticker-item" data-filter-tag="microLED"><span class="t-name">#microLED</span><span class="t-up">1 条</span></button><button type="button" class="ticker-item" data-filter-tag="funding"><span class="t-name">#funding</span><span class="t-up">1 条</span></button><button type="button" class="ticker-item" data-filter-tag="technology"><span class="t-name">#technology</span><span class="t-up">1 条</span></button><button type="button" class="ticker-item" data-filter-tag="privacy"><span class="t-name">#privacy</span><span class="t-up">1 条</span></button><button type="button" class="ticker-item" data-filter-tag="confidential computing"><span class="t-name">#confidential computing</span><span class="t-up">1 条</span></button><button type="button" class="ticker-item" data-open-story="story-1"><span class="t-name">Avicena 完成超过 1 亿美元的 C 轮融资，推…</span><span class="t-up">▲ 8.0</span></button><button type="button" class="ticker-item" data-open-story="story-2"><span class="t-name">TrustedRouter 融资 600 万美元，日处…</span><span class="t-up">▲ 8.0</span></button><button type="button" class="ticker-item" data-open-story="story-10"><span class="t-name">AI 原生自编码通信的频谱适应与迁移学习</span><span class="t-up">▲ 8.0</span></button><button type="button" class="ticker-item" data-open-story="story-11"><span class="t-name">攻击策略选择可能误导监控评估者</span><span class="t-up">▲ 8.0</span></button><button type="button" class="ticker-item" data-open-story="story-12"><span class="t-name">多样化替代推理轨迹用于解决困难数学问题</span><span class="t-up">▲ 8.0</span></button><button type="button" class="ticker-item" data-open-story="story-13"><span class="t-name">$μ$-Bench：共享交互语音助手中的多用户任务完成…</span><span class="t-up">▲ 8.0</span></button></div></div>
+
+    <!-- Main Broadsheet Canvas -->
+    <main>
+      
+      <section class="band front-page" id="front-page" data-page-code="A1" data-page-label="头版">
+        <div class="fp-grid">
+          <div class="fp-col fp-left">
+            <div class="col-header">
+              <span>要闻速递</span>
+              <a href="#sec-tech-news">按版面浏览 →</a>
+            </div>
+            <article class="side-story"><div class="story-kicker-row"><span class="story-kicker">RSS 订阅 · 11月26日 13:30</span><span class="score-pill score-accent">8.0</span></div><h3 class="side-headline"><button type="button" class="headline-trigger" data-open-story="story-2">TrustedRouter 融资 600 万美元，日处理超 60 亿个令牌</button></h3><p class="side-summary">TrustedRouter 刚刚融资 600 万美元，旨在为企业 AI 查询提供端到端加密（E2EE）和保密计算。该公司表示，其日处理的令牌数量已从 8 月份的 10 亿个增长至超过 60 亿个，显示出在 AI 安全领域的显著增长和相关性。</p><div class="story-byline-row"><span class="story-byline">科技新闻 · Techmeme</span><span class="inline-links"><a class="inline-ext-link" href="https://www.techmeme.com/261126/p18#a261126p18" target="_blank" rel="noopener noreferrer">原文 ↗</a></span></div><div class="tag-row"><button type="button" class="tag-chip" data-filter-tag="AI">#AI</button><button type="button" class="tag-chip" data-filter-tag="privacy">#privacy</button><button type="button" class="tag-chip" data-filter-tag="confidential computing">#confidential computing</button></div></article><article class="side-story"><div class="story-kicker-row"><span class="story-kicker">Hacker News · 11月26日 21:47</span><span class="score-pill score-accent">7.0</span></div><h3 class="side-headline"><button type="button" class="headline-trigger" data-open-story="story-3">AI 让自托管变得有趣</button></h3><p class="side-summary">这篇文章探讨了人工智能如何简化自托管过程，同时带来了新的安全挑战。AI 的应用使得部署变得更加容易，但用户需要承担更高的安全责任，尤其是在快速变化的安全环境中。</p><div class="story-byline-row"><span class="story-byline">科技新闻 · jlelse</span><span class="inline-links"><a class="inline-ext-link" href="https://janlukas.blog/posts/ai-self-hosting" target="_blank" rel="noopener noreferrer">原文 ↗</a><a class="inline-ext-link" href="https://news.ycombinator.com/item?id=50660180" target="_blank" rel="noopener noreferrer">讨论 ↗</a></span></div><div class="tag-row"><button type="button" class="tag-chip" data-filter-tag="AI">#AI</button><button type="button" class="tag-chip" data-filter-tag="self-hosting">#self-hosting</button><button type="button" class="tag-chip" data-filter-tag="security">#security</button></div></article><article class="side-story"><div class="story-kicker-row"><span class="story-kicker">Hacker News · 11月26日 17:11</span><span class="score-pill score-accent">7.0</span></div><h3 class="side-headline"><button type="button" class="headline-trigger" data-open-story="story-4">AMD 专用的 llama.cpp 分支</button></h3><p class="side-summary">一款针对 AMD 硬件优化的 llama.cpp 分支现已发布，旨在提升 AI 模型在 AMD 设备上的性能。该分支得到了社区的贡献，强调了对 AMD 硬件的特定优化，适合希望在 AMD 平台上运行 AI 模型的开发者和用户。</p><div class="story-byline-row"><span class="story-byline">科技新闻 · julianlam</span><span class="inline-links"><a class="inline-ext-link" href="https://devnull.land/amd-specific-llama-cpp" target="_blank" rel="noopener noreferrer">原文 ↗</a><a class="inline-ext-link" href="https://news.ycombinator.com/item?id=50657265" target="_blank" rel="noopener noreferrer">讨论 ↗</a></span></div><div class="tag-row"><button type="button" class="tag-chip" data-filter-tag="AMD">#AMD</button><button type="button" class="tag-chip" data-filter-tag="llama.cpp">#llama.cpp</button><button type="button" class="tag-chip" data-filter-tag="AI optimization">#AI optimization</button></div></article>
+          </div>
+
+          <article class="fp-col fp-center">
+            <div class="lead-kicker-row">
+              <span class="breaking-dot" aria-hidden="true"></span>
+              <span class="kicker hot-kicker">今日头条 · 科技新闻</span>
+              <span class="score-pill score-hot">8.0/10</span>
+            </div>
+            <h2 class="lead-headline">
+              <button type="button" class="headline-trigger" data-open-story="story-1">Avicena 完成超过 1 亿美元的 C 轮融资，推动 AI 芯片与 microLED 技术结合</button>
+            </h2>
+            <p class="lead-summary">Avicena 公司完成了超过 1 亿美元的 C 轮融资，由 Intervest 主导，SK Hynix、三星和 AMD 等主要行业参与。该融资将用于推进其利用 microLED 而非激光的 AI 芯片技术，预计新任首席执行官 Kevin Pope 计划在明年推出首款 LightBundle 产品。</p>
+            <div class="story-meta lead-meta">
+              <span>RSS 订阅 · Techmeme</span>
+              <span>11月26日 15:50</span>
+            </div>
+            <div class="lead-deck-grid"><div class="lead-deck-cell"><div class="kicker">技术背景</div><p>Avicena 专注于将 AI 芯片与 microLED 技术结合，旨在提升光学互连的性能。这一创新可能会改变 AI 芯片的设计和应用方式。</p></div></div>
+            <div class="lead-actions">
+              <button type="button" class="solid-cta solid-cta-inline" data-open-story="story-1">展开深度简报 →</button>
+              <div class="lead-ext"><a class="editorial-link" href="https://www.techmeme.com/261126/p20#a261126p20" target="_blank" rel="noopener noreferrer">阅读原文 ↗</a></div>
+            </div>
+            <div class="tag-row"><button type="button" class="tag-chip" data-filter-tag="AI">#AI</button><button type="button" class="tag-chip" data-filter-tag="microLED">#microLED</button><button type="button" class="tag-chip" data-filter-tag="funding">#funding</button><button type="button" class="tag-chip" data-filter-tag="technology">#technology</button><button type="button" class="tag-chip" data-filter-tag="半导体">#半导体</button></div>
+            <div class="spotlight-grid"><div class="spotlight-col"><div class="kicker hot-kicker">深度必读</div><h3 class="spotlight-heading">给工程师与研究者</h3><div class="spotlight-list"><div class="spotlight-row"><button type="button" class="spot-btn" data-open-story="story-10"><span class="spot-score">8.0</span><span class="spot-body"><span class="spot-title">AI 原生自编码通信的频谱适应与迁移学习</span><span class="spot-meta">arXiv (cs.NI) · 科技博客</span></span></button><a class="spot-ext" href="https://arxiv.org/abs/2611.34942v1" target="_blank" rel="noopener noreferrer" title="arxiv.org">↗</a></div><div class="spotlight-row"><button type="button" class="spot-btn" data-open-story="story-11"><span class="spot-score">8.0</span><span class="spot-body"><span class="spot-title">攻击策略选择可能误导监控评估者</span><span class="spot-meta">arXiv (cs.LG) · 科技博客</span></span></button><a class="spot-ext" href="https://arxiv.org/abs/2611.34934v1" target="_blank" rel="noopener noreferrer" title="arxiv.org">↗</a></div><div class="spotlight-row"><button type="button" class="spot-btn" data-open-story="story-12"><span class="spot-score">8.0</span><span class="spot-body"><span class="spot-title">多样化替代推理轨迹用于解决困难数学问题</span><span class="spot-meta">arXiv (cs.CL) · 科技博客</span></span></button><a class="spot-ext" href="https://arxiv.org/abs/2611.34928v1" target="_blank" rel="noopener noreferrer" title="arxiv.org">↗</a></div><div class="spotlight-row"><button type="button" class="spot-btn" data-open-story="story-13"><span class="spot-score">8.0</span><span class="spot-body"><span class="spot-title">$μ$-Bench：共享交互语音助手中的多用户任务完成基准测试</span><span class="spot-meta">arXiv (cs.CL) · 科技博客</span></span></button><a class="spot-ext" href="https://arxiv.org/abs/2611.34920v1" target="_blank" rel="noopener noreferrer" title="arxiv.org">↗</a></div></div></div><div class="spotlight-col"><div class="kicker accent-kicker">高热讨论</div><h3 class="spotlight-heading">社区正在争论什么</h3><div class="spotlight-list"><div class="spotlight-row"><button type="button" class="spot-btn" data-open-story="story-3"><span class="spot-score">7.0</span><span class="spot-body"><span class="spot-title">AI 让自托管变得有趣</span><span class="spot-meta">jlelse · 科技新闻</span></span></button><a class="spot-ext" href="https://janlukas.blog/posts/ai-self-hosting" target="_blank" rel="noopener noreferrer" title="janlukas.blog">↗</a></div><div class="spotlight-row"><button type="button" class="spot-btn" data-open-story="story-4"><span class="spot-score">7.0</span><span class="spot-body"><span class="spot-title">AMD 专用的 llama.cpp 分支</span><span class="spot-meta">julianlam · 科技新闻</span></span></button><a class="spot-ext" href="https://devnull.land/amd-specific-llama-cpp" target="_blank" rel="noopener noreferrer" title="devnull.land">↗</a></div><div class="spotlight-row"><button type="button" class="spot-btn" data-open-story="story-5"><span class="spot-score">7.0</span><span class="spot-body"><span class="spot-title">在浏览器标签中运行三个不同浏览器的 Linux 虚拟机</span><span class="spot-meta">michidk · 科技新闻</span></span></button><a class="spot-ext" href="https://michidk.github.io/sidebyside/" target="_blank" rel="noopener noreferrer" title="michidk.github.io">↗</a></div><div class="spotlight-row"><button type="button" class="spot-btn" data-open-story="story-2"><span class="spot-score">8.0</span><span class="spot-body"><span class="spot-title">TrustedRouter 融资 600 万美元，日处理超 60 亿个令牌</span><span class="spot-meta">Techmeme · 科技新闻</span></span></button><a class="spot-ext" href="https://www.techmeme.com/261126/p18#a261126p18" target="_blank" rel="noopener noreferrer" title="techmeme.com">↗</a></div></div></div></div>
+          </article>
+
+          <div class="fp-col fp-right">
+            <div class="col-header">
+              <span>深度与观察</span>
+              <a href="#the-wire">查看电讯 →</a>
+            </div>
+            <article class="side-story"><div class="story-kicker-row"><span class="story-kicker">arXiv 论文 · 11月25日 18:59</span><span class="score-pill score-accent">8.0</span></div><h3 class="side-headline"><button type="button" class="headline-trigger" data-open-story="story-10">AI 原生自编码通信的频谱适应与迁移学习</button></h3><p class="side-summary">The paper explores a transfer-learning method for adapting AI-native autoencoder communications to varying channel conditions, de…</p><div class="story-byline-row"><span class="story-byline">科技博客 · arXiv (cs.NI)</span><span class="inline-links"><a class="inline-ext-link" href="https://arxiv.org/abs/2611.34942v1" target="_blank" rel="noopener noreferrer">原文 ↗</a></span></div><div class="tag-row"><button type="button" class="tag-chip" data-filter-tag="AI-native communications">#AI-native communications</button><button type="button" class="tag-chip" data-filter-tag="autoencoders">#autoencoders</button><button type="button" class="tag-chip" data-filter-tag="transfer learning">#transfer learning</button></div></article><article class="side-story"><div class="story-kicker-row"><span class="story-kicker">arXiv 论文 · 11月25日 18:59</span><span class="score-pill score-accent">8.0</span></div><h3 class="side-headline"><button type="button" class="headline-trigger" data-open-story="story-11">攻击策略选择可能误导监控评估者</button></h3><p class="side-summary">The article examines how the choice of attack policies can significantly impact the evaluation of AI monitors, highlighting the n…</p><div class="story-byline-row"><span class="story-byline">科技博客 · arXiv (cs.LG)</span><span class="inline-links"><a class="inline-ext-link" href="https://arxiv.org/abs/2611.34934v1" target="_blank" rel="noopener noreferrer">原文 ↗</a></span></div><div class="tag-row"><button type="button" class="tag-chip" data-filter-tag="AI Monitoring">#AI Monitoring</button><button type="button" class="tag-chip" data-filter-tag="Attack Policies">#Attack Policies</button><button type="button" class="tag-chip" data-filter-tag="Evaluation Methods">#Evaluation Methods</button></div></article>
+            <div class="desk-box"><div class="desk-kicker">地平线情报台</div><h3 class="desk-title">今日信源漏斗与分布</h3><p class="desk-desc">系统自动完成多源抓取、跨源链接去重、语义聚类与背景检索，仅保留高信号条目。</p><div class="funnel-bars"><div class="funnel-row"><div class="funnel-label"><span>RSS 订阅</span><span class="mono">10</span></div><div class="funnel-track"><div class="funnel-fill" style="width:56%"></div></div></div><div class="funnel-row"><div class="funnel-label"><span>arXiv 论文</span><span class="mono">4</span></div><div class="funnel-track"><div class="funnel-fill" style="width:22%"></div></div></div><div class="funnel-row"><div class="funnel-label"><span>Hacker News</span><span class="mono">3</span></div><div class="funnel-track"><div class="funnel-fill" style="width:17%"></div></div></div><div class="funnel-row"><div class="funnel-label"><span>Telegram</span><span class="mono">1</span></div><div class="funnel-track"><div class="funnel-fill" style="width:8%"></div></div></div></div><a class="solid-cta" href="#archive-desk">打开全量检索台</a></div>
+          </div>
+        </div>
+        <aside class="editorial" aria-labelledby="editorialHeadline"><div class="editorial-head"><div class="kicker accent-kicker">社论</div><h3 class="editorial-headline" id="editorialHeadline">安全与创新：AI时代的双刃剑</h3><div class="editorial-byline">本报 AI 编辑部撰写，观点仅供参考</div></div><div class="editorial-body"><p>随着Avicena和TrustedRouter的融资成功，AI技术的创新与安全性显得愈发重要。Avicena的AI芯片结合microLED技术，预示着硬件领域的突破，而TrustedRouter则致力于确保企业AI查询的安全性。这两者的结合反映了在追求技术进步的同时，如何平衡安全与效率的挑战。</p><p>然而，AI的快速发展也伴随着安全隐患，Dante Security的融资显示出对AI代理活动监控的迫切需求。企业在享受AI带来的便利时，必须更加重视安全责任。这种矛盾的局面要求我们在推动技术革新的同时，切实加强对安全性的关注。</p><div class="editorial-refs"><span class="kicker">文中提及</span><button type="button" class="editorial-ref" data-open-story="story-1">Avicena 完成超过 1 亿美元的 C 轮融资，推动 AI 芯片与 microLE…</button><button type="button" class="editorial-ref" data-open-story="story-2">TrustedRouter 融资 600 万美元，日处理超 60 亿个令牌</button><button type="button" class="editorial-ref" data-open-story="story-3">AI 让自托管变得有趣</button><button type="button" class="editorial-ref" data-open-story="story-6">Dante Security 获得 1000 万美元种子轮融资以监控 AI 代理活动</button></div></div></aside>
+      </section>
+        
+      <section class="band profile-band" id="sec-tech-news" data-page-code="A2" data-page-label="科技新闻"><div class="band-head"><div class="kicker">A2 · 专题版面</div><div class="band-title-row"><h2 class="band-title">科技新闻</h2><span class="band-count">9 条</span></div></div><div class="section-grid section-grid-3"><article class="section-card"><div class="card-top"><span class="card-num">01</span><span class="story-kicker">RSS 订阅 · Techmeme</span><span class="score-pill score-accent">8.0</span></div><h3 class="card-headline"><button type="button" class="headline-trigger" data-open-story="story-1">Avicena 完成超过 1 亿美元的 C 轮融资，推动 AI 芯片与 microLED 技术结合</button></h3><p class="card-summary">Avicena 公司完成了超过 1 亿美元的 C 轮融资，由 Intervest 主导，SK Hynix、三星和 AMD 等主要行业参与。该融资将用于推进其利用 microLED 而非激光的 AI 芯片技术，预计新任首席执行官 Kevin Pope 计划在明年推出首款 LightBundle 产品。</p><div class="card-teaser"><strong>「技术背景」</strong> Avicena 专注于将 AI 芯片与 microLED 技术结合，旨在提升光学互连的性能。这一创新可能会改变 AI 芯片的设计和应用方式。</div><div class="card-foot"><div class="tag-row"><button type="button" class="tag-chip" data-filter-tag="AI">#AI</button><button type="button" class="tag-chip" data-filter-tag="microLED">#microLED</button><button type="button" class="tag-chip" data-filter-tag="funding">#funding</button><button type="button" class="tag-chip" data-filter-tag="technology">#technology</button></div><div class="card-actions"><span class="inline-links"><a class="inline-ext-link" href="https://www.techmeme.com/261126/p20#a261126p20" target="_blank" rel="noopener noreferrer">原文 ↗</a></span><button type="button" class="text-action" data-open-story="story-1">展开深度简报 →</button></div></div></article><article class="section-card"><div class="card-top"><span class="card-num">02</span><span class="story-kicker">RSS 订阅 · Techmeme</span><span class="score-pill score-accent">8.0</span></div><h3 class="card-headline"><button type="button" class="headline-trigger" data-open-story="story-2">TrustedRouter 融资 600 万美元，日处理超 60 亿个令牌</button></h3><p class="card-summary">TrustedRouter 刚刚融资 600 万美元，旨在为企业 AI 查询提供端到端加密（E2EE）和保密计算。该公司表示，其日处理的令牌数量已从 8 月份的 10 亿个增长至超过 60 亿个，显示出在 AI 安全领域的显著增长和相关性。</p><div class="card-teaser"><strong>「背景」</strong> TrustedRouter 是一家专注于提升企业 AI 查询隐私的初创公司，提供的技术旨在保护员工的 AI 使用数据不被模型制造商访问。此次融资和处理能力的提升反映了对 AI 应用中隐私和安全问题的日益关注。</div><div class="card-foot"><div class="tag-row"><button type="button" class="tag-chip" data-filter-tag="AI">#AI</button><button type="button" class="tag-chip" data-filter-tag="privacy">#privacy</button><button type="button" class="tag-chip" data-filter-tag="confidential computing">#confidential computing</button><button type="button" class="tag-chip" data-filter-tag="startup">#startup</button></div><div class="card-actions"><span class="inline-links"><a class="inline-ext-link" href="https://www.techmeme.com/261126/p18#a261126p18" target="_blank" rel="noopener noreferrer">原文 ↗</a></span><button type="button" class="text-action" data-open-story="story-2">展开深度简报 →</button></div></div></article><article class="section-card"><div class="card-top"><span class="card-num">03</span><span class="story-kicker">Hacker News · jlelse</span><span class="score-pill score-accent">7.0</span></div><h3 class="card-headline"><button type="button" class="headline-trigger" data-open-story="story-3">AI 让自托管变得有趣</button></h3><p class="card-summary">这篇文章探讨了人工智能如何简化自托管过程，同时带来了新的安全挑战。AI 的应用使得部署变得更加容易，但用户需要承担更高的安全责任，尤其是在快速变化的安全环境中。</p><div class="card-teaser"><strong>「背景」</strong> 自托管（self-hosting）是指用户在自己的服务器上运行应用程序或服务，而不是依赖第三方提供的云服务。近年来，随着人工智能（AI）技术的发展，自托管变得更加简单，但同时也带来了新的安全挑战，用户需要更加关注安全更新和漏洞修…</div><div class="card-foot"><div class="tag-row"><button type="button" class="tag-chip" data-filter-tag="AI">#AI</button><button type="button" class="tag-chip" data-filter-tag="self-hosting">#self-hosting</button><button type="button" class="tag-chip" data-filter-tag="security">#security</button><button type="button" class="tag-chip" data-filter-tag="cloud computing">#cloud computing</button></div><div class="card-actions"><span class="inline-links"><a class="inline-ext-link" href="https://janlukas.blog/posts/ai-self-hosting" target="_blank" rel="noopener noreferrer">原文 ↗</a><a class="inline-ext-link" href="https://news.ycombinator.com/item?id=50660180" target="_blank" rel="noopener noreferrer">讨论 ↗</a></span><button type="button" class="text-action" data-open-story="story-3">展开深度简报 →</button></div></div></article><article class="section-card"><div class="card-top"><span class="card-num">04</span><span class="story-kicker">Hacker News · julianlam</span><span class="score-pill score-accent">7.0</span></div><h3 class="card-headline"><button type="button" class="headline-trigger" data-open-story="story-4">AMD 专用的 llama.cpp 分支</button></h3><p class="card-summary">一款针对 AMD 硬件优化的 llama.cpp 分支现已发布，旨在提升 AI 模型在 AMD 设备上的性能。该分支得到了社区的贡献，强调了对 AMD 硬件的特定优化，适合希望在 AMD 平台上运行 AI 模型的开发者和用户。</p><div class="card-teaser"><strong>「背景」</strong> llama.cpp 是一个开源的深度学习模型框架，旨在为各种硬件平台提供优化支持。AMD 最近推出的针对 llama.cpp 的特定分支，旨在利用其硬件特性，特别是其高带宽内存（HBM2），以提高 AI 模型的性能和效率。</div><div class="card-foot"><div class="tag-row"><button type="button" class="tag-chip" data-filter-tag="AMD">#AMD</button><button type="button" class="tag-chip" data-filter-tag="llama.cpp">#llama.cpp</button><button type="button" class="tag-chip" data-filter-tag="AI optimization">#AI optimization</button><button type="button" class="tag-chip" data-filter-tag="hardware">#hardware</button></div><div class="card-actions"><span class="inline-links"><a class="inline-ext-link" href="https://devnull.land/amd-specific-llama-cpp" target="_blank" rel="noopener noreferrer">原文 ↗</a><a class="inline-ext-link" href="https://news.ycombinator.com/item?id=50657265" target="_blank" rel="noopener noreferrer">讨论 ↗</a></span><button type="button" class="text-action" data-open-story="story-4">展开深度简报 →</button></div></div></article><article class="section-card"><div class="card-top"><span class="card-num">05</span><span class="story-kicker">Hacker News · michidk</span><span class="score-pill score-accent">7.0</span></div><h3 class="card-headline"><button type="button" class="headline-trigger" data-open-story="story-5">在浏览器标签中运行三个不同浏览器的 Linux 虚拟机</button></h3><p class="card-summary">一个新项目允许在单个浏览器标签中运行三个 Linux 虚拟机，每个虚拟机运行不同的浏览器。这一创新引起了社区的关注和讨论，尤其是在软件工程和虚拟化领域。该项目展示了在浏览器中运行多个 Linux 虚拟机的新方法，尽管它可能并不代表技术的重大突破。</p><div class="card-teaser"><strong>「背景」</strong> 该项目展示了在单个浏览器标签中运行多个 Linux 虚拟机的创新方法。这种技术对于软件工程和虚拟化领域的开发者来说具有重要意义，因为它可能简化了多环境测试和开发的流程。</div><div class="card-foot"><div class="tag-row"><button type="button" class="tag-chip" data-filter-tag="Linux">#Linux</button><button type="button" class="tag-chip" data-filter-tag="Virtualization">#Virtualization</button><button type="button" class="tag-chip" data-filter-tag="Web Technology">#Web Technology</button><button type="button" class="tag-chip" data-filter-tag="Open Source">#Open Source</button></div><div class="card-actions"><span class="inline-links"><a class="inline-ext-link" href="https://michidk.github.io/sidebyside/" target="_blank" rel="noopener noreferrer">原文 ↗</a><a class="inline-ext-link" href="https://news.ycombinator.com/item?id=50656036" target="_blank" rel="noopener noreferrer">讨论 ↗</a></span><button type="button" class="text-action" data-open-story="story-5">展开深度简报 →</button></div></div></article><article class="section-card"><div class="card-top"><span class="card-num">06</span><span class="story-kicker">RSS 订阅 · Techmeme</span><span class="score-pill score-accent">7.0</span></div><h3 class="card-headline"><button type="button" class="headline-trigger" data-open-story="story-6">Dante Security 获得 1000 万美元种子轮融资以监控 AI 代理活动</button></h3><p class="card-summary">Dante Security 成功获得 1000 万美元的种子轮融资，由 NFX 领投，旨在增强对组织内 AI 代理活动的监控。这一平台将为组织提供对自主 AI 代理行为的可见性，并将其活动与负责的员工联系起来。</p><div class="card-teaser"><strong>「背景信息」</strong> Dante Security 专注于开发监控 AI 代理活动的平台，满足组织对 AI 操作可见性和问责制的迫切需求。这一融资标志着 AI 监控领域的重要进展，尤其是在越来越多的组织开始使用 AI 代理的背景下。</div><div class="card-foot"><div class="tag-row"><button type="button" class="tag-chip" data-filter-tag="AI Monitoring">#AI Monitoring</button><button type="button" class="tag-chip" data-filter-tag="Funding">#Funding</button><button type="button" class="tag-chip" data-filter-tag="Startup">#Startup</button><button type="button" class="tag-chip" data-filter-tag="Technology Industry">#Technology Industry</button></div><div class="card-actions"><span class="inline-links"><a class="inline-ext-link" href="https://www.techmeme.com/261126/p27#a261126p27" target="_blank" rel="noopener noreferrer">原文 ↗</a></span><button type="button" class="text-action" data-open-story="story-6">展开深度简报 →</button></div></div></article><article class="section-card"><div class="card-top"><span class="card-num">07</span><span class="story-kicker">RSS 订阅 · Techmeme</span><span class="score-pill score-accent">7.0</span></div><h3 class="card-headline"><button type="button" class="headline-trigger" data-open-story="story-7">国会两党努力监管人工智能面临立法挑战</button></h3><p class="card-summary">国会正在进行两党合作，努力监管人工智能（AI），但由于立法进程缓慢和利益争夺，这些努力可能面临重大挑战。尽管两党成员表示希望解决人工智能政策问题，但立法的复杂性可能会阻碍进展。</p><div class="card-teaser"><strong>「背景」</strong> 美国国会正在进行两党合作，旨在制定人工智能（AI）监管政策。尽管有意愿推动立法，但立法进程缓慢以及各方利益的争斗可能会阻碍这一进程。</div><div class="card-foot"><div class="tag-row"><button type="button" class="tag-chip" data-filter-tag="AI regulation">#AI regulation</button><button type="button" class="tag-chip" data-filter-tag="legislation">#legislation</button><button type="button" class="tag-chip" data-filter-tag="bipartisan efforts">#bipartisan efforts</button><button type="button" class="tag-chip" data-filter-tag="technology policy">#technology policy</button></div><div class="card-actions"><span class="inline-links"><a class="inline-ext-link" href="https://www.techmeme.com/261126/p26#a261126p26" target="_blank" rel="noopener noreferrer">原文 ↗</a></span><button type="button" class="text-action" data-open-story="story-7">展开深度简报 →</button></div></div></article><article class="section-card"><div class="card-top"><span class="card-num">08</span><span class="story-kicker">RSS 订阅 · Techmeme</span><span class="score-pill score-accent">7.0</span></div><h3 class="card-headline"><button type="button" class="headline-trigger" data-open-story="story-8">SAP 计划裁员 10,000 人以适应 AI 时代</button></h3><p class="card-summary">SAP 计划裁减至少 10,000 个职位，约占其全球员工的 9%，以转型其软件业务以适应人工智能时代。这一战略调整标志着公司在应对 AI 环境方面的重大变化。</p><div class="card-teaser"><strong>「背景」</strong> SAP 成立于 1972 年，是一家全球领先的软件公司，现有员工约 110,000 人。该公司在软件行业中占据重要地位，尤其是在企业资源规划（ERP）解决方案方面。此次裁员计划是 SAP 为适应人工智能时代而进行的战略转型的一部…</div><div class="card-foot"><div class="tag-row"><button type="button" class="tag-chip" data-filter-tag="SAP">#SAP</button><button type="button" class="tag-chip" data-filter-tag="AI">#AI</button><button type="button" class="tag-chip" data-filter-tag="software engineering">#software engineering</button><button type="button" class="tag-chip" data-filter-tag="workforce">#workforce</button></div><div class="card-actions"><span class="inline-links"><a class="inline-ext-link" href="https://www.techmeme.com/261126/p22#a261126p22" target="_blank" rel="noopener noreferrer">原文 ↗</a></span><button type="button" class="text-action" data-open-story="story-8">展开深度简报 →</button></div></div></article><article class="section-card"><div class="card-top"><span class="card-num">09</span><span class="story-kicker">RSS 订阅 · Techmeme</span><span class="score-pill score-accent">7.0</span></div><h3 class="card-headline"><button type="button" class="headline-trigger" data-open-story="story-9">英国 FCA 计划要求 DeFi 平台获得授权，监管力度超过美国和欧盟</button></h3><p class="card-summary">英国金融行为监管局（FCA）计划要求去中心化金融（DeFi）平台获得授权，这一举措在监管上比美国和欧盟更为严格。这一决定是在价值 63 亿美元的 Binance 黑客事件之后做出的，反映了对消费者保护不足的担忧。</p><div class="card-teaser"><strong>「背景」</strong> 英国金融行为监管局（FCA）计划对去中心化金融（DeFi）平台实施更严格的监管要求，要求这些平台获得授权。这一决定是在最近发生的 63 亿美元的币安黑客事件之后做出的，反映了对消费者保护不足的担忧。</div><div class="card-foot"><div class="tag-row"><button type="button" class="tag-chip" data-filter-tag="DeFi">#DeFi</button><button type="button" class="tag-chip" data-filter-tag="regulation">#regulation</button><button type="button" class="tag-chip" data-filter-tag="financial technology">#financial technology</button><button type="button" class="tag-chip" data-filter-tag="blockchain">#blockchain</button></div><div class="card-actions"><span class="inline-links"><a class="inline-ext-link" href="https://www.techmeme.com/261126/p17#a261126p17" target="_blank" rel="noopener noreferrer">原文 ↗</a></span><button type="button" class="text-action" data-open-story="story-9">展开深度简报 →</button></div></div></article></div></section><section class="band profile-band" id="sec-tech-blog" data-page-code="A3" data-page-label="科技博客"><div class="band-head"><div class="kicker">A3 · 专题版面</div><div class="band-title-row"><h2 class="band-title">科技博客</h2><span class="band-count">4 条</span></div></div><div class="section-grid section-grid-3"><article class="section-card"><div class="card-top"><span class="card-num">01</span><span class="story-kicker">arXiv 论文 · arXiv (cs.NI)</span><span class="score-pill score-accent">8.0</span></div><h3 class="card-headline"><button type="button" class="headline-trigger" data-open-story="story-10">AI 原生自编码通信的频谱适应与迁移学习</button></h3><p class="card-summary">The paper explores a transfer-learning method for adapting AI-native autoencoder communications to varying channel conditions, demonstrating significant resource efficiency and pe…</p><div class="card-teaser"><strong>「背景」</strong> 在传统的通信系统中，调制、编码和检测操作是分开的，而端到端的物理层学习通过自编码器（AE）将这些操作整合为一个联合训练的编码器-解码器对。本文研究了 AI 原生通信中的自编码器，并量化了在信道模型中训练-测试不匹配的敏感性。仅在…</div><div class="card-foot"><div class="tag-row"><button type="button" class="tag-chip" data-filter-tag="AI-native communications">#AI-native communications</button><button type="button" class="tag-chip" data-filter-tag="autoencoders">#autoencoders</button><button type="button" class="tag-chip" data-filter-tag="transfer learning">#transfer learning</button><button type="button" class="tag-chip" data-filter-tag="channel adaptation">#channel adaptation</button></div><div class="card-actions"><span class="inline-links"><a class="inline-ext-link" href="https://arxiv.org/abs/2611.34942v1" target="_blank" rel="noopener noreferrer">原文 ↗</a></span><button type="button" class="text-action" data-open-story="story-10">展开深度简报 →</button></div></div></article><article class="section-card"><div class="card-top"><span class="card-num">02</span><span class="story-kicker">arXiv 论文 · arXiv (cs.LG)</span><span class="score-pill score-accent">8.0</span></div><h3 class="card-headline"><button type="button" class="headline-trigger" data-open-story="story-11">攻击策略选择可能误导监控评估者</button></h3><p class="card-summary">The article examines how the choice of attack policies can significantly impact the evaluation of AI monitors, highlighting the need for careful interpretation of results in deplo…</p><div class="card-teaser"><strong>「背景」</strong> AI 监控器是用于标记 AI 代理危险行为的分类器，通常通过攻击策略生成的转录文本进行评估。然而，攻击策略的选择对监控器的评估结果有显著影响，这使得在部署环境中解读结果变得复杂。</div><div class="card-foot"><div class="tag-row"><button type="button" class="tag-chip" data-filter-tag="AI Monitoring">#AI Monitoring</button><button type="button" class="tag-chip" data-filter-tag="Attack Policies">#Attack Policies</button><button type="button" class="tag-chip" data-filter-tag="Evaluation Methods">#Evaluation Methods</button><button type="button" class="tag-chip" data-filter-tag="Machine Learning">#Machine Learning</button></div><div class="card-actions"><span class="inline-links"><a class="inline-ext-link" href="https://arxiv.org/abs/2611.34934v1" target="_blank" rel="noopener noreferrer">原文 ↗</a></span><button type="button" class="text-action" data-open-story="story-11">展开深度简报 →</button></div></div></article><article class="section-card"><div class="card-top"><span class="card-num">03</span><span class="story-kicker">arXiv 论文 · arXiv (cs.CL)</span><span class="score-pill score-accent">8.0</span></div><h3 class="card-headline"><button type="button" class="headline-trigger" data-open-story="story-12">多样化替代推理轨迹用于解决困难数学问题</button></h3><p class="card-summary">The paper introduces Diverse Alternative Reasoning Traces (DART), a method that enhances the recovery of solutions for hard math problems in large language models by revisiting re…</p><div class="card-teaser"><strong>「背景」</strong> 在后训练的大型语言模型（LLMs）中，数学推理通常依赖于经过验证的推理轨迹。然而，对于困难的数学问题，这些轨迹在独立的蒙特卡洛（MC）采样中可能非常稀少。为了解决这一问题，本文提出了多样化替代推理轨迹（DART）方法。</div><div class="card-foot"><div class="tag-row"><button type="button" class="tag-chip" data-filter-tag="machine learning">#machine learning</button><button type="button" class="tag-chip" data-filter-tag="mathematical reasoning">#mathematical reasoning</button><button type="button" class="tag-chip" data-filter-tag="large language models">#large language models</button><button type="button" class="tag-chip" data-filter-tag="algorithm development">#algorithm development</button></div><div class="card-actions"><span class="inline-links"><a class="inline-ext-link" href="https://arxiv.org/abs/2611.34928v1" target="_blank" rel="noopener noreferrer">原文 ↗</a></span><button type="button" class="text-action" data-open-story="story-12">展开深度简报 →</button></div></div></article><article class="section-card"><div class="card-top"><span class="card-num">04</span><span class="story-kicker">arXiv 论文 · arXiv (cs.CL)</span><span class="score-pill score-accent">8.0</span></div><h3 class="card-headline"><button type="button" class="headline-trigger" data-open-story="story-13">$μ$-Bench：共享交互语音助手中的多用户任务完成基准测试</button></h3><p class="card-summary">$μ$-Bench introduces a comprehensive benchmark for assessing multi-user task completion in voice agents, revealing critical insights into system performance and limitations.</p><div class="card-teaser"><strong>「背景」</strong> 在共享空间中，语音助手必须满足多个用户的相互依赖请求，同时维护每个用户的权限、隐私和任务约束。现有评估在参与者在会话中反应时的覆盖范围有限，因此需要一个更全面的基准来评估多用户任务完成情况。</div><div class="card-foot"><div class="tag-row"><button type="button" class="tag-chip" data-filter-tag="voice agents">#voice agents</button><button type="button" class="tag-chip" data-filter-tag="benchmarking">#benchmarking</button><button type="button" class="tag-chip" data-filter-tag="multi-user interaction">#multi-user interaction</button><button type="button" class="tag-chip" data-filter-tag="task completion">#task completion</button></div><div class="card-actions"><span class="inline-links"><a class="inline-ext-link" href="https://arxiv.org/abs/2611.34920v1" target="_blank" rel="noopener noreferrer">原文 ↗</a></span><button type="button" class="text-action" data-open-story="story-13">展开深度简报 →</button></div></div></article></div></section><section class="band profile-band" id="sec-finance-news" data-page-code="A4" data-page-label="财经新闻"><div class="band-head"><div class="kicker">A4 · 专题版面</div><div class="band-title-row"><h2 class="band-title">财经新闻</h2><span class="band-count">5 条</span></div></div><div class="section-grid section-grid-3"><article class="section-card"><div class="card-top"><span class="card-num">01</span><span class="story-kicker">RSS 订阅 · CNBC Finance</span><span class="score-pill score-accent">8.0</span></div><h3 class="card-headline"><button type="button" class="headline-trigger" data-open-story="story-14">半导体芯片成为新石油的原因</button></h3><p class="card-summary">根据德意志银行对国际贸易中心数据的分析，人工智能的兴起使得半导体出口首次超过石油和天然气，2026 年第一季度半导体出口达到约 1.61 万亿美元，而石油和天然气为 1.53 万亿美元。</p><div class="card-teaser"><strong>「背景」</strong> 这一里程碑出现在投资者重新评估人工智能支出前景的时刻，导致半导体股票价格下跌，半导体指数在上周创下 25 年来的最大周跌幅，下降超过 17%。</div><div class="card-foot"><div class="tag-row"><button type="button" class="tag-chip" data-filter-tag="半导体">#半导体</button><button type="button" class="tag-chip" data-filter-tag="AI">#AI</button><button type="button" class="tag-chip" data-filter-tag="global trade">#global trade</button><button type="button" class="tag-chip" data-filter-tag="economic implications">#economic implications</button></div><div class="card-actions"><span class="inline-links"><a class="inline-ext-link" href="https://www.cnbc.com/2026/11/26/semiconductor-chips-are-the-new-oil-heres-why.html" target="_blank" rel="noopener noreferrer">原文 ↗</a></span><button type="button" class="text-action" data-open-story="story-14">展开深度简报 →</button></div></div></article><article class="section-card"><div class="card-top"><span class="card-num">02</span><span class="story-kicker">RSS 订阅 · CNBC Tech</span><span class="score-pill score-accent">8.0</span></div><h3 class="card-headline"><button type="button" class="headline-trigger" data-open-story="story-15">美国新规限制中国租户购买 Nvidia 芯片</button></h3><p class="card-summary">美国新规禁止中国公司租用计算能力，从而限制 Nvidia 芯片的销售，影响了人工智能供应链。该规定于 2026 年 11 月 19 日生效。</p><div class="card-teaser"><strong>「背景」</strong> 2026 年 11 月 16 日，美国特朗普政府宣布了一项新规，限制人工智能半导体的远程访问，以防止中国公司租用 Nvidia 的先进芯片。该规定于 11 月 19 日生效，旨在关闭出口控制的漏洞，影响整个供应链。</div><div class="card-foot"><div class="tag-row"><button type="button" class="tag-chip" data-filter-tag="Nvidia">#Nvidia</button><button type="button" class="tag-chip" data-filter-tag="U.S. regulations">#U.S. regulations</button><button type="button" class="tag-chip" data-filter-tag="AI industry">#AI industry</button><button type="button" class="tag-chip" data-filter-tag="China">#China</button></div><div class="card-actions"><span class="inline-links"><a class="inline-ext-link" href="https://www.cnbc.com/2026/11/26/neoclouds-nvidia-china-ai.html" target="_blank" rel="noopener noreferrer">原文 ↗</a></span><button type="button" class="text-action" data-open-story="story-15">展开深度简报 →</button></div></div></article><article class="section-card"><div class="card-top"><span class="card-num">03</span><span class="story-kicker">RSS 订阅 · CNBC Tech</span><span class="score-pill score-accent">8.0</span></div><h3 class="card-headline"><button type="button" class="headline-trigger" data-open-story="story-16">欧洲最大卫星工厂开幕，挑战星链</button></h3><p class="card-summary">欧洲在比利时开幕了其最大的卫星工厂，以增强卫星能力并挑战埃隆·马斯克的星链（Starlink）在卫星互联网服务中的主导地位。该工厂由比利时卫星制造商 Aerospacelab 运营，获得了一项价值 24 亿欧元（约合 26 亿美元）的合同，计划生产 348 颗卫星中的 264 颗。</p><div class="card-teaser"><strong>「背景信息」</strong> 该工厂的开幕标志着欧洲在减少对美国太空基础设施依赖方面的重要一步，尤其是在国家安全和技术主权方面。欧洲委员会将 IRIS²项目称为应对商业卫星星座（如星链）的“战略资产”。</div><div class="card-foot"><div class="tag-row"><button type="button" class="tag-chip" data-filter-tag="satellite technology">#satellite technology</button><button type="button" class="tag-chip" data-filter-tag="European Union">#European Union</button><button type="button" class="tag-chip" data-filter-tag="national security">#national security</button><button type="button" class="tag-chip" data-filter-tag="SpaceX">#SpaceX</button></div><div class="card-actions"><span class="inline-links"><a class="inline-ext-link" href="https://www.cnbc.com/2026/11/26/starlink-satellites-aerospacelab-factory-belgium.html" target="_blank" rel="noopener noreferrer">原文 ↗</a></span><button type="button" class="text-action" data-open-story="story-16">展开深度简报 →</button></div></div></article><article class="section-card"><div class="card-top"><span class="card-num">04</span><span class="story-kicker">Telegram · zaihuapd</span><span class="score-pill score-accent">8.0</span></div><h3 class="card-headline"><button type="button" class="headline-trigger" data-open-story="story-17">荷兰大臣称不接受美国限制 ASML 对华销售的法案</button></h3><p class="card-summary">荷兰外贸与发展合作大臣 Sjoerd Sjoerdsma 表示，荷兰不会接受美国对 ASML 对华销售的进一步限制，反对 MATCH Act 的域外管辖效力。</p><div class="card-teaser"><strong>「背景」</strong> MATCH Act 要求荷兰和日本等盟友对华实施更严格的出口管制，否则美国将单方面限制其半导体设备。中国约占 ASML 今年销售额的 20%。</div><div class="card-foot"><div class="tag-row"><button type="button" class="tag-chip" data-filter-tag="geopolitics">#geopolitics</button><button type="button" class="tag-chip" data-filter-tag="半导体">#半导体</button><button type="button" class="tag-chip" data-filter-tag="trade policy">#trade policy</button><button type="button" class="tag-chip" data-filter-tag="ASML">#ASML</button></div><div class="card-actions"><span class="inline-links"><a class="inline-ext-link" href="https://www.bloomberg.com/news/articles/2026-11-26/netherlands-plans-to-fight-rollout-of-proposed-us-curbs-on-asml" target="_blank" rel="noopener noreferrer">原文 ↗</a></span><button type="button" class="text-action" data-open-story="story-17">展开深度简报 →</button></div></div></article><article class="section-card"><div class="card-top"><span class="card-num">05</span><span class="story-kicker">RSS 订阅 · CNBC Finance</span><span class="score-pill score-accent">7.0</span></div><h3 class="card-headline"><button type="button" class="headline-trigger" data-open-story="story-18">Nvidia 股票波动揭示单只股票 ETF 的风险</button></h3><p class="card-summary">Nvidia 最近的股票波动突显了与单只股票交易所交易基金（ETF）相关的风险，GraniteShares 2x Short NVDA Daily ETF（NVD）在周一下跌了 63%。</p><div class="card-teaser"><strong>「背景」</strong> Nvidia 的股价在首席执行官黄仁勋重新上任后经历了剧烈波动，导致相关的单只股票 ETF 出现大幅涨跌。市场分析师指出，这种波动通常在经济衰退或熊市期间更为常见。</div><div class="card-foot"><div class="tag-row"><button type="button" class="tag-chip" data-filter-tag="Nvidia">#Nvidia</button><button type="button" class="tag-chip" data-filter-tag="ETFs">#ETFs</button><button type="button" class="tag-chip" data-filter-tag="market volatility">#market volatility</button><button type="button" class="tag-chip" data-filter-tag="investment risk">#investment risk</button></div><div class="card-actions"><span class="inline-links"><a class="inline-ext-link" href="https://www.cnbc.com/2026/11/26/nvidias-volatile-swings-expose-risks-of-single-stock-etfs.html" target="_blank" rel="noopener noreferrer">原文 ↗</a></span><button type="button" class="text-action" data-open-story="story-18">展开深度简报 →</button></div></div></article></div></section>
+      <section class="band wire-band" id="the-wire" data-page-code="A5" data-page-label="全球电讯"><div class="band-head"><div class="kicker">全球电讯 · 多源实时速递</div><h2 class="band-title">全球信息源速览</h2><p class="band-desc">按渠道高密度梳理今日入选资讯，涵盖技术社区、开源项目与行业媒体。</p></div><div class="wire-grid"><div class="wire-col"><div class="col-header"><span>社区热榜 · HN / Reddit</span><a href="#archive-desk">全部 →</a></div><div class="wire-entry wire-numbered"><span class="wire-rank">1</span><div class="wire-content"><button type="button" class="wire-title" data-open-story="story-3">AI 让自托管变得有趣</button><div class="wire-meta-row"><span class="wire-meta">janlukas.blog · 437 热度 · 235 评论 · 11月26日 21:47</span><span class="inline-links"><a class="inline-ext-link" href="https://janlukas.blog/posts/ai-self-hosting" target="_blank" rel="noopener noreferrer">原文 ↗</a><a class="inline-ext-link" href="https://news.ycombinator.com/item?id=50660180" target="_blank" rel="noopener noreferrer">讨论 ↗</a></span></div></div></div><div class="wire-entry wire-numbered"><span class="wire-rank">2</span><div class="wire-content"><button type="button" class="wire-title" data-open-story="story-4">AMD 专用的 llama.cpp 分支</button><div class="wire-meta-row"><span class="wire-meta">devnull.land · 309 热度 · 75 评论 · 11月26日 17:11</span><span class="inline-links"><a class="inline-ext-link" href="https://devnull.land/amd-specific-llama-cpp" target="_blank" rel="noopener noreferrer">原文 ↗</a><a class="inline-ext-link" href="https://news.ycombinator.com/item?id=50657265" target="_blank" rel="noopener noreferrer">讨论 ↗</a></span></div></div></div><div class="wire-entry wire-numbered"><span class="wire-rank">3</span><div class="wire-content"><button type="button" class="wire-title" data-open-story="story-5">在浏览器标签中运行三个不同浏览器的 Linux 虚拟机</button><div class="wire-meta-row"><span class="wire-meta">michidk.github.io · 124 热度 · 28 评论 · 11月26日 15:00</span><span class="inline-links"><a class="inline-ext-link" href="https://michidk.github.io/sidebyside/" target="_blank" rel="noopener noreferrer">原文 ↗</a><a class="inline-ext-link" href="https://news.ycombinator.com/item?id=50656036" target="_blank" rel="noopener noreferrer">讨论 ↗</a></span></div></div></div></div><div class="wire-col"><div class="col-header"><span>开源与社交 · GitHub / Bluesky / X</span><a href="#archive-desk">全部 →</a></div><div class="wire-empty">—</div></div><div class="wire-col"><div class="col-header"><span>论文、媒体与预测 · RSS / arXiv / Polymarket</span><a href="#archive-desk">全部 →</a></div><div class="wire-entry"><div class="wire-kicker">AI 资讯 · 11月26日 15:50</div><button type="button" class="wire-title" data-open-story="story-1">Avicena 完成超过 1 亿美元的 C 轮融资，推动 AI 芯片与 microLED 技术结合</button><div class="wire-meta-row"><span class="wire-meta">Techmeme · AI 8.0</span><span class="inline-links"><a class="inline-ext-link" href="https://www.techmeme.com/261126/p20#a261126p20" target="_blank" rel="noopener noreferrer">原文 ↗</a></span></div></div><div class="wire-entry"><div class="wire-kicker">AI 资讯 · 11月26日 13:30</div><button type="button" class="wire-title" data-open-story="story-2">TrustedRouter 融资 600 万美元，日处理超 60 亿个令牌</button><div class="wire-meta-row"><span class="wire-meta">Techmeme · AI 8.0</span><span class="inline-links"><a class="inline-ext-link" href="https://www.techmeme.com/261126/p18#a261126p18" target="_blank" rel="noopener noreferrer">原文 ↗</a></span></div></div><div class="wire-entry"><div class="wire-kicker">AI 资讯 · 11月27日 03:15</div><button type="button" class="wire-title" data-open-story="story-6">Dante Security 获得 1000 万美元种子轮融资以监控 AI 代理活动</button><div class="wire-meta-row"><span class="wire-meta">Techmeme · AI 7.0</span><span class="inline-links"><a class="inline-ext-link" href="https://www.techmeme.com/261126/p27#a261126p27" target="_blank" rel="noopener noreferrer">原文 ↗</a></span></div></div><div class="wire-entry"><div class="wire-kicker">AI 资讯 · 11月27日 00:30</div><button type="button" class="wire-title" data-open-story="story-7">国会两党努力监管人工智能面临立法挑战</button><div class="wire-meta-row"><span class="wire-meta">Techmeme · AI 7.0</span><span class="inline-links"><a class="inline-ext-link" href="https://www.techmeme.com/261126/p26#a261126p26" target="_blank" rel="noopener noreferrer">原文 ↗</a></span></div></div><div class="wire-entry"><div class="wire-kicker">AI 资讯 · 11月26日 16:50</div><button type="button" class="wire-title" data-open-story="story-8">SAP 计划裁员 10,000 人以适应 AI 时代</button><div class="wire-meta-row"><span class="wire-meta">Techmeme · AI 7.0</span><span class="inline-links"><a class="inline-ext-link" href="https://www.techmeme.com/261126/p22#a261126p22" target="_blank" rel="noopener noreferrer">原文 ↗</a></span></div></div><div class="wire-entry"><div class="wire-kicker">AI 资讯 · 11月26日 13:10</div><button type="button" class="wire-title" data-open-story="story-9">英国 FCA 计划要求 DeFi 平台获得授权，监管力度超过美国和欧盟</button><div class="wire-meta-row"><span class="wire-meta">Techmeme · AI 7.0</span><span class="inline-links"><a class="inline-ext-link" href="https://www.techmeme.com/261126/p17#a261126p17" target="_blank" rel="noopener noreferrer">原文 ↗</a></span></div></div><div class="wire-entry"><div class="wire-kicker">前沿论文 · 11月25日 18:59</div><button type="button" class="wire-title" data-open-story="story-10">AI 原生自编码通信的频谱适应与迁移学习</button><div class="wire-meta-row"><span class="wire-meta">arXiv (cs.NI) · AI 8.0</span><span class="inline-links"><a class="inline-ext-link" href="https://arxiv.org/abs/2611.34942v1" target="_blank" rel="noopener noreferrer">原文 ↗</a></span></div></div><div class="wire-entry"><div class="wire-kicker">前沿论文 · 11月25日 18:59</div><button type="button" class="wire-title" data-open-story="story-11">攻击策略选择可能误导监控评估者</button><div class="wire-meta-row"><span class="wire-meta">arXiv (cs.LG) · AI 8.0</span><span class="inline-links"><a class="inline-ext-link" href="https://arxiv.org/abs/2611.34934v1" target="_blank" rel="noopener noreferrer">原文 ↗</a></span></div></div></div></div></section>
+      <section class="band index-band" id="archive-desk" data-page-code="A6" data-page-label="全量检索"><div class="band-head"><div class="kicker">全量档案 · 交互检索</div><h2 class="band-title">本期全量资讯检索台</h2><p class="band-desc">按关键词、版面、信源或主题标签即时过滤，点击任意条目在右侧报刊抽屉阅读全文。</p></div><div class="filter-controls"><div class="search-row"><input type="search" id="archiveSearch" class="search-input" placeholder="搜索标题、摘要、标签或来源… (快捷键 /)" autocomplete="off"><select id="archiveSort" class="sort-select" aria-label="Sort stories"><option value="score">按 AI 评分</option><option value="time">按发布时间</option></select><button type="button" id="archiveReset" class="util-btn">重置</button></div><div class="pill-bar" id="profileFilterBar"><button type="button" class="filter-pill is-active" data-filter-profile="all">全部 <span class="pill-count">18</span></button><button type="button" class="filter-pill" data-filter-profile="tech-news">科技新闻 <span class="pill-count">9</span></button><button type="button" class="filter-pill" data-filter-profile="tech-blog">科技博客 <span class="pill-count">4</span></button><button type="button" class="filter-pill" data-filter-profile="finance-news">财经新闻 <span class="pill-count">5</span></button></div><div class="pill-bar pill-bar-sub" id="sourceFilterBar"><button type="button" class="filter-pill filter-pill-sm is-active" data-filter-source="all">全部</button><button type="button" class="filter-pill filter-pill-sm" data-filter-source="rss">RSS 订阅 <span class="pill-count">10</span></button><button type="button" class="filter-pill filter-pill-sm" data-filter-source="arxiv">arXiv 论文 <span class="pill-count">4</span></button><button type="button" class="filter-pill filter-pill-sm" data-filter-source="hackernews">Hacker News <span class="pill-count">3</span></button><button type="button" class="filter-pill filter-pill-sm" data-filter-source="telegram">Telegram <span class="pill-count">1</span></button></div><div class="active-tag-bar" id="activeTagBar" hidden></div></div><div class="ledger-grid" id="archiveLedger" aria-live="polite"><article class="ledger-item" data-story-id="story-1"><div class="ledger-top"><span class="ledger-meta">RSS 订阅 · Techmeme · 11月26日 15:50</span><span class="score-pill score-accent">8.0</span></div><h3 class="ledger-title"><button type="button" class="headline-trigger" data-open-story="story-1">Avicena 完成超过 1 亿美元的 C 轮融资，推动 AI 芯片与 microLED 技术结合</button></h3><p class="ledger-summary">Avicena 公司完成了超过 1 亿美元的 C 轮融资，由 Intervest 主导，SK Hynix、三星和 AMD 等主要行业参与。该融资将用于推进其利用 microLED 而非激光的 AI 芯片技术，预计新任首席执行官 Kevin Pope 计划在明年推出首款 Ligh…</p><div class="ledger-foot"><span class="profile-tag">科技新闻</span><span class="ledger-tags">#AI #microLED #funding</span><span class="inline-links"><a class="inline-ext-link" href="https://www.techmeme.com/261126/p20#a261126p20" target="_blank" rel="noopener noreferrer">原文 ↗</a></span></div></article><article class="ledger-item" data-story-id="story-2"><div class="ledger-top"><span class="ledger-meta">RSS 订阅 · Techmeme · 11月26日 13:30</span><span class="score-pill score-accent">8.0</span></div><h3 class="ledger-title"><button type="button" class="headline-trigger" data-open-story="story-2">TrustedRouter 融资 600 万美元，日处理超 60 亿个令牌</button></h3><p class="ledger-summary">TrustedRouter 刚刚融资 600 万美元，旨在为企业 AI 查询提供端到端加密（E2EE）和保密计算。该公司表示，其日处理的令牌数量已从 8 月份的 10 亿个增长至超过 60 亿个，显示出在 AI 安全领域的显著增长和相关性。</p><div class="ledger-foot"><span class="profile-tag">科技新闻</span><span class="ledger-tags">#AI #privacy #confidential computing</span><span class="inline-links"><a class="inline-ext-link" href="https://www.techmeme.com/261126/p18#a261126p18" target="_blank" rel="noopener noreferrer">原文 ↗</a></span></div></article><article class="ledger-item" data-story-id="story-3"><div class="ledger-top"><span class="ledger-meta">Hacker News · jlelse · 11月26日 21:47</span><span class="score-pill score-accent">7.0</span></div><h3 class="ledger-title"><button type="button" class="headline-trigger" data-open-story="story-3">AI 让自托管变得有趣</button></h3><p class="ledger-summary">这篇文章探讨了人工智能如何简化自托管过程，同时带来了新的安全挑战。AI 的应用使得部署变得更加容易，但用户需要承担更高的安全责任，尤其是在快速变化的安全环境中。</p><div class="ledger-foot"><span class="profile-tag">科技新闻</span><span class="ledger-tags">#AI #self-hosting #security</span><span class="inline-links"><a class="inline-ext-link" href="https://janlukas.blog/posts/ai-self-hosting" target="_blank" rel="noopener noreferrer">原文 ↗</a><a class="inline-ext-link" href="https://news.ycombinator.com/item?id=50660180" target="_blank" rel="noopener noreferrer">讨论 ↗</a></span></div></article><article class="ledger-item" data-story-id="story-4"><div class="ledger-top"><span class="ledger-meta">Hacker News · julianlam · 11月26日 17:11</span><span class="score-pill score-accent">7.0</span></div><h3 class="ledger-title"><button type="button" class="headline-trigger" data-open-story="story-4">AMD 专用的 llama.cpp 分支</button></h3><p class="ledger-summary">一款针对 AMD 硬件优化的 llama.cpp 分支现已发布，旨在提升 AI 模型在 AMD 设备上的性能。该分支得到了社区的贡献，强调了对 AMD 硬件的特定优化，适合希望在 AMD 平台上运行 AI 模型的开发者和用户。</p><div class="ledger-foot"><span class="profile-tag">科技新闻</span><span class="ledger-tags">#AMD #llama.cpp #AI optimization</span><span class="inline-links"><a class="inline-ext-link" href="https://devnull.land/amd-specific-llama-cpp" target="_blank" rel="noopener noreferrer">原文 ↗</a><a class="inline-ext-link" href="https://news.ycombinator.com/item?id=50657265" target="_blank" rel="noopener noreferrer">讨论 ↗</a></span></div></article><article class="ledger-item" data-story-id="story-5"><div class="ledger-top"><span class="ledger-meta">Hacker News · michidk · 11月26日 15:00</span><span class="score-pill score-accent">7.0</span></div><h3 class="ledger-title"><button type="button" class="headline-trigger" data-open-story="story-5">在浏览器标签中运行三个不同浏览器的 Linux 虚拟机</button></h3><p class="ledger-summary">一个新项目允许在单个浏览器标签中运行三个 Linux 虚拟机，每个虚拟机运行不同的浏览器。这一创新引起了社区的关注和讨论，尤其是在软件工程和虚拟化领域。该项目展示了在浏览器中运行多个 Linux 虚拟机的新方法，尽管它可能并不代表技术的重大突破。</p><div class="ledger-foot"><span class="profile-tag">科技新闻</span><span class="ledger-tags">#Linux #Virtualization #Web Technology</span><span class="inline-links"><a class="inline-ext-link" href="https://michidk.github.io/sidebyside/" target="_blank" rel="noopener noreferrer">原文 ↗</a><a class="inline-ext-link" href="https://news.ycombinator.com/item?id=50656036" target="_blank" rel="noopener noreferrer">讨论 ↗</a></span></div></article><article class="ledger-item" data-story-id="story-6"><div class="ledger-top"><span class="ledger-meta">RSS 订阅 · Techmeme · 11月27日 03:15</span><span class="score-pill score-accent">7.0</span></div><h3 class="ledger-title"><button type="button" class="headline-trigger" data-open-story="story-6">Dante Security 获得 1000 万美元种子轮融资以监控 AI 代理活动</button></h3><p class="ledger-summary">Dante Security 成功获得 1000 万美元的种子轮融资，由 NFX 领投，旨在增强对组织内 AI 代理活动的监控。这一平台将为组织提供对自主 AI 代理行为的可见性，并将其活动与负责的员工联系起来。</p><div class="ledger-foot"><span class="profile-tag">科技新闻</span><span class="ledger-tags">#AI Monitoring #Funding #Startup</span><span class="inline-links"><a class="inline-ext-link" href="https://www.techmeme.com/261126/p27#a261126p27" target="_blank" rel="noopener noreferrer">原文 ↗</a></span></div></article><article class="ledger-item" data-story-id="story-7"><div class="ledger-top"><span class="ledger-meta">RSS 订阅 · Techmeme · 11月27日 00:30</span><span class="score-pill score-accent">7.0</span></div><h3 class="ledger-title"><button type="button" class="headline-trigger" data-open-story="story-7">国会两党努力监管人工智能面临立法挑战</button></h3><p class="ledger-summary">国会正在进行两党合作，努力监管人工智能（AI），但由于立法进程缓慢和利益争夺，这些努力可能面临重大挑战。尽管两党成员表示希望解决人工智能政策问题，但立法的复杂性可能会阻碍进展。</p><div class="ledger-foot"><span class="profile-tag">科技新闻</span><span class="ledger-tags">#AI regulation #legislation #bipartisan efforts</span><span class="inline-links"><a class="inline-ext-link" href="https://www.techmeme.com/261126/p26#a261126p26" target="_blank" rel="noopener noreferrer">原文 ↗</a></span></div></article><article class="ledger-item" data-story-id="story-8"><div class="ledger-top"><span class="ledger-meta">RSS 订阅 · Techmeme · 11月26日 16:50</span><span class="score-pill score-accent">7.0</span></div><h3 class="ledger-title"><button type="button" class="headline-trigger" data-open-story="story-8">SAP 计划裁员 10,000 人以适应 AI 时代</button></h3><p class="ledger-summary">SAP 计划裁减至少 10,000 个职位，约占其全球员工的 9%，以转型其软件业务以适应人工智能时代。这一战略调整标志着公司在应对 AI 环境方面的重大变化。</p><div class="ledger-foot"><span class="profile-tag">科技新闻</span><span class="ledger-tags">#SAP #AI #software engineering</span><span class="inline-links"><a class="inline-ext-link" href="https://www.techmeme.com/261126/p22#a261126p22" target="_blank" rel="noopener noreferrer">原文 ↗</a></span></div></article><article class="ledger-item" data-story-id="story-9"><div class="ledger-top"><span class="ledger-meta">RSS 订阅 · Techmeme · 11月26日 13:10</span><span class="score-pill score-accent">7.0</span></div><h3 class="ledger-title"><button type="button" class="headline-trigger" data-open-story="story-9">英国 FCA 计划要求 DeFi 平台获得授权，监管力度超过美国和欧盟</button></h3><p class="ledger-summary">英国金融行为监管局（FCA）计划要求去中心化金融（DeFi）平台获得授权，这一举措在监管上比美国和欧盟更为严格。这一决定是在价值 63 亿美元的 Binance 黑客事件之后做出的，反映了对消费者保护不足的担忧。</p><div class="ledger-foot"><span class="profile-tag">科技新闻</span><span class="ledger-tags">#DeFi #regulation #financial technology</span><span class="inline-links"><a class="inline-ext-link" href="https://www.techmeme.com/261126/p17#a261126p17" target="_blank" rel="noopener noreferrer">原文 ↗</a></span></div></article><article class="ledger-item" data-story-id="story-10"><div class="ledger-top"><span class="ledger-meta">arXiv 论文 · arXiv (cs.NI) · 11月25日 18:59</span><span class="score-pill score-accent">8.0</span></div><h3 class="ledger-title"><button type="button" class="headline-trigger" data-open-story="story-10">AI 原生自编码通信的频谱适应与迁移学习</button></h3><p class="ledger-summary">The paper explores a transfer-learning method for adapting AI-native autoencoder communications to varying channel conditions, demonstratin…</p><div class="ledger-foot"><span class="profile-tag">科技博客</span><span class="ledger-tags">#AI-native communications #autoencoders #transfer learning</span><span class="inline-links"><a class="inline-ext-link" href="https://arxiv.org/abs/2611.34942v1" target="_blank" rel="noopener noreferrer">原文 ↗</a></span></div></article><article class="ledger-item" data-story-id="story-11"><div class="ledger-top"><span class="ledger-meta">arXiv 论文 · arXiv (cs.LG) · 11月25日 18:59</span><span class="score-pill score-accent">8.0</span></div><h3 class="ledger-title"><button type="button" class="headline-trigger" data-open-story="story-11">攻击策略选择可能误导监控评估者</button></h3><p class="ledger-summary">The article examines how the choice of attack policies can significantly impact the evaluation of AI monitors, highlighting the need for ca…</p><div class="ledger-foot"><span class="profile-tag">科技博客</span><span class="ledger-tags">#AI Monitoring #Attack Policies #Evaluation Methods</span><span class="inline-links"><a class="inline-ext-link" href="https://arxiv.org/abs/2611.34934v1" target="_blank" rel="noopener noreferrer">原文 ↗</a></span></div></article><article class="ledger-item" data-story-id="story-12"><div class="ledger-top"><span class="ledger-meta">arXiv 论文 · arXiv (cs.CL) · 11月25日 18:59</span><span class="score-pill score-accent">8.0</span></div><h3 class="ledger-title"><button type="button" class="headline-trigger" data-open-story="story-12">多样化替代推理轨迹用于解决困难数学问题</button></h3><p class="ledger-summary">The paper introduces Diverse Alternative Reasoning Traces (DART), a method that enhances the recovery of solutions for hard math problems i…</p><div class="ledger-foot"><span class="profile-tag">科技博客</span><span class="ledger-tags">#machine learning #mathematical reasoning #large language models</span><span class="inline-links"><a class="inline-ext-link" href="https://arxiv.org/abs/2611.34928v1" target="_blank" rel="noopener noreferrer">原文 ↗</a></span></div></article><article class="ledger-item" data-story-id="story-13"><div class="ledger-top"><span class="ledger-meta">arXiv 论文 · arXiv (cs.CL) · 11月25日 18:58</span><span class="score-pill score-accent">8.0</span></div><h3 class="ledger-title"><button type="button" class="headline-trigger" data-open-story="story-13">$μ$-Bench：共享交互语音助手中的多用户任务完成基准测试</button></h3><p class="ledger-summary">$μ$-Bench introduces a comprehensive benchmark for assessing multi-user task completion in voice agents, revealing critical insights into s…</p><div class="ledger-foot"><span class="profile-tag">科技博客</span><span class="ledger-tags">#voice agents #benchmarking #multi-user interaction</span><span class="inline-links"><a class="inline-ext-link" href="https://arxiv.org/abs/2611.34920v1" target="_blank" rel="noopener noreferrer">原文 ↗</a></span></div></article><article class="ledger-item" data-story-id="story-14"><div class="ledger-top"><span class="ledger-meta">RSS 订阅 · CNBC Finance · 11月26日 17:52</span><span class="score-pill score-accent">8.0</span></div><h3 class="ledger-title"><button type="button" class="headline-trigger" data-open-story="story-14">半导体芯片成为新石油的原因</button></h3><p class="ledger-summary">根据德意志银行对国际贸易中心数据的分析，人工智能的兴起使得半导体出口首次超过石油和天然气，2026 年第一季度半导体出口达到约 1.61 万亿美元，而石油和天然气为 1.53 万亿美元。</p><div class="ledger-foot"><span class="profile-tag">财经新闻</span><span class="ledger-tags">#半导体 #AI #global trade</span><span class="inline-links"><a class="inline-ext-link" href="https://www.cnbc.com/2026/11/26/semiconductor-chips-are-the-new-oil-heres-why.html" target="_blank" rel="noopener noreferrer">原文 ↗</a></span></div></article><article class="ledger-item" data-story-id="story-15"><div class="ledger-top"><span class="ledger-meta">RSS 订阅 · CNBC Tech · 11月26日 17:04</span><span class="score-pill score-accent">8.0</span></div><h3 class="ledger-title"><button type="button" class="headline-trigger" data-open-story="story-15">美国新规限制中国租户购买 Nvidia 芯片</button></h3><p class="ledger-summary">美国新规禁止中国公司租用计算能力，从而限制 Nvidia 芯片的销售，影响了人工智能供应链。该规定于 2026 年 11 月 19 日生效。</p><div class="ledger-foot"><span class="profile-tag">财经新闻</span><span class="ledger-tags">#Nvidia #U.S. regulations #AI industry</span><span class="inline-links"><a class="inline-ext-link" href="https://www.cnbc.com/2026/11/26/neoclouds-nvidia-china-ai.html" target="_blank" rel="noopener noreferrer">原文 ↗</a></span></div></article><article class="ledger-item" data-story-id="story-16"><div class="ledger-top"><span class="ledger-meta">RSS 订阅 · CNBC Tech · 11月26日 07:45</span><span class="score-pill score-accent">8.0</span></div><h3 class="ledger-title"><button type="button" class="headline-trigger" data-open-story="story-16">欧洲最大卫星工厂开幕，挑战星链</button></h3><p class="ledger-summary">欧洲在比利时开幕了其最大的卫星工厂，以增强卫星能力并挑战埃隆·马斯克的星链（Starlink）在卫星互联网服务中的主导地位。该工厂由比利时卫星制造商 Aerospacelab 运营，获得了一项价值 24 亿欧元（约合 26 亿美元）的合同，计划生产 348 颗卫星中的 264…</p><div class="ledger-foot"><span class="profile-tag">财经新闻</span><span class="ledger-tags">#satellite technology #European Union #national security</span><span class="inline-links"><a class="inline-ext-link" href="https://www.cnbc.com/2026/11/26/starlink-satellites-aerospacelab-factory-belgium.html" target="_blank" rel="noopener noreferrer">原文 ↗</a></span></div></article><article class="ledger-item" data-story-id="story-17"><div class="ledger-top"><span class="ledger-meta">Telegram · zaihuapd · 11月26日 14:56</span><span class="score-pill score-accent">8.0</span></div><h3 class="ledger-title"><button type="button" class="headline-trigger" data-open-story="story-17">荷兰大臣称不接受美国限制 ASML 对华销售的法案</button></h3><p class="ledger-summary">荷兰外贸与发展合作大臣 Sjoerd Sjoerdsma 表示，荷兰不会接受美国对 ASML 对华销售的进一步限制，反对 MATCH Act 的域外管辖效力。</p><div class="ledger-foot"><span class="profile-tag">财经新闻</span><span class="ledger-tags">#geopolitics #半导体 #trade policy</span><span class="inline-links"><a class="inline-ext-link" href="https://www.bloomberg.com/news/articles/2026-11-26/netherlands-plans-to-fight-rollout-of-proposed-us-curbs-on-asml" target="_blank" rel="noopener noreferrer">原文 ↗</a></span></div></article><article class="ledger-item" data-story-id="story-18"><div class="ledger-top"><span class="ledger-meta">RSS 订阅 · CNBC Finance · 11月26日 16:00</span><span class="score-pill score-accent">7.0</span></div><h3 class="ledger-title"><button type="button" class="headline-trigger" data-open-story="story-18">Nvidia 股票波动揭示单只股票 ETF 的风险</button></h3><p class="ledger-summary">Nvidia 最近的股票波动突显了与单只股票交易所交易基金（ETF）相关的风险，GraniteShares 2x Short NVDA Daily ETF（NVD）在周一下跌了 63%。</p><div class="ledger-foot"><span class="profile-tag">财经新闻</span><span class="ledger-tags">#Nvidia #ETFs #market volatility</span><span class="inline-links"><a class="inline-ext-link" href="https://www.cnbc.com/2026/11/26/nvidias-volatile-swings-expose-risks-of-single-stock-etfs.html" target="_blank" rel="noopener noreferrer">原文 ↗</a></span></div></article></div></section>
+    </main>
+
+    <!-- Colophon Footer -->
+    <footer class="colophon">
+      <div class="colophon-wordmark">地平线每日快报</div>
+      <p class="colophon-meta">
+        2026年11月27日 星期五 · 从 84 条信源中筛选 · 18 条
+      </p>
+      <p class="colophon-note">由 Horizon 自动抓取、AI 分析、去重与背景增强生成 · 纯静态单页快报，支持离线阅读与打印。</p>
+    </footer>
+  </div>
+
+  <!-- Floating Bottom-Right Section Pager -->
+  <div class="pager-wrap" id="pagerWrap">
+    <div class="pager-menu" id="pagerMenu" role="menu" hidden>
+      <a class="pager-item" href="#front-page" data-pager-code="A1"><span class="pager-code">A1</span><span class="pager-label">头版</span></a><a class="pager-item" href="#sec-tech-news" data-pager-code="A2"><span class="pager-code">A2</span><span class="pager-label">科技新闻</span></a><a class="pager-item" href="#sec-tech-blog" data-pager-code="A3"><span class="pager-code">A3</span><span class="pager-label">科技博客</span></a><a class="pager-item" href="#sec-finance-news" data-pager-code="A4"><span class="pager-code">A4</span><span class="pager-label">财经新闻</span></a><a class="pager-item" href="#the-wire" data-pager-code="A5"><span class="pager-code">A5</span><span class="pager-label">全球电讯</span></a><a class="pager-item" href="#archive-desk" data-pager-code="A6"><span class="pager-code">A6</span><span class="pager-label">全量检索</span></a>
+    </div>
+    <button type="button" class="pager-btn" id="pagerBtn" aria-expanded="false" aria-controls="pagerMenu">
+      <span class="pager-btn-code" id="pagerActiveCode">A1</span>
+      <span class="pager-btn-label" id="pagerActiveLabel">头版</span>
+      <span class="pager-caret" aria-hidden="true">▲</span>
+    </button>
+  </div>
+
+  <!-- Newspaper Reading Drawer -->
+  <div class="drawer-backdrop" id="drawerBackdrop" hidden></div>
+  <aside class="drawer" id="articleDrawer" role="dialog" aria-modal="true" aria-labelledby="drawerTitle" hidden>
+    <div class="drawer-topbar">
+      <div class="drawer-kicker" id="drawerKicker"></div>
+      <button type="button" class="drawer-close" id="drawerClose">关闭 (Esc)</button>
+    </div>
+    <div class="drawer-scroll" id="drawerBody">
+      <div class="drawer-head">
+        <div class="drawer-badges" id="drawerBadges"></div>
+        <h2 class="drawer-title" id="drawerTitle"></h2>
+        <div class="drawer-meta" id="drawerMeta"></div>
+        <div class="drawer-head-links" id="drawerHeadLinks"></div>
+      </div>
+      <div class="drawer-blocks" id="drawerBlocks"></div>
+      <div class="drawer-refs" id="drawerRefs" hidden></div>
+      <div class="drawer-tags" id="drawerTags" hidden></div>
+    </div>
+    <div class="drawer-footer">
+      <button type="button" class="drawer-nav-btn" id="drawerPrev">← 上一条</button>
+      <div class="drawer-ext-links" id="drawerExtLinks"></div>
+      <button type="button" class="drawer-nav-btn" id="drawerNext">下一条 →</button>
+    </div>
+  </aside>
+
+  <script id="horizon-edition-data" type="application/json">{"meta":{"title":"地平线每日快报","overline":"地平线 · 每日数字大报","subtitle":"你只需享受新闻，剩下交给地平线 — 多源聚合、AI 研判与深度背景每日速递。","edition_label":"地平线 · 全球科技与产业快报","date":"2026-11-27","date_display":"2026年11月27日 星期五","updated_at":"04:42 UTC","language":"zh","lang_key":"zh","total_fetched":84,"selected_count":18,"avg_score":7.6,"top_score":8.0,"drop_rate":79,"source_count":4,"profile_count":3,"wire_code":"A5","index_code":"A6"},"ticker":[{"kind":"tag","label":"#AI","tag":"AI","metric":"6 条","delta":"up"},{"kind":"tag","label":"#半导体","tag":"半导体","metric":"4 条","delta":"up"},{"kind":"tag","label":"#security","tag":"security","metric":"2 条","delta":"up"},{"kind":"tag","label":"#AI Monitoring","tag":"AI Monitoring","metric":"2 条","delta":"up"},{"kind":"tag","label":"#Nvidia","tag":"Nvidia","metric":"2 条","delta":"up"},{"kind":"tag","label":"#microLED","tag":"microLED","metric":"1 条","delta":"up"},{"kind":"tag","label":"#funding","tag":"funding","metric":"1 条","delta":"up"},{"kind":"tag","label":"#technology","tag":"technology","metric":"1 条","delta":"up"},{"kind":"tag","label":"#privacy","tag":"privacy","metric":"1 条","delta":"up"},{"kind":"tag","label":"#confidential computing","tag":"confidential computing","metric":"1 条","delta":"up"},{"kind":"story","story_id":"story-1","label":"Avicena 完成超过 1 亿美元的 C 轮融资，推…","metric":"▲ 8.0","delta":"up"},{"kind":"story","story_id":"story-2","label":"TrustedRouter 融资 600 万美元，日处…","metric":"▲ 8.0","delta":"up"},{"kind":"story","story_id":"story-10","label":"AI 原生自编码通信的频谱适应与迁移学习","metric":"▲ 8.0","delta":"up"},{"kind":"story","story_id":"story-11","label":"攻击策略选择可能误导监控评估者","metric":"▲ 8.0","delta":"up"},{"kind":"story","story_id":"story-12","label":"多样化替代推理轨迹用于解决困难数学问题","metric":"▲ 8.0","delta":"up"},{"kind":"story","story_id":"story-13","label":"$μ$-Bench：共享交互语音助手中的多用户任务完成…","metric":"▲ 8.0","delta":"up"}],"front_page":{"lead_id":"story-1","left_ids":["story-2","story-3","story-4"],"right_ids":["story-10","story-11"],"spotlight_left_ids":["story-10","story-11","story-12","story-13"],"spotlight_right_ids":["story-3","story-4","story-5","story-2"]},"sections":[{"code":"A2","dom_id":"sec-tech-news","profile_id":"tech-news","name":"科技新闻","item_ids":["story-1","story-2","story-3","story-4","story-5","story-6","story-7","story-8","story-9"]},{"code":"A3","dom_id":"sec-tech-blog","profile_id":"tech-blog","name":"科技博客","item_ids":["story-10","story-11","story-12","story-13"]},{"code":"A4","dom_id":"sec-finance-news","profile_id":"finance-news","name":"财经新闻","item_ids":["story-14","story-15","story-16","story-17","story-18"]}],"wire":[{"id":"wire-community","title":"社区热榜 · HN / Reddit","style":"numbered","item_ids":["story-3","story-4","story-5"]},{"id":"wire-builders","title":"开源与社交 · GitHub / Bluesky / X","style":"badged","item_ids":[]},{"id":"wire-editorial","title":"论文、媒体与预测 · RSS / arXiv / Polymarket","style":"kicker","item_ids":["story-1","story-2","story-6","story-7","story-8","story-9","story-10","story-11"]}],"source_breakdown":[{"source_type":"rss","label":"RSS 订阅","count":10,"pct":56},{"source_type":"arxiv","label":"arXiv 论文","count":4,"pct":22},{"source_type":"hackernews","label":"Hacker News","count":3,"pct":17},{"source_type":"telegram","label":"Telegram","count":1,"pct":6}],"top_tags":[{"tag":"AI","count":6},{"tag":"半导体","count":4},{"tag":"security","count":2},{"tag":"AI Monitoring","count":2},{"tag":"Nvidia","count":2},{"tag":"microLED","count":1},{"tag":"funding","count":1},{"tag":"technology","count":1},{"tag":"privacy","count":1},{"tag":"confidential computing","count":1},{"tag":"startup","count":1},{"tag":"encryption","count":1},{"tag":"self-hosting","count":1},{"tag":"cloud computing","count":1},{"tag":"community discussion","count":1},{"tag":"AMD","count":1}],"items":[{"id":"story-1","item_id":"rss:www.techmeme.com_feed.xml:01dd575125bf41d3","rank":1,"group_index":1,"profile_id":"tech-news","profile_name":"科技新闻","title":"Avicena 完成超过 1 亿美元的 C 轮融资，推动 AI 芯片与 microLED 技术结合","summary":"Avicena 公司完成了超过 1 亿美元的 C 轮融资，由 Intervest 主导，SK Hynix、三星和 AMD 等主要行业参与。该融资将用于推进其利用 microLED 而非激光的 AI 芯片技术，预计新任首席执行官 Kevin Pope 计划在明年推出首款 LightBundle 产品。","score":8.0,"score_display":"8.0","reason":"The article discusses a significant funding round for Avicena, a company innovating in the field of AI chips and microLED technology, which indicates a high potential impact on the technology landscape.","url":"https://www.techmeme.com/261126/p20#a261126p20","domain":"techmeme.com","discussion_url":null,"source_type":"rss","source_label":"RSS 订阅","sub_source":"Techmeme","author":"Techmeme","category":"AI 资讯","published_at":"2026-11-26T15:50:27+00:00","time_display":"11月26日 15:50","tags":["AI","microLED","funding","technology","半导体"],"blocks":[{"id":"summary","title":"融资概况","content":"Avicena 公司完成了超过 1 亿美元的 C 轮融资，由 Intervest 主导，SK Hynix、三星和 AMD 等主要行业参与。该融资将用于推进其利用 microLED 而非激光的 AI 芯片技术，预计新任首席执行官 Kevin Pope 计划在明年推出首款 LightBundle 产品。","primary":true},{"id":"background","title":"技术背景","content":"Avicena 专注于将 AI 芯片与 microLED 技术结合，旨在提升光学互连的性能。这一创新可能会改变 AI 芯片的设计和应用方式。","primary":false}],"secondary_blocks":[{"id":"background","title":"技术背景","content":"Avicena 专注于将 AI 芯片与 microLED 技术结合，旨在提升光学互连的性能。这一创新可能会改变 AI 芯片的设计和应用方式。","primary":false}],"references":[],"engagement":[],"engagement_weight":0,"probability_pct":null,"leading_outcome":null,"volume_24h_display":null},{"id":"story-2","item_id":"rss:www.techmeme.com_feed.xml:e0512c85e7e3c1fc","rank":2,"group_index":2,"profile_id":"tech-news","profile_name":"科技新闻","title":"TrustedRouter 融资 600 万美元，日处理超 60 亿个令牌","summary":"TrustedRouter 刚刚融资 600 万美元，旨在为企业 AI 查询提供端到端加密（E2EE）和保密计算。该公司表示，其日处理的令牌数量已从 8 月份的 10 亿个增长至超过 60 亿个，显示出在 AI 安全领域的显著增长和相关性。","score":8.0,"score_display":"8.0","reason":"The article discusses a significant funding round for TrustedRouter, a startup focusing on end-to-end encryption (E2EE) and confidential computing for enterprise AI queries, which is a timely and relevant topic in the context of privacy and security in AI applications. The increase in token processing from 1B to 6B per day indicates substantial growth and potential impact on the industry.","url":"https://www.techmeme.com/261126/p18#a261126p18","domain":"techmeme.com","discussion_url":null,"source_type":"rss","source_label":"RSS 订阅","sub_source":"Techmeme","author":"Techmeme","category":"AI 资讯","published_at":"2026-11-26T13:30:01+00:00","time_display":"11月26日 13:30","tags":["AI","privacy","confidential computing","startup","encryption"],"blocks":[{"id":"summary","title":"摘要","content":"TrustedRouter 刚刚融资 600 万美元，旨在为企业 AI 查询提供端到端加密（E2EE）和保密计算。该公司表示，其日处理的令牌数量已从 8 月份的 10 亿个增长至超过 60 亿个，显示出在 AI 安全领域的显著增长和相关性。","primary":true},{"id":"background","title":"背景","content":"TrustedRouter 是一家专注于提升企业 AI 查询隐私的初创公司，提供的技术旨在保护员工的 AI 使用数据不被模型制造商访问。此次融资和处理能力的提升反映了对 AI 应用中隐私和安全问题的日益关注。","primary":false},{"id":"impact","title":"影响","content":"随着 TrustedRouter 处理能力的显著提升，企业用户将能够更好地保护其 AI 查询的隐私，从而增强对 AI 技术的信任和使用。","primary":false}],"secondary_blocks":[{"id":"background","title":"背景","content":"TrustedRouter 是一家专注于提升企业 AI 查询隐私的初创公司，提供的技术旨在保护员工的 AI 使用数据不被模型制造商访问。此次融资和处理能力的提升反映了对 AI 应用中隐私和安全问题的日益关注。","primary":false},{"id":"impact","title":"影响","content":"随着 TrustedRouter 处理能力的显著提升，企业用户将能够更好地保护其 AI 查询的隐私，从而增强对 AI 技术的信任和使用。","primary":false}],"references":[],"engagement":[],"engagement_weight":0,"probability_pct":null,"leading_outcome":null,"volume_24h_display":null},{"id":"story-3","item_id":"hackernews:story:50660180","rank":3,"group_index":3,"profile_id":"tech-news","profile_name":"科技新闻","title":"AI 让自托管变得有趣","summary":"这篇文章探讨了人工智能如何简化自托管过程，同时带来了新的安全挑战。AI 的应用使得部署变得更加容易，但用户需要承担更高的安全责任，尤其是在快速变化的安全环境中。","score":7.0,"score_display":"7.0","reason":"The article discusses the impact of AI on self-hosting, highlighting both the ease of deployment and the increased security responsibilities, which are relevant and timely topics for the tech community.","url":"https://janlukas.blog/posts/ai-self-hosting","domain":"janlukas.blog","discussion_url":"https://news.ycombinator.com/item?id=50660180","source_type":"hackernews","source_label":"Hacker News","sub_source":"jlelse","author":"jlelse","category":"AI 资讯","published_at":"2026-11-26T21:47:45+00:00","time_display":"11月26日 21:47","tags":["AI","self-hosting","security","cloud computing","community discussion"],"blocks":[{"id":"summary","title":"摘要","content":"这篇文章探讨了人工智能如何简化自托管过程，同时带来了新的安全挑战。AI 的应用使得部署变得更加容易，但用户需要承担更高的安全责任，尤其是在快速变化的安全环境中。","primary":true},{"id":"background","title":"背景","content":"自托管（self-hosting）是指用户在自己的服务器上运行应用程序或服务，而不是依赖第三方提供的云服务。近年来，随着人工智能（AI）技术的发展，自托管变得更加简单，但同时也带来了新的安全挑战，用户需要更加关注安全更新和漏洞修复。","primary":false},{"id":"impact","title":"影响","content":"用户在享受自托管便利的同时，必须更加关注安全更新和漏洞修复，以应对加速增加的安全威胁。这意味着用户需要在部署后更频繁地检查和更新系统，以确保安全性。","primary":false},{"id":"community_discussion","title":"社区讨论","content":"一些用户表示，虽然自托管变得更容易，但安全责任也随之增加，必须在短时间内响应安全漏洞。其他用户分享了他们如何利用 AI 工具来简化自托管过程，提升了效率和管理能力。","primary":false}],"secondary_blocks":[{"id":"background","title":"背景","content":"自托管（self-hosting）是指用户在自己的服务器上运行应用程序或服务，而不是依赖第三方提供的云服务。近年来，随着人工智能（AI）技术的发展，自托管变得更加简单，但同时也带来了新的安全挑战，用户需要更加关注安全更新和漏洞修复。","primary":false},{"id":"impact","title":"影响","content":"用户在享受自托管便利的同时，必须更加关注安全更新和漏洞修复，以应对加速增加的安全威胁。这意味着用户需要在部署后更频繁地检查和更新系统，以确保安全性。","primary":false},{"id":"community_discussion","title":"社区讨论","content":"一些用户表示，虽然自托管变得更容易，但安全责任也随之增加，必须在短时间内响应安全漏洞。其他用户分享了他们如何利用 AI 工具来简化自托管过程，提升了效率和管理能力。","primary":false}],"references":[],"engagement":["437 热度","235 评论"],"engagement_weight":957,"probability_pct":null,"leading_outcome":null,"volume_24h_display":null},{"id":"story-4","item_id":"hackernews:story:50657265","rank":4,"group_index":4,"profile_id":"tech-news","profile_name":"科技新闻","title":"AMD 专用的 llama.cpp 分支","summary":"一款针对 AMD 硬件优化的 llama.cpp 分支现已发布，旨在提升 AI 模型在 AMD 设备上的性能。该分支得到了社区的贡献，强调了对 AMD 硬件的特定优化，适合希望在 AMD 平台上运行 AI 模型的开发者和用户。","score":7.0,"score_display":"7.0","reason":"The content discusses an AMD-specific fork of llama.cpp, which is relevant for optimizing AI models on AMD hardware, indicating a novel approach and community interest. The technical details and community engagement suggest it is an important development worth prompt attention.","url":"https://devnull.land/amd-specific-llama-cpp","domain":"devnull.land","discussion_url":"https://news.ycombinator.com/item?id=50657265","source_type":"hackernews","source_label":"Hacker News","sub_source":"julianlam","author":"julianlam","category":"AI 资讯","published_at":"2026-11-26T17:11:29+00:00","time_display":"11月26日 17:11","tags":["AMD","llama.cpp","AI optimization","hardware","community"],"blocks":[{"id":"summary","title":"摘要","content":"一款针对 AMD 硬件优化的 llama.cpp 分支现已发布，旨在提升 AI 模型在 AMD 设备上的性能。该分支得到了社区的贡献，强调了对 AMD 硬件的特定优化，适合希望在 AMD 平台上运行 AI 模型的开发者和用户。","primary":true},{"id":"background","title":"背景","content":"llama.cpp 是一个开源的深度学习模型框架，旨在为各种硬件平台提供优化支持。AMD 最近推出的针对 llama.cpp 的特定分支，旨在利用其硬件特性，特别是其高带宽内存（HBM2），以提高 AI 模型的性能和效率。","primary":false}],"secondary_blocks":[{"id":"background","title":"背景","content":"llama.cpp 是一个开源的深度学习模型框架，旨在为各种硬件平台提供优化支持。AMD 最近推出的针对 llama.cpp 的特定分支，旨在利用其硬件特性，特别是其高带宽内存（HBM2），以提高 AI 模型的性能和效率。","primary":false}],"references":[],"engagement":["309 热度","75 评论"],"engagement_weight":509,"probability_pct":null,"leading_outcome":null,"volume_24h_display":null},{"id":"story-5","item_id":"hackernews:story:50656036","rank":5,"group_index":5,"profile_id":"tech-news","profile_name":"科技新闻","title":"在浏览器标签中运行三个不同浏览器的 Linux 虚拟机","summary":"一个新项目允许在单个浏览器标签中运行三个 Linux 虚拟机，每个虚拟机运行不同的浏览器。这一创新引起了社区的关注和讨论，尤其是在软件工程和虚拟化领域。该项目展示了在浏览器中运行多个 Linux 虚拟机的新方法，尽管它可能并不代表技术的重大突破。","score":7.0,"score_display":"7.0","reason":"The project showcases a novel approach to running multiple Linux VMs in a browser tab, which is a relevant and interesting development for those in software engineering and virtualization. The community engagement indicates a level of interest and discussion, although it may not represent a groundbreaking shift in technology.","url":"https://michidk.github.io/sidebyside/","domain":"michidk.github.io","discussion_url":"https://news.ycombinator.com/item?id=50656036","source_type":"hackernews","source_label":"Hacker News","sub_source":"michidk","author":"michidk","category":"AI 资讯","published_at":"2026-11-26T15:00:06+00:00","time_display":"11月26日 15:00","tags":["Linux","Virtualization","Web Technology","Open Source"],"blocks":[{"id":"summary","title":"摘要","content":"一个新项目允许在单个浏览器标签中运行三个 Linux 虚拟机，每个虚拟机运行不同的浏览器。这一创新引起了社区的关注和讨论，尤其是在软件工程和虚拟化领域。该项目展示了在浏览器中运行多个 Linux 虚拟机的新方法，尽管它可能并不代表技术的重大突破。","primary":true},{"id":"background","title":"背景","content":"该项目展示了在单个浏览器标签中运行多个 Linux 虚拟机的创新方法。这种技术对于软件工程和虚拟化领域的开发者来说具有重要意义，因为它可能简化了多环境测试和开发的流程。","primary":false}],"secondary_blocks":[{"id":"background","title":"背景","content":"该项目展示了在单个浏览器标签中运行多个 Linux 虚拟机的创新方法。这种技术对于软件工程和虚拟化领域的开发者来说具有重要意义，因为它可能简化了多环境测试和开发的流程。","primary":false}],"references":[],"engagement":["124 热度","28 评论"],"engagement_weight":230,"probability_pct":null,"leading_outcome":null,"volume_24h_display":null},{"id":"story-6","item_id":"rss:www.techmeme.com_feed.xml:c990abb71aaa2bf4","rank":6,"group_index":6,"profile_id":"tech-news","profile_name":"科技新闻","title":"Dante Security 获得 1000 万美元种子轮融资以监控 AI 代理活动","summary":"Dante Security 成功获得 1000 万美元的种子轮融资，由 NFX 领投，旨在增强对组织内 AI 代理活动的监控。这一平台将为组织提供对自主 AI 代理行为的可见性，并将其活动与负责的员工联系起来。","score":7.0,"score_display":"7.0","reason":"The funding announcement for Dante Security highlights a significant development in AI monitoring, which is relevant to organizations utilizing AI agents. The focus on visibility and accountability in AI operations is a timely and important topic in the tech industry.","url":"https://www.techmeme.com/261126/p27#a261126p27","domain":"techmeme.com","discussion_url":null,"source_type":"rss","source_label":"RSS 订阅","sub_source":"Techmeme","author":"Techmeme","category":"AI 资讯","published_at":"2026-11-27T03:15:01+00:00","time_display":"11月27日 03:15","tags":["AI Monitoring","Funding","Startup","Technology Industry","Autonomous Agents"],"blocks":[{"id":"summary","title":"融资概况","content":"Dante Security 成功获得 1000 万美元的种子轮融资，由 NFX 领投，旨在增强对组织内 AI 代理活动的监控。这一平台将为组织提供对自主 AI 代理行为的可见性，并将其活动与负责的员工联系起来。","primary":true},{"id":"background","title":"背景信息","content":"Dante Security 专注于开发监控 AI 代理活动的平台，满足组织对 AI 操作可见性和问责制的迫切需求。这一融资标志着 AI 监控领域的重要进展，尤其是在越来越多的组织开始使用 AI 代理的背景下。","primary":false}],"secondary_blocks":[{"id":"background","title":"背景信息","content":"Dante Security 专注于开发监控 AI 代理活动的平台，满足组织对 AI 操作可见性和问责制的迫切需求。这一融资标志着 AI 监控领域的重要进展，尤其是在越来越多的组织开始使用 AI 代理的背景下。","primary":false}],"references":[],"engagement":[],"engagement_weight":0,"probability_pct":null,"leading_outcome":null,"volume_24h_display":null},{"id":"story-7","item_id":"rss:www.techmeme.com_feed.xml:4040c21938b2e801","rank":7,"group_index":7,"profile_id":"tech-news","profile_name":"科技新闻","title":"国会两党努力监管人工智能面临立法挑战","summary":"国会正在进行两党合作，努力监管人工智能（AI），但由于立法进程缓慢和利益争夺，这些努力可能面临重大挑战。尽管两党成员表示希望解决人工智能政策问题，但立法的复杂性可能会阻碍进展。","score":7.0,"score_display":"7.0","reason":"The article discusses important bipartisan efforts in Congress to regulate AI, highlighting the challenges faced in the legislative process. This is relevant for readers interested in the intersection of technology and policy, particularly in the context of AI regulation.","url":"https://www.techmeme.com/261126/p26#a261126p26","domain":"techmeme.com","discussion_url":null,"source_type":"rss","source_label":"RSS 订阅","sub_source":"Techmeme","author":"Techmeme","category":"AI 资讯","published_at":"2026-11-27T00:30:01+00:00","time_display":"11月27日 00:30","tags":["AI regulation","legislation","bipartisan efforts","technology policy"],"blocks":[{"id":"summary","title":"摘要","content":"国会正在进行两党合作，努力监管人工智能（AI），但由于立法进程缓慢和利益争夺，这些努力可能面临重大挑战。尽管两党成员表示希望解决人工智能政策问题，但立法的复杂性可能会阻碍进展。","primary":true},{"id":"background","title":"背景","content":"美国国会正在进行两党合作，旨在制定人工智能（AI）监管政策。尽管有意愿推动立法，但立法进程缓慢以及各方利益的争斗可能会阻碍这一进程。","primary":false}],"secondary_blocks":[{"id":"background","title":"背景","content":"美国国会正在进行两党合作，旨在制定人工智能（AI）监管政策。尽管有意愿推动立法，但立法进程缓慢以及各方利益的争斗可能会阻碍这一进程。","primary":false}],"references":[],"engagement":[],"engagement_weight":0,"probability_pct":null,"leading_outcome":null,"volume_24h_display":null},{"id":"story-8","item_id":"rss:www.techmeme.com_feed.xml:4949d27c69b08482","rank":8,"group_index":8,"profile_id":"tech-news","profile_name":"科技新闻","title":"SAP 计划裁员 10,000 人以适应 AI 时代","summary":"SAP 计划裁减至少 10,000 个职位，约占其全球员工的 9%，以转型其软件业务以适应人工智能时代。这一战略调整标志着公司在应对 AI 环境方面的重大变化。","score":7.0,"score_display":"7.0","reason":"The announcement of SAP's plan to cut 10,000 positions to adapt to the AI landscape indicates a significant shift in the company's strategy, which could impact the software industry and its workforce. This development is relevant for stakeholders in software engineering and AI, highlighting the ongoing transformation in the tech sector.","url":"https://www.techmeme.com/261126/p22#a261126p22","domain":"techmeme.com","discussion_url":null,"source_type":"rss","source_label":"RSS 订阅","sub_source":"Techmeme","author":"Techmeme","category":"AI 资讯","published_at":"2026-11-26T16:50:28+00:00","time_display":"11月26日 16:50","tags":["SAP","AI","software engineering","workforce","industry news"],"blocks":[{"id":"summary","title":"摘要","content":"SAP 计划裁减至少 10,000 个职位，约占其全球员工的 9%，以转型其软件业务以适应人工智能时代。这一战略调整标志着公司在应对 AI 环境方面的重大变化。","primary":true},{"id":"background","title":"背景","content":"SAP 成立于 1972 年，是一家全球领先的软件公司，现有员工约 110,000 人。该公司在软件行业中占据重要地位，尤其是在企业资源规划（ERP）解决方案方面。此次裁员计划是 SAP 为适应人工智能时代而进行的战略转型的一部分。","primary":false}],"secondary_blocks":[{"id":"background","title":"背景","content":"SAP 成立于 1972 年，是一家全球领先的软件公司，现有员工约 110,000 人。该公司在软件行业中占据重要地位，尤其是在企业资源规划（ERP）解决方案方面。此次裁员计划是 SAP 为适应人工智能时代而进行的战略转型的一部分。","primary":false}],"references":[{"id":"tool-1-1","title":"SAP - Wikipedia","url":"https://en.wikipedia.org/wiki/SAP","domain":"en.wikipedia.org"}],"engagement":[],"engagement_weight":0,"probability_pct":null,"leading_outcome":null,"volume_24h_display":null},{"id":"story-9","item_id":"rss:www.techmeme.com_feed.xml:a2cdb37e689daf11","rank":9,"group_index":9,"profile_id":"tech-news","profile_name":"科技新闻","title":"英国 FCA 计划要求 DeFi 平台获得授权，监管力度超过美国和欧盟","summary":"英国金融行为监管局（FCA）计划要求去中心化金融（DeFi）平台获得授权，这一举措在监管上比美国和欧盟更为严格。这一决定是在价值 63 亿美元的 Binance 黑客事件之后做出的，反映了对消费者保护不足的担忧。","score":7.0,"score_display":"7.0","reason":"The article discusses the UK FCA's plan to impose stricter regulations on DeFi platforms, which is a significant development in the regulatory landscape following a major hack. This reflects important trends in financial technology and regulatory responses, making it relevant for readers interested in software engineering and the technology industry.","url":"https://www.techmeme.com/261126/p17#a261126p17","domain":"techmeme.com","discussion_url":null,"source_type":"rss","source_label":"RSS 订阅","sub_source":"Techmeme","author":"Techmeme","category":"AI 资讯","published_at":"2026-11-26T13:10:04+00:00","time_display":"11月26日 13:10","tags":["DeFi","regulation","financial technology","blockchain","security"],"blocks":[{"id":"summary","title":"摘要","content":"英国金融行为监管局（FCA）计划要求去中心化金融（DeFi）平台获得授权，这一举措在监管上比美国和欧盟更为严格。这一决定是在价值 63 亿美元的 Binance 黑客事件之后做出的，反映了对消费者保护不足的担忧。","primary":true},{"id":"background","title":"背景","content":"英国金融行为监管局（FCA）计划对去中心化金融（DeFi）平台实施更严格的监管要求，要求这些平台获得授权。这一决定是在最近发生的 63 亿美元的币安黑客事件之后做出的，反映了对消费者保护不足的担忧。","primary":false}],"secondary_blocks":[{"id":"background","title":"背景","content":"英国金融行为监管局（FCA）计划对去中心化金融（DeFi）平台实施更严格的监管要求，要求这些平台获得授权。这一决定是在最近发生的 63 亿美元的币安黑客事件之后做出的，反映了对消费者保护不足的担忧。","primary":false}],"references":[],"engagement":[],"engagement_weight":0,"probability_pct":null,"leading_outcome":null,"volume_24h_display":null},{"id":"story-10","item_id":"arxiv:paper:2611.34942v1","rank":10,"group_index":1,"profile_id":"tech-blog","profile_name":"科技博客","title":"AI 原生自编码通信的频谱适应与迁移学习","summary":"The paper explores a transfer-learning method for adapting AI-native autoencoder communications to varying channel conditions, demonstrating significant resource efficiency and performance improvements.","score":8.0,"score_display":"8.0","reason":"The article provides substantial technical depth on the adaptation of AI-native autoencoder communications and presents a novel transfer-learning approach that is well-supported by evidence. It discusses practical implications, trade-offs, and resource performance, making it useful for practitioners in the field.","url":"https://arxiv.org/abs/2611.34942v1","domain":"arxiv.org","discussion_url":null,"source_type":"arxiv","source_label":"arXiv 论文","sub_source":"arXiv (cs.NI)","author":"Yalin E. Sagduyu, Tugba Erpek","category":"前沿论文","published_at":"2026-11-25T18:59:57+00:00","time_display":"11月25日 18:59","tags":["AI-native communications","autoencoders","transfer learning","channel adaptation","resource efficiency"],"blocks":[{"id":"background","title":"背景","content":"在传统的通信系统中，调制、编码和检测操作是分开的，而端到端的物理层学习通过自编码器（AE）将这些操作整合为一个联合训练的编码器-解码器对。本文研究了 AI 原生通信中的自编码器，并量化了在信道模型中训练-测试不匹配的敏感性。仅在 AWGN 信道上训练的模型在匹配条件下实现了低比特错误率（BER），但在实际的瑞利衰落条件下表现严重下降。","primary":false},{"id":"solution","title":"方案","content":"为减少适应新信道条件所需的时间和能量，本文提出了一种低延迟的迁移学习程序，该程序从 AWGN 预训练系统开始，仅微调发射器和接收器层的小部分，同时冻结其余部分。我们进一步将层选择形式化为一个预算约束的优化问题，以识别在适应过程中最具信息性的参数进行更新。这种方法在适应轻量级前端以应对衰落和损伤引起的混合时，保留了学习到的信号几何和深度决策结构。对于自编码器通信，我们展示了部分更新可以消除由不匹配引起的错误底线，并接近完全重新训练模型的 BER。我们提供了逐层研究，并量化了资源-性能权衡，显示适度的适应显著降低了 BER，同时减少了训练时间、乘加（MAC）操作、能耗和更新参数的比例，从而实现资源高效的实施。","primary":false},{"id":"takeaway","title":"启示","content":"本文的核心论点是，通过迁移学习方法，AI 原生自编码通信能够有效适应不同的信道条件，从而显著提高资源效率和性能。这一研究为通信领域的实践者提供了重要的技术见解和应用潜力。","primary":false}],"secondary_blocks":[{"id":"background","title":"背景","content":"在传统的通信系统中，调制、编码和检测操作是分开的，而端到端的物理层学习通过自编码器（AE）将这些操作整合为一个联合训练的编码器-解码器对。本文研究了 AI 原生通信中的自编码器，并量化了在信道模型中训练-测试不匹配的敏感性。仅在 AWGN 信道上训练的模型在匹配条件下实现了低比特错误率（BER），但在实际的瑞利衰落条件下表现严重下降。","primary":false},{"id":"solution","title":"方案","content":"为减少适应新信道条件所需的时间和能量，本文提出了一种低延迟的迁移学习程序，该程序从 AWGN 预训练系统开始，仅微调发射器和接收器层的小部分，同时冻结其余部分。我们进一步将层选择形式化为一个预算约束的优化问题，以识别在适应过程中最具信息性的参数进行更新。这种方法在适应轻量级前端以应对衰落和损伤引起的混合时，保留了学习到的信号几何和深度决策结构。对于自编码器通信，我们展示了部分更新可以消除由不匹配引起的错误底线，并接近完全重新训练模型的 BER。我们提供了逐层研究，并量化了资源-性能权衡，显示适度的适应显著降低了 BER，同时减少了训练时间、乘加（MAC）操作、能耗和更新参数的比例，从而实现资源高效的实施。","primary":false},{"id":"takeaway","title":"启示","content":"本文的核心论点是，通过迁移学习方法，AI 原生自编码通信能够有效适应不同的信道条件，从而显著提高资源效率和性能。这一研究为通信领域的实践者提供了重要的技术见解和应用潜力。","primary":false}],"references":[],"engagement":[],"engagement_weight":0,"probability_pct":null,"leading_outcome":null,"volume_24h_display":null},{"id":"story-11","item_id":"arxiv:paper:2611.34934v1","rank":11,"group_index":2,"profile_id":"tech-blog","profile_name":"科技博客","title":"攻击策略选择可能误导监控评估者","summary":"The article examines how the choice of attack policies can significantly impact the evaluation of AI monitors, highlighting the need for careful interpretation of results in deployment contexts.","score":8.0,"score_display":"8.0","reason":"The article provides substantial technical depth by evaluating the sensitivity of AI monitor evaluations to different attack policies, supported by specific empirical results. It discusses the implications of these findings for interpreting monitor performance, which offers valuable insights that can be applied beyond the immediate case study.","url":"https://arxiv.org/abs/2611.34934v1","domain":"arxiv.org","discussion_url":null,"source_type":"arxiv","source_label":"arXiv 论文","sub_source":"arXiv (cs.LG)","author":"Charlie Griffin, Oliver Makins, Asa Cooper Stickland et al.","category":"前沿论文","published_at":"2026-11-25T18:59:28+00:00","time_display":"11月25日 18:59","tags":["AI Monitoring","Attack Policies","Evaluation Methods","Machine Learning","Reinforcement Learning"],"blocks":[{"id":"background","title":"背景","content":"AI 监控器是用于标记 AI 代理危险行为的分类器，通常通过攻击策略生成的转录文本进行评估。然而，攻击策略的选择对监控器的评估结果有显著影响，这使得在部署环境中解读结果变得复杂。","primary":false},{"id":"solution","title":"方案","content":"本文以 OpenAI 的一个前生产监控器为案例，评估了不同攻击策略对假阴性率的影响。研究发现，假阴性率在不同优化水平下变化范围从 0.5%到 20.8%，而在不同方法的最佳优化水平下则从 6.4%到 23.0%。所有攻击策略都是针对代理监控器开发的，结果显示攻击可以转移到保留的 GPT-5.4 目标监控器。研究表明，仅使用基本攻击方法的评估可能会给监控器的强度带来虚假的信心。由于对攻击策略选择的敏感性，解读任何特定结果作为部署性能的证据需要合理的论证。攻击策略生成的转录文本作为监控器必须标记的危险行为的代理，可能会引入可见的伪影，影响监控器的判断。因此，选择代理策略可能会改变评估的结论，解读这些结果为部署证据需要额外的合法性论证。","primary":false},{"id":"takeaway","title":"启示","content":"选择攻击策略对 AI 监控器评估结果的影响显著，强调了在解读监控器性能时需要谨慎。研究结果提示，合理的代理选择和论证是确保评估有效性的关键。","primary":false}],"secondary_blocks":[{"id":"background","title":"背景","content":"AI 监控器是用于标记 AI 代理危险行为的分类器，通常通过攻击策略生成的转录文本进行评估。然而，攻击策略的选择对监控器的评估结果有显著影响，这使得在部署环境中解读结果变得复杂。","primary":false},{"id":"solution","title":"方案","content":"本文以 OpenAI 的一个前生产监控器为案例，评估了不同攻击策略对假阴性率的影响。研究发现，假阴性率在不同优化水平下变化范围从 0.5%到 20.8%，而在不同方法的最佳优化水平下则从 6.4%到 23.0%。所有攻击策略都是针对代理监控器开发的，结果显示攻击可以转移到保留的 GPT-5.4 目标监控器。研究表明，仅使用基本攻击方法的评估可能会给监控器的强度带来虚假的信心。由于对攻击策略选择的敏感性，解读任何特定结果作为部署性能的证据需要合理的论证。攻击策略生成的转录文本作为监控器必须标记的危险行为的代理，可能会引入可见的伪影，影响监控器的判断。因此，选择代理策略可能会改变评估的结论，解读这些结果为部署证据需要额外的合法性论证。","primary":false},{"id":"takeaway","title":"启示","content":"选择攻击策略对 AI 监控器评估结果的影响显著，强调了在解读监控器性能时需要谨慎。研究结果提示，合理的代理选择和论证是确保评估有效性的关键。","primary":false}],"references":[],"engagement":[],"engagement_weight":0,"probability_pct":null,"leading_outcome":null,"volume_24h_display":null},{"id":"story-12","item_id":"arxiv:paper:2611.34928v1","rank":12,"group_index":3,"profile_id":"tech-blog","profile_name":"科技博客","title":"多样化替代推理轨迹用于解决困难数学问题","summary":"The paper introduces Diverse Alternative Reasoning Traces (DART), a method that enhances the recovery of solutions for hard math problems in large language models by revisiting rejected reasoning traces.","score":8.0,"score_display":"8.0","reason":"The article presents a novel method for improving mathematical reasoning in large language models, supported by empirical results and clear explanations of the methodology. It offers substantial technical depth and insights that can be applied to other projects involving LLMs and mathematical problem-solving.","url":"https://arxiv.org/abs/2611.34928v1","domain":"arxiv.org","discussion_url":null,"source_type":"arxiv","source_label":"arXiv 论文","sub_source":"arXiv (cs.CL)","author":"Lukas Aichberger, Adam Golinski, Arno Blaas et al.","category":"前沿论文","published_at":"2026-11-25T18:59:11+00:00","time_display":"11月25日 18:59","tags":["machine learning","mathematical reasoning","large language models","algorithm development"],"blocks":[{"id":"background","title":"背景","content":"在后训练的大型语言模型（LLMs）中，数学推理通常依赖于经过验证的推理轨迹。然而，对于困难的数学问题，这些轨迹在独立的蒙特卡洛（MC）采样中可能非常稀少。为了解决这一问题，本文提出了多样化替代推理轨迹（DART）方法。","primary":false},{"id":"solution","title":"方案","content":"DART 是一种轨迹挖掘方法，它从被拒绝的推理轨迹开始，将其分解为推理步骤，并根据位置加权的不确定性对这些步骤进行排名。然后，它利用参考答案指导和元思维生成高度不同的替代候选步骤，最终完成生成的轨迹。在与生成轨迹数量相匹配的情况下，DART 在未解决的 DeepMath-103K 问题上比 MC 采样多恢复了 37%的问题。每个恢复问题的生成成本几乎相同，而每个被接受轨迹的成本降低了 30%。在使用 DART 挖掘的轨迹对 Llama-3.1-8B-Instruct 进行后训练时，在 MATH-500 和 AIME 基准测试中，取得了六项评估中的五项最高点估计。这些结果表明，通过 DART 重新审视被拒绝的轨迹可以扩展问题覆盖范围，并提供有效的后训练数据。","primary":false},{"id":"takeaway","title":"启示","content":"DART 方法通过重新审视被拒绝的推理轨迹，显著提高了大型语言模型在解决困难数学问题时的有效性，展示了其在数学推理领域的广泛应用潜力。","primary":false}],"secondary_blocks":[{"id":"background","title":"背景","content":"在后训练的大型语言模型（LLMs）中，数学推理通常依赖于经过验证的推理轨迹。然而，对于困难的数学问题，这些轨迹在独立的蒙特卡洛（MC）采样中可能非常稀少。为了解决这一问题，本文提出了多样化替代推理轨迹（DART）方法。","primary":false},{"id":"solution","title":"方案","content":"DART 是一种轨迹挖掘方法，它从被拒绝的推理轨迹开始，将其分解为推理步骤，并根据位置加权的不确定性对这些步骤进行排名。然后，它利用参考答案指导和元思维生成高度不同的替代候选步骤，最终完成生成的轨迹。在与生成轨迹数量相匹配的情况下，DART 在未解决的 DeepMath-103K 问题上比 MC 采样多恢复了 37%的问题。每个恢复问题的生成成本几乎相同，而每个被接受轨迹的成本降低了 30%。在使用 DART 挖掘的轨迹对 Llama-3.1-8B-Instruct 进行后训练时，在 MATH-500 和 AIME 基准测试中，取得了六项评估中的五项最高点估计。这些结果表明，通过 DART 重新审视被拒绝的轨迹可以扩展问题覆盖范围，并提供有效的后训练数据。","primary":false},{"id":"takeaway","title":"启示","content":"DART 方法通过重新审视被拒绝的推理轨迹，显著提高了大型语言模型在解决困难数学问题时的有效性，展示了其在数学推理领域的广泛应用潜力。","primary":false}],"references":[],"engagement":[],"engagement_weight":0,"probability_pct":null,"leading_outcome":null,"volume_24h_display":null},{"id":"story-13","item_id":"arxiv:paper:2611.34920v1","rank":13,"group_index":4,"profile_id":"tech-blog","profile_name":"科技博客","title":"$μ$-Bench：共享交互语音助手中的多用户任务完成基准测试","summary":"$μ$-Bench introduces a comprehensive benchmark for assessing multi-user task completion in voice agents, revealing critical insights into system performance and limitations.","score":8.0,"score_display":"8.0","reason":"The article presents a well-defined benchmark for evaluating multi-user voice agents, supported by empirical results and diagnostics that highlight specific performance issues. It offers substantial technical depth and insights that can inform future work in the field.","url":"https://arxiv.org/abs/2611.34920v1","domain":"arxiv.org","discussion_url":null,"source_type":"arxiv","source_label":"arXiv 论文","sub_source":"arXiv (cs.CL)","author":"Qihao Lin, Guanxu Chen, Shuhang Zheng et al.","category":"前沿论文","published_at":"2026-11-25T18:58:42+00:00","time_display":"11月25日 18:58","tags":["voice agents","benchmarking","multi-user interaction","task completion","AI"],"blocks":[{"id":"background","title":"背景","content":"在共享空间中，语音助手必须满足多个用户的相互依赖请求，同时维护每个用户的权限、隐私和任务约束。现有评估在参与者在会话中反应时的覆盖范围有限，因此需要一个更全面的基准来评估多用户任务完成情况。","primary":false},{"id":"solution","title":"方案","content":"$μ$-Bench 是一个用于闭环全双工多用户语音交互的联合任务完成基准。它通过模拟参与者从孤立的目标、知识和权限配置文件中进行操作，适应助手的语音和工具结果。该基准涵盖 20 个领域，100 个场景，形成 800 个案例（408 个工具增强，392 个无工具）。联合任务成功（JTS）要求所有用户的目标、隐私边界和终态共同满足，而纯 JTS 进一步禁止未经授权的工具调用。通过归因、线程和协调（ATC）诊断，可以定位失败原因。在 13 个语音助手中，专有系统的工具自由成功率最高为 62.24%，工具增强成功率为 65.44%，而开放权重模型则低于 20%。ATC 诊断显示，开放权重模型在多轮归因和线程处理方面滞后，且对比结果表明，较大的用户组在各类系统中均会降低联合任务成功率。$μ$-Bench 通过结合反应式多用户模拟与可验证的会话级结果，为共享语音助手提供了一个严格的测试平台。","primary":false},{"id":"takeaway","title":"启示","content":"$μ$-Bench 提供了一种系统化的方法来评估多用户语音助手的性能，揭示了当前系统的局限性和改进方向。这一基准测试为未来的研究和开发提供了重要的技术参考。","primary":false}],"secondary_blocks":[{"id":"background","title":"背景","content":"在共享空间中，语音助手必须满足多个用户的相互依赖请求，同时维护每个用户的权限、隐私和任务约束。现有评估在参与者在会话中反应时的覆盖范围有限，因此需要一个更全面的基准来评估多用户任务完成情况。","primary":false},{"id":"solution","title":"方案","content":"$μ$-Bench 是一个用于闭环全双工多用户语音交互的联合任务完成基准。它通过模拟参与者从孤立的目标、知识和权限配置文件中进行操作，适应助手的语音和工具结果。该基准涵盖 20 个领域，100 个场景，形成 800 个案例（408 个工具增强，392 个无工具）。联合任务成功（JTS）要求所有用户的目标、隐私边界和终态共同满足，而纯 JTS 进一步禁止未经授权的工具调用。通过归因、线程和协调（ATC）诊断，可以定位失败原因。在 13 个语音助手中，专有系统的工具自由成功率最高为 62.24%，工具增强成功率为 65.44%，而开放权重模型则低于 20%。ATC 诊断显示，开放权重模型在多轮归因和线程处理方面滞后，且对比结果表明，较大的用户组在各类系统中均会降低联合任务成功率。$μ$-Bench 通过结合反应式多用户模拟与可验证的会话级结果，为共享语音助手提供了一个严格的测试平台。","primary":false},{"id":"takeaway","title":"启示","content":"$μ$-Bench 提供了一种系统化的方法来评估多用户语音助手的性能，揭示了当前系统的局限性和改进方向。这一基准测试为未来的研究和开发提供了重要的技术参考。","primary":false}],"references":[],"engagement":[],"engagement_weight":0,"probability_pct":null,"leading_outcome":null,"volume_24h_display":null},{"id":"story-14","item_id":"rss:search.cnbc.com_rs_search_combinedcms_view.xml?partnerId=wrss01\u0026id=10000664:18f0a76e105d90c8","rank":14,"group_index":1,"profile_id":"finance-news","profile_name":"财经新闻","title":"半导体芯片成为新石油的原因","summary":"根据德意志银行对国际贸易中心数据的分析，人工智能的兴起使得半导体出口首次超过石油和天然气，2026 年第一季度半导体出口达到约 1.61 万亿美元，而石油和天然气为 1.53 万亿美元。","score":8.0,"score_display":"8.0","reason":"The article discusses a significant shift in global trade dynamics, where semiconductor exports have surpassed oil and gas, highlighting the economic implications of this transition. It provides concrete figures and context regarding market reactions and the impact of AI on semiconductor demand, making it materially useful for understanding current economic trends.","url":"https://www.cnbc.com/2026/11/26/semiconductor-chips-are-the-new-oil-heres-why.html","domain":"cnbc.com","discussion_url":null,"source_type":"rss","source_label":"RSS 订阅","sub_source":"CNBC Finance","author":"CNBC Finance","category":"财经要闻","published_at":"2026-11-26T17:52:15+00:00","time_display":"11月26日 17:52","tags":["半导体","AI","global trade","economic implications","market trends"],"blocks":[{"id":"summary","title":"摘要","content":"根据德意志银行对国际贸易中心数据的分析，人工智能的兴起使得半导体出口首次超过石油和天然气，2026 年第一季度半导体出口达到约 1.61 万亿美元，而石油和天然气为 1.53 万亿美元。","primary":true},{"id":"background","title":"背景","content":"这一里程碑出现在投资者重新评估人工智能支出前景的时刻，导致半导体股票价格下跌，半导体指数在上周创下 25 年来的最大周跌幅，下降超过 17%。","primary":false},{"id":"impact","title":"影响","content":"随着半导体出口的增长，可能会影响全球金融流动的结构，推动美国科技股和初创企业的融资，进一步促进人工智能投资周期。","primary":false}],"secondary_blocks":[{"id":"background","title":"背景","content":"这一里程碑出现在投资者重新评估人工智能支出前景的时刻，导致半导体股票价格下跌，半导体指数在上周创下 25 年来的最大周跌幅，下降超过 17%。","primary":false},{"id":"impact","title":"影响","content":"随着半导体出口的增长，可能会影响全球金融流动的结构，推动美国科技股和初创企业的融资，进一步促进人工智能投资周期。","primary":false}],"references":[],"engagement":[],"engagement_weight":0,"probability_pct":null,"leading_outcome":null,"volume_24h_display":null},{"id":"story-15","item_id":"rss:search.cnbc.com_rs_search_combinedcms_view.xml?partnerId=wrss01\u0026id=19854910:7e05173de82bdf15","rank":15,"group_index":2,"profile_id":"finance-news","profile_name":"财经新闻","title":"美国新规限制中国租户购买 Nvidia 芯片","summary":"美国新规禁止中国公司租用计算能力，从而限制 Nvidia 芯片的销售，影响了人工智能供应链。该规定于 2026 年 11 月 19 日生效。","score":8.0,"score_display":"8.0","reason":"The item discusses a significant regulatory change affecting the sale of Nvidia chips, which has implications for U.S.-China trade relations and the AI industry, making it materially useful for understanding market dynamics.","url":"https://www.cnbc.com/2026/11/26/neoclouds-nvidia-china-ai.html","domain":"cnbc.com","discussion_url":null,"source_type":"rss","source_label":"RSS 订阅","sub_source":"CNBC Tech","author":"CNBC Tech","category":"科技市场","published_at":"2026-11-26T17:04:54+00:00","time_display":"11月26日 17:04","tags":["Nvidia","U.S. regulations","AI industry","China","半导体"],"blocks":[{"id":"summary","title":"摘要","content":"美国新规禁止中国公司租用计算能力，从而限制 Nvidia 芯片的销售，影响了人工智能供应链。该规定于 2026 年 11 月 19 日生效。","primary":true},{"id":"background","title":"背景","content":"2026 年 11 月 16 日，美国特朗普政府宣布了一项新规，限制人工智能半导体的远程访问，以防止中国公司租用 Nvidia 的先进芯片。该规定于 11 月 19 日生效，旨在关闭出口控制的漏洞，影响整个供应链。","primary":false}],"secondary_blocks":[{"id":"background","title":"背景","content":"2026 年 11 月 16 日，美国特朗普政府宣布了一项新规，限制人工智能半导体的远程访问，以防止中国公司租用 Nvidia 的先进芯片。该规定于 11 月 19 日生效，旨在关闭出口控制的漏洞，影响整个供应链。","primary":false}],"references":[{"id":"tool-1-2","title":"Nvidia chip buyers told to rule out Chinese renters to purchase GPUs","url":"https://www.cnbc.com/2026/11/26/neoclouds-nvidia-china-ai.html","domain":"cnbc.com"}],"engagement":[],"engagement_weight":0,"probability_pct":null,"leading_outcome":null,"volume_24h_display":null},{"id":"story-16","item_id":"rss:search.cnbc.com_rs_search_combinedcms_view.xml?partnerId=wrss01\u0026id=19854910:472083d94fc89320","rank":16,"group_index":3,"profile_id":"finance-news","profile_name":"财经新闻","title":"欧洲最大卫星工厂开幕，挑战星链","summary":"欧洲在比利时开幕了其最大的卫星工厂，以增强卫星能力并挑战埃隆·马斯克的星链（Starlink）在卫星互联网服务中的主导地位。该工厂由比利时卫星制造商 Aerospacelab 运营，获得了一项价值 24 亿欧元（约合 26 亿美元）的合同，计划生产 348 颗卫星中的 264 颗。","score":8.0,"score_display":"8.0","reason":"The inauguration of Europe's largest satellite factory and the associated contract for satellite production represent significant developments in the competitive landscape of satellite connectivity, particularly in relation to national security and technological sovereignty.","url":"https://www.cnbc.com/2026/11/26/starlink-satellites-aerospacelab-factory-belgium.html","domain":"cnbc.com","discussion_url":null,"source_type":"rss","source_label":"RSS 订阅","sub_source":"CNBC Tech","author":"CNBC Tech","category":"科技市场","published_at":"2026-11-26T07:45:05+00:00","time_display":"11月26日 07:45","tags":["satellite technology","European Union","national security","SpaceX","Aerospace"],"blocks":[{"id":"summary","title":"事件概述","content":"欧洲在比利时开幕了其最大的卫星工厂，以增强卫星能力并挑战埃隆·马斯克的星链（Starlink）在卫星互联网服务中的主导地位。该工厂由比利时卫星制造商 Aerospacelab 运营，获得了一项价值 24 亿欧元（约合 26 亿美元）的合同，计划生产 348 颗卫星中的 264 颗。","primary":true},{"id":"background","title":"背景信息","content":"该工厂的开幕标志着欧洲在减少对美国太空基础设施依赖方面的重要一步，尤其是在国家安全和技术主权方面。欧洲委员会将 IRIS²项目称为应对商业卫星星座（如星链）的“战略资产”。","primary":false}],"secondary_blocks":[{"id":"background","title":"背景信息","content":"该工厂的开幕标志着欧洲在减少对美国太空基础设施依赖方面的重要一步，尤其是在国家安全和技术主权方面。欧洲委员会将 IRIS²项目称为应对商业卫星星座（如星链）的“战略资产”。","primary":false}],"references":[],"engagement":[],"engagement_weight":0,"probability_pct":null,"leading_outcome":null,"volume_24h_display":null},{"id":"story-17","item_id":"telegram:zaihuapd:45391","rank":17,"group_index":4,"profile_id":"finance-news","profile_name":"财经新闻","title":"荷兰大臣称不接受美国限制 ASML 对华销售的法案","summary":"荷兰外贸与发展合作大臣 Sjoerd Sjoerdsma 表示，荷兰不会接受美国对 ASML 对华销售的进一步限制，反对 MATCH Act 的域外管辖效力。","score":8.0,"score_display":"8.0","reason":"The item discusses a significant geopolitical issue regarding U.S. export controls on ASML, which could impact international trade and semiconductor supply chains, particularly affecting the relationship between the U.S., Netherlands, and China.","url":"https://www.bloomberg.com/news/articles/2026-11-26/netherlands-plans-to-fight-rollout-of-proposed-us-curbs-on-asml","domain":"bloomberg.com","discussion_url":null,"source_type":"telegram","source_label":"Telegram","sub_source":"zaihuapd","author":"zaihuapd","category":"科技快讯","published_at":"2026-11-26T14:56:10+00:00","time_display":"11月26日 14:56","tags":["geopolitics","半导体","trade policy","ASML","export controls"],"blocks":[{"id":"summary","title":"事件摘要","content":"荷兰外贸与发展合作大臣 Sjoerd Sjoerdsma 表示，荷兰不会接受美国对 ASML 对华销售的进一步限制，反对 MATCH Act 的域外管辖效力。","primary":true},{"id":"background","title":"背景","content":"MATCH Act 要求荷兰和日本等盟友对华实施更严格的出口管制，否则美国将单方面限制其半导体设备。中国约占 ASML 今年销售额的 20%。","primary":false}],"secondary_blocks":[{"id":"background","title":"背景","content":"MATCH Act 要求荷兰和日本等盟友对华实施更严格的出口管制，否则美国将单方面限制其半导体设备。中国约占 ASML 今年销售额的 20%。","primary":false}],"references":[],"engagement":[],"engagement_weight":0,"probability_pct":null,"leading_outcome":null,"volume_24h_display":null},{"id":"story-18","item_id":"rss:search.cnbc.com_rs_search_combinedcms_view.xml?partnerId=wrss01\u0026id=10000664:f408af5a8f217631","rank":18,"group_index":5,"profile_id":"finance-news","profile_name":"财经新闻","title":"Nvidia 股票波动揭示单只股票 ETF 的风险","summary":"Nvidia 最近的股票波动突显了与单只股票交易所交易基金（ETF）相关的风险，GraniteShares 2x Short NVDA Daily ETF（NVD）在周一下跌了 63%。","score":7.0,"score_display":"7.0","reason":"The article discusses significant volatility in Nvidia's stock and its impact on single-stock ETFs, providing insights into market behavior and risks associated with leveraged trading. This information is timely and relevant for investors, especially those involved in ETFs, but it lacks broader economic implications.","url":"https://www.cnbc.com/2026/11/26/nvidias-volatile-swings-expose-risks-of-single-stock-etfs.html","domain":"cnbc.com","discussion_url":null,"source_type":"rss","source_label":"RSS 订阅","sub_source":"CNBC Finance","author":"CNBC Finance","category":"财经要闻","published_at":"2026-11-26T16:00:01+00:00","time_display":"11月26日 16:00","tags":["Nvidia","ETFs","market volatility","investment risk","financial strategy"],"blocks":[{"id":"summary","title":"摘要","content":"Nvidia 最近的股票波动突显了与单只股票交易所交易基金（ETF）相关的风险，GraniteShares 2x Short NVDA Daily ETF（NVD）在周一下跌了 63%。","primary":true},{"id":"background","title":"背景","content":"Nvidia 的股价在首席执行官黄仁勋重新上任后经历了剧烈波动，导致相关的单只股票 ETF 出现大幅涨跌。市场分析师指出，这种波动通常在经济衰退或熊市期间更为常见。","primary":false},{"id":"impact","title":"影响","content":"投资者在交易单只股票 ETF 时需谨慎，因为高杠杆可能导致重大损失，尤其是在市场波动剧烈的情况下。","primary":false}],"secondary_blocks":[{"id":"background","title":"背景","content":"Nvidia 的股价在首席执行官黄仁勋重新上任后经历了剧烈波动，导致相关的单只股票 ETF 出现大幅涨跌。市场分析师指出，这种波动通常在经济衰退或熊市期间更为常见。","primary":false},{"id":"impact","title":"影响","content":"投资者在交易单只股票 ETF 时需谨慎，因为高杠杆可能导致重大损失，尤其是在市场波动剧烈的情况下。","primary":false}],"references":[],"engagement":[],"engagement_weight":0,"probability_pct":null,"leading_outcome":null,"volume_24h_display":null}],"editorial":{"headline":"安全与创新：AI时代的双刃剑","body":"随着Avicena和TrustedRouter的融资成功，AI技术的创新与安全性显得愈发重要。Avicena的AI芯片结合microLED技术，预示着硬件领域的突破，而TrustedRouter则致力于确保企业AI查询的安全性。这两者的结合反映了在追求技术进步的同时，如何平衡安全与效率的挑战。\n\n然而，AI的快速发展也伴随着安全隐患，Dante Security的融资显示出对AI代理活动监控的迫切需求。企业在享受AI带来的便利时，必须更加重视安全责任。这种矛盾的局面要求我们在推动技术革新的同时，切实加强对安全性的关注。","story_ids":["story-1","story-2","story-3","story-6"]}}</script>
+  <script id="horizon-edition-copy" type="application/json">{"default_title":"地平线每日快报","default_overline":"地平线 · 每日数字大报","default_subtitle":"你只需享受新闻，剩下交给地平线 — 多源聚合、AI 研判与深度背景每日速递。","default_edition_label":"地平线 · 全球科技与产业快报","ear_left_kicker":"今日精选","ear_left_sub":"从 {total} 条信源中筛选","ear_left_link":"查看全量目录 →","ear_right_kicker":"信号指数","ear_right_sub":"最高 {top} · {sources} 类信源","ear_right_link":"淘汰率 {drop_rate}%","vol_label":"第 I 卷 · {date}","updated_label":"更新于 {time} · 地平线 AI 编排","nav_front":"头版","nav_wire":"全球电讯","nav_index":"全量检索","lead_kicker":"今日头条","left_col_title":"要闻速递","left_col_link":"按版面浏览 →","right_col_title":"深度与观察","right_col_link":"查看电讯 →","read_full":"展开深度简报 →","original_link":"阅读原文 ↗","source_link":"原文 ↗","discussion_link":"社区讨论 ↗","discuss_short":"讨论 ↗","spotlight_left_kicker":"深度必读","spotlight_left_title":"给工程师与研究者","spotlight_right_kicker":"高热讨论","spotlight_right_title":"社区正在争论什么","editorial_kicker":"社论","editorial_byline":"本报 AI 编辑部撰写，观点仅供参考","editorial_refs":"文中提及","desk_kicker":"地平线情报台","desk_title":"今日信源漏斗与分布","desk_desc":"系统自动完成多源抓取、跨源链接去重、语义聚类与背景检索，仅保留高信号条目。","desk_cta":"打开全量检索台","section_kicker_tpl":"{code} · 专题版面","wire_kicker":"全球电讯 · 多源实时速递","wire_title":"全球信息源速览","wire_desc":"按渠道高密度梳理今日入选资讯，涵盖技术社区、开源项目与行业媒体。","wire_col_1":"社区热榜 · HN / Reddit","wire_col_2":"开源与社交 · GitHub / Bluesky / X","wire_col_3":"论文、媒体与预测 · RSS / arXiv / Polymarket","wire_more":"全部 →","index_kicker":"全量档案 · 交互检索","index_title":"本期全量资讯检索台","index_desc":"按关键词、版面、信源或主题标签即时过滤，点击任意条目在右侧报刊抽屉阅读全文。","search_placeholder":"搜索标题、摘要、标签或来源… (快捷键 /)","search_btn":"检索","clear_btn":"重置","all_label":"全部","sort_score":"按 AI 评分","sort_time":"按发布时间","no_match":"未找到匹配的资讯条目，请尝试清除筛选条件。","empty_title":"今日情报台较平静，暂无达到阈值的重点资讯","empty_desc":"本次共采集 {total} 条原始内容，但均未超过当前栏目设定的重要度门槛。可适当下调阈值或扩充订阅源后重新生成。","btn_search":"检索","btn_print":"打印版","archive_label":"往期","archive_latest":"最新","active_tag_prefix":"当前标签: #","theme_light":"浅色新闻纸","theme_dark":"深色炭墨","theme_system":"跟随系统","home_pill":"↑ 地平线每日快报 · 头版","drawer_score":"AI 重要度评分","drawer_refs":"延伸参考与核验来源","drawer_tags":"主题标签","drawer_prev":"← 上一条","drawer_next":"下一条 →","drawer_close":"关闭 (Esc)","footer_note":"由 Horizon 自动抓取、AI 分析、去重与背景增强生成 · 纯静态单页快报，支持离线阅读与打印。","score_unit":"分","items_unit":"条"}</script>
+  <script>
+
+(function () {
+  const dataEl = document.getElementById("horizon-edition-data");
+  const copyEl = document.getElementById("horizon-edition-copy");
+  if (!dataEl || !copyEl) return;
+
+  const edition = JSON.parse(dataEl.textContent || "{}");
+  const copy = JSON.parse(copyEl.textContent || "{}");
+  const items = edition.items || [];
+  const itemsById = new Map(items.map((item) => [item.id, item]));
+
+  // Theme management
+  const root = document.documentElement;
+  const themeBtns = document.querySelectorAll("[data-theme-set]");
+  function applyTheme(theme) {
+    root.setAttribute("data-theme", theme);
+    try { localStorage.setItem("horizon-broadsheet-theme", theme); } catch (_) {}
+    themeBtns.forEach((btn) => {
+      btn.classList.toggle("is-active", btn.getAttribute("data-theme-set") === theme);
+    });
+  }
+  let savedTheme = "light";
+  try { savedTheme = localStorage.getItem("horizon-broadsheet-theme") || "light"; } catch (_) {}
+  applyTheme(savedTheme);
+  themeBtns.forEach((btn) => {
+    btn.addEventListener("click", () => applyTheme(btn.getAttribute("data-theme-set") || "light"));
+  });
+
+  // Font size toggle
+  const fontBtns = document.querySelectorAll("[data-font-set]");
+  function applyFont(size) {
+    root.setAttribute("data-font", size);
+    try { localStorage.setItem("horizon-broadsheet-font", size); } catch (_) {}
+    fontBtns.forEach((btn) => {
+      btn.classList.toggle("is-active", btn.getAttribute("data-font-set") === size);
+    });
+  }
+  let savedFont = "normal";
+  try { savedFont = localStorage.getItem("horizon-broadsheet-font") || "normal"; } catch (_) {}
+  applyFont(savedFont);
+  fontBtns.forEach((btn) => {
+    btn.addEventListener("click", () => applyFont(btn.getAttribute("data-font-set") || "normal"));
+  });
+
+  // Print button
+  const printBtn = document.getElementById("printBtn");
+  if (printBtn) printBtn.addEventListener("click", () => window.print());
+
+  // Edition Archive Switcher (loads ./editions.json when served over HTTP/HTTPS)
+  const archiveWrap = document.getElementById("editionArchiveWrap");
+  const archiveSelect = document.getElementById("editionArchiveSelect");
+  const currentDate = (edition.meta && edition.meta.date) || "";
+  const currentLang = (edition.meta && edition.meta.language) || "zh";
+
+  if (archiveWrap && archiveSelect && typeof fetch === "function" && location.protocol !== "file:") {
+    fetch("./editions.json", { cache: "no-cache" })
+      .then((res) => (res.ok ? res.json() : null))
+      .then((manifest) => {
+        if (!manifest || !Array.isArray(manifest.editions) || !manifest.editions.length) return;
+        archiveSelect.innerHTML = "";
+        manifest.editions.forEach((entry, idx) => {
+          const opt = document.createElement("option");
+          const langs = Array.isArray(entry.languages) ? entry.languages : [];
+          const targetLang = langs.includes(currentLang) ? currentLang : (langs[0] || currentLang);
+          opt.value = `./${entry.date}-${targetLang}.html`;
+          const count = entry.selected_count && entry.selected_count[targetLang];
+          const suffix = idx === 0 ? ` · ${copy.archive_latest || "Latest"}` : "";
+          const countSuffix = typeof count === "number" ? ` (${count})` : "";
+          opt.textContent = `${entry.date}${suffix}${countSuffix}`;
+          if (entry.date === currentDate) opt.selected = true;
+          archiveSelect.appendChild(opt);
+        });
+        archiveWrap.hidden = false;
+        archiveSelect.addEventListener("change", () => {
+          if (archiveSelect.value) window.location.href = archiveSelect.value;
+        });
+      })
+      .catch(() => {});
+  }
+
+  // Article Reading Drawer
+  const drawer = document.getElementById("articleDrawer");
+  const backdrop = document.getElementById("drawerBackdrop");
+  const drawerKicker = document.getElementById("drawerKicker");
+  const drawerBadges = document.getElementById("drawerBadges");
+  const drawerTitle = document.getElementById("drawerTitle");
+  const drawerMeta = document.getElementById("drawerMeta");
+  const drawerHeadLinks = document.getElementById("drawerHeadLinks");
+  const drawerBlocks = document.getElementById("drawerBlocks");
+  const drawerRefs = document.getElementById("drawerRefs");
+  const drawerTags = document.getElementById("drawerTags");
+  const drawerExtLinks = document.getElementById("drawerExtLinks");
+  const drawerPrev = document.getElementById("drawerPrev");
+  const drawerNext = document.getElementById("drawerNext");
+  const drawerClose = document.getElementById("drawerClose");
+  let currentStoryIdx = -1;
+
+  function makeEl(tag, className, text) {
+    const el = document.createElement(tag);
+    if (className) el.className = className;
+    if (text !== undefined) el.textContent = text;
+    return el;
+  }
+
+  function openStory(storyId) {
+    const story = itemsById.get(storyId);
+    if (!story || !drawer || !backdrop) return;
+    currentStoryIdx = items.findIndex((i) => i.id === storyId);
+
+    drawerKicker.textContent = `${story.profile_name} · #${story.rank}`;
+    drawerBadges.innerHTML = "";
+    const scorePill = makeEl(
+      "span",
+      `score-pill ${(story.score || 0) >= 8.5 ? "score-hot" : "score-accent"}`,
+      `${copy.drawer_score || "AI"}: ${story.score_display}/10`
+    );
+    drawerBadges.appendChild(scorePill);
+    drawerBadges.appendChild(makeEl("span", "profile-tag", story.source_label));
+    if (story.category) {
+      drawerBadges.appendChild(makeEl("span", "profile-tag", story.category));
+    }
+
+    drawerTitle.textContent = story.title;
+    const metaParts = [story.sub_source, story.time_display, ...(story.engagement || [])].filter(Boolean);
+    drawerMeta.textContent = metaParts.join(" · ");
+
+    if (drawerHeadLinks) {
+      drawerHeadLinks.innerHTML = "";
+      if (story.url) {
+        const label = story.domain
+          ? `${copy.original_link || "Original ↗"} (${story.domain})`
+          : (copy.original_link || "Original ↗");
+        const a = makeEl("a", "editorial-link", label);
+        a.href = story.url;
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        drawerHeadLinks.appendChild(a);
+      }
+      if (story.discussion_url) {
+        const a = makeEl("a", "editorial-link", copy.discussion_link || "Discussion ↗");
+        a.href = story.discussion_url;
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        drawerHeadLinks.appendChild(a);
+      }
+    }
+
+    drawerBlocks.innerHTML = "";
+    const blocks = (story.blocks && story.blocks.length)
+      ? story.blocks
+      : [{ title: copy.nav_front || "Summary", content: story.summary || "" }];
+    blocks.forEach((blk) => {
+      if (!blk.content) return;
+      const box = makeEl("section", "drawer-block");
+      box.appendChild(makeEl("div", "drawer-block-title", blk.title));
+      box.appendChild(makeEl("p", "drawer-block-text", blk.content));
+      drawerBlocks.appendChild(box);
+    });
+
+    drawerRefs.innerHTML = "";
+    if (story.references && story.references.length) {
+      drawerRefs.hidden = false;
+      drawerRefs.appendChild(makeEl("div", "kicker", copy.drawer_refs || "References"));
+      const ul = document.createElement("ul");
+      story.references.forEach((ref) => {
+        const li = document.createElement("li");
+        if (ref.url) {
+          const a = makeEl("a", "", ref.title || ref.url);
+          a.href = ref.url;
+          a.target = "_blank";
+          a.rel = "noopener noreferrer";
+          li.appendChild(a);
+          if (ref.domain) li.appendChild(document.createTextNode(` (${ref.domain})`));
+        } else {
+          li.textContent = ref.title;
+        }
+        ul.appendChild(li);
+      });
+      drawerRefs.appendChild(ul);
+    } else {
+      drawerRefs.hidden = true;
+    }
+
+    drawerTags.innerHTML = "";
+    if (story.tags && story.tags.length) {
+      drawerTags.hidden = false;
+      drawerTags.appendChild(makeEl("div", "kicker", copy.drawer_tags || "Tags"));
+      const row = makeEl("div", "tag-row");
+      story.tags.forEach((tag) => {
+        const btn = makeEl("button", "tag-chip", `#${tag}`);
+        btn.type = "button";
+        btn.addEventListener("click", () => {
+          closeDrawer();
+          filterByTag(tag);
+        });
+        row.appendChild(btn);
+      });
+      drawerTags.appendChild(row);
+    } else {
+      drawerTags.hidden = true;
+    }
+
+    drawerExtLinks.innerHTML = "";
+    if (story.url) {
+      const a = makeEl("a", "editorial-link", copy.original_link || "Original ↗");
+      a.href = story.url;
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+      drawerExtLinks.appendChild(a);
+    }
+    if (story.discussion_url) {
+      const a = makeEl("a", "editorial-link", copy.discussion_link || "Discussion ↗");
+      a.href = story.discussion_url;
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+      drawerExtLinks.appendChild(a);
+    }
+
+    drawerPrev.disabled = currentStoryIdx <= 0;
+    drawerNext.disabled = currentStoryIdx < 0 || currentStoryIdx >= items.length - 1;
+
+    drawer.hidden = false;
+    backdrop.hidden = false;
+    document.body.style.overflow = "hidden";
+    const scroller = document.getElementById("drawerBody");
+    if (scroller) scroller.scrollTop = 0;
+  }
+
+  function closeDrawer() {
+    if (!drawer || !backdrop) return;
+    drawer.hidden = true;
+    backdrop.hidden = true;
+    document.body.style.overflow = "";
+  }
+
+  if (drawerClose) drawerClose.addEventListener("click", closeDrawer);
+  if (backdrop) backdrop.addEventListener("click", closeDrawer);
+  if (drawerPrev) {
+    drawerPrev.addEventListener("click", () => {
+      if (currentStoryIdx > 0) openStory(items[currentStoryIdx - 1].id);
+    });
+  }
+  if (drawerNext) {
+    drawerNext.addEventListener("click", () => {
+      if (currentStoryIdx >= 0 && currentStoryIdx < items.length - 1) openStory(items[currentStoryIdx + 1].id);
+    });
+  }
+
+  // Archive Desk Filtering
+  const searchInput = document.getElementById("archiveSearch");
+  const sortSelect = document.getElementById("archiveSort");
+  const resetBtn = document.getElementById("archiveReset");
+  const ledgerEl = document.getElementById("archiveLedger");
+  const activeTagBar = document.getElementById("activeTagBar");
+  const profileBar = document.getElementById("profileFilterBar");
+  const sourceBar = document.getElementById("sourceFilterBar");
+
+  const filterState = { query: "", profile: "all", source: "all", tag: "", sort: "score" };
+
+  function renderLedger() {
+    if (!ledgerEl) return;
+    const q = filterState.query.trim().toLowerCase();
+    const filtered = items.filter((story) => {
+      if (filterState.profile !== "all" && story.profile_id !== filterState.profile) return false;
+      if (filterState.source !== "all" && story.source_type !== filterState.source) return false;
+      if (filterState.tag && !(story.tags || []).includes(filterState.tag)) return false;
+      if (q) {
+        const hay = [
+          story.title, story.summary, story.sub_source, story.source_label,
+          story.profile_name, ...(story.tags || [])
+        ].join(" ").toLowerCase();
+        if (!hay.includes(q)) return false;
+      }
+      return true;
+    });
+
+    filtered.sort((a, b) => {
+      if (filterState.sort === "time") {
+        return (b.published_at || "").localeCompare(a.published_at || "");
+      }
+      return (b.score ?? -1) - (a.score ?? -1) || a.rank - b.rank;
+    });
+
+    if (activeTagBar) {
+      activeTagBar.innerHTML = "";
+      if (filterState.tag) {
+        activeTagBar.hidden = false;
+        activeTagBar.appendChild(makeEl("span", "", `${copy.active_tag_prefix || "Tag: #"}${filterState.tag}`));
+        const clearTag = makeEl("button", "util-btn", "×");
+        clearTag.type = "button";
+        clearTag.addEventListener("click", () => {
+          filterState.tag = "";
+          renderLedger();
+        });
+        activeTagBar.appendChild(clearTag);
+      } else {
+        activeTagBar.hidden = true;
+      }
+    }
+
+    ledgerEl.innerHTML = "";
+    if (!filtered.length) {
+      ledgerEl.appendChild(makeEl("div", "ledger-empty", copy.no_match || "No matches."));
+      return;
+    }
+
+    filtered.forEach((story) => {
+      const card = makeEl("article", "ledger-item");
+      const top = makeEl("div", "ledger-top");
+      top.appendChild(
+        makeEl("span", "ledger-meta", `${story.source_label} · ${story.sub_source} · ${story.time_display}`)
+      );
+      top.appendChild(
+        makeEl(
+          "span",
+          `score-pill ${(story.score || 0) >= 8.5 ? "score-hot" : "score-accent"}`,
+          story.score_display
+        )
+      );
+      card.appendChild(top);
+
+      const h3 = makeEl("h3", "ledger-title");
+      const btn = makeEl("button", "headline-trigger", story.title);
+      btn.type = "button";
+      btn.addEventListener("click", () => openStory(story.id));
+      h3.appendChild(btn);
+      card.appendChild(h3);
+
+      const summary = story.summary.length > 140 ? `${story.summary.slice(0, 139)}…` : story.summary;
+      card.appendChild(makeEl("p", "ledger-summary", summary));
+
+      const foot = makeEl("div", "ledger-foot");
+      foot.appendChild(makeEl("span", "profile-tag", story.profile_name));
+      foot.appendChild(makeEl("span", "ledger-tags", (story.tags || []).slice(0, 3).map((t) => `#${t}`).join(" ")));
+      const linksWrap = makeEl("span", "inline-links");
+      if (story.url) {
+        const orig = makeEl("a", "inline-ext-link", copy.source_link || "Source ↗");
+        orig.href = story.url;
+        orig.target = "_blank";
+        orig.rel = "noopener noreferrer";
+        linksWrap.appendChild(orig);
+      }
+      if (story.discussion_url) {
+        const disc = makeEl("a", "inline-ext-link", copy.discuss_short || "Discuss ↗");
+        disc.href = story.discussion_url;
+        disc.target = "_blank";
+        disc.rel = "noopener noreferrer";
+        linksWrap.appendChild(disc);
+      }
+      if (linksWrap.childNodes.length) foot.appendChild(linksWrap);
+      card.appendChild(foot);
+      ledgerEl.appendChild(card);
+    });
+  }
+
+  function filterByTag(tag) {
+    filterState.tag = tag;
+    renderLedger();
+    const desk = document.getElementById("archive-desk");
+    if (desk) desk.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  if (searchInput) {
+    searchInput.addEventListener("input", () => {
+      filterState.query = searchInput.value;
+      renderLedger();
+    });
+  }
+  if (sortSelect) {
+    sortSelect.addEventListener("change", () => {
+      filterState.sort = sortSelect.value;
+      renderLedger();
+    });
+  }
+  if (resetBtn) {
+    resetBtn.addEventListener("click", () => {
+      filterState.query = "";
+      filterState.profile = "all";
+      filterState.source = "all";
+      filterState.tag = "";
+      filterState.sort = "score";
+      if (searchInput) searchInput.value = "";
+      if (sortSelect) sortSelect.value = "score";
+      if (profileBar) {
+        profileBar.querySelectorAll(".filter-pill").forEach((p) => {
+          p.classList.toggle("is-active", p.getAttribute("data-filter-profile") === "all");
+        });
+      }
+      if (sourceBar) {
+        sourceBar.querySelectorAll(".filter-pill").forEach((p) => {
+          p.classList.toggle("is-active", p.getAttribute("data-filter-source") === "all");
+        });
+      }
+      renderLedger();
+    });
+  }
+
+  if (profileBar) {
+    profileBar.addEventListener("click", (e) => {
+      const btn = e.target.closest("[data-filter-profile]");
+      if (!btn) return;
+      filterState.profile = btn.getAttribute("data-filter-profile") || "all";
+      profileBar.querySelectorAll(".filter-pill").forEach((p) => p.classList.toggle("is-active", p === btn));
+      renderLedger();
+    });
+  }
+  if (sourceBar) {
+    sourceBar.addEventListener("click", (e) => {
+      const btn = e.target.closest("[data-filter-source]");
+      if (!btn) return;
+      filterState.source = btn.getAttribute("data-filter-source") || "all";
+      sourceBar.querySelectorAll(".filter-pill").forEach((p) => p.classList.toggle("is-active", p === btn));
+      renderLedger();
+    });
+  }
+
+  // Delegated clicks for story triggers and tag chips anywhere on the broadsheet
+  document.addEventListener("click", (e) => {
+    const storyTrigger = e.target.closest("[data-open-story]");
+    if (storyTrigger) {
+      openStory(storyTrigger.getAttribute("data-open-story"));
+      return;
+    }
+    const tagTrigger = e.target.closest("[data-filter-tag]");
+    if (tagTrigger) {
+      filterByTag(tagTrigger.getAttribute("data-filter-tag") || "");
+    }
+  });
+
+  // Jump-to-search button & keyboard shortcuts
+  function focusSearch() {
+    if (!searchInput) return;
+    const desk = document.getElementById("archive-desk");
+    if (desk) desk.scrollIntoView({ behavior: "smooth", block: "start" });
+    setTimeout(() => searchInput.focus(), 220);
+  }
+  const jumpSearchBtn = document.getElementById("jumpSearchBtn");
+  if (jumpSearchBtn) jumpSearchBtn.addEventListener("click", focusSearch);
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") {
+      closeDrawer();
+      if (pagerMenu) pagerMenu.hidden = true;
+      if (pagerBtn) pagerBtn.setAttribute("aria-expanded", "false");
+      return;
+    }
+    if (drawer && !drawer.hidden) {
+      if (e.key === "ArrowLeft" && currentStoryIdx > 0) openStory(items[currentStoryIdx - 1].id);
+      if (e.key === "ArrowRight" && currentStoryIdx < items.length - 1) openStory(items[currentStoryIdx + 1].id);
+      return;
+    }
+    if ((e.key === "/" || ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === "k")) &&
+        document.activeElement !== searchInput) {
+      e.preventDefault();
+      focusSearch();
+    }
+  });
+
+  // Floating Pager & Return-to-Front-Page Pill
+  const pagerBtn = document.getElementById("pagerBtn");
+  const pagerMenu = document.getElementById("pagerMenu");
+  const pagerActiveCode = document.getElementById("pagerActiveCode");
+  const pagerActiveLabel = document.getElementById("pagerActiveLabel");
+  const homePill = document.getElementById("homePill");
+
+  if (pagerBtn && pagerMenu) {
+    pagerBtn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const willOpen = pagerMenu.hidden;
+      pagerMenu.hidden = !willOpen;
+      pagerBtn.setAttribute("aria-expanded", String(willOpen));
+    });
+    document.addEventListener("click", (e) => {
+      if (!e.target.closest("#pagerWrap")) {
+        pagerMenu.hidden = true;
+        pagerBtn.setAttribute("aria-expanded", "false");
+      }
+    });
+    pagerMenu.addEventListener("click", () => {
+      pagerMenu.hidden = true;
+      pagerBtn.setAttribute("aria-expanded", "false");
+    });
+  }
+
+  const bands = Array.from(document.querySelectorAll("section[data-page-code]"));
+  function setActiveSection(code, label) {
+    if (pagerActiveCode) pagerActiveCode.textContent = code;
+    if (pagerActiveLabel) pagerActiveLabel.textContent = label;
+    document.querySelectorAll("[data-section-link]").forEach((el) => {
+      el.classList.toggle("is-current", el.getAttribute("data-section-link") === code);
+    });
+    document.querySelectorAll("[data-pager-code]").forEach((el) => {
+      el.classList.toggle("is-active", el.getAttribute("data-pager-code") === code);
+    });
+  }
+
+  if ("IntersectionObserver" in window && bands.length) {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const visible = entries
+          .filter((entry) => entry.isIntersecting)
+          .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+        if (visible.length) {
+          const target = visible[0].target;
+          setActiveSection(
+            target.getAttribute("data-page-code") || "A1",
+            target.getAttribute("data-page-label") || ""
+          );
+        }
+      },
+      { rootMargin: "-15% 0px -65% 0px", threshold: 0.01 }
+    );
+    bands.forEach((b) => observer.observe(b));
+  }
+
+  window.addEventListener(
+    "scroll",
+    () => {
+      if (homePill) homePill.classList.toggle("is-visible", window.scrollY > 360);
+    },
+    { passive: true }
+  );
+})();
+
+  </script>
+</body>
+</html>

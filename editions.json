@@ -1,8 +1,27 @@
 {
-  "latest_date": "2026-11-26",
+  "latest_date": "2026-11-27",
   "default_language": "zh",
-  "updated_at": "2026-11-26T04:38:33Z",
+  "updated_at": "2026-11-27T04:42:24Z",
   "editions": [
+    {
+      "date": "2026-11-27",
+      "languages": [
+        "zh",
+        "en"
+      ],
+      "titles": {
+        "zh": "地平线每日快报",
+        "en": "Horizon Daily"
+      },
+      "selected_count": {
+        "zh": 18,
+        "en": 18
+      },
+      "top_headline": {
+        "zh": "Avicena 完成超过 1 亿美元的 C 轮融资，推动 AI 芯片与 microLED 技术结合",
+        "en": "Avicena Raises Over $100M for AI Chips Using MicroLEDs"
+      }
+    },
     {
       "date": "2026-11-26",
       "languages": [
