@@ -33,6 +33,7 @@ from .scrapers.polymarket import PolymarketScraper
 from .scrapers.arxiv import ArXivScraper
 from .scrapers.bluesky import BlueskyScraper
 from .ai.client import AIClient, create_ai_client
+from .ai.editorial import MIN_STORIES as EDITORIAL_MIN_STORIES, EditorialWriter
 from .ai.errors import AIProviderUnavailableError
 from .ai.analyzer import ContentAnalyzer
 from .ai.summarizer import DailySummarizer
@@ -355,6 +356,10 @@ class HorizonOrchestrator:
                         len(all_items),
                         language=lang,
                     )
+                    if self.config.broadsheet.editorial:
+                        edition_data["editorial"] = await self._write_editorial(
+                            edition_data["items"], lang
+                        )
                     broadsheet_html = broadsheet.render_html(
                         language_items,
                         today,
@@ -453,6 +458,31 @@ class HorizonOrchestrator:
                 )
 
             raise
+
+    async def _write_editorial(
+        self, records: List[Dict[str, object]], language: str
+    ) -> Optional[Dict[str, object]]:
+        """Write the front-page editorial; None when it is skipped or fails."""
+        if len(records) < EDITORIAL_MIN_STORIES:
+            return None
+        try:
+            ai_client = self.ai_client
+        except Exception as e:
+            self.console.print(
+                f"[yellow]{self.icons['warning']} Skipping editorial: {e}[/yellow]"
+            )
+            return None
+        editorial = await EditorialWriter(ai_client).write(records, language)
+        if editorial:
+            self.console.print(
+                f"{self.icons['ai']} Wrote {language.upper()} editorial: {editorial['headline']}\n"
+            )
+        else:
+            self.console.print(
+                f"[yellow]{self.icons['warning']} No {language.upper()} editorial "
+                "for this edition[/yellow]"
+            )
+        return editorial
 
     def _determine_time_window(self, force_hours: Optional[int] = None) -> datetime:
         hours = force_hours if force_hours is not None else self.config.collection.time_window_hours

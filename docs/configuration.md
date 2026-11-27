@@ -1074,6 +1074,8 @@ docker compose run --rm --entrypoint uv horizon run horizon-wechat test --lang z
 
 Horizon Daily writes generated summaries to `data/summaries/` (or `<data-dir>/summaries/` when `--data-dir` is set). When `broadsheet.enabled` is true it also writes the newspaper site to `broadsheet.site_dir` (default `docs/broadsheet/`). The scheduled workflow [`.github/workflows/daily-broadsheet.yml`](../.github/workflows/daily-broadsheet.yml) publishes that directory to the `gh-pages` branch; see [broadsheet-deploy.md](broadsheet-deploy.md).
 
+The front page carries a short editorial that argues what two to four of the day's stories mean together. It costs one extra model call per language and is left out when the call fails or the edition has fewer than three stories. Set `broadsheet.editorial` to `false` to turn it off.
+
 ## MCP Server
 
 Horizon includes an MCP server for AI assistants and MCP-compatible clients.

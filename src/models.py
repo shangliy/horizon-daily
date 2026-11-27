@@ -655,6 +655,8 @@ class BroadsheetConfig(BaseModel):
     copy_to_docs: bool = True
     site_dir: str = "docs/broadsheet"
     default_language: Optional[str] = None
+    # One extra model call per language for a short editorial on the front page.
+    editorial: bool = True
 
 
 class CollectionConfig(BaseModel):

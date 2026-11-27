@@ -896,6 +896,7 @@ class BroadsheetRenderer:
         )
 
         first_sec_href = f"#{data['sections'][0]['dom_id']}" if data["sections"] else "#archive-desk"
+        editorial_html = self._render_editorial(data.get("editorial"), items_by_id, copy)
 
         return f"""
       <section class="band front-page" id="front-page" data-page-code="A1" data-page-label="{_esc(copy['nav_front'])}">
@@ -940,8 +941,43 @@ class BroadsheetRenderer:
             {desk_box_html}
           </div>
         </div>
+        {editorial_html}
       </section>
         """
+
+    @staticmethod
+    def _render_editorial(
+        editorial: Optional[Dict[str, Any]],
+        items_by_id: Dict[str, Dict[str, Any]],
+        copy: Dict[str, str],
+    ) -> str:
+        """Front-page editorial strip; empty when the edition has no editorial."""
+        if not editorial or not editorial.get("headline") or not editorial.get("body"):
+            return ""
+        paragraphs = "".join(
+            f"<p>{_esc(p)}</p>" for p in str(editorial["body"]).split("\n\n") if p.strip()
+        )
+        refs = "".join(
+            f'<button type="button" class="editorial-ref" data-open-story="{_esc(story_id)}">'
+            f'{_esc(_truncate(items_by_id[story_id]["title"], 44))}</button>'
+            for story_id in editorial.get("story_ids") or []
+            if story_id in items_by_id
+        )
+        refs_html = (
+            f'<div class="editorial-refs"><span class="kicker">{_esc(copy["editorial_refs"])}</span>{refs}</div>'
+            if refs
+            else ""
+        )
+        return (
+            '<aside class="editorial" aria-labelledby="editorialHeadline">'
+            '<div class="editorial-head">'
+            f'<div class="kicker accent-kicker">{_esc(copy["editorial_kicker"])}</div>'
+            f'<h3 class="editorial-headline" id="editorialHeadline">{_esc(editorial["headline"])}</h3>'
+            f'<div class="editorial-byline">{_esc(copy["editorial_byline"])}</div>'
+            "</div>"
+            f'<div class="editorial-body">{paragraphs}{refs_html}</div>'
+            "</aside>"
+        )
 
     @staticmethod
     def _render_inline_links(story: Dict[str, Any], copy: Dict[str, str]) -> str:
