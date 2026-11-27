@@ -8,7 +8,7 @@
 
 1. **采集**：Hacker News、RSS/Atom、GitHub Releases、Reddit、Telegram、Twitter/X、arXiv、Bluesky、Polymarket、OSS Insight、GDELT、Google News、OpenBB。
 2. **编辑**：大模型把每条内容分到一个编辑画像（`tech-news`、`tech-blog`、`finance-news`、`ai-creator`），打分，合并跨信源的重复报道，并按每种输出语言写摘要。
-3. **排版**：每种语言生成一个自包含的 HTML 页面，含头版、各画像专题版、电讯栏、可检索的索引、阅读抽屉、浅色/深色纸面和往期归档。
+3. **排版**：每种语言生成一个自包含的 HTML 页面，含头版和每日社论、各画像专题版、电讯栏、可检索的索引、阅读抽屉、浅色/深色纸面和往期归档。
 4. **发布**：GitHub Actions 定时把静态站点推送到 `gh-pages` 分支。
 
 ## 快速开始

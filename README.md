@@ -8,7 +8,7 @@ An AI-edited, bilingual (中文 / English) daily newspaper for tech and industry
 
 1. **Collect** — Hacker News, RSS/Atom feeds, GitHub releases, Reddit, Telegram, Twitter/X, arXiv, Bluesky, Polymarket, OSS Insight, GDELT, Google News and OpenBB.
 2. **Edit** — an LLM routes each item to an editorial profile (`tech-news`, `tech-blog`, `finance-news`, `ai-creator`), scores it, merges duplicates across sources, and writes a summary in each output language.
-3. **Print** — the result is rendered as one self-contained HTML page per language: front page, profile sections, a wire column, a searchable index, a reading drawer, light/dark paper themes and an archive of past editions.
+3. **Print** — the result is rendered as one self-contained HTML page per language: front page with a daily editorial, profile sections, a wire column, a searchable index, a reading drawer, light/dark paper themes and an archive of past editions.
 4. **Publish** — a scheduled GitHub Actions workflow pushes the static site to the `gh-pages` branch.
 
 ## Quick start

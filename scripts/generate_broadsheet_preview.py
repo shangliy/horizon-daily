@@ -416,6 +416,28 @@ def build_offline_sample_items() -> list[ContentItem]:
     return items
 
 
+def build_sample_editorial(records: list[dict], lang: str) -> dict | None:
+    """Placeholder editorial so the preview shows the layout without an AI call."""
+    if len(records) < 3:
+        return None
+    top = sorted(records, key=lambda r: r["score"] or 0, reverse=True)[:3]
+    if lang.startswith("zh"):
+        headline = "示例社论：这里是当天的编辑部观点"
+        body = (
+            "这是版面预览用的占位文字，不是模型写的社论。正式运行时，模型会从当天入选的条目里挑出两到四条，"
+            "写一段把它们放在一起看意味着什么的短评。\n\n"
+            "下方“文中提及”的链接会打开对应条目的阅读抽屉。"
+        )
+    else:
+        headline = "Sample editorial: the day's argument goes here"
+        body = (
+            "This is placeholder text for the layout preview, not a model-written editorial. In a real run "
+            "the model picks two to four of the day's stories and argues what they mean together.\n\n"
+            "The links under “Stories discussed” open each story in the reading drawer."
+        )
+    return {"headline": headline, "body": body, "story_ids": [r["id"] for r in top]}
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Generate 地平线每日快报 preview HTML")
     parser.add_argument("--live", action="store_true", help="Fetch real live items from Horizon scrapers")
@@ -460,6 +482,7 @@ def main() -> None:
             language=lang,
             generated_at=now,
         )
+        edition_data["editorial"] = build_sample_editorial(edition_data["items"], lang)
         html_content = renderer.render_html(
             items,
             date=edition_date,
