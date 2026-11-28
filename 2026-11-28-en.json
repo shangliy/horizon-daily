@@ -1,0 +1,1440 @@
+{
+  "meta": {
+    "title": "Horizon Daily",
+    "overline": "AI-CURATED BROADSHEET EDITION",
+    "subtitle": "Just enjoy the news — Horizon gathers, ranks, deduplicates, and enriches your daily signal.",
+    "edition_label": "HORIZON · GLOBAL TECH & SIGNAL",
+    "date": "2026-11-28",
+    "date_display": "Saturday, November 28, 2026",
+    "updated_at": "04:28 UTC",
+    "language": "en",
+    "lang_key": "en",
+    "total_fetched": 73,
+    "selected_count": 15,
+    "avg_score": 7.5,
+    "top_score": 9.0,
+    "drop_rate": 79,
+    "source_count": 4,
+    "profile_count": 3,
+    "wire_code": "A5",
+    "index_code": "A6"
+  },
+  "ticker": [
+    {
+      "kind": "tag",
+      "label": "#AI",
+      "tag": "AI",
+      "metric": "4 items",
+      "delta": "up"
+    },
+    {
+      "kind": "tag",
+      "label": "#Nvidia",
+      "tag": "Nvidia",
+      "metric": "3 items",
+      "delta": "up"
+    },
+    {
+      "kind": "tag",
+      "label": "#cybersecurity",
+      "tag": "cybersecurity",
+      "metric": "2 items",
+      "delta": "up"
+    },
+    {
+      "kind": "tag",
+      "label": "#Semiconductors",
+      "tag": "Semiconductors",
+      "metric": "2 items",
+      "delta": "up"
+    },
+    {
+      "kind": "tag",
+      "label": "#Federal Reserve",
+      "tag": "Federal Reserve",
+      "metric": "2 items",
+      "delta": "up"
+    },
+    {
+      "kind": "tag",
+      "label": "#Linux",
+      "tag": "Linux",
+      "metric": "1 items",
+      "delta": "up"
+    },
+    {
+      "kind": "tag",
+      "label": "#Security",
+      "tag": "Security",
+      "metric": "1 items",
+      "delta": "up"
+    },
+    {
+      "kind": "tag",
+      "label": "#Vulnerability",
+      "tag": "Vulnerability",
+      "metric": "1 items",
+      "delta": "up"
+    },
+    {
+      "kind": "tag",
+      "label": "#NFS",
+      "tag": "NFS",
+      "metric": "1 items",
+      "delta": "up"
+    },
+    {
+      "kind": "tag",
+      "label": "#Cybersecurity",
+      "tag": "Cybersecurity",
+      "metric": "1 items",
+      "delta": "up"
+    },
+    {
+      "kind": "story",
+      "story_id": "story-1",
+      "label": "Critical NFS Server Vulnerability in Linu…",
+      "metric": "▲ 9.0",
+      "delta": "hot"
+    },
+    {
+      "kind": "story",
+      "story_id": "story-2",
+      "label": "Google's DeepCrossAttention Achieves Comp…",
+      "metric": "▲ 8.0",
+      "delta": "up"
+    },
+    {
+      "kind": "story",
+      "story_id": "story-3",
+      "label": "Podcast Discussion on AI Risks and Geopol…",
+      "metric": "▲ 8.0",
+      "delta": "up"
+    },
+    {
+      "kind": "story",
+      "story_id": "story-4",
+      "label": "SAP Confirms Cybersecurity Incident Invol…",
+      "metric": "▲ 8.0",
+      "delta": "up"
+    },
+    {
+      "kind": "story",
+      "story_id": "story-5",
+      "label": "US Air Force Discovers Breach of Cloud On…",
+      "metric": "▲ 8.0",
+      "delta": "up"
+    },
+    {
+      "kind": "story",
+      "story_id": "story-10",
+      "label": "A Gene Informed Benchmark for BioScoring…",
+      "metric": "▲ 8.0",
+      "delta": "up"
+    }
+  ],
+  "front_page": {
+    "lead_id": "story-1",
+    "left_ids": [
+      "story-2",
+      "story-3",
+      "story-4"
+    ],
+    "right_ids": [
+      "story-10",
+      "story-11"
+    ],
+    "spotlight_left_ids": [
+      "story-10",
+      "story-6",
+      "story-7",
+      "story-11"
+    ],
+    "spotlight_right_ids": [
+      "story-7",
+      "story-6",
+      "story-2",
+      "story-3"
+    ]
+  },
+  "sections": [
+    {
+      "code": "A2",
+      "dom_id": "sec-tech-news",
+      "profile_id": "tech-news",
+      "name": "Technology News",
+      "item_ids": [
+        "story-1",
+        "story-2",
+        "story-3",
+        "story-4",
+        "story-5",
+        "story-6",
+        "story-7",
+        "story-8",
+        "story-9"
+      ]
+    },
+    {
+      "code": "A3",
+      "dom_id": "sec-tech-blog",
+      "profile_id": "tech-blog",
+      "name": "Technology Blog",
+      "item_ids": [
+        "story-10"
+      ]
+    },
+    {
+      "code": "A4",
+      "dom_id": "sec-finance-news",
+      "profile_id": "finance-news",
+      "name": "Financial News",
+      "item_ids": [
+        "story-11",
+        "story-12",
+        "story-13",
+        "story-14",
+        "story-15"
+      ]
+    }
+  ],
+  "wire": [
+    {
+      "id": "wire-community",
+      "title": "COMMUNITY · HN & REDDIT",
+      "style": "numbered",
+      "item_ids": [
+        "story-2",
+        "story-6",
+        "story-7"
+      ]
+    },
+    {
+      "id": "wire-builders",
+      "title": "OPEN SOURCE, BLUESKY & X",
+      "style": "badged",
+      "item_ids": []
+    },
+    {
+      "id": "wire-editorial",
+      "title": "PAPERS, MEDIA & POLYMARKET",
+      "style": "kicker",
+      "item_ids": [
+        "story-1",
+        "story-3",
+        "story-4",
+        "story-5",
+        "story-8",
+        "story-9",
+        "story-10",
+        "story-11"
+      ]
+    }
+  ],
+  "source_breakdown": [
+    {
+      "source_type": "rss",
+      "label": "RSS Feed",
+      "count": 10,
+      "pct": 67
+    },
+    {
+      "source_type": "hackernews",
+      "label": "Hacker News",
+      "count": 3,
+      "pct": 20
+    },
+    {
+      "source_type": "telegram",
+      "label": "Telegram",
+      "count": 1,
+      "pct": 7
+    },
+    {
+      "source_type": "arxiv",
+      "label": "arXiv",
+      "count": 1,
+      "pct": 7
+    }
+  ],
+  "top_tags": [
+    {
+      "tag": "AI",
+      "count": 4
+    },
+    {
+      "tag": "Nvidia",
+      "count": 3
+    },
+    {
+      "tag": "cybersecurity",
+      "count": 2
+    },
+    {
+      "tag": "Semiconductors",
+      "count": 2
+    },
+    {
+      "tag": "Federal Reserve",
+      "count": 2
+    },
+    {
+      "tag": "Linux",
+      "count": 1
+    },
+    {
+      "tag": "Security",
+      "count": 1
+    },
+    {
+      "tag": "Vulnerability",
+      "count": 1
+    },
+    {
+      "tag": "NFS",
+      "count": 1
+    },
+    {
+      "tag": "Cybersecurity",
+      "count": 1
+    },
+    {
+      "tag": "Machine Learning",
+      "count": 1
+    },
+    {
+      "tag": "Transformers",
+      "count": 1
+    },
+    {
+      "tag": "Google",
+      "count": 1
+    },
+    {
+      "tag": "Model Efficiency",
+      "count": 1
+    },
+    {
+      "tag": "intelligence explosion",
+      "count": 1
+    },
+    {
+      "tag": "geopolitics",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "id": "story-1",
+      "item_id": "telegram:zaihuapd:45408",
+      "rank": 1,
+      "group_index": 1,
+      "profile_id": "tech-news",
+      "profile_name": "Technology News",
+      "title": "Critical NFS Server Vulnerability in Linux Kernel Disclosed",
+      "summary": "A critical pre-authentication heap overflow vulnerability (CVE-2026-99362) in the Linux kernel NFS server has been disclosed, with a CVSS score of 9.8. This vulnerability allows unauthenticated attackers to gain root access by sending a connection to tcp/2049, affecting systems using NFSv4.1 or 4.2 since Linux version 3.16. Fixes have been released in kernel versions 6.12.117, 6.18.61, 7.3.2, and 7.4-rc1, requiring users to upgrade and reboot their systems.",
+      "score": 9.0,
+      "score_display": "9.0",
+      "reason": "The disclosure of a critical vulnerability in the Linux kernel NFS server with a CVSS score of 9.8 represents a significant security threat, as it allows unauthenticated attackers to gain root access. This has major implications for systems using NFSv4.1 or 4.2, making it a groundbreaking development in the field of cybersecurity.",
+      "url": "https://opensec.in/blog/nfs2root-cve-2026-99362",
+      "domain": "opensec.in",
+      "discussion_url": null,
+      "source_type": "telegram",
+      "source_label": "Telegram",
+      "sub_source": "zaihuapd",
+      "author": "zaihuapd",
+      "category": "Tech Flash",
+      "published_at": "2026-11-27T12:57:36+00:00",
+      "time_display": "Nov 27 · 12:57",
+      "tags": [
+        "Linux",
+        "Security",
+        "Vulnerability",
+        "NFS",
+        "Cybersecurity"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "Summary",
+          "content": "A critical pre-authentication heap overflow vulnerability (CVE-2026-99362) in the Linux kernel NFS server has been disclosed, with a CVSS score of 9.8. This vulnerability allows unauthenticated attackers to gain root access by sending a connection to tcp/2049, affecting systems using NFSv4.1 or 4.2 since Linux version 3.16. Fixes have been released in kernel versions 6.12.117, 6.18.61, 7.3.2, and 7.4-rc1, requiring users to upgrade and reboot their systems.",
+          "primary": true
+        },
+        {
+          "id": "background",
+          "title": "Background on NFS Vulnerability",
+          "content": "The vulnerability CVE-2026-99362 is a pre-authentication heap overflow in the Linux kernel's NFS server (nfsd), allowing unauthenticated attackers to gain root access. This flaw has existed since Linux version 3.16 and affects systems using NFS versions 4.1 and 4.2, which are commonly used in file servers and storage nodes.",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "background",
+          "title": "Background on NFS Vulnerability",
+          "content": "The vulnerability CVE-2026-99362 is a pre-authentication heap overflow in the Linux kernel's NFS server (nfsd), allowing unauthenticated attackers to gain root access. This flaw has existed since Linux version 3.16 and affects systems using NFS versions 4.1 and 4.2, which are commonly used in file servers and storage nodes.",
+          "primary": false
+        }
+      ],
+      "references": [
+        {
+          "id": "tool-1-1",
+          "title": "CVE-2026-99362 - Red Hat Customer Portal",
+          "url": "https://access.redhat.com/security/cve/cve-2026-99362",
+          "domain": "access.redhat.com"
+        },
+        {
+          "id": "tool-1-2",
+          "title": "NVD-CVE-2026-99362",
+          "url": "https://nvd.nist.gov/vuln/detail/cve-2026-99362",
+          "domain": "nvd.nist.gov"
+        }
+      ],
+      "engagement": [],
+      "engagement_weight": 0,
+      "probability_pct": null,
+      "leading_outcome": null,
+      "volume_24h_display": null
+    },
+    {
+      "id": "story-2",
+      "item_id": "hackernews:story:50672565",
+      "rank": 2,
+      "group_index": 2,
+      "profile_id": "tech-news",
+      "profile_name": "Technology News",
+      "title": "Google's DeepCrossAttention Achieves Comparable Model Quality Up to 3x Faster",
+      "summary": "Google's DeepCrossAttention has been developed to provide comparable model quality while operating up to three times faster than previous methods. This advancement significantly enhances the efficiency of AI models, particularly in transformer architectures, making it a notable improvement for developers and researchers in the field.",
+      "score": 8.0,
+      "score_display": "8.0",
+      "reason": "The content discusses Google's DeepCrossAttention, which presents a significant advancement in model efficiency and quality in the context of transformer architectures, making it relevant for readers interested in AI and machine learning.",
+      "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+      "domain": "research.google",
+      "discussion_url": "https://news.ycombinator.com/item?id=50672565",
+      "source_type": "hackernews",
+      "source_label": "Hacker News",
+      "sub_source": "ComputedCamp995",
+      "author": "ComputedCamp995",
+      "category": "AI News",
+      "published_at": "2026-11-27T23:06:29+00:00",
+      "time_display": "Nov 27 · 23:06",
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Transformers",
+        "Google",
+        "Model Efficiency"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "Summary",
+          "content": "Google's DeepCrossAttention has been developed to provide comparable model quality while operating up to three times faster than previous methods. This advancement significantly enhances the efficiency of AI models, particularly in transformer architectures, making it a notable improvement for developers and researchers in the field.",
+          "primary": true
+        },
+        {
+          "id": "background",
+          "title": "Background on DeepCrossAttention",
+          "content": "DeepCrossAttention (DCA) is a novel approach designed to improve the efficiency of transformer architectures by enhancing residual learning. It utilizes learnable, input-dependent weights to dynamically combine information, which contributes to achieving comparable model quality while significantly increasing processing speed.",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "background",
+          "title": "Background on DeepCrossAttention",
+          "content": "DeepCrossAttention (DCA) is a novel approach designed to improve the efficiency of transformer architectures by enhancing residual learning. It utilizes learnable, input-dependent weights to dynamically combine information, which contributes to achieving comparable model quality while significantly increasing processing speed.",
+          "primary": false
+        }
+      ],
+      "references": [
+        {
+          "id": "tool-1-2",
+          "title": "DeepCrossAttention : Supercharging Transformer Residual Connections",
+          "url": "https://arxiv.org/abs/2502.06785",
+          "domain": "arxiv.org"
+        }
+      ],
+      "engagement": [
+        "208 pts",
+        "72 comments"
+      ],
+      "engagement_weight": 402,
+      "probability_pct": null,
+      "leading_outcome": null,
+      "volume_24h_display": null
+    },
+    {
+      "id": "story-3",
+      "item_id": "rss:www.techmeme.com_feed.xml:0f2618fe2d5399ba",
+      "rank": 3,
+      "group_index": 3,
+      "profile_id": "tech-news",
+      "profile_name": "Technology News",
+      "title": "Podcast Discussion on AI Risks and Geopolitics with Ege Erdil and Daniel Kokotajlo",
+      "summary": "In a recent podcast episode, AI researchers Ege Erdil and Daniel Kokotajlo discuss the potential for an intelligence explosion before 2029, the implications of pausing AI development, and the geopolitical tensions between the US and China. They emphasize the importance of understanding the stakes involved in AI advancements and the challenges of public perception regarding these issues.",
+      "score": 8.0,
+      "score_display": "8.0",
+      "reason": "The Q&A with AI researchers discusses critical topics such as the potential for an intelligence explosion, the implications of pausing AI development, and geopolitical tensions, all of which are highly relevant and timely for the technology and AI community.",
+      "url": "https://www.techmeme.com/261127/p13#a261127p13",
+      "domain": "techmeme.com",
+      "discussion_url": null,
+      "source_type": "rss",
+      "source_label": "RSS Feed",
+      "sub_source": "Techmeme",
+      "author": "Techmeme",
+      "category": "AI News",
+      "published_at": "2026-11-27T20:15:01+00:00",
+      "time_display": "Nov 27 · 20:15",
+      "tags": [
+        "AI",
+        "intelligence explosion",
+        "geopolitics",
+        "podcast",
+        "research"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "Summary of Podcast Insights",
+          "content": "In a recent podcast episode, AI researchers Ege Erdil and Daniel Kokotajlo discuss the potential for an intelligence explosion before 2029, the implications of pausing AI development, and the geopolitical tensions between the US and China. They emphasize the importance of understanding the stakes involved in AI advancements and the challenges of public perception regarding these issues.",
+          "primary": true
+        },
+        {
+          "id": "background",
+          "title": "Context of AI Development Discussions",
+          "content": "The conversation reflects ongoing concerns in the AI community about rapid advancements in artificial intelligence and their potential risks, including existential threats and geopolitical ramifications. This aligns with broader discussions about the need for responsible AI governance and international cooperation.",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "background",
+          "title": "Context of AI Development Discussions",
+          "content": "The conversation reflects ongoing concerns in the AI community about rapid advancements in artificial intelligence and their potential risks, including existential threats and geopolitical ramifications. This aligns with broader discussions about the need for responsible AI governance and international cooperation.",
+          "primary": false
+        }
+      ],
+      "references": [],
+      "engagement": [],
+      "engagement_weight": 0,
+      "probability_pct": null,
+      "leading_outcome": null,
+      "volume_24h_display": null
+    },
+    {
+      "id": "story-4",
+      "item_id": "rss:www.techmeme.com_feed.xml:e1f29969cad8e576",
+      "rank": 4,
+      "group_index": 4,
+      "profile_id": "tech-news",
+      "profile_name": "Technology News",
+      "title": "SAP Confirms Cybersecurity Incident Involving Source Code Compromise",
+      "summary": "SAP has confirmed a cybersecurity incident where hackers accessed employee authentication tokens, allowing them to copy and alter source code stored on GitHub. This breach raises significant concerns regarding the security of software development practices and the integrity of source code management.",
+      "score": 8.0,
+      "score_display": "8.0",
+      "reason": "The incident involves a significant cybersecurity breach affecting SAP, a major player in enterprise software, which could have serious implications for software security practices and the integrity of source code management.",
+      "url": "https://www.techmeme.com/261127/p9#a261127p9",
+      "domain": "techmeme.com",
+      "discussion_url": null,
+      "source_type": "rss",
+      "source_label": "RSS Feed",
+      "sub_source": "Techmeme",
+      "author": "Techmeme",
+      "category": "AI News",
+      "published_at": "2026-11-27T16:35:08+00:00",
+      "time_display": "Nov 27 · 16:35",
+      "tags": [
+        "cybersecurity",
+        "source code",
+        "SAP",
+        "GitHub",
+        "incident report"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "Incident Summary",
+          "content": "SAP has confirmed a cybersecurity incident where hackers accessed employee authentication tokens, allowing them to copy and alter source code stored on GitHub. This breach raises significant concerns regarding the security of software development practices and the integrity of source code management.",
+          "primary": true
+        },
+        {
+          "id": "background",
+          "title": "Context of SAP Cybersecurity Incident",
+          "content": "SAP has previously faced security challenges, as highlighted in its November 2026 Security Patch Day Bulletin, which addressed vulnerabilities in its software. The current incident involves hackers exploiting stolen authentication tokens from SAP employees to gain unauthorized access to source code on GitHub, indicating a significant breach of its development infrastructure.",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "background",
+          "title": "Context of SAP Cybersecurity Incident",
+          "content": "SAP has previously faced security challenges, as highlighted in its November 2026 Security Patch Day Bulletin, which addressed vulnerabilities in its software. The current incident involves hackers exploiting stolen authentication tokens from SAP employees to gain unauthorized access to source code on GitHub, indicating a significant breach of its development infrastructure.",
+          "primary": false
+        }
+      ],
+      "references": [
+        {
+          "id": "tool-1-2",
+          "title": "SAP Confirms Security Incident as Hackers Reportedly Steal ...",
+          "url": "https://cybersecuritynews.com/sap-security-incident/",
+          "domain": "cybersecuritynews.com"
+        },
+        {
+          "id": "tool-1-3",
+          "title": "SAP Confirms Cyberattack, Source Code Reportedly Compromised",
+          "url": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/",
+          "domain": "securityweek.com"
+        }
+      ],
+      "engagement": [],
+      "engagement_weight": 0,
+      "probability_pct": null,
+      "leading_outcome": null,
+      "volume_24h_display": null
+    },
+    {
+      "id": "story-5",
+      "item_id": "rss:www.techmeme.com_feed.xml:fed5a4324257f2b1",
+      "rank": 5,
+      "group_index": 5,
+      "profile_id": "tech-news",
+      "profile_name": "Technology News",
+      "title": "US Air Force Discovers Breach of Cloud One Platform",
+      "summary": "The US Air Force has reported a breach of its Cloud One platform, which integrates services from Microsoft, Amazon, Oracle, and Google to support Air Force applications. This incident raises significant security concerns, particularly regarding national security and the integrity of cloud computing services used by the military.",
+      "score": 8.0,
+      "score_display": "8.0",
+      "reason": "The breach of the US Air Force's Cloud One platform, which integrates major cloud services, represents a significant security concern with potential implications for national security and the technology industry, warranting prompt attention.",
+      "url": "https://www.techmeme.com/261127/p4#a261127p4",
+      "domain": "techmeme.com",
+      "discussion_url": null,
+      "source_type": "rss",
+      "source_label": "RSS Feed",
+      "sub_source": "Techmeme",
+      "author": "Techmeme",
+      "category": "AI News",
+      "published_at": "2026-11-27T12:10:01+00:00",
+      "time_display": "Nov 27 · 12:10",
+      "tags": [
+        "cybersecurity",
+        "cloud computing",
+        "US Air Force",
+        "technology news",
+        "breach"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "Summary",
+          "content": "The US Air Force has reported a breach of its Cloud One platform, which integrates services from Microsoft, Amazon, Oracle, and Google to support Air Force applications. This incident raises significant security concerns, particularly regarding national security and the integrity of cloud computing services used by the military.",
+          "primary": true
+        },
+        {
+          "id": "background",
+          "title": "Background on Cloud One Breach",
+          "content": "The US Air Force's Cloud One platform integrates services from major cloud providers, including Microsoft, Amazon, Oracle, and Google, to support various Air Force applications. This breach raises significant concerns as it could compromise sensitive tactical, personnel, and logistics data, highlighting vulnerabilities in military cloud infrastructure.",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "background",
+          "title": "Background on Cloud One Breach",
+          "content": "The US Air Force's Cloud One platform integrates services from major cloud providers, including Microsoft, Amazon, Oracle, and Google, to support various Air Force applications. This breach raises significant concerns as it could compromise sensitive tactical, personnel, and logistics data, highlighting vulnerabilities in military cloud infrastructure.",
+          "primary": false
+        }
+      ],
+      "references": [
+        {
+          "id": "tool-1-1",
+          "title": "Hackers reportedly breach US air force ’s flagship cloud computing...",
+          "url": "https://www.theguardian.com/technology/2026/nov/27/hackers-breach-us-air-force-cloud-computing",
+          "domain": "theguardian.com"
+        },
+        {
+          "id": "tool-1-2",
+          "title": "Hackers breach US Air Force flagship Cloud One computing platform",
+          "url": "https://nypost.com/2026/11/27/us-news/hackers-breach-us-air-force-flagship-cloud-one-computing-platform/",
+          "domain": "nypost.com"
+        }
+      ],
+      "engagement": [],
+      "engagement_weight": 0,
+      "probability_pct": null,
+      "leading_outcome": null,
+      "volume_24h_display": null
+    },
+    {
+      "id": "story-6",
+      "item_id": "hackernews:story:50667989",
+      "rank": 6,
+      "group_index": 6,
+      "profile_id": "tech-news",
+      "profile_name": "Technology News",
+      "title": "Soundness Bugs in Computer-Checked Proofs Spark Community Debate",
+      "summary": "The article discusses soundness bugs found in computer-checked proofs, raising concerns about the reliability of formal verification systems. This has led to significant debate within the community regarding the implications for software engineering and AI, as these bugs could undermine trust in automated proof systems.",
+      "score": 7.0,
+      "score_display": "7.0",
+      "reason": "The content discusses soundness bugs in proof-checking systems, highlighting important issues in formal verification relevant to software engineering and AI, while also sparking substantial community discussion.",
+      "url": "https://cr.yp.to/proofs/falseccp.html",
+      "domain": "cr.yp.to",
+      "discussion_url": "https://news.ycombinator.com/item?id=50667989",
+      "source_type": "hackernews",
+      "source_label": "Hacker News",
+      "sub_source": "_tk_",
+      "author": "_tk_",
+      "category": "AI News",
+      "published_at": "2026-11-27T15:26:09+00:00",
+      "time_display": "Nov 27 · 15:26",
+      "tags": [
+        "formal verification",
+        "proof systems",
+        "soundness bugs",
+        "community discussion"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "Summary of Findings",
+          "content": "The article discusses soundness bugs found in computer-checked proofs, raising concerns about the reliability of formal verification systems. This has led to significant debate within the community regarding the implications for software engineering and AI, as these bugs could undermine trust in automated proof systems.",
+          "primary": true
+        },
+        {
+          "id": "background",
+          "title": "Understanding Soundness Bugs in Proof Systems",
+          "content": "The article discusses soundness bugs in computer-checked proofs, which are flaws that can allow false statements to be accepted as true by proof-checking systems. Such bugs have significant implications for formal verification, particularly in systems like Lean and Metamath, where multiple independent verifiers are used to ensure the correctness of proofs. Recent incidents have highlighted the vulnerabilities in these systems, prompting calls for improved assurance measures.",
+          "primary": false
+        },
+        {
+          "id": "impact",
+          "title": "Impact on Formal Verification",
+          "content": "The discovery of soundness bugs may lead developers and organizations to reconsider their reliance on specific proof-checking systems, potentially prompting a shift towards using multiple independent verifiers to ensure the integrity of formal proofs.",
+          "primary": false
+        },
+        {
+          "id": "community_discussion",
+          "title": "Community Perspectives",
+          "content": "Community members have expressed differing views on the severity of soundness bugs, with some arguing that the risks are overstated due to the existence of multiple independent verifiers, while others emphasize the need for ongoing high-assurance work in proof systems.",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "background",
+          "title": "Understanding Soundness Bugs in Proof Systems",
+          "content": "The article discusses soundness bugs in computer-checked proofs, which are flaws that can allow false statements to be accepted as true by proof-checking systems. Such bugs have significant implications for formal verification, particularly in systems like Lean and Metamath, where multiple independent verifiers are used to ensure the correctness of proofs. Recent incidents have highlighted the vulnerabilities in these systems, prompting calls for improved assurance measures.",
+          "primary": false
+        },
+        {
+          "id": "impact",
+          "title": "Impact on Formal Verification",
+          "content": "The discovery of soundness bugs may lead developers and organizations to reconsider their reliance on specific proof-checking systems, potentially prompting a shift towards using multiple independent verifiers to ensure the integrity of formal proofs.",
+          "primary": false
+        },
+        {
+          "id": "community_discussion",
+          "title": "Community Perspectives",
+          "content": "Community members have expressed differing views on the severity of soundness bugs, with some arguing that the risks are overstated due to the existence of multiple independent verifiers, while others emphasize the need for ongoing high-assurance work in proof systems.",
+          "primary": false
+        }
+      ],
+      "references": [
+        {
+          "id": "tool-1-1",
+          "title": "False computer - checked proofs (djb)",
+          "url": "https://cr.yp.to/proofs/falseccp.html",
+          "domain": "cr.yp.to"
+        },
+        {
+          "id": "tool-1-2",
+          "title": "oss-security - CVE-2026-72844: Lean 4 kernel soundness bug ...",
+          "url": "https://www.openwall.com/lists/oss-security/2026/10/26/2",
+          "domain": "openwall.com"
+        },
+        {
+          "id": "tool-1-3",
+          "title": "Lean Theorem Prover & AI: Soundness Bugs and 3 Fixes",
+          "url": "https://tramcongngheai.com/lean-theorem-prover-ai-reliability/",
+          "domain": "tramcongngheai.com"
+        }
+      ],
+      "engagement": [
+        "200 pts",
+        "78 comments"
+      ],
+      "engagement_weight": 406,
+      "probability_pct": null,
+      "leading_outcome": null,
+      "volume_24h_display": null
+    },
+    {
+      "id": "story-7",
+      "item_id": "hackernews:story:50668145",
+      "rank": 7,
+      "group_index": 7,
+      "profile_id": "tech-news",
+      "profile_name": "Technology News",
+      "title": "Credit Card Skimming Scripts Exploit WebRTC on Shopping Sites",
+      "summary": "Credit card skimming scripts that exploit WebRTC vulnerabilities have been detected on popular shopping sites, raising serious security concerns for users. This discovery highlights a significant risk in the e-commerce ecosystem, as these scripts can potentially compromise sensitive payment information.",
+      "score": 7.0,
+      "score_display": "7.0",
+      "reason": "The discovery of credit card skimming scripts using WebRTC on popular shopping sites highlights a significant security vulnerability that could impact users and the broader e-commerce ecosystem. The technical implications and community discussion around the topic suggest it is an important development worth prompt attention.",
+      "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
+      "domain": "infohawk.com",
+      "discussion_url": "https://news.ycombinator.com/item?id=50668145",
+      "source_type": "hackernews",
+      "source_label": "Hacker News",
+      "sub_source": "scanr",
+      "author": "scanr",
+      "category": "AI News",
+      "published_at": "2026-11-27T15:40:31+00:00",
+      "time_display": "Nov 27 · 15:40",
+      "tags": [
+        "WebRTC",
+        "security",
+        "e-commerce",
+        "credit card skimming",
+        "vulnerabilities"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "Security Vulnerability Discovered",
+          "content": "Credit card skimming scripts that exploit WebRTC vulnerabilities have been detected on popular shopping sites, raising serious security concerns for users. This discovery highlights a significant risk in the e-commerce ecosystem, as these scripts can potentially compromise sensitive payment information.",
+          "primary": true
+        },
+        {
+          "id": "background",
+          "title": "Background on WebRTC Vulnerabilities",
+          "content": "WebRTC (Web Real-Time Communication) is a technology that enables peer-to-peer communication in web applications. Recent reports have highlighted the emergence of credit card skimming scripts that exploit WebRTC vulnerabilities, allowing attackers to bypass traditional security measures and exfiltrate sensitive payment information from users on popular e-commerce sites. This follows earlier findings where researchers identified similar skimming techniques leveraging WebRTC data channels to load malicious code and steal payment data.",
+          "primary": false
+        },
+        {
+          "id": "impact",
+          "title": "User Security at Risk",
+          "content": "The presence of these skimming scripts poses a direct threat to users' financial information, necessitating immediate action from both site operators and users to enhance security measures and monitor for suspicious activity.",
+          "primary": false
+        },
+        {
+          "id": "community_discussion",
+          "title": "Concerns Over WebRTC Monitoring",
+          "content": "Community members have noted that the exploitation of WebRTC is less frequently monitored for malicious behavior, suggesting that similar vulnerabilities could arise from other technologies if third-party scripts are not properly managed.",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "background",
+          "title": "Background on WebRTC Vulnerabilities",
+          "content": "WebRTC (Web Real-Time Communication) is a technology that enables peer-to-peer communication in web applications. Recent reports have highlighted the emergence of credit card skimming scripts that exploit WebRTC vulnerabilities, allowing attackers to bypass traditional security measures and exfiltrate sensitive payment information from users on popular e-commerce sites. This follows earlier findings where researchers identified similar skimming techniques leveraging WebRTC data channels to load malicious code and steal payment data.",
+          "primary": false
+        },
+        {
+          "id": "impact",
+          "title": "User Security at Risk",
+          "content": "The presence of these skimming scripts poses a direct threat to users' financial information, necessitating immediate action from both site operators and users to enhance security measures and monitor for suspicious activity.",
+          "primary": false
+        },
+        {
+          "id": "community_discussion",
+          "title": "Concerns Over WebRTC Monitoring",
+          "content": "Community members have noted that the exploitation of WebRTC is less frequently monitored for malicious behavior, suggesting that similar vulnerabilities could arise from other technologies if third-party scripts are not properly managed.",
+          "primary": false
+        }
+      ],
+      "references": [
+        {
+          "id": "tool-1-1",
+          "title": "Credit card skimming scripts using WebRTC found on popular ...",
+          "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
+          "domain": "infohawk.com"
+        },
+        {
+          "id": "tool-1-2",
+          "title": "WebRTC-Based Payment Skimmer Targeting ECommerce ... - RH-ISAC",
+          "url": "https://rhisac.org/threat-intelligence/webrtc-based-payment-skimmer-targeting-ecommerce-sites-via-polyshell-vulnerability/",
+          "domain": "rhisac.org"
+        }
+      ],
+      "engagement": [
+        "468 pts",
+        "238 comments"
+      ],
+      "engagement_weight": 994,
+      "probability_pct": null,
+      "leading_outcome": null,
+      "volume_24h_display": null
+    },
+    {
+      "id": "story-8",
+      "item_id": "rss:www.techmeme.com_feed.xml:13b6d8972fa28294",
+      "rank": 8,
+      "group_index": 8,
+      "profile_id": "tech-news",
+      "profile_name": "Technology News",
+      "title": "MATCH Act's Impact on ASML's Operations in China",
+      "summary": "The MATCH Act could restrict ASML from utilizing its approximately 350 immersion scanners in China, potentially allowing competitors to service and reverse engineer these machines. This situation may enable rivals to hire ASML's staff, leading to significant competitive disadvantages for the company in the global semiconductor market.",
+      "score": 7.0,
+      "score_display": "7.0",
+      "reason": "The article discusses the implications of the MATCH Act on ASML's immersion scanners in China, highlighting potential competitive disadvantages and the broader context of technology and AI competition. This topic is relevant and significant for those interested in the intersection of technology policy and semiconductor manufacturing.",
+      "url": "https://www.techmeme.com/261127/p16#a261127p16",
+      "domain": "techmeme.com",
+      "discussion_url": null,
+      "source_type": "rss",
+      "source_label": "RSS Feed",
+      "sub_source": "Techmeme",
+      "author": "Techmeme",
+      "category": "AI News",
+      "published_at": "2026-11-28T02:00:01+00:00",
+      "time_display": "Nov 28 · 02:00",
+      "tags": [
+        "Semiconductors",
+        "technology policy",
+        "AI competition",
+        "ASML",
+        "MATCH Act"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "Summary of the MATCH Act's Consequences",
+          "content": "The MATCH Act could restrict ASML from utilizing its approximately 350 immersion scanners in China, potentially allowing competitors to service and reverse engineer these machines. This situation may enable rivals to hire ASML's staff, leading to significant competitive disadvantages for the company in the global semiconductor market.",
+          "primary": true
+        },
+        {
+          "id": "background",
+          "title": "Background on the MATCH Act and ASML",
+          "content": "The MATCH Act is part of the U.S. Senate's defense bill aimed at restricting ASML from servicing its immersion scanners in China. This legislation is intended to curb China's semiconductor capabilities by limiting access to advanced lithography technology, which is crucial for manufacturing high-performance chips.",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "background",
+          "title": "Background on the MATCH Act and ASML",
+          "content": "The MATCH Act is part of the U.S. Senate's defense bill aimed at restricting ASML from servicing its immersion scanners in China. This legislation is intended to curb China's semiconductor capabilities by limiting access to advanced lithography technology, which is crucial for manufacturing high-performance chips.",
+          "primary": false
+        }
+      ],
+      "references": [
+        {
+          "id": "tool-1-1",
+          "title": "MATCH Act ASML: 350 Immersion Scanners at Risk (2026 ...",
+          "url": "https://explainx.ai/blog/match-act-asml-immersion-scanners-servicing-backfire-november-2026",
+          "domain": "explainx.ai"
+        },
+        {
+          "id": "tool-1-2",
+          "title": "How the MATCH Act could backfire by barring ASML from its…",
+          "url": "https://byte.eco/post/how-the-match-act-could-backfire-by-barring-asml-from-its-350-immersion-scanners-in-china",
+          "domain": "byte.eco"
+        }
+      ],
+      "engagement": [],
+      "engagement_weight": 0,
+      "probability_pct": null,
+      "leading_outcome": null,
+      "volume_24h_display": null
+    },
+    {
+      "id": "story-9",
+      "item_id": "rss:www.techmeme.com_feed.xml:34b910558e73e12c",
+      "rank": 9,
+      "group_index": 9,
+      "profile_id": "tech-news",
+      "profile_name": "Technology News",
+      "title": "Huawei's Shift to Self-Reliance in AI Amid U.S. Restrictions",
+      "summary": "The New York Times article discusses how U.S. restrictions have compelled Huawei to enhance its self-reliance, positioning the company as a crucial player in China's AI ambitions. As access to advanced Nvidia chips diminishes, Huawei's role becomes increasingly vital for Beijing, despite existing technological gaps with American competitors.",
+      "score": 7.0,
+      "score_display": "7.0",
+      "reason": "The article discusses significant developments regarding Huawei's shift towards self-reliance in AI due to external pressures, which is relevant to ongoing debates in technology and geopolitics, particularly in the context of AI advancements and hardware access.",
+      "url": "https://www.techmeme.com/261127/p7#a261127p7",
+      "domain": "techmeme.com",
+      "discussion_url": null,
+      "source_type": "rss",
+      "source_label": "RSS Feed",
+      "sub_source": "Techmeme",
+      "author": "Techmeme",
+      "category": "AI News",
+      "published_at": "2026-11-27T14:20:01+00:00",
+      "time_display": "Nov 27 · 14:20",
+      "tags": [
+        "Huawei",
+        "AI",
+        "Geopolitics",
+        "Self-reliance",
+        "Technology"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "Summary",
+          "content": "The New York Times article discusses how U.S. restrictions have compelled Huawei to enhance its self-reliance, positioning the company as a crucial player in China's AI ambitions. As access to advanced Nvidia chips diminishes, Huawei's role becomes increasingly vital for Beijing, despite existing technological gaps with American competitors.",
+          "primary": true
+        },
+        {
+          "id": "background",
+          "title": "Background on Huawei's Shift",
+          "content": "Since 2019, U.S. sanctions have restricted Huawei's access to advanced technologies, particularly from American companies like Nvidia. This has prompted Huawei to focus on developing its own technologies and capabilities, positioning itself as a crucial player in China's AI ambitions amidst a growing technological divide with the U.S.",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "background",
+          "title": "Background on Huawei's Shift",
+          "content": "Since 2019, U.S. sanctions have restricted Huawei's access to advanced technologies, particularly from American companies like Nvidia. This has prompted Huawei to focus on developing its own technologies and capabilities, positioning itself as a crucial player in China's AI ambitions amidst a growing technological divide with the U.S.",
+          "primary": false
+        }
+      ],
+      "references": [
+        {
+          "id": "tool-1-1",
+          "title": "Trump Tried to Cripple Huawei. Now It Is Central to China’s A ...",
+          "url": "https://www.nytimes.com/2026/11/26/business/huawei-trump-china-ai.html",
+          "domain": "nytimes.com"
+        },
+        {
+          "id": "tool-1-2",
+          "title": "Huawei Founder Ren Zhengfei Tells NYT to Thank Trump for ...",
+          "url": "https://aiweekly.co/alerts/huawei-founder-ren-zhengfei-tells-nyt-to-thank-trump-for-sanctions-that-drove",
+          "domain": "aiweekly.co"
+        }
+      ],
+      "engagement": [],
+      "engagement_weight": 0,
+      "probability_pct": null,
+      "leading_outcome": null,
+      "volume_24h_display": null
+    },
+    {
+      "id": "story-10",
+      "item_id": "arxiv:paper:2611.34930v1",
+      "rank": 10,
+      "group_index": 1,
+      "profile_id": "tech-blog",
+      "profile_name": "Technology Blog",
+      "title": "A Gene Informed Benchmark for BioScoring of Pathology Models",
+      "summary": "The article introduces BioScore, a novel benchmark for evaluating how well pathology models capture cell identities, demonstrating its effectiveness through empirical scoring of multiple models.",
+      "score": 8.0,
+      "score_display": "8.0",
+      "reason": "The article presents a novel benchmarking method, BioScore, that offers substantial technical depth and provides insights into the biological representation of pathology models, supported by empirical results and clear methodology.",
+      "url": "https://arxiv.org/abs/2611.34930v1",
+      "domain": "arxiv.org",
+      "discussion_url": null,
+      "source_type": "arxiv",
+      "source_label": "arXiv",
+      "sub_source": "arXiv (cs.LG)",
+      "author": "Paul Vilars, Vincent Quoc-Huy Trinh, Maria Vakalopoulou et al.",
+      "category": "AI Research",
+      "published_at": "2026-11-25T18:59:13+00:00",
+      "time_display": "Nov 25 · 18:59",
+      "tags": [
+        "bioinformatics",
+        "machine learning",
+        "pathology",
+        "benchmarking"
+      ],
+      "blocks": [
+        {
+          "id": "background",
+          "title": "Background",
+          "content": "Traditional evaluations of pathology foundation models focus on their performance in tasks like classification and retrieval, which do not reveal the biological insights these models provide. This gap in understanding necessitates a new approach to benchmark these models based on their ability to accurately represent cell identities.",
+          "primary": false
+        },
+        {
+          "id": "solution",
+          "title": "Solution",
+          "content": "The authors introduce BioScore, a novel benchmark designed to assess how effectively an image encoder captures cell identities by comparing it to spatial transcriptomics data from the same tissue. BioScore employs a sparse autoencoder that divides the encoder's patch embeddings into sparse features, which are then clustered into a predetermined number of groups. For each of the 52 defined cell identities based on marker genes, BioScore evaluates how closely each group aligns with the expression patterns of those identities across the tissue. This unsupervised training approach allows the model to represent cell identities based solely on image data. The authors tested eight pathology foundation models and three natural-image models, finding that all pathology models outperformed the natural-image models, with scores ranging from 0.299 to 0.371 compared to 0.214 to 0.232 for the latter. BioScore's ability to rank encoders without requiring labels and its detailed breakdown of identity capture provide valuable insights into model performance.",
+          "primary": false
+        },
+        {
+          "id": "takeaway",
+          "title": "Takeaway",
+          "content": "BioScore represents a significant advancement in benchmarking pathology models by focusing on their biological representation capabilities rather than just task performance. This method not only enhances the understanding of model efficacy but also facilitates the identification of specific cell identities captured by different encoders.",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "background",
+          "title": "Background",
+          "content": "Traditional evaluations of pathology foundation models focus on their performance in tasks like classification and retrieval, which do not reveal the biological insights these models provide. This gap in understanding necessitates a new approach to benchmark these models based on their ability to accurately represent cell identities.",
+          "primary": false
+        },
+        {
+          "id": "solution",
+          "title": "Solution",
+          "content": "The authors introduce BioScore, a novel benchmark designed to assess how effectively an image encoder captures cell identities by comparing it to spatial transcriptomics data from the same tissue. BioScore employs a sparse autoencoder that divides the encoder's patch embeddings into sparse features, which are then clustered into a predetermined number of groups. For each of the 52 defined cell identities based on marker genes, BioScore evaluates how closely each group aligns with the expression patterns of those identities across the tissue. This unsupervised training approach allows the model to represent cell identities based solely on image data. The authors tested eight pathology foundation models and three natural-image models, finding that all pathology models outperformed the natural-image models, with scores ranging from 0.299 to 0.371 compared to 0.214 to 0.232 for the latter. BioScore's ability to rank encoders without requiring labels and its detailed breakdown of identity capture provide valuable insights into model performance.",
+          "primary": false
+        },
+        {
+          "id": "takeaway",
+          "title": "Takeaway",
+          "content": "BioScore represents a significant advancement in benchmarking pathology models by focusing on their biological representation capabilities rather than just task performance. This method not only enhances the understanding of model efficacy but also facilitates the identification of specific cell identities captured by different encoders.",
+          "primary": false
+        }
+      ],
+      "references": [],
+      "engagement": [],
+      "engagement_weight": 0,
+      "probability_pct": null,
+      "leading_outcome": null,
+      "volume_24h_display": null
+    },
+    {
+      "id": "story-11",
+      "item_id": "rss:search.cnbc.com_rs_search_combinedcms_view.xml?partnerId=wrss01&id=19854910:9fd5396403186f9f",
+      "rank": 11,
+      "group_index": 1,
+      "profile_id": "finance-news",
+      "profile_name": "Financial News",
+      "title": "Chinese Chip Stocks Surge Following Government Support Pledge",
+      "summary": "Chinese chip stocks saw their largest single-day gains on record, with the CSI Semiconductor index rising by 17.6% on November 27, 2026, after government officials pledged to enhance market support through state-backed funds.",
+      "score": 8.0,
+      "score_display": "8.0",
+      "reason": "The article discusses significant market movements in Chinese chip stocks following government pledges to support the market, indicating a material impact on the economy and investor sentiment. The information is timely and relevant, especially in the context of U.S.-China relations and the semiconductor industry.",
+      "url": "https://www.cnbc.com/2026/11/27/china-chip-stocks-beijing-market-support.html",
+      "domain": "cnbc.com",
+      "discussion_url": null,
+      "source_type": "rss",
+      "source_label": "RSS Feed",
+      "sub_source": "CNBC Tech",
+      "author": "CNBC Tech",
+      "category": "Tech Markets",
+      "published_at": "2026-11-27T10:13:44+00:00",
+      "time_display": "Nov 27 · 10:13",
+      "tags": [
+        "Chinese economy",
+        "chip stocks",
+        "market support",
+        "government policy",
+        "Semiconductors"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "Summary",
+          "content": "Chinese chip stocks saw their largest single-day gains on record, with the CSI Semiconductor index rising by 17.6% on November 27, 2026, after government officials pledged to enhance market support through state-backed funds.",
+          "primary": true
+        },
+        {
+          "id": "background",
+          "title": "Background",
+          "content": "This rally follows a period of declining stock performance, with the CSI 300 index hitting its lowest level since the U.S.-China tariff war escalated in spring 2025, prompting the Chinese government to prioritize stock market performance.",
+          "primary": false
+        },
+        {
+          "id": "impact",
+          "title": "Impact",
+          "content": "The surge in chip stocks is expected to boost investor confidence and stabilize the market, particularly benefiting companies in the semiconductor sector amid ongoing U.S. restrictions on advanced technology.",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "background",
+          "title": "Background",
+          "content": "This rally follows a period of declining stock performance, with the CSI 300 index hitting its lowest level since the U.S.-China tariff war escalated in spring 2025, prompting the Chinese government to prioritize stock market performance.",
+          "primary": false
+        },
+        {
+          "id": "impact",
+          "title": "Impact",
+          "content": "The surge in chip stocks is expected to boost investor confidence and stabilize the market, particularly benefiting companies in the semiconductor sector amid ongoing U.S. restrictions on advanced technology.",
+          "primary": false
+        }
+      ],
+      "references": [],
+      "engagement": [],
+      "engagement_weight": 0,
+      "probability_pct": null,
+      "leading_outcome": null,
+      "volume_24h_display": null
+    },
+    {
+      "id": "story-12",
+      "item_id": "rss:search.cnbc.com_rs_search_combinedcms_view.xml?partnerId=wrss01&id=10000664:ed5125113415f820",
+      "rank": 12,
+      "group_index": 2,
+      "profile_id": "finance-news",
+      "profile_name": "Financial News",
+      "title": "The S&P 500 Enters Correction Amid Investor Concerns",
+      "summary": "The S&P 500 fell into a correction on November 20, 2026, closing at 6,910.39, which is 11.6% below its October 6 high of 7,818.93. Analysts suggest that this correction may not necessarily lead to a recession, as historical data shows that bear markets do not always coincide with economic downturns.",
+      "score": 7.0,
+      "score_display": "7.0",
+      "reason": "The article discusses a significant market correction in the S&P 500, providing context about potential economic implications, investor concerns, and historical comparisons. It includes credible analysis from a macro strategist, making it important for readers to understand current market dynamics.",
+      "url": "https://www.cnbc.com/2026/11/27/the-sp-500-is-in-a-correction-bear-markets-and-recessions-dont-always-follow.html",
+      "domain": "cnbc.com",
+      "discussion_url": null,
+      "source_type": "rss",
+      "source_label": "RSS Feed",
+      "sub_source": "CNBC Finance",
+      "author": "CNBC Finance",
+      "category": "Finance",
+      "published_at": "2026-11-27T13:21:56+00:00",
+      "time_display": "Nov 27 · 13:21",
+      "tags": [
+        "S&P 500",
+        "market correction",
+        "economic analysis",
+        "Federal Reserve",
+        "investor concerns"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "Summary",
+          "content": "The S&P 500 fell into a correction on November 20, 2026, closing at 6,910.39, which is 11.6% below its October 6 high of 7,818.93. Analysts suggest that this correction may not necessarily lead to a recession, as historical data shows that bear markets do not always coincide with economic downturns.",
+          "primary": true
+        },
+        {
+          "id": "background",
+          "title": "Background",
+          "content": "A market correction is defined as a decline of 10% or more from a recent high, while a bear market is a drop of 20% or more. Historical analysis indicates that out of 13 S&P 500 bear markets, five did not overlap with recessions.",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "background",
+          "title": "Background",
+          "content": "A market correction is defined as a decline of 10% or more from a recent high, while a bear market is a drop of 20% or more. Historical analysis indicates that out of 13 S&P 500 bear markets, five did not overlap with recessions.",
+          "primary": false
+        }
+      ],
+      "references": [],
+      "engagement": [],
+      "engagement_weight": 0,
+      "probability_pct": null,
+      "leading_outcome": null,
+      "volume_24h_display": null
+    },
+    {
+      "id": "story-13",
+      "item_id": "rss:search.cnbc.com_rs_search_combinedcms_view.xml?partnerId=wrss01&id=10000664:b1311ca509bae133",
+      "rank": 13,
+      "group_index": 3,
+      "profile_id": "finance-news",
+      "profile_name": "Financial News",
+      "title": "Nvidia's Market Fluctuations Challenge Fed Policy Under Warsh",
+      "summary": "Recent market fluctuations surrounding Nvidia have led to a decline in the probability of the Federal Reserve raising interest rates, with market indicators suggesting potential rate hikes are back on the table after a rally. This volatility presents a dilemma for Federal Reserve Chairman Kevin Warsh, who aims to balance market signals with long-term economic strategies.",
+      "score": 7.0,
+      "score_display": "7.0",
+      "reason": "The article discusses significant market movements related to Nvidia and their implications for Federal Reserve policy, particularly under Chairman Kevin Warsh, making it relevant for understanding economic and monetary policy dynamics.",
+      "url": "https://www.cnbc.com/2026/11/25/nvidia-kevin-warsh-fed-market-signals.html",
+      "domain": "cnbc.com",
+      "discussion_url": null,
+      "source_type": "rss",
+      "source_label": "RSS Feed",
+      "sub_source": "CNBC Finance",
+      "author": "CNBC Finance",
+      "category": "Finance",
+      "published_at": "2026-11-27T13:29:43+00:00",
+      "time_display": "Nov 27 · 13:29",
+      "tags": [
+        "Federal Reserve",
+        "Nvidia",
+        "monetary policy",
+        "market signals",
+        "economic trends"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "Summary",
+          "content": "Recent market fluctuations surrounding Nvidia have led to a decline in the probability of the Federal Reserve raising interest rates, with market indicators suggesting potential rate hikes are back on the table after a rally. This volatility presents a dilemma for Federal Reserve Chairman Kevin Warsh, who aims to balance market signals with long-term economic strategies.",
+          "primary": true
+        },
+        {
+          "id": "background",
+          "title": "Background",
+          "content": "The Federal Reserve is currently navigating the impact of market volatility on its monetary policy, with Warsh advocating for a focus on market indicators rather than traditional economic forecasts. This approach reflects a shift in how the Fed may respond to economic conditions influenced by rapid developments in technology and inflation.",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "background",
+          "title": "Background",
+          "content": "The Federal Reserve is currently navigating the impact of market volatility on its monetary policy, with Warsh advocating for a focus on market indicators rather than traditional economic forecasts. This approach reflects a shift in how the Fed may respond to economic conditions influenced by rapid developments in technology and inflation.",
+          "primary": false
+        }
+      ],
+      "references": [],
+      "engagement": [],
+      "engagement_weight": 0,
+      "probability_pct": null,
+      "leading_outcome": null,
+      "volume_24h_display": null
+    },
+    {
+      "id": "story-14",
+      "item_id": "rss:search.cnbc.com_rs_search_combinedcms_view.xml?partnerId=wrss01&id=19854910:45bd9edd19f22659",
+      "rank": 14,
+      "group_index": 4,
+      "profile_id": "finance-news",
+      "profile_name": "Financial News",
+      "title": "Market Reactions to Jensen Huang's Return and CrowdStrike's Acquisition",
+      "summary": "Jensen Huang's return as Nvidia CEO led to a temporary surge in Nvidia shares by over 31% on November 27, 2026, but the overall AI sector remains under pressure amid broader economic concerns, including rising inflation at 3.8% in October and anticipated Federal Reserve rate hikes.",
+      "score": 7.0,
+      "score_display": "7.0",
+      "reason": "The item discusses significant market movements and a major acquisition in the tech sector, providing timely and relevant information about the economy and companies involved. However, while it covers important developments, the overall impact is somewhat limited to specific companies rather than broader economic shifts.",
+      "url": "https://www.cnbc.com/investingclub/2026/11/27/jensen-huangs-return-did-little-to-ease-ai-jitters-we-bought-on-weakness.html",
+      "domain": "cnbc.com",
+      "discussion_url": null,
+      "source_type": "rss",
+      "source_label": "RSS Feed",
+      "sub_source": "CNBC Tech",
+      "author": "CNBC Tech",
+      "category": "Tech Markets",
+      "published_at": "2026-11-27T18:46:20+00:00",
+      "time_display": "Nov 27 · 18:46",
+      "tags": [
+        "Nvidia",
+        "CrowdStrike",
+        "AI",
+        "market movements",
+        "acquisitions"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "Summary",
+          "content": "Jensen Huang's return as Nvidia CEO led to a temporary surge in Nvidia shares by over 31% on November 27, 2026, but the overall AI sector remains under pressure amid broader economic concerns, including rising inflation at 3.8% in October and anticipated Federal Reserve rate hikes.",
+          "primary": true
+        },
+        {
+          "id": "background",
+          "title": "Context of Jensen Huang's Return",
+          "content": "Jensen Huang resigned as Nvidia's CEO on November 12, 2026, amid an affair scandal, but was reinstated on November 27, 2026, following intervention from President Donald Trump, which significantly boosted Nvidia's stock value.",
+          "primary": false
+        },
+        {
+          "id": "impact",
+          "title": "Market Reactions to Tech Developments",
+          "content": "The acquisition of Zscaler by CrowdStrike for approximately $44 billion in an all-stock deal has raised concerns about shareholder dilution, impacting CrowdStrike's stock performance negatively by about 9% on the announcement day.",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "background",
+          "title": "Context of Jensen Huang's Return",
+          "content": "Jensen Huang resigned as Nvidia's CEO on November 12, 2026, amid an affair scandal, but was reinstated on November 27, 2026, following intervention from President Donald Trump, which significantly boosted Nvidia's stock value.",
+          "primary": false
+        },
+        {
+          "id": "impact",
+          "title": "Market Reactions to Tech Developments",
+          "content": "The acquisition of Zscaler by CrowdStrike for approximately $44 billion in an all-stock deal has raised concerns about shareholder dilution, impacting CrowdStrike's stock performance negatively by about 9% on the announcement day.",
+          "primary": false
+        }
+      ],
+      "references": [
+        {
+          "id": "tool-1-1",
+          "title": "NVIDIA Announces CEO Transition",
+          "url": null,
+          "domain": ""
+        },
+        {
+          "id": "tool-1-2",
+          "title": "Huang returns as Nvidia CEO after Trump intervention in abrupt board ...",
+          "url": null,
+          "domain": ""
+        },
+        {
+          "id": "tool-2-1",
+          "title": "CrowdStrike to Acquire Zscaler, Bringing Network Security and Zero ...",
+          "url": null,
+          "domain": ""
+        }
+      ],
+      "engagement": [],
+      "engagement_weight": 0,
+      "probability_pct": null,
+      "leading_outcome": null,
+      "volume_24h_display": null
+    },
+    {
+      "id": "story-15",
+      "item_id": "rss:search.cnbc.com_rs_search_combinedcms_view.xml?partnerId=wrss01&id=19854910:2a0cadbe2c2bcd5e",
+      "rank": 15,
+      "group_index": 5,
+      "profile_id": "finance-news",
+      "profile_name": "Financial News",
+      "title": "Jensen Huang Returns as Nvidia CEO Amid AI Market Volatility",
+      "summary": "Jensen Huang has returned as CEO of Nvidia after a brief resignation, coinciding with Nvidia's stock experiencing a surge of 31% before facing declines, reflecting ongoing volatility in the AI market.",
+      "score": 7.0,
+      "score_display": "7.0",
+      "reason": "The article discusses significant leadership changes at Nvidia and their impact on the AI market, which is currently facing volatility. It provides insights into stock movements and broader market concerns, making it relevant for investors and industry watchers.",
+      "url": "https://www.cnbc.com/2026/11/27/tech-download-jensen-huang-ai-market.html",
+      "domain": "cnbc.com",
+      "discussion_url": null,
+      "source_type": "rss",
+      "source_label": "RSS Feed",
+      "sub_source": "CNBC Tech",
+      "author": "CNBC Tech",
+      "category": "Tech Markets",
+      "published_at": "2026-11-27T12:00:22+00:00",
+      "time_display": "Nov 27 · 12:00",
+      "tags": [
+        "Nvidia",
+        "AI market",
+        "leadership change",
+        "stock volatility",
+        "investment trends"
+      ],
+      "blocks": [
+        {
+          "id": "summary",
+          "title": "Summary",
+          "content": "Jensen Huang has returned as CEO of Nvidia after a brief resignation, coinciding with Nvidia's stock experiencing a surge of 31% before facing declines, reflecting ongoing volatility in the AI market.",
+          "primary": true
+        },
+        {
+          "id": "background",
+          "title": "Background",
+          "content": "Huang's resignation followed personal controversies and an investigation, during which Nvidia's stock lost over $1 trillion in value before partially recovering. The AI market is currently facing skepticism regarding the sustainability of its growth.",
+          "primary": false
+        },
+        {
+          "id": "impact",
+          "title": "Impact",
+          "content": "The fluctuations in Nvidia's stock and the broader AI sector indicate that investor confidence remains fragile, with ongoing concerns about the industry's future profitability.",
+          "primary": false
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "id": "background",
+          "title": "Background",
+          "content": "Huang's resignation followed personal controversies and an investigation, during which Nvidia's stock lost over $1 trillion in value before partially recovering. The AI market is currently facing skepticism regarding the sustainability of its growth.",
+          "primary": false
+        },
+        {
+          "id": "impact",
+          "title": "Impact",
+          "content": "The fluctuations in Nvidia's stock and the broader AI sector indicate that investor confidence remains fragile, with ongoing concerns about the industry's future profitability.",
+          "primary": false
+        }
+      ],
+      "references": [],
+      "engagement": [],
+      "engagement_weight": 0,
+      "probability_pct": null,
+      "leading_outcome": null,
+      "volume_24h_display": null
+    }
+  ],
+  "editorial": {
+    "headline": "Security Vulnerabilities Highlight Urgent Need for Tech Ecosystem Integrity",
+    "body": "Recent disclosures about critical vulnerabilities in the Linux kernel and the breaches affecting SAP and the US Air Force starkly illustrate the precarious state of cybersecurity across the tech landscape. These incidents serve as a wake-up call, underscoring how foundational systems and national security are intertwined with the integrity of our technology infrastructure. As attackers find new ways to exploit weaknesses, the stakes are higher than ever, especially for organizations that handle sensitive data or have national security implications.\n\nWhile advancements in AI, such as Google's DeepCrossAttention, promise to enhance efficiency and capabilities, they also come with their own set of risks, particularly if security measures are not adequately addressed. The juxtaposition of rapid technological progress against the backdrop of security breaches raises pressing questions: Are we prioritizing speed and innovation over foundational security? As we advance into a future heavily reliant on technology, we must ensure that security is not an afterthought but a fundamental pillar of development.",
+    "story_ids": [
+      "story-1",
+      "story-4",
+      "story-5",
+      "story-2"
+    ]
+  }
+}
